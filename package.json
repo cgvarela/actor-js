@@ -1,6 +1,6 @@
 {
   "name": "actor-js",
-  "version": "0.9.2",
+  "version": "0.9.5",
   "description": "Actor Js is client library for Actor messaging platform",
   "main": "actor.nocache.js",
   "scripts": {
