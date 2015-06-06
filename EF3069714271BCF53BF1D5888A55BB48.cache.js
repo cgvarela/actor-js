@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.actor;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = '78D593CDF8F974C35EED558F903521C3';
+var $strongName = 'EF3069714271BCF53BF1D5888A55BB48';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -17800,7 +17800,6 @@ function im_actor_model_js_providers_websocket_WebSocketConnection_$doSend__Lim_
   if (this$static.im_actor_model_js_providers_websocket_WebSocketConnection_isClosed) {
     return;
   }
-  im_actor_model_log_Log_d__Ljava_lang_String_2Ljava_lang_String_2V('Socket', 'Send:' + im_actor_model_crypto_CryptoUtils_hex___3BLjava_lang_String_2(data_0));
   push_0 = com_google_gwt_typedarrays_client_Uint8ArrayNative_create__ILcom_google_gwt_typedarrays_client_Uint8ArrayNative_2(data_0.length);
   for (i = 0; i < data_0.length; i++) {
     com_google_gwt_typedarrays_client_Uint8ArrayNative_$set__Lcom_google_gwt_typedarrays_client_Uint8ArrayNative_2IIV(push_0, i, data_0[i]);
@@ -27101,23 +27100,21 @@ _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_netw
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1actors_1ReceiverActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(441);
 function im_actor_model_network_mtp_actors_SenderActor_$buildAck__Lim_actor_model_network_mtp_actors_SenderActor_2Lim_actor_model_network_mtp_entity_MessageAck_2(this$static){
-  var acks, i, ids, ids2, res;
+  var acks, i, ids, ids2;
   ids = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_J_1classLit, $intern_8, 0, this$static.im_actor_model_network_mtp_actors_SenderActor_confirm.java_util_HashSet_map.java_util_AbstractHashMap_size, 6, 1);
   ids2 = java_util_AbstractCollection_$toArray__Ljava_util_AbstractCollection_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.im_actor_model_network_mtp_actors_SenderActor_confirm, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1Long_12_1classLit, $intern_8, 46, this$static.im_actor_model_network_mtp_actors_SenderActor_confirm.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1));
-  if (this$static.im_actor_model_network_mtp_actors_SenderActor_isEnableLog) {
-    acks = '';
-    for (i = 0; i < ids.length; i++) {
-      ids[i] = ids2[i].java_lang_Long_value;
+  acks = '';
+  for (i = 0; i < ids.length; i++) {
+    ids[i] = ids2[i].java_lang_Long_value;
+    if (this$static.im_actor_model_network_mtp_actors_SenderActor_isEnableLog) {
       acks.length != 0 && (acks += ',');
       acks += '#' + ids2[i];
     }
-    !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_191 + ':' + ('Sending acks ' + acks));
   }
+  this$static.im_actor_model_network_mtp_actors_SenderActor_isEnableLog && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_191 + ':' + ('Sending acks ' + acks));
   java_util_AbstractCollection_$addAll__Ljava_util_AbstractCollection_2Ljava_util_Collection_2Z(this$static.im_actor_model_network_mtp_actors_SenderActor_pendingConfirm, this$static.im_actor_model_network_mtp_actors_SenderActor_confirm);
   java_util_AbstractHashMap_$reset__Ljava_util_AbstractHashMap_2V(this$static.im_actor_model_network_mtp_actors_SenderActor_confirm.java_util_HashSet_map);
-  res = new im_actor_model_network_mtp_entity_MessageAck_MessageAck___3JV(ids);
-  this$static.im_actor_model_network_mtp_actors_SenderActor_isEnableLog && im_actor_model_log_Log_d__Ljava_lang_String_2Ljava_lang_String_2V($intern_191, 'Ack data: ' + im_actor_model_crypto_CryptoUtils_hex___3BLjava_lang_String_2(im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(res)));
-  return res;
+  return new im_actor_model_network_mtp_entity_MessageAck_MessageAck___3JV(ids);
 }
 
 function im_actor_model_network_mtp_actors_SenderActor_$doSend__Lim_actor_model_network_mtp_actors_SenderActor_2Lim_actor_model_network_mtp_entity_ProtoMessage_2V(this$static, message){
@@ -27331,6 +27328,7 @@ function im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_m
     if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z($e0, 5)) {
       e = $e0;
       java_lang_Throwable_$printStackTrace__Ljava_lang_Throwable_2Ljava_io_PrintStream_2V(e, (java_lang_System_$clinit__V() , java_lang_System_err));
+      im_actor_model_log_Log_w__Ljava_lang_String_2Ljava_lang_String_2V('ProtoObject', 'Error: ' + e.java_lang_Throwable_detailMessage);
     }
      else 
       throw com_google_gwt_lang_Exceptions_unwrap__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
