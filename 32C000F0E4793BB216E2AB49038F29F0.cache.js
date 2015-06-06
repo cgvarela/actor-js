@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.actor;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = '133948B6FC33861B94A5B5782D24F4D3';
+var $strongName = '32C000F0E4793BB216E2AB49038F29F0';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -17828,6 +17828,7 @@ function im_actor_model_js_providers_websocket_WebSocketConnection_$doSend__Lim_
   if (this$static.im_actor_model_js_providers_websocket_WebSocketConnection_isClosed) {
     return;
   }
+  im_actor_model_log_Log_d__Ljava_lang_String_2Ljava_lang_String_2V('Socket', 'Send:' + im_actor_model_crypto_CryptoUtils_hex___3BLjava_lang_String_2(data_0));
   push_0 = com_google_gwt_typedarrays_client_Uint8ArrayNative_create__ILcom_google_gwt_typedarrays_client_Uint8ArrayNative_2(data_0.length);
   for (i = 0; i < data_0.length; i++) {
     com_google_gwt_typedarrays_client_Uint8ArrayNative_$set__Lcom_google_gwt_typedarrays_client_Uint8ArrayNative_2IIV(push_0, i, data_0[i]);
