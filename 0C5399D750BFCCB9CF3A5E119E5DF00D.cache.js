@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.actor;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = 'E84174BF8303819CA08E0AC00AE381F5';
+var $strongName = '0C5399D750BFCCB9CF3A5E119E5DF00D';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -22,7 +22,7 @@ var $stats = $wnd.__gwtStatsEvent ? function(a) {
 return $wnd.__gwtStatsEvent && $wnd.__gwtStatsEvent(a);
 } : null;
 var $sessionId = $wnd.__gwtStatsSessionId ? $wnd.__gwtStatsSessionId : null;
-var $intern_0 = '[object Array]', $intern_1 = 'object', $intern_2 = 'string', $intern_3 = 2147483647, $intern_4 = {3:1, 14:1}, $intern_5 = {3:1, 11:1, 14:1}, $intern_6 = 'null', $intern_7 = 'anonymous', $intern_8 = {3:1}, $intern_9 = 'Unknown', $intern_10 = 1000, $intern_11 = 65535, $intern_12 = 'HH:mm:ss.SSSS', $intern_13 = 4194303, $intern_14 = 1048575, $intern_15 = 524288, $intern_16 = 4194304, $intern_17 = 17592186044416, $intern_18 = -9223372036854775808, $intern_19 = 'SEVERE', $intern_20 = {359:1}, $intern_21 = 'localStorage', $intern_22 = 'CSS1Compat', $intern_23 = 32768, $intern_24 = 65536, $intern_25 = 1048576, $intern_26 = 16777216, $intern_27 = 67108864, $intern_28 = 'Possible problem with your *.gwt.xml module file.\nThe compile time user.agent value (ie10) does not match the runtime user.agent value (', $intern_29 = 'Expect more errors.', $intern_30 = 'UNKNOWN', $intern_31 = 'UNSUPPORTED_VALUE', $intern_32 = {4:1}, $intern_33 = ', deviceTitle=', $intern_34 = 'set', $intern_35 = 'empty', $intern_36 = 'fileLocation=', $intern_37 = ', fileSize=', $intern_38 = ', title=', $intern_39 = 'peer=', $intern_40 = ', senderUid=', $intern_41 = ', rid=', $intern_42 = ', date=', $intern_43 = ', message=', $intern_44 = ', update=', $intern_45 = 'Parsing is unsupported', $intern_46 = ', name=', $intern_47 = ', ext=', $intern_48 = ', avatar=', $intern_49 = ', members=', $intern_50 = 'groupId=', $intern_51 = 'uid=', $intern_52 = ', inviterUid=', $intern_53 = ', value=', $intern_54 = 'phoneNumber=', $intern_55 = ', localName=', $intern_56 = 'seq=', $intern_57 = ', state=', $intern_58 = ', updateHeader=', $intern_59 = 'interests=', $intern_60 = 'groupPeer=', $intern_61 = ', typingType=', $intern_62 = 1003, $intern_63 = 1004, $intern_64 = ', uid=', $intern_65 = ', startDate=', $intern_66 = '[W] ', $intern_67 = 'ACTOR_SYSTEM', $intern_68 = 'Drop: ', $intern_69 = {41:1, 3:1}, $intern_70 = 'default', $intern_71 = 'Environment is not inited!', $intern_72 = 'envelope.mailbox != this mailbox', $intern_73 = 'Unable to find field #', $intern_74 = 'Expected type: byte[], got ', $intern_75 = 'Expected type: long, got ', $intern_76 = 'Value can not be null', $intern_77 = 'Unable to write more than 1 MB', $intern_78 = 'Values can not be null', $intern_79 = 'Too many values', $intern_80 = "data can't be null", $intern_81 = "Offset can't be negative", $intern_82 = "Length can't be negative", $intern_83 = {5:1, 3:1, 11:1, 14:1}, $intern_84 = '(this Map)', $intern_85 = ' at ', $intern_86 = ' [character ', $intern_87 = ' line ', $intern_88 = 'JSONObject[', $intern_89 = 'true', $intern_90 = 'Group created', $intern_91 = 'User leave', $intern_92 = 'Unknown type', $intern_93 = 'Unknwon source type', $intern_94 = 'image/jpeg', $intern_95 = '{name}', $intern_96 = 'You', $intern_97 = 'ServiceGroupAdded', $intern_98 = '{name_added}', $intern_99 = 'ServiceGroupLeaved', $intern_100 = 'ServiceGroupKicked', $intern_101 = '{name_kicked}', $intern_102 = 'ServiceGroupAvatarChanged', $intern_103 = 'ServiceGroupAvatarRemoved', $intern_104 = 'ServiceGroupJoined', $intern_105 = 1073741824, $intern_106 = '{count}', $intern_107 = 'OnlineNowMale', $intern_108 = 'OnlineNowFemale', $intern_109 = 'OnlineLastSeenTodayMale', $intern_110 = 'OnlineLastSeenToday', $intern_111 = '{time}', $intern_112 = 'OnlineLastSeenYesterdayMale', $intern_113 = 'OnlineLastSeenYesterday', $intern_114 = 'OnlineLastSeenDateTimeMale', $intern_115 = 'OnlineLastSeenDateTime', $intern_116 = '{date}', $intern_117 = 'OnlineLastSeenDateMale', $intern_118 = 'OnlineLastSeenDate', $intern_119 = '[D] ', $intern_120 = 'JsMessenger', $intern_121 = 'user', $intern_122 = 'auth_phone', $intern_123 = 'INTERNAL_ERROR', $intern_124 = 'Internal error', $intern_125 = {9:1}, $intern_126 = {358:1}, $intern_127 = 'Unsupported operation', $intern_128 = 'https://android.googleapis.com/gcm/send', $intern_129 = '_index', $intern_130 = 'list_', $intern_131 = 'prefs_', $intern_132 = 'tech_unique_id', $intern_133 = 'device_hash', $intern_134 = 'auth_sms_hash', $intern_135 = 'PHONE_CODE_EXPIRED', $intern_136 = 'auth_sms_code', $intern_137 = 'contact_', $intern_138 = 'actor/conv_', $intern_139 = 'read_state_', $intern_140 = 'Updates', $intern_141 = 'Notifications', $intern_142 = 'actor/presence/users', $intern_143 = 'app.tones_enabled', $intern_144 = 'category.', $intern_145 = 'actor/typing', $intern_146 = 'book_phone_', $intern_147 = 'book_email_', $intern_148 = 'ContactsImport', $intern_149 = 'ContactsServerSync', $intern_150 = 'Removing: #', $intern_151 = 'contact_list', $intern_152 = 'UploadManager', $intern_153 = 'Upload #', $intern_154 = 'Block #', $intern_155 = 'DialogsHistoryActor', $intern_156 = 'dialogs_history_date', $intern_157 = 'dialogs_history_loaded', $intern_158 = 'dialogs_history_inited', $intern_159 = 'sender_pending', $intern_160 = 'push.google', $intern_161 = 'push.google.registered', $intern_162 = 'push.google.id', $intern_163 = 'push.google.token', $intern_164 = 'push.apple', $intern_165 = 'push.apple.registered', $intern_166 = 'push.apple.id', $intern_167 = 'push.apple.token', $intern_168 = 'settings_sync_state', $intern_169 = 'settings_sync_state_loaded', $intern_170 = 'User added', $intern_171 = 'Unable to parse update: ignoring', $intern_172 = 'updates_seq', $intern_173 = 'updates_state', $intern_174 = ' ms', $intern_175 = {3:1, 56:1, 225:1}, $intern_176 = 'ApiBroker', $intern_177 = ' in ', $intern_178 = 'Drop received: ', $intern_179 = 'SHA 256 is incorrect', $intern_180 = 'Incorrect Proto Version, expected: ', $intern_181 = ', got ', $intern_182 = 'Incorrect Api Major Version, expected: ', $intern_183 = 'Incorrect Api Minor Version, expected: ', $intern_184 = 'Invalid package index. Expected: ', $intern_185 = 'Incorrect CRC32', $intern_186 = 'AuthId', $intern_187 = 'Manager', $intern_188 = 'Unable to register connection #', $intern_189 = 'Connection #', $intern_190 = 'ProtoReceiver', $intern_191 = 'ProtoSender', $intern_192 = 'ReSending #', $intern_193 = 'Sending SessionHello', $intern_194 = {26:1}, $intern_195 = 5.9604644775390625E-8, $intern_196 = 'app.contacts.empty', $intern_197 = 'app.empty', $intern_198 = 'app.contacts.loaded', $intern_199 = 'app.dialogs.empty', $intern_200 = 'app.dialogs.loaded', $intern_201 = 'app.contacts.imported', $intern_202 = 'For input string: "', $intern_203 = -2147483648, $intern_204 = 1.52587890625E-5, $intern_205 = 9.5367431640625E-7, $intern_206 = 2.220446049250313E-16, $intern_207 = 'Invalid UTF8 sequence', $intern_208 = {159:1}, $intern_209 = {90:1}, $intern_210 = {93:1, 55:1}, $intern_211 = {3:1, 159:1}, $intern_212 = '__proto__', $intern_213 = 15525485, $intern_214 = {3:1, 28:1, 17:1, 64:1};
+var $intern_0 = '[object Array]', $intern_1 = 'object', $intern_2 = 'string', $intern_3 = 2147483647, $intern_4 = {3:1, 14:1}, $intern_5 = {3:1, 11:1, 14:1}, $intern_6 = 'null', $intern_7 = 'anonymous', $intern_8 = {3:1}, $intern_9 = 'Unknown', $intern_10 = 1000, $intern_11 = 65535, $intern_12 = 'HH:mm:ss.SSSS', $intern_13 = 4194303, $intern_14 = 1048575, $intern_15 = 524288, $intern_16 = 4194304, $intern_17 = 17592186044416, $intern_18 = -9223372036854775808, $intern_19 = 'SEVERE', $intern_20 = {359:1}, $intern_21 = 'localStorage', $intern_22 = 'CSS1Compat', $intern_23 = 32768, $intern_24 = 65536, $intern_25 = 1048576, $intern_26 = 16777216, $intern_27 = 67108864, $intern_28 = 'Possible problem with your *.gwt.xml module file.\nThe compile time user.agent value (ie10) does not match the runtime user.agent value (', $intern_29 = 'Expect more errors.', $intern_30 = 'UNKNOWN', $intern_31 = 'UNSUPPORTED_VALUE', $intern_32 = {4:1}, $intern_33 = ', deviceTitle=', $intern_34 = 'set', $intern_35 = 'empty', $intern_36 = 'fileLocation=', $intern_37 = ', fileSize=', $intern_38 = ', title=', $intern_39 = 'peer=', $intern_40 = ', senderUid=', $intern_41 = ', rid=', $intern_42 = ', date=', $intern_43 = ', message=', $intern_44 = ', update=', $intern_45 = 'Parsing is unsupported', $intern_46 = ', name=', $intern_47 = ', ext=', $intern_48 = ', avatar=', $intern_49 = ', members=', $intern_50 = 'groupId=', $intern_51 = 'uid=', $intern_52 = ', inviterUid=', $intern_53 = ', value=', $intern_54 = 'phoneNumber=', $intern_55 = ', localName=', $intern_56 = 'seq=', $intern_57 = ', state=', $intern_58 = ', updateHeader=', $intern_59 = 'interests=', $intern_60 = 'groupPeer=', $intern_61 = ', typingType=', $intern_62 = 1004, $intern_63 = 1005, $intern_64 = ', uid=', $intern_65 = ', startDate=', $intern_66 = '[W] ', $intern_67 = 'ACTOR_SYSTEM', $intern_68 = 'Drop: ', $intern_69 = {41:1, 3:1}, $intern_70 = 'default', $intern_71 = 'Environment is not inited!', $intern_72 = 'envelope.mailbox != this mailbox', $intern_73 = 'Unable to find field #', $intern_74 = 'Expected type: byte[], got ', $intern_75 = 'Expected type: long, got ', $intern_76 = 'Value can not be null', $intern_77 = 'Unable to write more than 1 MB', $intern_78 = 'Values can not be null', $intern_79 = 'Too many values', $intern_80 = "data can't be null", $intern_81 = "Offset can't be negative", $intern_82 = "Length can't be negative", $intern_83 = {5:1, 3:1, 11:1, 14:1}, $intern_84 = '(this Map)', $intern_85 = ' at ', $intern_86 = ' [character ', $intern_87 = ' line ', $intern_88 = 'JSONObject[', $intern_89 = 'true', $intern_90 = 'Group created', $intern_91 = 'User leave', $intern_92 = 'Unknown type', $intern_93 = 'Unknwon source type', $intern_94 = 'image/jpeg', $intern_95 = '{name}', $intern_96 = 'You', $intern_97 = 'ServiceGroupAdded', $intern_98 = '{name_added}', $intern_99 = 'ServiceGroupLeaved', $intern_100 = 'ServiceGroupKicked', $intern_101 = '{name_kicked}', $intern_102 = 'ServiceGroupAvatarChanged', $intern_103 = 'ServiceGroupAvatarRemoved', $intern_104 = 'ServiceGroupJoined', $intern_105 = 1073741824, $intern_106 = '{count}', $intern_107 = 'OnlineNowMale', $intern_108 = 'OnlineNowFemale', $intern_109 = 'OnlineLastSeenTodayMale', $intern_110 = 'OnlineLastSeenToday', $intern_111 = '{time}', $intern_112 = 'OnlineLastSeenYesterdayMale', $intern_113 = 'OnlineLastSeenYesterday', $intern_114 = 'OnlineLastSeenDateTimeMale', $intern_115 = 'OnlineLastSeenDateTime', $intern_116 = '{date}', $intern_117 = 'OnlineLastSeenDateMale', $intern_118 = 'OnlineLastSeenDate', $intern_119 = '[D] ', $intern_120 = 'JsMessenger', $intern_121 = 'user', $intern_122 = 'auth_phone', $intern_123 = 'INTERNAL_ERROR', $intern_124 = 'Internal error', $intern_125 = {9:1}, $intern_126 = {358:1}, $intern_127 = 'Unsupported operation', $intern_128 = 'https://android.googleapis.com/gcm/send', $intern_129 = '_index', $intern_130 = 'list_', $intern_131 = 'prefs_', $intern_132 = 'tech_unique_id', $intern_133 = 'device_hash', $intern_134 = 'auth_sms_hash', $intern_135 = 'PHONE_CODE_EXPIRED', $intern_136 = 'auth_sms_code', $intern_137 = 'contact_', $intern_138 = 'actor/conv_', $intern_139 = 'read_state_', $intern_140 = 'Updates', $intern_141 = 'Notifications', $intern_142 = 'actor/presence/users', $intern_143 = 'app.tones_enabled', $intern_144 = 'category.', $intern_145 = 'actor/typing', $intern_146 = 'book_phone_', $intern_147 = 'book_email_', $intern_148 = 'ContactsImport', $intern_149 = 'ContactsServerSync', $intern_150 = 'Removing: #', $intern_151 = 'contact_list', $intern_152 = 'UploadManager', $intern_153 = 'Upload #', $intern_154 = 'Block #', $intern_155 = 'DialogsHistoryActor', $intern_156 = 'dialogs_history_date', $intern_157 = 'dialogs_history_loaded', $intern_158 = 'dialogs_history_inited', $intern_159 = 'sender_pending', $intern_160 = 'push.google', $intern_161 = 'push.google.registered', $intern_162 = 'push.google.id', $intern_163 = 'push.google.token', $intern_164 = 'push.apple', $intern_165 = 'push.apple.registered', $intern_166 = 'push.apple.id', $intern_167 = 'push.apple.token', $intern_168 = 'settings_sync_state', $intern_169 = 'settings_sync_state_loaded', $intern_170 = 'User added', $intern_171 = 'Unable to parse update: ignoring', $intern_172 = 'updates_seq', $intern_173 = 'updates_state', $intern_174 = ' ms', $intern_175 = {3:1, 56:1, 225:1}, $intern_176 = 'ApiBroker', $intern_177 = ' in ', $intern_178 = 'Drop received: ', $intern_179 = 'SHA 256 is incorrect', $intern_180 = 'Incorrect Proto Version, expected: ', $intern_181 = ', got ', $intern_182 = 'Incorrect Api Major Version, expected: ', $intern_183 = 'Incorrect Api Minor Version, expected: ', $intern_184 = 'Invalid package index. Expected: ', $intern_185 = 'Incorrect CRC32', $intern_186 = 'AuthId', $intern_187 = 'Manager', $intern_188 = 'Unable to register connection #', $intern_189 = 'Connection #', $intern_190 = 'ProtoReceiver', $intern_191 = 'ProtoSender', $intern_192 = 'ReSending #', $intern_193 = 'Sending SessionHello', $intern_194 = {26:1}, $intern_195 = 5.9604644775390625E-8, $intern_196 = 'app.contacts.empty', $intern_197 = 'app.empty', $intern_198 = 'app.contacts.loaded', $intern_199 = 'app.dialogs.empty', $intern_200 = 'app.dialogs.loaded', $intern_201 = 'app.contacts.imported', $intern_202 = 'For input string: "', $intern_203 = -2147483648, $intern_204 = 1.52587890625E-5, $intern_205 = 9.5367431640625E-7, $intern_206 = 2.220446049250313E-16, $intern_207 = 'Invalid UTF8 sequence', $intern_208 = {159:1}, $intern_209 = {91:1}, $intern_210 = {94:1, 55:1}, $intern_211 = {3:1, 159:1}, $intern_212 = '__proto__', $intern_213 = 15525485, $intern_214 = {3:1, 28:1, 17:1, 63:1};
 var _, com_google_gwt_lang_ModuleUtils_initFnList, com_google_gwt_lang_JavaClassHierarchySetupUtil_prototypesByTypeId = {}, com_google_gwt_lang_CollapsedPropertyHolder_permutationId = -1;
 function com_google_gwt_lang_JavaClassHierarchySetupUtil_typeMarkerFn__V(){
 }
@@ -165,7 +165,7 @@ _.toString = function(){
   return this.toString__Ljava_lang_String_2$();
 }
 ;
-com_google_gwt_lang_Cast_stringCastMap = {3:1, 1009:1, 28:1, 2:1};
+com_google_gwt_lang_Cast_stringCastMap = {3:1, 1010:1, 28:1, 2:1};
 com_google_gwt_lang_JavaClassHierarchySetupUtil_modernizeBrowser__V();
 function com_google_gwt_lang_Cast_canCast__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(src_0, dstId){
   return com_google_gwt_lang_Cast_isJavaString__Ljava_lang_Object_2Z(src_0) && !!com_google_gwt_lang_Cast_stringCastMap[dstId] || src_0.java_lang_Object_castableTypeMap$ && !!src_0.java_lang_Object_castableTypeMap$[dstId];
@@ -474,7 +474,7 @@ function com_google_gwt_core_client_JavaScriptException_JavaScriptException__Lja
   this.com_google_gwt_core_client_JavaScriptException_description = '';
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(91, 457, {91:1, 3:1, 11:1, 14:1}, com_google_gwt_core_client_JavaScriptException_JavaScriptException__Ljava_lang_Object_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(92, 457, {92:1, 3:1, 11:1, 14:1}, com_google_gwt_core_client_JavaScriptException_JavaScriptException__Ljava_lang_Object_2V);
 _.getMessage__Ljava_lang_String_2 = function com_google_gwt_core_client_JavaScriptException_getMessage__Ljava_lang_String_2(){
   com_google_gwt_core_client_JavaScriptException_$ensureInit__Lcom_google_gwt_core_client_JavaScriptException_2V(this);
   return this.com_google_gwt_core_client_JavaScriptException_message;
@@ -485,7 +485,7 @@ _.getThrown__Ljava_lang_Object_2 = function com_google_gwt_core_client_JavaScrip
 }
 ;
 var com_google_gwt_core_client_JavaScriptException_NOT_1SET;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1JavaScriptException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(91);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1JavaScriptException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(92);
 function com_google_gwt_core_client_JsArray_$push__Lcom_google_gwt_core_client_JsArray_2Lcom_google_gwt_core_client_JavaScriptObject_2V(this$static, value_0){
   this$static[this$static.length] = value_0;
 }
@@ -501,8 +501,8 @@ function com_google_gwt_core_client_JsDate_now__D(){
   return (new Date).getTime();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(958, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1Scheduler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(958);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(959, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1Scheduler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(959);
 function com_google_gwt_core_client_impl_Impl_apply__Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2(jsFunction, thisObj, args){
   return jsFunction.apply(thisObj, args);
   var _;
@@ -598,7 +598,7 @@ function com_google_gwt_core_client_impl_Impl_reportUncaughtException__Ljava_lan
     java_util_logging_Logger_$log__Ljava_util_logging_Logger_2Ljava_util_logging_Level_2Ljava_lang_String_2Ljava_lang_Throwable_2V(handler.com_google_gwt_logging_client_LogConfiguration$1_val$log2, (java_util_logging_Level_$clinit__V() , e.getMessage__Ljava_lang_String_2()), e);
     return;
   }
-  com_google_gwt_core_client_impl_Impl_reportToBrowser__Ljava_lang_Object_2V(com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(e, 91)?e.getThrown__Ljava_lang_Object_2():e);
+  com_google_gwt_core_client_impl_Impl_reportToBrowser__Ljava_lang_Object_2V(com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(e, 92)?e.getThrown__Ljava_lang_Object_2():e);
 }
 
 function com_google_gwt_core_client_impl_Impl_watchdogEntryDepthCancel__IV(timerId){
@@ -755,7 +755,7 @@ function com_google_gwt_core_client_impl_SchedulerImpl_scheduleFixedDelayImpl__L
   $wnd.setTimeout(callback, delayMs);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(478, 958, {}, com_google_gwt_core_client_impl_SchedulerImpl_SchedulerImpl__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(478, 959, {}, com_google_gwt_core_client_impl_SchedulerImpl_SchedulerImpl__V);
 _.com_google_gwt_core_client_impl_SchedulerImpl_flushRunning = false;
 _.com_google_gwt_core_client_impl_SchedulerImpl_shouldBeRunning = false;
 var com_google_gwt_core_client_impl_SchedulerImpl_INSTANCE;
@@ -821,12 +821,12 @@ function com_google_gwt_core_client_impl_StackTraceCreator_parseInt__Ljava_lang_
 }
 
 var com_google_gwt_core_client_impl_StackTraceCreator_ANONYMOUS = $intern_7, com_google_gwt_core_client_impl_StackTraceCreator_LINE_1NUMBER_1UNKNOWN = -1, com_google_gwt_core_client_impl_StackTraceCreator_collector;
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(969, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$Collector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(969);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(970, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$Collector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(970);
 function com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_StackTraceCreator$CollectorLegacy__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(458, 969, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_StackTraceCreator$CollectorLegacy__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(458, 970, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_StackTraceCreator$CollectorLegacy__V);
 _.collect__Ljava_lang_Object_2Ljava_lang_Object_2V = function com_google_gwt_core_client_impl_StackTraceCreator$CollectorLegacy_collect__Ljava_lang_Object_2Ljava_lang_Object_2V(t, thrownIgnored){
   var seen = {}, com_google_gwt_core_client_impl_StackTraceCreator_getFunctionName__Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_String_2_name_0;
   t.fnStack = [];
@@ -907,7 +907,7 @@ function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_$pars
   return this$static.createSte__Ljava_lang_String_2Ljava_lang_String_2IILjava_lang_StackTraceElement_2(fileName, toReturn, line, col);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(970, 969, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(971, 970, {});
 _.collect__Ljava_lang_Object_2Ljava_lang_Object_2V = function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_collect__Ljava_lang_Object_2Ljava_lang_Object_2V(t, jsThrown){
   function fixIE(e){
     if (!('stack' in e)) {
@@ -946,12 +946,12 @@ _.getStackTrace__Ljava_lang_Object_2_3Ljava_lang_StackTraceElement_2 = function 
   return stackTrace;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$CollectorModern_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(970);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1core_1client_1impl_1StackTraceCreator$CollectorModern_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(971);
 function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_StackTraceCreator$CollectorModernNoSourceMap__V(){
   com_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_$clinit__V();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(459, 970, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_StackTraceCreator$CollectorModernNoSourceMap__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(459, 971, {}, com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_StackTraceCreator$CollectorModernNoSourceMap__V);
 _.createSte__Ljava_lang_String_2Ljava_lang_String_2IILjava_lang_StackTraceElement_2 = function com_google_gwt_core_client_impl_StackTraceCreator$CollectorModernNoSourceMap_createSte__Ljava_lang_String_2Ljava_lang_String_2IILjava_lang_StackTraceElement_2(fileName, method, line, col){
   return new java_lang_StackTraceElement_StackTraceElement__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2IV(method, fileName, -1);
 }
@@ -1370,8 +1370,8 @@ function com_google_gwt_i18n_shared_DateTimeFormat_$zeroPaddingNumber__Lcom_goog
   buf.java_lang_AbstractStringBuilder_string += value_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(746, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1shared_1DateTimeFormat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(746);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(748, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1shared_1DateTimeFormat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(748);
 function com_google_gwt_i18n_client_DateTimeFormat_$clinit__V(){
   com_google_gwt_i18n_client_DateTimeFormat_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_i18n_shared_DateTimeFormat_$clinit__V();
@@ -1398,13 +1398,13 @@ function com_google_gwt_i18n_client_DateTimeFormat_getFormat__Ljava_lang_String_
   return dtf;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(747, 746, {}, com_google_gwt_i18n_client_DateTimeFormat_DateTimeFormat__Ljava_lang_String_2Lcom_google_gwt_i18n_client_DateTimeFormatInfo_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(749, 748, {}, com_google_gwt_i18n_client_DateTimeFormat_DateTimeFormat__Ljava_lang_String_2Lcom_google_gwt_i18n_client_DateTimeFormatInfo_2V);
 var com_google_gwt_i18n_client_DateTimeFormat_cache;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1DateTimeFormat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(747);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(993, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1shared_1DefaultDateTimeFormatInfo_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(993);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(994, 993, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1DefaultDateTimeFormatInfo_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(994);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1DateTimeFormat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(749);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(994, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1shared_1DefaultDateTimeFormatInfo_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(994);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(995, 994, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1DefaultDateTimeFormatInfo_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(995);
 function com_google_gwt_i18n_client_LocaleInfo_$clinit__V(){
   com_google_gwt_i18n_client_LocaleInfo_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   com_google_gwt_i18n_client_LocaleInfo_instance = new com_google_gwt_i18n_client_LocaleInfo_LocaleInfo__Lcom_google_gwt_i18n_client_impl_LocaleInfoImpl_2Lcom_google_gwt_i18n_client_impl_CldrImpl_2V;
@@ -1519,13 +1519,13 @@ function com_google_gwt_i18n_client_TimeZone_offsetDisplay__ILjava_lang_String_2
   return '' + hour + ':' + ('' + mins);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(820, 1, {}, com_google_gwt_i18n_client_TimeZone_TimeZone__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(823, 1, {}, com_google_gwt_i18n_client_TimeZone_TimeZone__V);
 _.com_google_gwt_i18n_client_TimeZone_standardOffset = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1TimeZone_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(820);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1TimeZone_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(823);
 function com_google_gwt_i18n_client_impl_cldr_DateTimeFormatInfoImpl_DateTimeFormatInfoImpl__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(829, 994, {}, com_google_gwt_i18n_client_impl_cldr_DateTimeFormatInfoImpl_DateTimeFormatInfoImpl__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(829, 995, {}, com_google_gwt_i18n_client_impl_cldr_DateTimeFormatInfoImpl_DateTimeFormatInfoImpl__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1client_1impl_1cldr_1DateTimeFormatInfoImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(829);
 function com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_DateTimeFormat$PatternPart__Ljava_lang_String_2IV(txt, cnt){
   this.com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_text = txt;
@@ -1533,10 +1533,10 @@ function com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_DateTimeFormat$Pa
   this.com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_abutStart = false;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(748, 1, {}, com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_DateTimeFormat$PatternPart__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(750, 1, {}, com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_DateTimeFormat$PatternPart__Ljava_lang_String_2IV);
 _.com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_abutStart = false;
 _.com_google_gwt_i18n_shared_DateTimeFormat$PatternPart_count = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1shared_1DateTimeFormat$PatternPart_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(748);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1i18n_1shared_1DateTimeFormat$PatternPart_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(750);
 function com_google_gwt_lang_Array_cloneSubrange___3Ljava_lang_Object_2II_3Ljava_lang_Object_2(array, toIndex){
   var result;
   result = array.slice(0, toIndex);
@@ -1619,7 +1619,7 @@ function com_google_gwt_lang_Exceptions_cacheJavaScriptException__Ljava_lang_Obj
 
 function com_google_gwt_lang_Exceptions_unwrap__Ljava_lang_Object_2Ljava_lang_Object_2(e){
   var jse;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(e, 91)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(e, 92)) {
     jse = e;
     if (com_google_gwt_lang_Cast_maskUndefined__Ljava_lang_Object_2Ljava_lang_Object_2(jse.com_google_gwt_core_client_JavaScriptException_e) !== com_google_gwt_lang_Cast_maskUndefined__Ljava_lang_Object_2Ljava_lang_Object_2((com_google_gwt_core_client_JavaScriptException_$clinit__V() , com_google_gwt_core_client_JavaScriptException_NOT_1SET))) {
       return com_google_gwt_lang_Cast_maskUndefined__Ljava_lang_Object_2Ljava_lang_Object_2(jse.com_google_gwt_core_client_JavaScriptException_e) === com_google_gwt_lang_Cast_maskUndefined__Ljava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_core_client_JavaScriptException_NOT_1SET)?null:jse.com_google_gwt_core_client_JavaScriptException_e;
@@ -1925,7 +1925,7 @@ function com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$
   var rebase, result;
   if (value_0 > -129 && value_0 < 128) {
     rebase = value_0 + 128;
-    com_google_gwt_lang_LongLib_boxedValues == null && (com_google_gwt_lang_LongLib_boxedValues = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit, $intern_8, 1014, 256, 0, 1));
+    com_google_gwt_lang_LongLib_boxedValues == null && (com_google_gwt_lang_LongLib_boxedValues = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit, $intern_8, 1015, 256, 0, 1));
     result = com_google_gwt_lang_LongLib_boxedValues[rebase];
     !result && (result = com_google_gwt_lang_LongLib_boxedValues[rebase] = com_google_gwt_lang_LongLibBase_create__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(value_0));
     return result;
@@ -2189,14 +2189,14 @@ function java_util_logging_Handler_$setLevel__Ljava_util_logging_Handler_2Ljava_
   this$static.java_util_logging_Handler_level = newLevel;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(120, 1, {120:1});
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Handler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(120);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(121, 1, {121:1});
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Handler_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(121);
 function com_google_gwt_logging_client_ConsoleLogHandler_ConsoleLogHandler__V(){
   java_util_logging_Handler_$setFormatter__Ljava_util_logging_Handler_2Ljava_util_logging_Formatter_2V(this, new com_google_gwt_logging_client_TextLogFormatter_TextLogFormatter__ZV(true));
   java_util_logging_Handler_$setLevel__Ljava_util_logging_Handler_2Ljava_util_logging_Level_2V(this, (java_util_logging_Level_$clinit__V() , java_util_logging_Level_ALL));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(498, 120, {120:1}, com_google_gwt_logging_client_ConsoleLogHandler_ConsoleLogHandler__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(498, 121, {121:1}, com_google_gwt_logging_client_ConsoleLogHandler_ConsoleLogHandler__V);
 _.publish__Ljava_util_logging_LogRecord_2V = function com_google_gwt_logging_client_ConsoleLogHandler_publish__Ljava_util_logging_LogRecord_2V(record){
   var msg;
   if (!window.console || (java_util_logging_Handler_$getLevel__Ljava_util_logging_Handler_2Ljava_util_logging_Level_2(this) , false)) {
@@ -2213,7 +2213,7 @@ function com_google_gwt_logging_client_DevelopmentModeLogHandler_DevelopmentMode
   java_util_logging_Handler_$setLevel__Ljava_util_logging_Handler_2Ljava_util_logging_Level_2V(this, (java_util_logging_Level_$clinit__V() , java_util_logging_Level_ALL));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(499, 120, {120:1}, com_google_gwt_logging_client_DevelopmentModeLogHandler_DevelopmentModeLogHandler__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(499, 121, {121:1}, com_google_gwt_logging_client_DevelopmentModeLogHandler_DevelopmentModeLogHandler__V);
 _.publish__Ljava_util_logging_LogRecord_2V = function com_google_gwt_logging_client_DevelopmentModeLogHandler_publish__Ljava_util_logging_LogRecord_2V(record){
   return;
 }
@@ -2268,10 +2268,10 @@ function com_google_gwt_logging_client_LogConfiguration$LogConfigurationImplRegu
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(453, 1, {}, com_google_gwt_logging_client_LogConfiguration$LogConfigurationImplRegular_LogConfiguration$LogConfigurationImplRegular__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1logging_1client_1LogConfiguration$LogConfigurationImplRegular_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(453);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(980, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Formatter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(980);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(981, 980, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1logging_1impl_1FormatterImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(981);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(981, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Formatter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(981);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(982, 981, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1logging_1impl_1FormatterImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(982);
 function com_google_gwt_logging_client_TextLogFormatter_$format__Lcom_google_gwt_logging_client_TextLogFormatter_2Ljava_util_logging_LogRecord_2Ljava_lang_String_2(this$static, event_0){
   var message, com_google_gwt_logging_impl_FormatterImpl_$getRecordInfo__Lcom_google_gwt_logging_impl_FormatterImpl_2Ljava_util_logging_LogRecord_2Ljava_lang_String_2Ljava_lang_String_2_date_0, com_google_gwt_logging_impl_FormatterImpl_$getRecordInfo__Lcom_google_gwt_logging_impl_FormatterImpl_2Ljava_util_logging_LogRecord_2Ljava_lang_String_2Ljava_lang_String_2_s_0;
   message = new java_lang_StringBuilder_StringBuilder__V;
@@ -2285,7 +2285,7 @@ function com_google_gwt_logging_client_TextLogFormatter_TextLogFormatter__ZV(sho
   this.com_google_gwt_logging_client_TextLogFormatter_showStackTraces = showStackTraces;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(369, 981, {}, com_google_gwt_logging_client_TextLogFormatter_TextLogFormatter__ZV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(369, 982, {}, com_google_gwt_logging_client_TextLogFormatter_TextLogFormatter__ZV);
 _.com_google_gwt_logging_client_TextLogFormatter_showStackTraces = false;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1logging_1client_1TextLogFormatter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(369);
 function com_google_gwt_logging_impl_LevelImplRegular_$parse__Lcom_google_gwt_logging_impl_LevelImplRegular_2Ljava_lang_String_2Ljava_util_logging_Level_2(name_0){
@@ -2341,7 +2341,7 @@ function com_google_gwt_logging_impl_LoggerImplRegular_$getEffectiveLevel__Lcom_
 }
 
 function com_google_gwt_logging_impl_LoggerImplRegular_$getHandlers__Lcom_google_gwt_logging_impl_LoggerImplRegular_2_3Ljava_util_logging_Handler_2(this$static){
-  return java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Handler_12_1classLit, $intern_8, 120, this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers.size__I(), 0, 1));
+  return java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Handler_12_1classLit, $intern_8, 121, this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers.size__I(), 0, 1));
 }
 
 function com_google_gwt_logging_impl_LoggerImplRegular_$log__Lcom_google_gwt_logging_impl_LoggerImplRegular_2Ljava_util_logging_Level_2Ljava_lang_String_2Ljava_lang_Throwable_2V(this$static, msg, thrown){
@@ -2357,7 +2357,7 @@ function com_google_gwt_logging_impl_LoggerImplRegular_$log__Lcom_google_gwt_log
 function com_google_gwt_logging_impl_LoggerImplRegular_$log__Lcom_google_gwt_logging_impl_LoggerImplRegular_2Ljava_util_logging_LogRecord_2V(this$static, record){
   var handler, handler$array, handler$array0, handler$index, handler$index0, handler$max, handler$max0, logger;
   if (com_google_gwt_logging_impl_LoggerImplRegular_$getEffectiveLevel__Lcom_google_gwt_logging_impl_LoggerImplRegular_2Ljava_util_logging_Level_2(this$static).intValue__I() <= $intern_10) {
-    for (handler$array0 = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Handler_12_1classLit, $intern_8, 120, this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers.size__I(), 0, 1)) , handler$index0 = 0 , handler$max0 = handler$array0.length; handler$index0 < handler$max0; ++handler$index0) {
+    for (handler$array0 = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Handler_12_1classLit, $intern_8, 121, this$static.com_google_gwt_logging_impl_LoggerImplRegular_handlers.size__I(), 0, 1)) , handler$index0 = 0 , handler$max0 = handler$array0.length; handler$index0 < handler$max0; ++handler$index0) {
       handler = handler$array0[handler$index0];
       handler.publish__Ljava_util_logging_LogRecord_2V(record);
     }
@@ -2393,14 +2393,14 @@ com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_cor
 _.com_google_gwt_logging_impl_LoggerImplRegular_level = null;
 _.com_google_gwt_logging_impl_LoggerImplRegular_useParentHandlers = false;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1logging_1impl_1LoggerImplRegular_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(230);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(977, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1io_1OutputStream_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(977);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(978, 977, {});
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1io_1FilterOutputStream_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(978);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(978, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1io_1OutputStream_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(978);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(979, 978, {});
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1io_1FilterOutputStream_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(979);
 function java_io_PrintStream_PrintStream__Ljava_io_OutputStream_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(487, 978, {}, java_io_PrintStream_PrintStream__Ljava_io_OutputStream_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(487, 979, {}, java_io_PrintStream_PrintStream__Ljava_io_OutputStream_2V);
 _.print__Ljava_lang_String_2V = function java_io_PrintStream_print__Ljava_lang_String_2V(s){
 }
 ;
@@ -2435,7 +2435,7 @@ function com_google_gwt_user_client_ui_UIObject_$setElement__Lcom_google_gwt_use
   this$static.com_google_gwt_user_client_ui_UIObject_element = elem;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1005, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1006, 1, {});
 _.toString__Ljava_lang_String_2$ = function com_google_gwt_user_client_ui_UIObject_toString__Ljava_lang_String_2(){
   if (!this.com_google_gwt_user_client_ui_UIObject_element) {
     return '(null handle)';
@@ -2443,8 +2443,8 @@ _.toString__Ljava_lang_String_2$ = function com_google_gwt_user_client_ui_UIObje
   return (com_google_gwt_user_client_DOM_$clinit__V() , this.com_google_gwt_user_client_ui_UIObject_element).outerHTML;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1UIObject_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1005);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1006, 1005, $intern_20);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1UIObject_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1006);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1007, 1006, $intern_20);
 _.onBrowserEvent__Lcom_google_gwt_user_client_Event_2V = function com_google_gwt_user_client_ui_Widget_onBrowserEvent__Lcom_google_gwt_user_client_Event_2V(event_0){
   var related;
   switch (com_google_gwt_user_client_DOM_$clinit__V() , com_google_gwt_user_client_impl_DOMImpl_$eventGetTypeInt__Lcom_google_gwt_user_client_impl_DOMImpl_2Ljava_lang_String_2I(event_0.type)) {
@@ -2459,10 +2459,10 @@ _.onBrowserEvent__Lcom_google_gwt_user_client_Event_2V = function com_google_gwt
   com_google_gwt_event_dom_client_DomEvent_fireNativeEvent__Lcom_google_gwt_dom_client_NativeEvent_2Lcom_google_gwt_event_shared_HasHandlers_2Lcom_google_gwt_dom_client_Element_2V(com_google_gwt_user_client_DOM_$clinit__V());
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Widget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1006);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1007, 1006, $intern_20);
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1FocusWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1007);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(942, 1007, $intern_20);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1Widget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1007);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1008, 1007, $intern_20);
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1user_1client_1ui_1FocusWidget_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1008);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(942, 1008, $intern_20);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1media_1client_1MediaBase_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(942);
 function com_google_gwt_media_client_Audio_Audio__Lcom_google_gwt_dom_client_AudioElement_2V(element){
   com_google_gwt_user_client_ui_UIObject_$setElement__Lcom_google_gwt_user_client_ui_UIObject_2Lcom_google_gwt_user_client_Element_2V(this, (com_google_gwt_user_client_DOM_$clinit__V() , element));
@@ -2481,12 +2481,12 @@ function com_google_gwt_media_client_Audio_createIfSupported__Lcom_google_gwt_me
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(943, 942, $intern_20, com_google_gwt_media_client_Audio_Audio__Lcom_google_gwt_dom_client_AudioElement_2V);
 var com_google_gwt_media_client_Audio_detector;
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1media_1client_1Audio_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(943);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1008, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1media_1client_1Audio$AudioElementSupportDetector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1008);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1009, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1media_1client_1Audio$AudioElementSupportDetector_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1009);
 function com_google_gwt_media_client_Audio$AudioElementSupportDetectedMaybe_Audio$AudioElementSupportDetectedMaybe__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(944, 1008, {}, com_google_gwt_media_client_Audio$AudioElementSupportDetectedMaybe_Audio$AudioElementSupportDetectedMaybe__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(944, 1009, {}, com_google_gwt_media_client_Audio$AudioElementSupportDetectedMaybe_Audio$AudioElementSupportDetectedMaybe__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1media_1client_1Audio$AudioElementSupportDetectedMaybe_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(944);
 function com_google_gwt_storage_client_Storage_$getItem__Lcom_google_gwt_storage_client_Storage_2Ljava_lang_String_2Ljava_lang_String_2(this$static, key){
   return com_google_gwt_storage_client_StorageImpl_$getItem__Lcom_google_gwt_storage_client_StorageImpl_2Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2(this$static.com_google_gwt_storage_client_Storage_storage, key);
@@ -2588,7 +2588,7 @@ function com_google_gwt_user_client_Window$Location_buildListParamMap__Ljava_lan
       }
        catch ($e0) {
         $e0 = com_google_gwt_lang_Exceptions_wrap__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
-        if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z($e0, 91))
+        if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z($e0, 92))
           throw com_google_gwt_lang_Exceptions_unwrap__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
       }
       values = out.get__Ljava_lang_Object_2Ljava_lang_Object_2(key);
@@ -2798,12 +2798,12 @@ function im_actor_model_AppCategory_AppCategory__Ljava_lang_String_2IV(enum$name
 
 function im_actor_model_AppCategory_values___3Lim_actor_model_AppCategory_2(){
   im_actor_model_AppCategory_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AppCategory_12_1classLit, 1), $intern_8, 96, 0, [im_actor_model_AppCategory_GENERIC, im_actor_model_AppCategory_ANDROID, im_actor_model_AppCategory_IOS, im_actor_model_AppCategory_WEB]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AppCategory_12_1classLit, 1), $intern_8, 97, 0, [im_actor_model_AppCategory_GENERIC, im_actor_model_AppCategory_ANDROID, im_actor_model_AppCategory_IOS, im_actor_model_AppCategory_WEB]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(96, 17, {96:1, 3:1, 28:1, 17:1}, im_actor_model_AppCategory_AppCategory__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(97, 17, {97:1, 3:1, 28:1, 17:1}, im_actor_model_AppCategory_AppCategory__Ljava_lang_String_2IV);
 var im_actor_model_AppCategory_ANDROID, im_actor_model_AppCategory_GENERIC, im_actor_model_AppCategory_IOS, im_actor_model_AppCategory_WEB;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AppCategory_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(96, im_actor_model_AppCategory_values___3Lim_actor_model_AppCategory_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AppCategory_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(97, im_actor_model_AppCategory_values___3Lim_actor_model_AppCategory_2);
 function im_actor_model_AuthState_$clinit__V(){
   im_actor_model_AuthState_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_AuthState_AUTH_1START = new im_actor_model_AuthState_AuthState__Ljava_lang_String_2IV('AUTH_START', 0);
@@ -2818,12 +2818,12 @@ function im_actor_model_AuthState_AuthState__Ljava_lang_String_2IV(enum$name, en
 
 function im_actor_model_AuthState_values___3Lim_actor_model_AuthState_2(){
   im_actor_model_AuthState_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AuthState_12_1classLit, 1), $intern_8, 94, 0, [im_actor_model_AuthState_AUTH_1START, im_actor_model_AuthState_CODE_1VALIDATION, im_actor_model_AuthState_SIGN_1UP, im_actor_model_AuthState_LOGGED_1IN]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AuthState_12_1classLit, 1), $intern_8, 95, 0, [im_actor_model_AuthState_AUTH_1START, im_actor_model_AuthState_CODE_1VALIDATION, im_actor_model_AuthState_SIGN_1UP, im_actor_model_AuthState_LOGGED_1IN]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(94, 17, {94:1, 3:1, 28:1, 17:1}, im_actor_model_AuthState_AuthState__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(95, 17, {95:1, 3:1, 28:1, 17:1}, im_actor_model_AuthState_AuthState__Ljava_lang_String_2IV);
 var im_actor_model_AuthState_AUTH_1START, im_actor_model_AuthState_CODE_1VALIDATION, im_actor_model_AuthState_LOGGED_1IN, im_actor_model_AuthState_SIGN_1UP;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AuthState_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(94, im_actor_model_AuthState_values___3Lim_actor_model_AuthState_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1AuthState_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(95, im_actor_model_AuthState_values___3Lim_actor_model_AuthState_2);
 function im_actor_model_Configuration_Configuration__Lim_actor_model_NetworkProvider_2_3Lim_actor_model_network_ConnectionEndpoint_2Lim_actor_model_ThreadingProvider_2Lim_actor_model_MainThreadProvider_2Lim_actor_model_StorageProvider_2Lim_actor_model_LogProvider_2Lim_actor_model_LocaleProvider_2Lim_actor_model_PhoneBookProvider_2Lim_actor_model_CryptoProvider_2Lim_actor_model_FileSystemProvider_2Lim_actor_model_NotificationProvider_2Lim_actor_model_DispatcherProvider_2Lim_actor_model_ApiConfiguration_2ZZZLim_actor_model_HttpProvider_2Lim_actor_model_AnalyticsProvider_2Lim_actor_model_DeviceCategory_2Lim_actor_model_AppCategory_2Lim_actor_model_LifecycleProvider_2V(networkProvider, endpoints, threadingProvider, storageProvider, log_0, localeProvider, cryptoProvider, fileSystemProvider, notificationProvider, dispatcherProvider, apiConfiguration, httpProvider, deviceCategory, appCategory){
   this.im_actor_model_Configuration_networkProvider = networkProvider;
   this.im_actor_model_Configuration_endpoints = endpoints;
@@ -2916,7 +2916,7 @@ function im_actor_model_ConfigurationBuilder_$build__Lim_actor_model_Configurati
   if (!this$static.im_actor_model_ConfigurationBuilder_lifecycleProvider) {
     throw new java_lang_RuntimeException_RuntimeException__Ljava_lang_String_2V('Lifecycle Provider not set');
   }
-  return new im_actor_model_Configuration_Configuration__Lim_actor_model_NetworkProvider_2_3Lim_actor_model_network_ConnectionEndpoint_2Lim_actor_model_ThreadingProvider_2Lim_actor_model_MainThreadProvider_2Lim_actor_model_StorageProvider_2Lim_actor_model_LogProvider_2Lim_actor_model_LocaleProvider_2Lim_actor_model_PhoneBookProvider_2Lim_actor_model_CryptoProvider_2Lim_actor_model_FileSystemProvider_2Lim_actor_model_NotificationProvider_2Lim_actor_model_DispatcherProvider_2Lim_actor_model_ApiConfiguration_2ZZZLim_actor_model_HttpProvider_2Lim_actor_model_AnalyticsProvider_2Lim_actor_model_DeviceCategory_2Lim_actor_model_AppCategory_2Lim_actor_model_LifecycleProvider_2V(this$static.im_actor_model_ConfigurationBuilder_networkProvider, java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.im_actor_model_ConfigurationBuilder_endpoints, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint_12_1classLit, $intern_8, 95, this$static.im_actor_model_ConfigurationBuilder_endpoints.size__I(), 0, 1)), this$static.im_actor_model_ConfigurationBuilder_threadingProvider, this$static.im_actor_model_ConfigurationBuilder_enginesFactory, this$static.im_actor_model_ConfigurationBuilder_log, this$static.im_actor_model_ConfigurationBuilder_localeProvider, this$static.im_actor_model_ConfigurationBuilder_cryptoProvider, this$static.im_actor_model_ConfigurationBuilder_fileSystemProvider, this$static.im_actor_model_ConfigurationBuilder_notificationProvider, this$static.im_actor_model_ConfigurationBuilder_dispatcherProvider, this$static.im_actor_model_ConfigurationBuilder_apiConfiguration, this$static.im_actor_model_ConfigurationBuilder_httpProvider, this$static.im_actor_model_ConfigurationBuilder_deviceCategory, this$static.im_actor_model_ConfigurationBuilder_appCategory);
+  return new im_actor_model_Configuration_Configuration__Lim_actor_model_NetworkProvider_2_3Lim_actor_model_network_ConnectionEndpoint_2Lim_actor_model_ThreadingProvider_2Lim_actor_model_MainThreadProvider_2Lim_actor_model_StorageProvider_2Lim_actor_model_LogProvider_2Lim_actor_model_LocaleProvider_2Lim_actor_model_PhoneBookProvider_2Lim_actor_model_CryptoProvider_2Lim_actor_model_FileSystemProvider_2Lim_actor_model_NotificationProvider_2Lim_actor_model_DispatcherProvider_2Lim_actor_model_ApiConfiguration_2ZZZLim_actor_model_HttpProvider_2Lim_actor_model_AnalyticsProvider_2Lim_actor_model_DeviceCategory_2Lim_actor_model_AppCategory_2Lim_actor_model_LifecycleProvider_2V(this$static.im_actor_model_ConfigurationBuilder_networkProvider, java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.im_actor_model_ConfigurationBuilder_endpoints, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint_12_1classLit, $intern_8, 96, this$static.im_actor_model_ConfigurationBuilder_endpoints.size__I(), 0, 1)), this$static.im_actor_model_ConfigurationBuilder_threadingProvider, this$static.im_actor_model_ConfigurationBuilder_enginesFactory, this$static.im_actor_model_ConfigurationBuilder_log, this$static.im_actor_model_ConfigurationBuilder_localeProvider, this$static.im_actor_model_ConfigurationBuilder_cryptoProvider, this$static.im_actor_model_ConfigurationBuilder_fileSystemProvider, this$static.im_actor_model_ConfigurationBuilder_notificationProvider, this$static.im_actor_model_ConfigurationBuilder_dispatcherProvider, this$static.im_actor_model_ConfigurationBuilder_apiConfiguration, this$static.im_actor_model_ConfigurationBuilder_httpProvider, this$static.im_actor_model_ConfigurationBuilder_deviceCategory, this$static.im_actor_model_ConfigurationBuilder_appCategory);
 }
 
 function im_actor_model_ConfigurationBuilder_$setApiConfiguration__Lim_actor_model_ConfigurationBuilder_2Lim_actor_model_ApiConfiguration_2Lim_actor_model_ConfigurationBuilder_2(this$static, apiConfiguration){
@@ -3014,12 +3014,12 @@ function im_actor_model_DeviceCategory_DeviceCategory__Ljava_lang_String_2IV(enu
 
 function im_actor_model_DeviceCategory_values___3Lim_actor_model_DeviceCategory_2(){
   im_actor_model_DeviceCategory_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1DeviceCategory_12_1classLit, 1), $intern_8, 123, 0, [im_actor_model_DeviceCategory_UNKNOWN, im_actor_model_DeviceCategory_DESKTOP, im_actor_model_DeviceCategory_MOBILE]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1DeviceCategory_12_1classLit, 1), $intern_8, 124, 0, [im_actor_model_DeviceCategory_UNKNOWN, im_actor_model_DeviceCategory_DESKTOP, im_actor_model_DeviceCategory_MOBILE]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(123, 17, {123:1, 3:1, 28:1, 17:1}, im_actor_model_DeviceCategory_DeviceCategory__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(124, 17, {124:1, 3:1, 28:1, 17:1}, im_actor_model_DeviceCategory_DeviceCategory__Ljava_lang_String_2IV);
 var im_actor_model_DeviceCategory_DESKTOP, im_actor_model_DeviceCategory_MOBILE, im_actor_model_DeviceCategory_UNKNOWN;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1DeviceCategory_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(123, im_actor_model_DeviceCategory_values___3Lim_actor_model_DeviceCategory_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1DeviceCategory_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(124, im_actor_model_DeviceCategory_values___3Lim_actor_model_DeviceCategory_2);
 function im_actor_model_Messenger_$addContact__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this$static, uid){
   return new im_actor_model_modules_Contacts$4_Contacts$4__Lim_actor_model_modules_Contacts_2V(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_contacts, uid);
 }
@@ -3105,11 +3105,11 @@ function im_actor_model_Messenger_$onConversationOpen__Lim_actor_model_Messenger
 }
 
 function im_actor_model_Messenger_$onDialogsClosed__Lim_actor_model_Messenger_2V(this$static){
-  !!this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnDialogsHidden_NotificationsActor$OnDialogsHidden__V);
+  !!this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnDialogsHidden_NotificationsActor$OnDialogsHidden__V);
 }
 
 function im_actor_model_Messenger_$onDialogsOpen__Lim_actor_model_Messenger_2V(this$static){
-  !!this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnDialogsVisible_NotificationsActor$OnDialogsVisible__V);
+  !!this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnDialogsVisible_NotificationsActor$OnDialogsVisible__V);
 }
 
 function im_actor_model_Messenger_$onProfileOpen__Lim_actor_model_Messenger_2IV(this$static, uid){
@@ -3239,7 +3239,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1bser_1Bs
 function im_actor_model_api_AuthSession_AuthSession__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(952, 4, $intern_32, im_actor_model_api_AuthSession_AuthSession__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(953, 4, $intern_32, im_actor_model_api_AuthSession_AuthSession__V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_api_AuthSession_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_api_AuthSession_id = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 1));
   this.im_actor_model_api_AuthSession_authHolder = im_actor_model_api_AuthHolder_parse__ILim_actor_model_api_AuthHolder_2(im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 2)));
@@ -3292,7 +3292,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_AuthSession_toStr
 _.im_actor_model_api_AuthSession_appId = 0;
 _.im_actor_model_api_AuthSession_authTime = 0;
 _.im_actor_model_api_AuthSession_id = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1AuthSession_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(952);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1AuthSession_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(953);
 function im_actor_model_api_Avatar_Avatar__V(){
 }
 
@@ -3345,7 +3345,7 @@ function im_actor_model_api_AvatarImage_AvatarImage__Lim_actor_model_api_FileLoc
   this.im_actor_model_api_AvatarImage_fileSize = fileSize;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(115, 4, $intern_32, im_actor_model_api_AvatarImage_AvatarImage__V, im_actor_model_api_AvatarImage_AvatarImage__Lim_actor_model_api_FileLocation_2IIIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(116, 4, $intern_32, im_actor_model_api_AvatarImage_AvatarImage__V, im_actor_model_api_AvatarImage_AvatarImage__Lim_actor_model_api_FileLocation_2IIIV);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_api_AvatarImage_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_api_AvatarImage_fileLocation = im_actor_model_droidkit_bser_BserValues_$getObj__Lim_actor_model_droidkit_bser_BserValues_2ILim_actor_model_droidkit_bser_BserObject_2Lim_actor_model_droidkit_bser_BserObject_2(values, 1, new im_actor_model_api_FileLocation_FileLocation__V);
   this.im_actor_model_api_AvatarImage_width = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 2));
@@ -3386,7 +3386,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_AvatarImage_toStr
 _.im_actor_model_api_AvatarImage_fileSize = 0;
 _.im_actor_model_api_AvatarImage_height = 0;
 _.im_actor_model_api_AvatarImage_width = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1AvatarImage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(115);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1AvatarImage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(116);
 function im_actor_model_api_Config_Config__V(){
 }
 
@@ -3550,7 +3550,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Dialog_12_1cl
 function im_actor_model_api_DifferenceUpdate_DifferenceUpdate__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(950, 4, $intern_32, im_actor_model_api_DifferenceUpdate_DifferenceUpdate__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(951, 4, $intern_32, im_actor_model_api_DifferenceUpdate_DifferenceUpdate__V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_api_DifferenceUpdate_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_api_DifferenceUpdate_updateHeader = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 1));
   this.im_actor_model_api_DifferenceUpdate_update = im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B(values, 2);
@@ -3574,7 +3574,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_DifferenceUpdate_
 }
 ;
 _.im_actor_model_api_DifferenceUpdate_updateHeader = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DifferenceUpdate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(950);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DifferenceUpdate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(951);
 function im_actor_model_api_DocumentEx_$buildContainer__Lim_actor_model_api_DocumentEx_2_3B(this$static){
   var res, writer;
   res = new im_actor_model_droidkit_bser_DataOutput_DataOutput__V;
@@ -3600,8 +3600,8 @@ function im_actor_model_api_DocumentEx_fromBytes___3BLim_actor_model_api_Documen
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(999, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DocumentEx_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(999);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2($intern_10, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DocumentEx_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_10);
 function im_actor_model_api_DocumentExPhoto_DocumentExPhoto__V(){
 }
 
@@ -3610,7 +3610,7 @@ function im_actor_model_api_DocumentExPhoto_DocumentExPhoto__IIV(w, h){
   this.im_actor_model_api_DocumentExPhoto_h = h;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(109, 999, {109:1, 4:1}, im_actor_model_api_DocumentExPhoto_DocumentExPhoto__V, im_actor_model_api_DocumentExPhoto_DocumentExPhoto__IIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(110, $intern_10, {110:1, 4:1}, im_actor_model_api_DocumentExPhoto_DocumentExPhoto__V, im_actor_model_api_DocumentExPhoto_DocumentExPhoto__IIV);
 _.getHeader__I = function im_actor_model_api_DocumentExPhoto_getHeader__I(){
   return 1;
 }
@@ -3645,13 +3645,13 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_DocumentExPhoto_t
 ;
 _.im_actor_model_api_DocumentExPhoto_h = 0;
 _.im_actor_model_api_DocumentExPhoto_w = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DocumentExPhoto_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(109);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DocumentExPhoto_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(110);
 function im_actor_model_api_DocumentExUnsupported_DocumentExUnsupported__I_3BV(key, content){
   this.im_actor_model_api_DocumentExUnsupported_key = key;
   this.im_actor_model_api_DocumentExUnsupported_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(857, 999, $intern_32, im_actor_model_api_DocumentExUnsupported_DocumentExUnsupported__I_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(857, $intern_10, $intern_32, im_actor_model_api_DocumentExUnsupported_DocumentExUnsupported__I_3BV);
 _.getHeader__I = function im_actor_model_api_DocumentExUnsupported_getHeader__I(){
   return this.im_actor_model_api_DocumentExUnsupported_key;
 }
@@ -3675,7 +3675,7 @@ function im_actor_model_api_DocumentExVideo_DocumentExVideo__IIIV(w, h, duration
   this.im_actor_model_api_DocumentExVideo_duration = duration;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(110, 999, {110:1, 4:1}, im_actor_model_api_DocumentExVideo_DocumentExVideo__V, im_actor_model_api_DocumentExVideo_DocumentExVideo__IIIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(111, $intern_10, {111:1, 4:1}, im_actor_model_api_DocumentExVideo_DocumentExVideo__V, im_actor_model_api_DocumentExVideo_DocumentExVideo__IIIV);
 _.getHeader__I = function im_actor_model_api_DocumentExVideo_getHeader__I(){
   return 2;
 }
@@ -3714,11 +3714,11 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_DocumentExVideo_t
 _.im_actor_model_api_DocumentExVideo_duration = 0;
 _.im_actor_model_api_DocumentExVideo_h = 0;
 _.im_actor_model_api_DocumentExVideo_w = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DocumentExVideo_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(110);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1DocumentExVideo_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(111);
 function im_actor_model_api_DocumentExVoice_DocumentExVoice__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(856, 999, $intern_32, im_actor_model_api_DocumentExVoice_DocumentExVoice__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(856, $intern_10, $intern_32, im_actor_model_api_DocumentExVoice_DocumentExVoice__V);
 _.getHeader__I = function im_actor_model_api_DocumentExVoice_getHeader__I(){
   return 3;
 }
@@ -3777,8 +3777,8 @@ function im_actor_model_api_Message_fromBytes___3BLim_actor_model_api_Message_2(
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(997, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Message_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(997);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(998, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Message_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(998);
 function im_actor_model_api_DocumentMessage_DocumentMessage__V(){
 }
 
@@ -3792,7 +3792,7 @@ function im_actor_model_api_DocumentMessage_DocumentMessage__JJILjava_lang_Strin
   this.im_actor_model_api_DocumentMessage_ext = ext;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(62, 997, {62:1, 4:1}, im_actor_model_api_DocumentMessage_DocumentMessage__V, im_actor_model_api_DocumentMessage_DocumentMessage__JJILjava_lang_String_2Ljava_lang_String_2Lim_actor_model_api_FastThumb_2Lim_actor_model_api_DocumentEx_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(62, 998, {62:1, 4:1}, im_actor_model_api_DocumentMessage_DocumentMessage__V, im_actor_model_api_DocumentMessage_DocumentMessage__JJILjava_lang_String_2Ljava_lang_String_2Lim_actor_model_api_FastThumb_2Lim_actor_model_api_DocumentEx_2V);
 _.getHeader__I = function im_actor_model_api_DocumentMessage_getHeader__I(){
   return 3;
 }
@@ -3857,7 +3857,7 @@ function im_actor_model_api_EmailToImport_EmailToImport__Ljava_lang_String_2Ljav
   this.im_actor_model_api_EmailToImport_name = name_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(199, 4, {199:1, 4:1}, im_actor_model_api_EmailToImport_EmailToImport__V, im_actor_model_api_EmailToImport_EmailToImport__Ljava_lang_String_2Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(200, 4, {200:1, 4:1}, im_actor_model_api_EmailToImport_EmailToImport__V, im_actor_model_api_EmailToImport_EmailToImport__Ljava_lang_String_2Ljava_lang_String_2V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_api_EmailToImport_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_api_EmailToImport_email = im_actor_model_droidkit_bser_Utils_convertString___3BLjava_lang_String_2(im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B(values, 1));
   this.im_actor_model_api_EmailToImport_name = im_actor_model_droidkit_bser_Utils_convertString___3BLjava_lang_String_2(im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B_3B(values, 2));
@@ -3880,7 +3880,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_EmailToImport_toS
   return res;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1EmailToImport_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(199);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1EmailToImport_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(200);
 function im_actor_model_api_FastThumb_FastThumb__V(){
 }
 
@@ -3890,7 +3890,7 @@ function im_actor_model_api_FastThumb_FastThumb__II_3BV(w, h, thumb){
   this.im_actor_model_api_FastThumb_thumb = thumb;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(114, 4, $intern_32, im_actor_model_api_FastThumb_FastThumb__V, im_actor_model_api_FastThumb_FastThumb__II_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(115, 4, $intern_32, im_actor_model_api_FastThumb_FastThumb__V, im_actor_model_api_FastThumb_FastThumb__II_3BV);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_api_FastThumb_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_api_FastThumb_w = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 1));
   this.im_actor_model_api_FastThumb_h = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 2));
@@ -3927,7 +3927,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_FastThumb_toStrin
 ;
 _.im_actor_model_api_FastThumb_h = 0;
 _.im_actor_model_api_FastThumb_w = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1FastThumb_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(114);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1FastThumb_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(115);
 function im_actor_model_api_FileLocation_FileLocation__V(){
 }
 
@@ -4151,7 +4151,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Interest_12_1
 function im_actor_model_api_JsonMessage_JsonMessage__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(310, 997, {310:1, 4:1}, im_actor_model_api_JsonMessage_JsonMessage__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(310, 998, {310:1, 4:1}, im_actor_model_api_JsonMessage_JsonMessage__V);
 _.getHeader__I = function im_actor_model_api_JsonMessage_getHeader__I(){
   return 4;
 }
@@ -4257,19 +4257,19 @@ function im_actor_model_api_MessageState_parse__ILim_actor_model_api_MessageStat
 
 function im_actor_model_api_MessageState_values___3Lim_actor_model_api_MessageState_2(){
   im_actor_model_api_MessageState_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1MessageState_12_1classLit, 1), $intern_8, 118, 0, [im_actor_model_api_MessageState_SENT, im_actor_model_api_MessageState_RECEIVED, im_actor_model_api_MessageState_READ, im_actor_model_api_MessageState_UNSUPPORTED_1VALUE]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1MessageState_12_1classLit, 1), $intern_8, 119, 0, [im_actor_model_api_MessageState_SENT, im_actor_model_api_MessageState_RECEIVED, im_actor_model_api_MessageState_READ, im_actor_model_api_MessageState_UNSUPPORTED_1VALUE]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(118, 17, {118:1, 3:1, 28:1, 17:1}, im_actor_model_api_MessageState_MessageState__Ljava_lang_String_2IIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(119, 17, {119:1, 3:1, 28:1, 17:1}, im_actor_model_api_MessageState_MessageState__Ljava_lang_String_2IIV);
 _.im_actor_model_api_MessageState_value = 0;
 var im_actor_model_api_MessageState_READ, im_actor_model_api_MessageState_RECEIVED, im_actor_model_api_MessageState_SENT, im_actor_model_api_MessageState_UNSUPPORTED_1VALUE;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1MessageState_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(118, im_actor_model_api_MessageState_values___3Lim_actor_model_api_MessageState_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1MessageState_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(119, im_actor_model_api_MessageState_values___3Lim_actor_model_api_MessageState_2);
 function im_actor_model_api_MessageUnsupported_MessageUnsupported__I_3BV(key, content){
   this.im_actor_model_api_MessageUnsupported_key = key;
   this.im_actor_model_api_MessageUnsupported_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(847, 997, $intern_32, im_actor_model_api_MessageUnsupported_MessageUnsupported__I_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(847, 998, $intern_32, im_actor_model_api_MessageUnsupported_MessageUnsupported__I_3BV);
 _.getHeader__I = function im_actor_model_api_MessageUnsupported_getHeader__I(){
   return this.im_actor_model_api_MessageUnsupported_key;
 }
@@ -4424,7 +4424,7 @@ function im_actor_model_api_PhoneToImport_PhoneToImport__JLjava_lang_String_2V(p
   this.im_actor_model_api_PhoneToImport_name = name_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(198, 4, {198:1, 4:1}, im_actor_model_api_PhoneToImport_PhoneToImport__V, im_actor_model_api_PhoneToImport_PhoneToImport__JLjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(199, 4, {199:1, 4:1}, im_actor_model_api_PhoneToImport_PhoneToImport__V, im_actor_model_api_PhoneToImport_PhoneToImport__JLjava_lang_String_2V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_api_PhoneToImport_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_api_PhoneToImport_phoneNumber = im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 1);
   this.im_actor_model_api_PhoneToImport_name = im_actor_model_droidkit_bser_Utils_convertString___3BLjava_lang_String_2(im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B_3B(values, 2));
@@ -4445,7 +4445,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_PhoneToImport_toS
 }
 ;
 _.im_actor_model_api_PhoneToImport_phoneNumber = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1PhoneToImport_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(198);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1PhoneToImport_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(199);
 function im_actor_model_api_ServiceEx_$buildContainer__Lim_actor_model_api_ServiceEx_2_3B(this$static){
   var res, writer;
   res = new im_actor_model_droidkit_bser_DataOutput_DataOutput__V;
@@ -4485,8 +4485,8 @@ function im_actor_model_api_ServiceEx_fromBytes___3BLim_actor_model_api_ServiceE
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(998, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceEx_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(998);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(999, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceEx_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(999);
 function im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__V(){
 }
 
@@ -4494,7 +4494,7 @@ function im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__Lim_a
   this.im_actor_model_api_ServiceExChangedAvatar_avatar = avatar;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(143, 998, {143:1, 4:1}, im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__V, im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__Lim_actor_model_api_Avatar_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(143, 999, {143:1, 4:1}, im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__V, im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__Lim_actor_model_api_Avatar_2V);
 _.getHeader__I = function im_actor_model_api_ServiceExChangedAvatar_getHeader__I(){
   return 6;
 }
@@ -4532,7 +4532,7 @@ function im_actor_model_api_ServiceExChangedTitle_ServiceExChangedTitle__Ljava_l
   this.im_actor_model_api_ServiceExChangedTitle_title = title_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(142, 998, {142:1, 4:1}, im_actor_model_api_ServiceExChangedTitle_ServiceExChangedTitle__V, im_actor_model_api_ServiceExChangedTitle_ServiceExChangedTitle__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(142, 999, {142:1, 4:1}, im_actor_model_api_ServiceExChangedTitle_ServiceExChangedTitle__V, im_actor_model_api_ServiceExChangedTitle_ServiceExChangedTitle__Ljava_lang_String_2V);
 _.getHeader__I = function im_actor_model_api_ServiceExChangedTitle_getHeader__I(){
   return 5;
 }
@@ -4573,7 +4573,7 @@ function im_actor_model_api_ServiceExContactRegistered_ServiceExContactRegistere
   this.im_actor_model_api_ServiceExContactRegistered_uid = 0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(138, 998, {138:1, 4:1}, im_actor_model_api_ServiceExContactRegistered_ServiceExContactRegistered__V, im_actor_model_api_ServiceExContactRegistered_ServiceExContactRegistered__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(138, 999, {138:1, 4:1}, im_actor_model_api_ServiceExContactRegistered_ServiceExContactRegistered__V, im_actor_model_api_ServiceExContactRegistered_ServiceExContactRegistered__IV);
 _.getHeader__I = function im_actor_model_api_ServiceExContactRegistered_getHeader__I(){
   return 8;
 }
@@ -4608,7 +4608,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceExCont
 function im_actor_model_api_ServiceExGroupCreated_ServiceExGroupCreated__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(139, 998, {139:1, 4:1}, im_actor_model_api_ServiceExGroupCreated_ServiceExGroupCreated__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(139, 999, {139:1, 4:1}, im_actor_model_api_ServiceExGroupCreated_ServiceExGroupCreated__V);
 _.getHeader__I = function im_actor_model_api_ServiceExGroupCreated_getHeader__I(){
   return 4;
 }
@@ -4639,7 +4639,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceExGrou
 function im_actor_model_api_ServiceExPhoneCall_ServiceExPhoneCall__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(852, 998, $intern_32, im_actor_model_api_ServiceExPhoneCall_ServiceExPhoneCall__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(852, 999, $intern_32, im_actor_model_api_ServiceExPhoneCall_ServiceExPhoneCall__V);
 _.getHeader__I = function im_actor_model_api_ServiceExPhoneCall_getHeader__I(){
   return 16;
 }
@@ -4673,7 +4673,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceExPhon
 function im_actor_model_api_ServiceExPhoneMissed_ServiceExPhoneMissed__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(851, 998, $intern_32, im_actor_model_api_ServiceExPhoneMissed_ServiceExPhoneMissed__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(851, 999, $intern_32, im_actor_model_api_ServiceExPhoneMissed_ServiceExPhoneMissed__V);
 _.getHeader__I = function im_actor_model_api_ServiceExPhoneMissed_getHeader__I(){
   return 9;
 }
@@ -4706,7 +4706,7 @@ function im_actor_model_api_ServiceExUnsupported_ServiceExUnsupported__I_3BV(key
   this.im_actor_model_api_ServiceExUnsupported_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(853, 998, $intern_32, im_actor_model_api_ServiceExUnsupported_ServiceExUnsupported__I_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(853, 999, $intern_32, im_actor_model_api_ServiceExUnsupported_ServiceExUnsupported__I_3BV);
 _.getHeader__I = function im_actor_model_api_ServiceExUnsupported_getHeader__I(){
   return this.im_actor_model_api_ServiceExUnsupported_key;
 }
@@ -4728,7 +4728,7 @@ function im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__IV(invite
   this.im_actor_model_api_ServiceExUserInvited_invitedUid = invitedUid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(112, 998, {112:1, 4:1}, im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__V, im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(113, 999, {113:1, 4:1}, im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__V, im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__IV);
 _.getHeader__I = function im_actor_model_api_ServiceExUserInvited_getHeader__I(){
   return 1;
 }
@@ -4759,11 +4759,11 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_ServiceExUserInvi
 }
 ;
 _.im_actor_model_api_ServiceExUserInvited_invitedUid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceExUserInvited_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(112);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceExUserInvited_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(113);
 function im_actor_model_api_ServiceExUserJoined_ServiceExUserJoined__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(311, 998, {311:1, 4:1}, im_actor_model_api_ServiceExUserJoined_ServiceExUserJoined__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(311, 999, {311:1, 4:1}, im_actor_model_api_ServiceExUserJoined_ServiceExUserJoined__V);
 _.getHeader__I = function im_actor_model_api_ServiceExUserJoined_getHeader__I(){
   return 17;
 }
@@ -4798,7 +4798,7 @@ function im_actor_model_api_ServiceExUserKicked_ServiceExUserKicked__IV(kickedUi
   this.im_actor_model_api_ServiceExUserKicked_kickedUid = kickedUid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(144, 998, {144:1, 4:1}, im_actor_model_api_ServiceExUserKicked_ServiceExUserKicked__V, im_actor_model_api_ServiceExUserKicked_ServiceExUserKicked__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(144, 999, {144:1, 4:1}, im_actor_model_api_ServiceExUserKicked_ServiceExUserKicked__V, im_actor_model_api_ServiceExUserKicked_ServiceExUserKicked__IV);
 _.getHeader__I = function im_actor_model_api_ServiceExUserKicked_getHeader__I(){
   return 2;
 }
@@ -4833,7 +4833,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1ServiceExUser
 function im_actor_model_api_ServiceExUserLeft_ServiceExUserLeft__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(140, 998, {140:1, 4:1}, im_actor_model_api_ServiceExUserLeft_ServiceExUserLeft__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(140, 999, {140:1, 4:1}, im_actor_model_api_ServiceExUserLeft_ServiceExUserLeft__V);
 _.getHeader__I = function im_actor_model_api_ServiceExUserLeft_getHeader__I(){
   return 3;
 }
@@ -4869,7 +4869,7 @@ function im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Li
   this.im_actor_model_api_ServiceMessage_ext = ext;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(36, 997, {36:1, 4:1}, im_actor_model_api_ServiceMessage_ServiceMessage__V, im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(36, 998, {36:1, 4:1}, im_actor_model_api_ServiceMessage_ServiceMessage__V, im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V);
 _.getHeader__I = function im_actor_model_api_ServiceMessage_getHeader__I(){
   return 2;
 }
@@ -4934,13 +4934,13 @@ function im_actor_model_api_Sex_parse__ILim_actor_model_api_Sex_2(value_0){
 
 function im_actor_model_api_Sex_values___3Lim_actor_model_api_Sex_2(){
   im_actor_model_api_Sex_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Sex_12_1classLit, 1), $intern_8, 113, 0, [im_actor_model_api_Sex_UNKNOWN, im_actor_model_api_Sex_MALE, im_actor_model_api_Sex_FEMALE, im_actor_model_api_Sex_UNSUPPORTED_1VALUE]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Sex_12_1classLit, 1), $intern_8, 114, 0, [im_actor_model_api_Sex_UNKNOWN, im_actor_model_api_Sex_MALE, im_actor_model_api_Sex_FEMALE, im_actor_model_api_Sex_UNSUPPORTED_1VALUE]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(113, 17, {113:1, 3:1, 28:1, 17:1}, im_actor_model_api_Sex_Sex__Ljava_lang_String_2IIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(114, 17, {114:1, 3:1, 28:1, 17:1}, im_actor_model_api_Sex_Sex__Ljava_lang_String_2IIV);
 _.im_actor_model_api_Sex_value = 0;
 var im_actor_model_api_Sex_FEMALE, im_actor_model_api_Sex_MALE, im_actor_model_api_Sex_UNKNOWN, im_actor_model_api_Sex_UNSUPPORTED_1VALUE;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Sex_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(113, im_actor_model_api_Sex_values___3Lim_actor_model_api_Sex_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1Sex_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(114, im_actor_model_api_Sex_values___3Lim_actor_model_api_Sex_2);
 function im_actor_model_api_TextMessageEx_$buildContainer__Lim_actor_model_api_TextMessageEx_2_3B(this$static){
   var res, writer;
   res = new im_actor_model_droidkit_bser_DataOutput_DataOutput__V;
@@ -4962,12 +4962,12 @@ function im_actor_model_api_TextMessageEx_fromBytes___3BLim_actor_model_api_Text
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2($intern_10, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1TextMessageEx_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_10);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1001, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1TextMessageEx_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1001);
 function im_actor_model_api_TextExMarkdown_TextExMarkdown__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(854, $intern_10, $intern_32, im_actor_model_api_TextExMarkdown_TextExMarkdown__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(854, 1001, $intern_32, im_actor_model_api_TextExMarkdown_TextExMarkdown__V);
 _.getHeader__I = function im_actor_model_api_TextExMarkdown_getHeader__I(){
   return 1;
 }
@@ -5010,7 +5010,7 @@ function im_actor_model_api_TextMessage_TextMessage__Ljava_lang_String_2Ljava_ut
   this.im_actor_model_api_TextMessage_ext = null;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(111, 997, {111:1, 4:1}, im_actor_model_api_TextMessage_TextMessage__V, im_actor_model_api_TextMessage_TextMessage__Ljava_lang_String_2Ljava_util_List_2Lim_actor_model_api_TextMessageEx_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(112, 998, {112:1, 4:1}, im_actor_model_api_TextMessage_TextMessage__V, im_actor_model_api_TextMessage_TextMessage__Ljava_lang_String_2Ljava_util_List_2Lim_actor_model_api_TextMessageEx_2V);
 _.getHeader__I = function im_actor_model_api_TextMessage_getHeader__I(){
   return 1;
 }
@@ -5048,13 +5048,13 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_TextMessage_toStr
   return res;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1TextMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(111);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1TextMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(112);
 function im_actor_model_api_TextMessageExUnsupported_TextMessageExUnsupported__I_3BV(key, content){
   this.im_actor_model_api_TextMessageExUnsupported_key = key;
   this.im_actor_model_api_TextMessageExUnsupported_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(855, $intern_10, $intern_32, im_actor_model_api_TextMessageExUnsupported_TextMessageExUnsupported__I_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(855, 1001, $intern_32, im_actor_model_api_TextMessageExUnsupported_TextMessageExUnsupported__I_3BV);
 _.getHeader__I = function im_actor_model_api_TextMessageExUnsupported_getHeader__I(){
   return this.im_actor_model_api_TextMessageExUnsupported_key;
 }
@@ -5200,10 +5200,10 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_UserOutPeer_toStr
 _.im_actor_model_api_UserOutPeer_accessHash = {l:0, m:0, h:0};
 _.im_actor_model_api_UserOutPeer_uid = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1UserOutPeer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(61);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(985, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1HeaderBserObject_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(985);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(986, 985, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1RpcScope_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(986);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(986, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1HeaderBserObject_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(986);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(987, 986, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1RpcScope_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(987);
 function im_actor_model_api_base_FatSeqUpdate_FatSeqUpdate__V(){
 }
 
@@ -5216,7 +5216,7 @@ function im_actor_model_api_base_FatSeqUpdate_FatSeqUpdate__I_3BI_3BLjava_util_L
   this.im_actor_model_api_base_FatSeqUpdate_groups = groups;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(72, 986, {72:1, 4:1}, im_actor_model_api_base_FatSeqUpdate_FatSeqUpdate__V, im_actor_model_api_base_FatSeqUpdate_FatSeqUpdate__I_3BI_3BLjava_util_List_2Ljava_util_List_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(72, 987, {72:1, 4:1}, im_actor_model_api_base_FatSeqUpdate_FatSeqUpdate__V, im_actor_model_api_base_FatSeqUpdate_FatSeqUpdate__I_3BI_3BLjava_util_List_2Ljava_util_List_2V);
 _.getHeaderKey__I = function im_actor_model_api_base_FatSeqUpdate_getHeaderKey__I(){
   return 73;
 }
@@ -5280,7 +5280,7 @@ function im_actor_model_api_base_SeqUpdate_SeqUpdate__I_3BI_3BV(seq, state, upda
   this.im_actor_model_api_base_SeqUpdate_update = update;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(42, 986, {42:1, 4:1}, im_actor_model_api_base_SeqUpdate_SeqUpdate__V, im_actor_model_api_base_SeqUpdate_SeqUpdate__I_3BI_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(42, 987, {42:1, 4:1}, im_actor_model_api_base_SeqUpdate_SeqUpdate__V, im_actor_model_api_base_SeqUpdate_SeqUpdate__I_3BI_3BV);
 _.getHeaderKey__I = function im_actor_model_api_base_SeqUpdate_getHeaderKey__I(){
   return 13;
 }
@@ -5322,7 +5322,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1base_1SeqUpda
 function im_actor_model_api_base_SeqUpdateTooLong_SeqUpdateTooLong__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(317, 986, {317:1, 4:1}, im_actor_model_api_base_SeqUpdateTooLong_SeqUpdateTooLong__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(317, 987, {317:1, 4:1}, im_actor_model_api_base_SeqUpdateTooLong_SeqUpdateTooLong__V);
 _.getHeaderKey__I = function im_actor_model_api_base_SeqUpdateTooLong_getHeaderKey__I(){
   return 25;
 }
@@ -5344,7 +5344,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1base_1SeqUpda
 function im_actor_model_api_base_WeakUpdate_WeakUpdate__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(207, 986, {207:1, 4:1}, im_actor_model_api_base_WeakUpdate_WeakUpdate__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(207, 987, {207:1, 4:1}, im_actor_model_api_base_WeakUpdate_WeakUpdate__V);
 _.getHeaderKey__I = function im_actor_model_api_base_WeakUpdate_getHeaderKey__I(){
   return 26;
 }
@@ -5635,8 +5635,8 @@ function im_actor_model_api_parser_UpdatesParser_$read__Lim_actor_model_api_pars
   throw new java_io_IOException_IOException__V;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(987, 986, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1Request_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(987);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(988, 987, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1Request_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(988);
 function im_actor_model_api_rpc_RequestAddContact_RequestAddContact__V(){
 }
 
@@ -5645,7 +5645,7 @@ function im_actor_model_api_rpc_RequestAddContact_RequestAddContact__IJV(uid, ac
   this.im_actor_model_api_rpc_RequestAddContact_accessHash = accessHash;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(392, 987, $intern_32, im_actor_model_api_rpc_RequestAddContact_RequestAddContact__V, im_actor_model_api_rpc_RequestAddContact_RequestAddContact__IJV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(392, 988, $intern_32, im_actor_model_api_rpc_RequestAddContact_RequestAddContact__V, im_actor_model_api_rpc_RequestAddContact_RequestAddContact__IJV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestAddContact_getHeaderKey__I(){
   return 114;
 }
@@ -5678,7 +5678,7 @@ function im_actor_model_api_rpc_RequestClearChat_RequestClearChat__Lim_actor_mod
   this.im_actor_model_api_rpc_RequestClearChat_peer = peer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(384, 987, $intern_32, im_actor_model_api_rpc_RequestClearChat_RequestClearChat__V, im_actor_model_api_rpc_RequestClearChat_RequestClearChat__Lim_actor_model_api_OutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(384, 988, $intern_32, im_actor_model_api_rpc_RequestClearChat_RequestClearChat__V, im_actor_model_api_rpc_RequestClearChat_RequestClearChat__Lim_actor_model_api_OutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestClearChat_getHeaderKey__I(){
   return 99;
 }
@@ -5711,7 +5711,7 @@ function im_actor_model_api_rpc_RequestCommitFileUpload_RequestCommitFileUpload_
   this.im_actor_model_api_rpc_RequestCommitFileUpload_fileName = fileName;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(445, 987, $intern_32, im_actor_model_api_rpc_RequestCommitFileUpload_RequestCommitFileUpload__V, im_actor_model_api_rpc_RequestCommitFileUpload_RequestCommitFileUpload___3BLjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(445, 988, $intern_32, im_actor_model_api_rpc_RequestCommitFileUpload_RequestCommitFileUpload__V, im_actor_model_api_rpc_RequestCommitFileUpload_RequestCommitFileUpload___3BLjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestCommitFileUpload_getHeaderKey__I(){
   return 122;
 }
@@ -5743,7 +5743,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestC
 function im_actor_model_api_rpc_RequestCreateGroup_RequestCreateGroup__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(888, 987, $intern_32, im_actor_model_api_rpc_RequestCreateGroup_RequestCreateGroup__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(888, 988, $intern_32, im_actor_model_api_rpc_RequestCreateGroup_RequestCreateGroup__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestCreateGroup_getHeaderKey__I(){
   return 65;
 }
@@ -5787,7 +5787,7 @@ function im_actor_model_api_rpc_RequestDeleteChat_RequestDeleteChat__Lim_actor_m
   this.im_actor_model_api_rpc_RequestDeleteChat_peer = peer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(385, 987, $intern_32, im_actor_model_api_rpc_RequestDeleteChat_RequestDeleteChat__V, im_actor_model_api_rpc_RequestDeleteChat_RequestDeleteChat__Lim_actor_model_api_OutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(385, 988, $intern_32, im_actor_model_api_rpc_RequestDeleteChat_RequestDeleteChat__V, im_actor_model_api_rpc_RequestDeleteChat_RequestDeleteChat__Lim_actor_model_api_OutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestDeleteChat_getHeaderKey__I(){
   return 100;
 }
@@ -5820,7 +5820,7 @@ function im_actor_model_api_rpc_RequestDeleteMessage_RequestDeleteMessage__Lim_a
   this.im_actor_model_api_rpc_RequestDeleteMessage_rids = rids;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(436, 987, $intern_32, im_actor_model_api_rpc_RequestDeleteMessage_RequestDeleteMessage__V, im_actor_model_api_rpc_RequestDeleteMessage_RequestDeleteMessage__Lim_actor_model_api_OutPeer_2Ljava_util_List_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(436, 988, $intern_32, im_actor_model_api_rpc_RequestDeleteMessage_RequestDeleteMessage__V, im_actor_model_api_rpc_RequestDeleteMessage_RequestDeleteMessage__Lim_actor_model_api_OutPeer_2Ljava_util_List_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestDeleteMessage_getHeaderKey__I(){
   return 98;
 }
@@ -5851,7 +5851,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestD
 function im_actor_model_api_rpc_RequestDisableInterests_RequestDisableInterests__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(895, 987, $intern_32, im_actor_model_api_rpc_RequestDisableInterests_RequestDisableInterests__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(895, 988, $intern_32, im_actor_model_api_rpc_RequestDisableInterests_RequestDisableInterests__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestDisableInterests_getHeaderKey__I(){
   return 158;
 }
@@ -5880,7 +5880,7 @@ function im_actor_model_api_rpc_RequestEditAvatar_RequestEditAvatar__Lim_actor_m
   this.im_actor_model_api_rpc_RequestEditAvatar_fileLocation = fileLocation;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(427, 987, $intern_32, im_actor_model_api_rpc_RequestEditAvatar_RequestEditAvatar__V, im_actor_model_api_rpc_RequestEditAvatar_RequestEditAvatar__Lim_actor_model_api_FileLocation_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(427, 988, $intern_32, im_actor_model_api_rpc_RequestEditAvatar_RequestEditAvatar__V, im_actor_model_api_rpc_RequestEditAvatar_RequestEditAvatar__Lim_actor_model_api_FileLocation_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEditAvatar_getHeaderKey__I(){
   return 31;
 }
@@ -5914,7 +5914,7 @@ function im_actor_model_api_rpc_RequestEditGroupAvatar_RequestEditGroupAvatar__L
   this.im_actor_model_api_rpc_RequestEditGroupAvatar_fileLocation = fileLocation;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(428, 987, $intern_32, im_actor_model_api_rpc_RequestEditGroupAvatar_RequestEditGroupAvatar__V, im_actor_model_api_rpc_RequestEditGroupAvatar_RequestEditGroupAvatar__Lim_actor_model_api_GroupOutPeer_2JLim_actor_model_api_FileLocation_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(428, 988, $intern_32, im_actor_model_api_rpc_RequestEditGroupAvatar_RequestEditGroupAvatar__V, im_actor_model_api_rpc_RequestEditGroupAvatar_RequestEditGroupAvatar__Lim_actor_model_api_GroupOutPeer_2JLim_actor_model_api_FileLocation_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEditGroupAvatar_getHeaderKey__I(){
   return 86;
 }
@@ -5958,7 +5958,7 @@ function im_actor_model_api_rpc_RequestEditGroupTitle_RequestEditGroupTitle__Lim
   this.im_actor_model_api_rpc_RequestEditGroupTitle_title = title_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(395, 987, $intern_32, im_actor_model_api_rpc_RequestEditGroupTitle_RequestEditGroupTitle__V, im_actor_model_api_rpc_RequestEditGroupTitle_RequestEditGroupTitle__Lim_actor_model_api_GroupOutPeer_2JLjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(395, 988, $intern_32, im_actor_model_api_rpc_RequestEditGroupTitle_RequestEditGroupTitle__V, im_actor_model_api_rpc_RequestEditGroupTitle_RequestEditGroupTitle__Lim_actor_model_api_GroupOutPeer_2JLjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEditGroupTitle_getHeaderKey__I(){
   return 85;
 }
@@ -6000,7 +6000,7 @@ function im_actor_model_api_rpc_RequestEditName_RequestEditName__Ljava_lang_Stri
   this.im_actor_model_api_rpc_RequestEditName_name = name_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(396, 987, $intern_32, im_actor_model_api_rpc_RequestEditName_RequestEditName__V, im_actor_model_api_rpc_RequestEditName_RequestEditName__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(396, 988, $intern_32, im_actor_model_api_rpc_RequestEditName_RequestEditName__V, im_actor_model_api_rpc_RequestEditName_RequestEditName__Ljava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEditName_getHeaderKey__I(){
   return 53;
 }
@@ -6033,7 +6033,7 @@ function im_actor_model_api_rpc_RequestEditParameter_RequestEditParameter__Ljava
   this.im_actor_model_api_rpc_RequestEditParameter_value = value_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(322, 987, $intern_32, im_actor_model_api_rpc_RequestEditParameter_RequestEditParameter__V, im_actor_model_api_rpc_RequestEditParameter_RequestEditParameter__Ljava_lang_String_2Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(322, 988, $intern_32, im_actor_model_api_rpc_RequestEditParameter_RequestEditParameter__V, im_actor_model_api_rpc_RequestEditParameter_RequestEditParameter__Ljava_lang_String_2Ljava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEditParameter_getHeaderKey__I(){
   return 128;
 }
@@ -6073,7 +6073,7 @@ function im_actor_model_api_rpc_RequestEditUserLocalName_RequestEditUserLocalNam
   this.im_actor_model_api_rpc_RequestEditUserLocalName_name = name_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(397, 987, $intern_32, im_actor_model_api_rpc_RequestEditUserLocalName_RequestEditUserLocalName__V, im_actor_model_api_rpc_RequestEditUserLocalName_RequestEditUserLocalName__IJLjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(397, 988, $intern_32, im_actor_model_api_rpc_RequestEditUserLocalName_RequestEditUserLocalName__V, im_actor_model_api_rpc_RequestEditUserLocalName_RequestEditUserLocalName__IJLjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEditUserLocalName_getHeaderKey__I(){
   return 96;
 }
@@ -6108,7 +6108,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestE
 function im_actor_model_api_rpc_RequestEnableInterests_RequestEnableInterests__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(894, 987, $intern_32, im_actor_model_api_rpc_RequestEnableInterests_RequestEnableInterests__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(894, 988, $intern_32, im_actor_model_api_rpc_RequestEnableInterests_RequestEnableInterests__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestEnableInterests_getHeaderKey__I(){
   return 157;
 }
@@ -6133,7 +6133,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestE
 function im_actor_model_api_rpc_RequestGetAuthSessions_RequestGetAuthSessions__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(883, 987, $intern_32, im_actor_model_api_rpc_RequestGetAuthSessions_RequestGetAuthSessions__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(883, 988, $intern_32, im_actor_model_api_rpc_RequestGetAuthSessions_RequestGetAuthSessions__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetAuthSessions_getHeaderKey__I(){
   return 80;
 }
@@ -6155,7 +6155,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestG
 function im_actor_model_api_rpc_RequestGetAvailableInterests_RequestGetAvailableInterests__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(893, 987, $intern_32, im_actor_model_api_rpc_RequestGetAvailableInterests_RequestGetAvailableInterests__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(893, 988, $intern_32, im_actor_model_api_rpc_RequestGetAvailableInterests_RequestGetAvailableInterests__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetAvailableInterests_getHeaderKey__I(){
   return 152;
 }
@@ -6181,7 +6181,7 @@ function im_actor_model_api_rpc_RequestGetContacts_RequestGetContacts__Ljava_lan
   this.im_actor_model_api_rpc_RequestGetContacts_contactsHash = contactsHash;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(431, 987, $intern_32, im_actor_model_api_rpc_RequestGetContacts_RequestGetContacts__V, im_actor_model_api_rpc_RequestGetContacts_RequestGetContacts__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(431, 988, $intern_32, im_actor_model_api_rpc_RequestGetContacts_RequestGetContacts__V, im_actor_model_api_rpc_RequestGetContacts_RequestGetContacts__Ljava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetContacts_getHeaderKey__I(){
   return 87;
 }
@@ -6214,7 +6214,7 @@ function im_actor_model_api_rpc_RequestGetDifference_RequestGetDifference__I_3BV
   this.im_actor_model_api_rpc_RequestGetDifference_state = state;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(438, 987, $intern_32, im_actor_model_api_rpc_RequestGetDifference_RequestGetDifference__V, im_actor_model_api_rpc_RequestGetDifference_RequestGetDifference__I_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(438, 988, $intern_32, im_actor_model_api_rpc_RequestGetDifference_RequestGetDifference__V, im_actor_model_api_rpc_RequestGetDifference_RequestGetDifference__I_3BV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetDifference_getHeaderKey__I(){
   return 11;
 }
@@ -6252,7 +6252,7 @@ function im_actor_model_api_rpc_RequestGetFileUploadPartUrl_RequestGetFileUpload
   this.im_actor_model_api_rpc_RequestGetFileUploadPartUrl_uploadKey = uploadKey;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(446, 987, $intern_32, im_actor_model_api_rpc_RequestGetFileUploadPartUrl_RequestGetFileUploadPartUrl__V, im_actor_model_api_rpc_RequestGetFileUploadPartUrl_RequestGetFileUploadPartUrl__II_3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(446, 988, $intern_32, im_actor_model_api_rpc_RequestGetFileUploadPartUrl_RequestGetFileUploadPartUrl__V, im_actor_model_api_rpc_RequestGetFileUploadPartUrl_RequestGetFileUploadPartUrl__II_3BV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetFileUploadPartUrl_getHeaderKey__I(){
   return 142;
 }
@@ -6290,7 +6290,7 @@ function im_actor_model_api_rpc_RequestGetFileUploadUrl_RequestGetFileUploadUrl_
   this.im_actor_model_api_rpc_RequestGetFileUploadUrl_expectedSize = expectedSize;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(444, 987, $intern_32, im_actor_model_api_rpc_RequestGetFileUploadUrl_RequestGetFileUploadUrl__V, im_actor_model_api_rpc_RequestGetFileUploadUrl_RequestGetFileUploadUrl__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(444, 988, $intern_32, im_actor_model_api_rpc_RequestGetFileUploadUrl_RequestGetFileUploadUrl__V, im_actor_model_api_rpc_RequestGetFileUploadUrl_RequestGetFileUploadUrl__IV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetFileUploadUrl_getHeaderKey__I(){
   return 97;
 }
@@ -6320,7 +6320,7 @@ function im_actor_model_api_rpc_RequestGetFileUrl_RequestGetFileUrl__Lim_actor_m
   this.im_actor_model_api_rpc_RequestGetFileUrl_file = file;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(393, 987, $intern_32, im_actor_model_api_rpc_RequestGetFileUrl_RequestGetFileUrl__V, im_actor_model_api_rpc_RequestGetFileUrl_RequestGetFileUrl__Lim_actor_model_api_FileLocation_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(393, 988, $intern_32, im_actor_model_api_rpc_RequestGetFileUrl_RequestGetFileUrl__V, im_actor_model_api_rpc_RequestGetFileUrl_RequestGetFileUrl__Lim_actor_model_api_FileLocation_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetFileUrl_getHeaderKey__I(){
   return 77;
 }
@@ -6352,7 +6352,7 @@ function im_actor_model_api_rpc_RequestGetGroupInviteUrl_RequestGetGroupInviteUr
   this.im_actor_model_api_rpc_RequestGetGroupInviteUrl_groupPeer = groupPeer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(399, 987, $intern_32, im_actor_model_api_rpc_RequestGetGroupInviteUrl_RequestGetGroupInviteUrl__V, im_actor_model_api_rpc_RequestGetGroupInviteUrl_RequestGetGroupInviteUrl__Lim_actor_model_api_GroupOutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(399, 988, $intern_32, im_actor_model_api_rpc_RequestGetGroupInviteUrl_RequestGetGroupInviteUrl__V, im_actor_model_api_rpc_RequestGetGroupInviteUrl_RequestGetGroupInviteUrl__Lim_actor_model_api_GroupOutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetGroupInviteUrl_getHeaderKey__I(){
   return 177;
 }
@@ -6384,7 +6384,7 @@ function im_actor_model_api_rpc_RequestGetIntegrationToken_RequestGetIntegration
   this.im_actor_model_api_rpc_RequestGetIntegrationToken_groupPeer = groupPeer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(398, 987, $intern_32, im_actor_model_api_rpc_RequestGetIntegrationToken_RequestGetIntegrationToken__V, im_actor_model_api_rpc_RequestGetIntegrationToken_RequestGetIntegrationToken__Lim_actor_model_api_OutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(398, 988, $intern_32, im_actor_model_api_rpc_RequestGetIntegrationToken_RequestGetIntegrationToken__V, im_actor_model_api_rpc_RequestGetIntegrationToken_RequestGetIntegrationToken__Lim_actor_model_api_OutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetIntegrationToken_getHeaderKey__I(){
   return 182;
 }
@@ -6412,7 +6412,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestG
 function im_actor_model_api_rpc_RequestGetParameters_RequestGetParameters__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(419, 987, $intern_32, im_actor_model_api_rpc_RequestGetParameters_RequestGetParameters__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(419, 988, $intern_32, im_actor_model_api_rpc_RequestGetParameters_RequestGetParameters__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetParameters_getHeaderKey__I(){
   return 134;
 }
@@ -6434,7 +6434,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestG
 function im_actor_model_api_rpc_RequestGetState_RequestGetState__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(437, 987, $intern_32, im_actor_model_api_rpc_RequestGetState_RequestGetState__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(437, 988, $intern_32, im_actor_model_api_rpc_RequestGetState_RequestGetState__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetState_getHeaderKey__I(){
   return 9;
 }
@@ -6456,7 +6456,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestG
 function im_actor_model_api_rpc_RequestGetVoxUser_RequestGetVoxUser__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(892, 987, $intern_32, im_actor_model_api_rpc_RequestGetVoxUser_RequestGetVoxUser__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(892, 988, $intern_32, im_actor_model_api_rpc_RequestGetVoxUser_RequestGetVoxUser__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestGetVoxUser_getHeaderKey__I(){
   return 131;
 }
@@ -6489,7 +6489,7 @@ function im_actor_model_api_rpc_RequestImportContacts_RequestImportContacts__Lja
   this.im_actor_model_api_rpc_RequestImportContacts_emails = emails;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(443, 987, $intern_32, im_actor_model_api_rpc_RequestImportContacts_RequestImportContacts__V, im_actor_model_api_rpc_RequestImportContacts_RequestImportContacts__Ljava_util_List_2Ljava_util_List_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(443, 988, $intern_32, im_actor_model_api_rpc_RequestImportContacts_RequestImportContacts__V, im_actor_model_api_rpc_RequestImportContacts_RequestImportContacts__Ljava_util_List_2Ljava_util_List_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestImportContacts_getHeaderKey__I(){
   return 7;
 }
@@ -6526,7 +6526,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestI
 function im_actor_model_api_rpc_RequestInitVoxSupport_RequestInitVoxSupport__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(891, 987, $intern_32, im_actor_model_api_rpc_RequestInitVoxSupport_RequestInitVoxSupport__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(891, 988, $intern_32, im_actor_model_api_rpc_RequestInitVoxSupport_RequestInitVoxSupport__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestInitVoxSupport_getHeaderKey__I(){
   return 130;
 }
@@ -6554,7 +6554,7 @@ function im_actor_model_api_rpc_RequestInviteUser_RequestInviteUser__Lim_actor_m
   this.im_actor_model_api_rpc_RequestInviteUser_user = user;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(400, 987, $intern_32, im_actor_model_api_rpc_RequestInviteUser_RequestInviteUser__V, im_actor_model_api_rpc_RequestInviteUser_RequestInviteUser__Lim_actor_model_api_GroupOutPeer_2JLim_actor_model_api_UserOutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(400, 988, $intern_32, im_actor_model_api_rpc_RequestInviteUser_RequestInviteUser__V, im_actor_model_api_rpc_RequestInviteUser_RequestInviteUser__Lim_actor_model_api_GroupOutPeer_2JLim_actor_model_api_UserOutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestInviteUser_getHeaderKey__I(){
   return 69;
 }
@@ -6592,7 +6592,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestI
 function im_actor_model_api_rpc_RequestJoinGroup_RequestJoinGroup__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(890, 987, $intern_32, im_actor_model_api_rpc_RequestJoinGroup_RequestJoinGroup__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(890, 988, $intern_32, im_actor_model_api_rpc_RequestJoinGroup_RequestJoinGroup__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestJoinGroup_getHeaderKey__I(){
   return 180;
 }
@@ -6625,7 +6625,7 @@ function im_actor_model_api_rpc_RequestKickUser_RequestKickUser__Lim_actor_model
   this.im_actor_model_api_rpc_RequestKickUser_user = user;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(401, 987, $intern_32, im_actor_model_api_rpc_RequestKickUser_RequestKickUser__V, im_actor_model_api_rpc_RequestKickUser_RequestKickUser__Lim_actor_model_api_GroupOutPeer_2JLim_actor_model_api_UserOutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(401, 988, $intern_32, im_actor_model_api_rpc_RequestKickUser_RequestKickUser__V, im_actor_model_api_rpc_RequestKickUser_RequestKickUser__Lim_actor_model_api_GroupOutPeer_2JLim_actor_model_api_UserOutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestKickUser_getHeaderKey__I(){
   return 71;
 }
@@ -6668,7 +6668,7 @@ function im_actor_model_api_rpc_RequestLeaveGroup_RequestLeaveGroup__Lim_actor_m
   this.im_actor_model_api_rpc_RequestLeaveGroup_rid = rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(402, 987, $intern_32, im_actor_model_api_rpc_RequestLeaveGroup_RequestLeaveGroup__V, im_actor_model_api_rpc_RequestLeaveGroup_RequestLeaveGroup__Lim_actor_model_api_GroupOutPeer_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(402, 988, $intern_32, im_actor_model_api_rpc_RequestLeaveGroup_RequestLeaveGroup__V, im_actor_model_api_rpc_RequestLeaveGroup_RequestLeaveGroup__Lim_actor_model_api_GroupOutPeer_2JV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestLeaveGroup_getHeaderKey__I(){
   return 70;
 }
@@ -6705,7 +6705,7 @@ function im_actor_model_api_rpc_RequestLoadDialogs_RequestLoadDialogs__JIV(minDa
   this.im_actor_model_api_rpc_RequestLoadDialogs_limit = 20;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(432, 987, $intern_32, im_actor_model_api_rpc_RequestLoadDialogs_RequestLoadDialogs__V, im_actor_model_api_rpc_RequestLoadDialogs_RequestLoadDialogs__JIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(432, 988, $intern_32, im_actor_model_api_rpc_RequestLoadDialogs_RequestLoadDialogs__V, im_actor_model_api_rpc_RequestLoadDialogs_RequestLoadDialogs__JIV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestLoadDialogs_getHeaderKey__I(){
   return 104;
 }
@@ -6741,7 +6741,7 @@ function im_actor_model_api_rpc_RequestLoadHistory_RequestLoadHistory__Lim_actor
   this.im_actor_model_api_rpc_RequestLoadHistory_limit = 20;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(424, 987, $intern_32, im_actor_model_api_rpc_RequestLoadHistory_RequestLoadHistory__V, im_actor_model_api_rpc_RequestLoadHistory_RequestLoadHistory__Lim_actor_model_api_OutPeer_2JIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(424, 988, $intern_32, im_actor_model_api_rpc_RequestLoadHistory_RequestLoadHistory__V, im_actor_model_api_rpc_RequestLoadHistory_RequestLoadHistory__Lim_actor_model_api_OutPeer_2JIV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestLoadHistory_getHeaderKey__I(){
   return 118;
 }
@@ -6782,7 +6782,7 @@ function im_actor_model_api_rpc_RequestMessageRead_RequestMessageRead__Lim_actor
   this.im_actor_model_api_rpc_RequestMessageRead_date = date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(433, 987, $intern_32, im_actor_model_api_rpc_RequestMessageRead_RequestMessageRead__V, im_actor_model_api_rpc_RequestMessageRead_RequestMessageRead__Lim_actor_model_api_OutPeer_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(433, 988, $intern_32, im_actor_model_api_rpc_RequestMessageRead_RequestMessageRead__V, im_actor_model_api_rpc_RequestMessageRead_RequestMessageRead__Lim_actor_model_api_OutPeer_2JV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestMessageRead_getHeaderKey__I(){
   return 57;
 }
@@ -6819,7 +6819,7 @@ function im_actor_model_api_rpc_RequestMessageReceived_RequestMessageReceived__L
   this.im_actor_model_api_rpc_RequestMessageReceived_date = date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(434, 987, $intern_32, im_actor_model_api_rpc_RequestMessageReceived_RequestMessageReceived__V, im_actor_model_api_rpc_RequestMessageReceived_RequestMessageReceived__Lim_actor_model_api_OutPeer_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(434, 988, $intern_32, im_actor_model_api_rpc_RequestMessageReceived_RequestMessageReceived__V, im_actor_model_api_rpc_RequestMessageReceived_RequestMessageReceived__Lim_actor_model_api_OutPeer_2JV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestMessageReceived_getHeaderKey__I(){
   return 55;
 }
@@ -6851,7 +6851,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestM
 function im_actor_model_api_rpc_RequestNotifyAdView_RequestNotifyAdView__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(896, 987, $intern_32, im_actor_model_api_rpc_RequestNotifyAdView_RequestNotifyAdView__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(896, 988, $intern_32, im_actor_model_api_rpc_RequestNotifyAdView_RequestNotifyAdView__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestNotifyAdView_getHeaderKey__I(){
   return 162;
 }
@@ -6886,7 +6886,7 @@ function im_actor_model_api_rpc_RequestRegisterApplePush_RequestRegisterApplePus
   this.im_actor_model_api_rpc_RequestRegisterApplePush_token = token;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(426, 987, $intern_32, im_actor_model_api_rpc_RequestRegisterApplePush_RequestRegisterApplePush__V, im_actor_model_api_rpc_RequestRegisterApplePush_RequestRegisterApplePush__ILjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(426, 988, $intern_32, im_actor_model_api_rpc_RequestRegisterApplePush_RequestRegisterApplePush__V, im_actor_model_api_rpc_RequestRegisterApplePush_RequestRegisterApplePush__ILjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRegisterApplePush_getHeaderKey__I(){
   return 76;
 }
@@ -6921,7 +6921,7 @@ function im_actor_model_api_rpc_RequestRegisterGooglePush_RequestRegisterGoogleP
   this.im_actor_model_api_rpc_RequestRegisterGooglePush_token = token;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(425, 987, $intern_32, im_actor_model_api_rpc_RequestRegisterGooglePush_RequestRegisterGooglePush__V, im_actor_model_api_rpc_RequestRegisterGooglePush_RequestRegisterGooglePush__JLjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(425, 988, $intern_32, im_actor_model_api_rpc_RequestRegisterGooglePush_RequestRegisterGooglePush__V, im_actor_model_api_rpc_RequestRegisterGooglePush_RequestRegisterGooglePush__JLjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRegisterGooglePush_getHeaderKey__I(){
   return 51;
 }
@@ -6951,7 +6951,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestR
 function im_actor_model_api_rpc_RequestRemoveAvatar_RequestRemoveAvatar__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(867, 987, $intern_32, im_actor_model_api_rpc_RequestRemoveAvatar_RequestRemoveAvatar__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(867, 988, $intern_32, im_actor_model_api_rpc_RequestRemoveAvatar_RequestRemoveAvatar__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRemoveAvatar_getHeaderKey__I(){
   return 91;
 }
@@ -6978,7 +6978,7 @@ function im_actor_model_api_rpc_RequestRemoveContact_RequestRemoveContact__IJV(u
   this.im_actor_model_api_rpc_RequestRemoveContact_accessHash = accessHash;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(403, 987, $intern_32, im_actor_model_api_rpc_RequestRemoveContact_RequestRemoveContact__V, im_actor_model_api_rpc_RequestRemoveContact_RequestRemoveContact__IJV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(405, 988, $intern_32, im_actor_model_api_rpc_RequestRemoveContact_RequestRemoveContact__V, im_actor_model_api_rpc_RequestRemoveContact_RequestRemoveContact__IJV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRemoveContact_getHeaderKey__I(){
   return 89;
 }
@@ -7003,11 +7003,11 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_rpc_RequestRemove
 ;
 _.im_actor_model_api_rpc_RequestRemoveContact_accessHash = {l:0, m:0, h:0};
 _.im_actor_model_api_rpc_RequestRemoveContact_uid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestRemoveContact_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(403);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestRemoveContact_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(405);
 function im_actor_model_api_rpc_RequestRemoveGroupAvatar_RequestRemoveGroupAvatar__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(889, 987, $intern_32, im_actor_model_api_rpc_RequestRemoveGroupAvatar_RequestRemoveGroupAvatar__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(889, 988, $intern_32, im_actor_model_api_rpc_RequestRemoveGroupAvatar_RequestRemoveGroupAvatar__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRemoveGroupAvatar_getHeaderKey__I(){
   return 101;
 }
@@ -7043,7 +7043,7 @@ function im_actor_model_api_rpc_RequestRevokeIntegrationToken_RequestRevokeInteg
   this.im_actor_model_api_rpc_RequestRevokeIntegrationToken_groupPeer = groupPeer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(404, 987, $intern_32, im_actor_model_api_rpc_RequestRevokeIntegrationToken_RequestRevokeIntegrationToken__V, im_actor_model_api_rpc_RequestRevokeIntegrationToken_RequestRevokeIntegrationToken__Lim_actor_model_api_OutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(406, 988, $intern_32, im_actor_model_api_rpc_RequestRevokeIntegrationToken_RequestRevokeIntegrationToken__V, im_actor_model_api_rpc_RequestRevokeIntegrationToken_RequestRevokeIntegrationToken__Lim_actor_model_api_OutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRevokeIntegrationToken_getHeaderKey__I(){
   return 184;
 }
@@ -7067,7 +7067,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_rpc_RequestRevoke
   return res;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestRevokeIntegrationToken_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(404);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestRevokeIntegrationToken_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(406);
 function im_actor_model_api_rpc_RequestRevokeInviteUrl_RequestRevokeInviteUrl__V(){
 }
 
@@ -7075,7 +7075,7 @@ function im_actor_model_api_rpc_RequestRevokeInviteUrl_RequestRevokeInviteUrl__L
   this.im_actor_model_api_rpc_RequestRevokeInviteUrl_groupPeer = groupPeer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(405, 987, $intern_32, im_actor_model_api_rpc_RequestRevokeInviteUrl_RequestRevokeInviteUrl__V, im_actor_model_api_rpc_RequestRevokeInviteUrl_RequestRevokeInviteUrl__Lim_actor_model_api_GroupOutPeer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(407, 988, $intern_32, im_actor_model_api_rpc_RequestRevokeInviteUrl_RequestRevokeInviteUrl__V, im_actor_model_api_rpc_RequestRevokeInviteUrl_RequestRevokeInviteUrl__Lim_actor_model_api_GroupOutPeer_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestRevokeInviteUrl_getHeaderKey__I(){
   return 179;
 }
@@ -7099,11 +7099,11 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_rpc_RequestRevoke
   return res;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestRevokeInviteUrl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(405);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestRevokeInviteUrl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(407);
 function im_actor_model_api_rpc_RequestSearchContacts_RequestSearchContacts__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(887, 987, $intern_32, im_actor_model_api_rpc_RequestSearchContacts_RequestSearchContacts__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(887, 988, $intern_32, im_actor_model_api_rpc_RequestSearchContacts_RequestSearchContacts__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSearchContacts_getHeaderKey__I(){
   return 112;
 }
@@ -7131,7 +7131,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestS
 function im_actor_model_api_rpc_RequestSendAuthCall_RequestSendAuthCall__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(882, 987, $intern_32, im_actor_model_api_rpc_RequestSendAuthCall_RequestSendAuthCall__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(882, 988, $intern_32, im_actor_model_api_rpc_RequestSendAuthCall_RequestSendAuthCall__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSendAuthCall_getHeaderKey__I(){
   return 90;
 }
@@ -7176,7 +7176,7 @@ function im_actor_model_api_rpc_RequestSendAuthCode_RequestSendAuthCode__JILjava
   this.im_actor_model_api_rpc_RequestSendAuthCode_apiKey = apiKey;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(386, 987, $intern_32, im_actor_model_api_rpc_RequestSendAuthCode_RequestSendAuthCode__V, im_actor_model_api_rpc_RequestSendAuthCode_RequestSendAuthCode__JILjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(386, 988, $intern_32, im_actor_model_api_rpc_RequestSendAuthCode_RequestSendAuthCode__V, im_actor_model_api_rpc_RequestSendAuthCode_RequestSendAuthCode__JILjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSendAuthCode_getHeaderKey__I(){
   return 1;
 }
@@ -7216,7 +7216,7 @@ function im_actor_model_api_rpc_RequestSendMessage_RequestSendMessage__Lim_actor
   this.im_actor_model_api_rpc_RequestSendMessage_message = message;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(435, 987, $intern_32, im_actor_model_api_rpc_RequestSendMessage_RequestSendMessage__V, im_actor_model_api_rpc_RequestSendMessage_RequestSendMessage__Lim_actor_model_api_OutPeer_2JLim_actor_model_api_Message_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(435, 988, $intern_32, im_actor_model_api_rpc_RequestSendMessage_RequestSendMessage__V, im_actor_model_api_rpc_RequestSendMessage_RequestSendMessage__Lim_actor_model_api_OutPeer_2JLim_actor_model_api_Message_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSendMessage_getHeaderKey__I(){
   return 92;
 }
@@ -7259,7 +7259,7 @@ function im_actor_model_api_rpc_RequestSetOnline_RequestSetOnline__ZJV(isOnline)
   this.im_actor_model_api_rpc_RequestSetOnline_timeout = {l:90000, m:0, h:0};
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(429, 987, $intern_32, im_actor_model_api_rpc_RequestSetOnline_RequestSetOnline__V, im_actor_model_api_rpc_RequestSetOnline_RequestSetOnline__ZJV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(429, 988, $intern_32, im_actor_model_api_rpc_RequestSetOnline_RequestSetOnline__V, im_actor_model_api_rpc_RequestSetOnline_RequestSetOnline__ZJV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSetOnline_getHeaderKey__I(){
   return 29;
 }
@@ -7299,7 +7299,7 @@ function im_actor_model_api_rpc_RequestSignIn_RequestSignIn__JLjava_lang_String_
   this.im_actor_model_api_rpc_RequestSignIn_appKey = appKey;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(387, 987, $intern_32, im_actor_model_api_rpc_RequestSignIn_RequestSignIn__V, im_actor_model_api_rpc_RequestSignIn_RequestSignIn__JLjava_lang_String_2Ljava_lang_String_2_3BLjava_lang_String_2ILjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(387, 988, $intern_32, im_actor_model_api_rpc_RequestSignIn_RequestSignIn__V, im_actor_model_api_rpc_RequestSignIn_RequestSignIn__JLjava_lang_String_2Ljava_lang_String_2_3BLjava_lang_String_2ILjava_lang_String_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSignIn_getHeaderKey__I(){
   return 3;
 }
@@ -7354,7 +7354,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestS
 function im_actor_model_api_rpc_RequestSignOut_RequestSignOut__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(886, 987, $intern_32, im_actor_model_api_rpc_RequestSignOut_RequestSignOut__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(886, 988, $intern_32, im_actor_model_api_rpc_RequestSignOut_RequestSignOut__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSignOut_getHeaderKey__I(){
   return 84;
 }
@@ -7388,7 +7388,7 @@ function im_actor_model_api_rpc_RequestSignUp_RequestSignUp__JLjava_lang_String_
   this.im_actor_model_api_rpc_RequestSignUp_isSilent = isSilent;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(388, 987, $intern_32, im_actor_model_api_rpc_RequestSignUp_RequestSignUp__V, im_actor_model_api_rpc_RequestSignUp_RequestSignUp__JLjava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2_3BLjava_lang_String_2ILjava_lang_String_2ZV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(388, 988, $intern_32, im_actor_model_api_rpc_RequestSignUp_RequestSignUp__V, im_actor_model_api_rpc_RequestSignUp_RequestSignUp__JLjava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2_3BLjava_lang_String_2ILjava_lang_String_2ZV);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSignUp_getHeaderKey__I(){
   return 4;
 }
@@ -7452,7 +7452,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestS
 function im_actor_model_api_rpc_RequestSubscribeFromGroupOnline_RequestSubscribeFromGroupOnline__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(899, 987, $intern_32, im_actor_model_api_rpc_RequestSubscribeFromGroupOnline_RequestSubscribeFromGroupOnline__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(899, 988, $intern_32, im_actor_model_api_rpc_RequestSubscribeFromGroupOnline_RequestSubscribeFromGroupOnline__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSubscribeFromGroupOnline_getHeaderKey__I(){
   return 75;
 }
@@ -7482,7 +7482,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestS
 function im_actor_model_api_rpc_RequestSubscribeFromOnline_RequestSubscribeFromOnline__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(898, 987, $intern_32, im_actor_model_api_rpc_RequestSubscribeFromOnline_RequestSubscribeFromOnline__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(898, 988, $intern_32, im_actor_model_api_rpc_RequestSubscribeFromOnline_RequestSubscribeFromOnline__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSubscribeFromOnline_getHeaderKey__I(){
   return 33;
 }
@@ -7516,7 +7516,7 @@ function im_actor_model_api_rpc_RequestSubscribeToGroupOnline_RequestSubscribeTo
   this.im_actor_model_api_rpc_RequestSubscribeToGroupOnline_groups = groups;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(324, 987, $intern_32, im_actor_model_api_rpc_RequestSubscribeToGroupOnline_RequestSubscribeToGroupOnline__V, im_actor_model_api_rpc_RequestSubscribeToGroupOnline_RequestSubscribeToGroupOnline__Ljava_util_List_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(324, 988, $intern_32, im_actor_model_api_rpc_RequestSubscribeToGroupOnline_RequestSubscribeToGroupOnline__V, im_actor_model_api_rpc_RequestSubscribeToGroupOnline_RequestSubscribeToGroupOnline__Ljava_util_List_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSubscribeToGroupOnline_getHeaderKey__I(){
   return 74;
 }
@@ -7550,7 +7550,7 @@ function im_actor_model_api_rpc_RequestSubscribeToOnline_RequestSubscribeToOnlin
   this.im_actor_model_api_rpc_RequestSubscribeToOnline_users = users;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(323, 987, $intern_32, im_actor_model_api_rpc_RequestSubscribeToOnline_RequestSubscribeToOnline__V, im_actor_model_api_rpc_RequestSubscribeToOnline_RequestSubscribeToOnline__Ljava_util_List_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(323, 988, $intern_32, im_actor_model_api_rpc_RequestSubscribeToOnline_RequestSubscribeToOnline__V, im_actor_model_api_rpc_RequestSubscribeToOnline_RequestSubscribeToOnline__Ljava_util_List_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestSubscribeToOnline_getHeaderKey__I(){
   return 32;
 }
@@ -7580,7 +7580,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestS
 function im_actor_model_api_rpc_RequestTerminateAllSessions_RequestTerminateAllSessions__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(885, 987, $intern_32, im_actor_model_api_rpc_RequestTerminateAllSessions_RequestTerminateAllSessions__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(885, 988, $intern_32, im_actor_model_api_rpc_RequestTerminateAllSessions_RequestTerminateAllSessions__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestTerminateAllSessions_getHeaderKey__I(){
   return 83;
 }
@@ -7602,7 +7602,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestT
 function im_actor_model_api_rpc_RequestTerminateSession_RequestTerminateSession__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(884, 987, $intern_32, im_actor_model_api_rpc_RequestTerminateSession_RequestTerminateSession__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(884, 988, $intern_32, im_actor_model_api_rpc_RequestTerminateSession_RequestTerminateSession__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestTerminateSession_getHeaderKey__I(){
   return 82;
 }
@@ -7633,7 +7633,7 @@ function im_actor_model_api_rpc_RequestTyping_RequestTyping__Lim_actor_model_api
   this.im_actor_model_api_rpc_RequestTyping_typingType = typingType;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(430, 987, $intern_32, im_actor_model_api_rpc_RequestTyping_RequestTyping__V, im_actor_model_api_rpc_RequestTyping_RequestTyping__Lim_actor_model_api_OutPeer_2Lim_actor_model_api_TypingType_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(430, 988, $intern_32, im_actor_model_api_rpc_RequestTyping_RequestTyping__V, im_actor_model_api_rpc_RequestTyping_RequestTyping__Lim_actor_model_api_OutPeer_2Lim_actor_model_api_TypingType_2V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestTyping_getHeaderKey__I(){
   return 27;
 }
@@ -7667,7 +7667,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestT
 function im_actor_model_api_rpc_RequestUnregisterPush_RequestUnregisterPush__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(897, 987, $intern_32, im_actor_model_api_rpc_RequestUnregisterPush_RequestUnregisterPush__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(897, 988, $intern_32, im_actor_model_api_rpc_RequestUnregisterPush_RequestUnregisterPush__V);
 _.getHeaderKey__I = function im_actor_model_api_rpc_RequestUnregisterPush_getHeaderKey__I(){
   return 52;
 }
@@ -7686,7 +7686,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_rpc_RequestUnregi
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1RequestUnregisterPush_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(897);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2($intern_62, 986, $intern_32);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2($intern_62, 987, $intern_32);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1Response_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_62);
 function im_actor_model_api_rpc_ResponseAuth_ResponseAuth__V(){
 }
@@ -8550,7 +8550,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_rpc_ResponseVoid_
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1rpc_1ResponseVoid_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(922);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2($intern_63, 985, $intern_32);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2($intern_63, 986, $intern_32);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1parser_1Update_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2($intern_63);
 function im_actor_model_api_updates_UpdateCallEnd_UpdateCallEnd__V(){
 }
@@ -8747,7 +8747,7 @@ function im_actor_model_api_updates_UpdateContactsAdded_UpdateContactsAdded__Lja
   this.im_actor_model_api_updates_UpdateContactsAdded_uids = uids;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(116, $intern_63, {116:1, 4:1}, im_actor_model_api_updates_UpdateContactsAdded_UpdateContactsAdded__V, im_actor_model_api_updates_UpdateContactsAdded_UpdateContactsAdded__Ljava_util_List_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(117, $intern_63, {117:1, 4:1}, im_actor_model_api_updates_UpdateContactsAdded_UpdateContactsAdded__V, im_actor_model_api_updates_UpdateContactsAdded_UpdateContactsAdded__Ljava_util_List_2V);
 _.getHeaderKey__I = function im_actor_model_api_updates_UpdateContactsAdded_getHeaderKey__I(){
   return 40;
 }
@@ -8768,7 +8768,7 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_updates_UpdateCon
   return res;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1updates_1UpdateContactsAdded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(116);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1updates_1UpdateContactsAdded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(117);
 function im_actor_model_api_updates_UpdateContactsRemoved_UpdateContactsRemoved__V(){
 }
 
@@ -9742,6 +9742,8 @@ _.toString__Ljava_lang_String_2$ = function im_actor_model_api_updates_UpdateUse
 ;
 _.im_actor_model_api_updates_UpdateUserOnline_uid = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1updates_1UpdateUserOnline_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(344);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(949, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1AbsTimerCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(949);
 function im_actor_model_droidkit_actors_Actor_$initActor__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorContext_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2V(this$static, path, context){
   this$static.im_actor_model_droidkit_actors_Actor_path = path;
   this$static.im_actor_model_droidkit_actors_Actor_context = context;
@@ -9751,7 +9753,7 @@ function im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_a
   !!this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_sender && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_sender, message, this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(983, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(984, 1, {});
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_droidkit_actors_Actor_onReceive__Ljava_lang_Object_2V(message){
   !!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message));
   im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message));
@@ -9763,13 +9765,13 @@ _.postStop__V = function im_actor_model_droidkit_actors_Actor_postStop__V(){
 _.preStart__V = function im_actor_model_droidkit_actors_Actor_preStart__V(){
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1Actor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(983);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1Actor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(984);
 function im_actor_model_concurrency_TimerActor_TimerActor__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(948, 983, {}, im_actor_model_concurrency_TimerActor_TimerActor__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(948, 984, {}, im_actor_model_concurrency_TimerActor_TimerActor__V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_concurrency_TimerActor_onReceive__Ljava_lang_Object_2V(message){
-  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 89)?im_actor_model_droidkit_actors_ActorRef_$sendOnce__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JV(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, message.im_actor_model_concurrency_TimerActor$Schedule_timerCompat, message.im_actor_model_concurrency_TimerActor$Schedule_delay):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 156)?im_actor_model_droidkit_actors_ActorRef_$cancelMessage__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, message.im_actor_model_concurrency_TimerActor$Cancel_timerCompat):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 88)?message.im_actor_model_concurrency_TimerCompat_runnable.run__V():(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
+  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 90)?im_actor_model_droidkit_actors_ActorRef_$sendOnce__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JV(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, message.im_actor_model_concurrency_TimerActor$Schedule_timerCompat, message.im_actor_model_concurrency_TimerActor$Schedule_delay):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 156)?im_actor_model_droidkit_actors_ActorRef_$cancelMessage__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, message.im_actor_model_concurrency_TimerActor$Cancel_timerCompat):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 89)?message.im_actor_model_concurrency_AbsTimerCompat_runnable.run__V():(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(948);
@@ -9784,39 +9786,39 @@ function im_actor_model_concurrency_TimerActor$Schedule_TimerActor$Schedule__Lim
   this.im_actor_model_concurrency_TimerActor$Schedule_delay = delay;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(89, 1, {89:1}, im_actor_model_concurrency_TimerActor$Schedule_TimerActor$Schedule__Lim_actor_model_concurrency_TimerCompat_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(90, 1, {90:1}, im_actor_model_concurrency_TimerActor$Schedule_TimerActor$Schedule__Lim_actor_model_concurrency_TimerCompat_2JV);
 _.im_actor_model_concurrency_TimerActor$Schedule_delay = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerActor$Schedule_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(89);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerActor$Schedule_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(90);
 function im_actor_model_concurrency_TimerCompat_$clinit__V(){
   im_actor_model_concurrency_TimerCompat_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_concurrency_TimerCompat_TIMER_1ACTOR = im_actor_model_droidkit_actors_ActorSystem_$actorOf__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2((im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_mainSystem), new im_actor_model_droidkit_actors_Props_Props__Ljava_lang_Class_2_3Ljava_lang_Object_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorCreator_2Lim_actor_model_droidkit_actors_MailboxCreator_2V(new im_actor_model_concurrency_TimerCompat$1_TimerCompat$1__V, null), 'actor/global_timer');
 }
 
 function im_actor_model_concurrency_TimerCompat_$cancel__Lim_actor_model_concurrency_TimerCompat_2V(this$static){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_concurrency_TimerCompat_TIMER_1ACTOR, new im_actor_model_concurrency_TimerActor$Cancel_TimerActor$Cancel__Lim_actor_model_concurrency_TimerCompat_2V(this$static));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_concurrency_TimerCompat_TIMER_1ACTOR, new im_actor_model_concurrency_TimerActor$Cancel_TimerActor$Cancel__Lim_actor_model_concurrency_TimerCompat_2V(this$static));
 }
 
 function im_actor_model_concurrency_TimerCompat_$schedule__Lim_actor_model_concurrency_TimerCompat_2JV(this$static, delay){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_concurrency_TimerCompat_TIMER_1ACTOR, new im_actor_model_concurrency_TimerActor$Schedule_TimerActor$Schedule__Lim_actor_model_concurrency_TimerCompat_2JV(this$static, delay));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_concurrency_TimerCompat_TIMER_1ACTOR, new im_actor_model_concurrency_TimerActor$Schedule_TimerActor$Schedule__Lim_actor_model_concurrency_TimerCompat_2JV(this$static, delay));
 }
 
 function im_actor_model_concurrency_TimerCompat_TimerCompat__Ljava_lang_Runnable_2V(runnable){
   im_actor_model_concurrency_TimerCompat_$clinit__V();
-  this.im_actor_model_concurrency_TimerCompat_runnable = runnable;
+  this.im_actor_model_concurrency_AbsTimerCompat_runnable = runnable;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(88, 1, {88:1}, im_actor_model_concurrency_TimerCompat_TimerCompat__Ljava_lang_Runnable_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(89, 949, {89:1}, im_actor_model_concurrency_TimerCompat_TimerCompat__Ljava_lang_Runnable_2V);
 var im_actor_model_concurrency_TimerCompat_TIMER_1ACTOR;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(88);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(89);
 function im_actor_model_concurrency_TimerCompat$1_TimerCompat$1__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(949, 1, {}, im_actor_model_concurrency_TimerCompat$1_TimerCompat$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(950, 1, {}, im_actor_model_concurrency_TimerCompat$1_TimerCompat$1__V);
 _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_concurrency_TimerCompat$1_create__Lim_actor_model_droidkit_actors_Actor_2(){
   return new im_actor_model_concurrency_TimerActor_TimerActor__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerCompat$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(949);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1concurrency_1TimerCompat$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(950);
 function im_actor_model_crypto_CryptoUtils_$clinit__V(){
   var java_lang_String_$toCharArray__Ljava_lang_String_2_3C_charArr_0;
   im_actor_model_crypto_CryptoUtils_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -9882,27 +9884,23 @@ function im_actor_model_droidkit_actors_ActorRef_$cancelMessage__Lim_actor_model
 }
 
 function im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static, message){
-  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessage__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, im_actor_model_droidkit_actors_Environment_getActorTime__J(), null);
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageNow__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, null);
 }
 
 function im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JV(this$static, message, delay){
-  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessage__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_droidkit_actors_Environment_getActorTime__J(), delay), null);
-}
-
-function im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static, message){
-  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessage__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, im_actor_model_droidkit_actors_Environment_getActorTime__J(), null);
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageAtTime__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_droidkit_actors_Environment_getActorTime__J(), delay));
 }
 
 function im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static, message, sender){
-  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessage__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, im_actor_model_droidkit_actors_Environment_getActorTime__J(), sender);
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageNow__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, sender);
 }
 
 function im_actor_model_droidkit_actors_ActorRef_$sendOnce__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static, message){
-  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessage__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, im_actor_model_droidkit_actors_Environment_getActorTime__J(), null);
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageOnceNow__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message);
 }
 
 function im_actor_model_droidkit_actors_ActorRef_$sendOnce__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JV(this$static, message, delay){
-  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageOnce__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_droidkit_actors_Environment_getActorTime__J(), delay));
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageOnceAtTime__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_ActorRef_dispatcher, this$static.im_actor_model_droidkit_actors_ActorRef_endpoint, message, com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_droidkit_actors_Environment_getActorTime__J(), delay));
 }
 
 function im_actor_model_droidkit_actors_ActorRef_ActorRef__Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Ljava_lang_String_2V(endpoint, dispatcher, path){
@@ -9925,15 +9923,15 @@ function im_actor_model_droidkit_actors_ActorScope_ActorScope__Lim_actor_model_d
   this.im_actor_model_droidkit_actors_ActorScope_props = props;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(772, 1, {}, im_actor_model_droidkit_actors_ActorScope_ActorScope__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_Props_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1ActorScope_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(772);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(765, 1, {}, im_actor_model_droidkit_actors_ActorScope_ActorScope__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_Props_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1ActorScope_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(765);
 function im_actor_model_droidkit_actors_ActorSelection_ActorSelection__Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2V(props, path){
   this.im_actor_model_droidkit_actors_ActorSelection_props = props;
   this.im_actor_model_droidkit_actors_ActorSelection_path = path;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(117, 1, {}, im_actor_model_droidkit_actors_ActorSelection_ActorSelection__Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1ActorSelection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(117);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(118, 1, {}, im_actor_model_droidkit_actors_ActorSelection_ActorSelection__Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1ActorSelection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(118);
 function im_actor_model_droidkit_actors_ActorSystem_$clinit__V(){
   im_actor_model_droidkit_actors_ActorSystem_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_droidkit_actors_ActorSystem_mainSystem = new im_actor_model_droidkit_actors_ActorSystem_ActorSystem__V;
@@ -10066,8 +10064,8 @@ function im_actor_model_droidkit_actors_dispatch_AbstractDispatchQueue_$setListe
   this$static.im_actor_model_droidkit_actors_dispatch_AbstractDispatchQueue_listener = listener;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(989, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1dispatch_1AbstractDispatchQueue_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(989);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(990, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1dispatch_1AbstractDispatchQueue_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(990);
 function im_actor_model_droidkit_actors_dispatch_AbstractDispatcher_$dispatchMessage__Lim_actor_model_droidkit_actors_dispatch_AbstractDispatcher_2Ljava_lang_Object_2V(this$static, message){
   !!this$static.im_actor_model_droidkit_actors_dispatch_AbstractDispatcher_dispatch && im_actor_model_js_providers_threading_JsDispatch$1_$dispatchMessage__Lim_actor_model_js_providers_threading_JsDispatch$1_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2V(this$static.im_actor_model_droidkit_actors_dispatch_AbstractDispatcher_dispatch, message);
 }
@@ -10141,6 +10139,17 @@ function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$initDispatcher_
   this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_dispatcher = dispatcher;
 }
 
+function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$isDisconnected__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2Z(this$static, endpoint, message, sender){
+  if (endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_isDisconnected) {
+    if (sender) {
+      !!this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ('Dead Letter: ' + message));
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(sender, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message));
+    }
+    return true;
+  }
+  return false;
+}
+
 function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$processEnvelope__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2V(this$static, envelope){
   var actor, e, e$array, e$index, e$max, isDisconnected, scope_0, start_0;
   scope_0 = envelope.im_actor_model_droidkit_actors_mailbox_Envelope_scope;
@@ -10161,7 +10170,7 @@ function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$processEnvelope
       if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z($e0, 11)) {
         e = $e0;
         java_lang_Throwable_$printStackTrace__Ljava_lang_Throwable_2Ljava_io_PrintStream_2V(e, (java_lang_System_$clinit__V() , java_lang_System_err));
-        !!envelope.im_actor_model_droidkit_actors_mailbox_Envelope_sender && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(envelope.im_actor_model_droidkit_actors_mailbox_Envelope_sender, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V('Unable to create actor'));
+        !!envelope.im_actor_model_droidkit_actors_mailbox_Envelope_sender && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(envelope.im_actor_model_droidkit_actors_mailbox_Envelope_sender, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V('Unable to create actor'));
         return;
       }
        else 
@@ -10178,7 +10187,7 @@ function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$processEnvelope
       scope_0.im_actor_model_droidkit_actors_ActorScope_actor = null;
       for (e$array = im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_$allEnvelopes__Lim_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_2_3Lim_actor_model_droidkit_actors_mailbox_Envelope_2(scope_0.im_actor_model_droidkit_actors_ActorScope_mailbox.im_actor_model_droidkit_actors_mailbox_Mailbox_envelopes) , e$index = 0 , e$max = e$array.length; e$index < e$max; ++e$index) {
         e = e$array[e$index];
-        !!e.im_actor_model_droidkit_actors_mailbox_Envelope_sender && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(e.im_actor_model_droidkit_actors_mailbox_Envelope_sender, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(e.im_actor_model_droidkit_actors_mailbox_Envelope_message));
+        !!e.im_actor_model_droidkit_actors_mailbox_Envelope_sender && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(e.im_actor_model_droidkit_actors_mailbox_Envelope_sender, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(e.im_actor_model_droidkit_actors_mailbox_Envelope_message));
       }
       im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_$clear__Lim_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_2V(scope_0.im_actor_model_droidkit_actors_ActorScope_mailbox.im_actor_model_droidkit_actors_mailbox_Mailbox_envelopes);
       java_util_AbstractHashMap_$removeStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_scopes, scope_0.im_actor_model_droidkit_actors_ActorScope_path);
@@ -10198,7 +10207,7 @@ function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$processEnvelope
     $e1 = com_google_gwt_lang_Exceptions_wrap__Ljava_lang_Object_2Ljava_lang_Object_2($e1);
     if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z($e1, 11)) {
       e = $e1;
-      !!this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && im_actor_model_util_ActorTrace_$onActorDie__Lim_actor_model_util_ActorTrace_2Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Exception_2V(scope_0.im_actor_model_droidkit_actors_ActorScope_actorRef, e);
+      !!this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && im_actor_model_util_ActorTrace_$onActorDie__Lim_actor_model_util_ActorTrace_2Lim_actor_model_droidkit_actors_ActorRef_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2Ljava_lang_Exception_2V(scope_0.im_actor_model_droidkit_actors_ActorScope_actorRef, envelope, e);
       scope_0.im_actor_model_droidkit_actors_ActorScope_actor = null;
       isDisconnected = true;
       java_util_AbstractHashMap_$removeStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_scopes, scope_0.im_actor_model_droidkit_actors_ActorScope_path);
@@ -10230,39 +10239,35 @@ function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$referenceActor_
   endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox = mailbox;
   endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope = scope_0;
   java_util_AbstractHashMap_$putStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2Ljava_lang_Object_2(this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_scopes, scope_0.im_actor_model_droidkit_actors_ActorScope_path, scope_0);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(scope_0.im_actor_model_droidkit_actors_ActorScope_actorRef, (im_actor_model_droidkit_actors_messages_StartActor_$clinit__V() , im_actor_model_droidkit_actors_messages_StartActor_INSTANCE));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(scope_0.im_actor_model_droidkit_actors_ActorScope_actorRef, (im_actor_model_droidkit_actors_messages_StartActor_$clinit__V() , im_actor_model_droidkit_actors_messages_StartActor_INSTANCE));
   return scope_0.im_actor_model_droidkit_actors_ActorScope_actorRef;
 }
 
-function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessage__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static, endpoint, message, time, sender){
-  if (endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_isDisconnected) {
-    if (sender) {
-      !!this$static.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ('Dead Letter: ' + message));
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(sender, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message));
-    }
-  }
-   else {
-    im_actor_model_droidkit_actors_mailbox_Mailbox_$schedule__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, new im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, sender), time);
-  }
+function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageAtTime__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static, endpoint, message, time){
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$isDisconnected__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2Z(this$static, endpoint, message, null) || im_actor_model_droidkit_actors_mailbox_Mailbox_$schedule__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, new im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, null), time);
 }
 
-function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageOnce__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(endpoint, message, time){
-  if (endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_isDisconnected)
-  ;
-  else {
-    im_actor_model_droidkit_actors_mailbox_Mailbox_$scheduleOnce__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, new im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, null), time);
-  }
+function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageNow__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static, endpoint, message, sender){
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$isDisconnected__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2Z(this$static, endpoint, message, sender) || im_actor_model_droidkit_actors_mailbox_Mailbox_$schedule__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, new im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, sender), {l:0, m:0, h:0});
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(749, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1ActorDispatcher_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(749);
+function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageOnceAtTime__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static, endpoint, message, time){
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$isDisconnected__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2Z(this$static, endpoint, message, null) || im_actor_model_droidkit_actors_mailbox_Mailbox_$scheduleOnce__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, new im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, null), time);
+}
+
+function im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$sendMessageOnceNow__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static, endpoint, message){
+  im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$isDisconnected__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_ActorEndpoint_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2Z(this$static, endpoint, message, null) || im_actor_model_droidkit_actors_mailbox_Mailbox_$scheduleOnce__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, new im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_scope, endpoint.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_mailbox, null), {l:0, m:0, h:0});
+}
+
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(745, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1ActorDispatcher_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(745);
 function im_actor_model_droidkit_actors_mailbox_ActorEndpoint_ActorEndpoint__Ljava_lang_String_2V(){
   this.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_isDisconnected = false;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(771, 1, {}, im_actor_model_droidkit_actors_mailbox_ActorEndpoint_ActorEndpoint__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(746, 1, {}, im_actor_model_droidkit_actors_mailbox_ActorEndpoint_ActorEndpoint__Ljava_lang_String_2V);
 _.im_actor_model_droidkit_actors_mailbox_ActorEndpoint_isDisconnected = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1ActorEndpoint_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(771);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1ActorEndpoint_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(746);
 function im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V(message, scope_0, mailbox, sender){
   this.im_actor_model_droidkit_actors_mailbox_Envelope_scope = scope_0;
   this.im_actor_model_droidkit_actors_mailbox_Envelope_message = message;
@@ -10271,12 +10276,12 @@ function im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Ob
   im_actor_model_droidkit_actors_Environment_getActorTime__J();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(125, 1, {125:1}, im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(76, 1, {76:1}, im_actor_model_droidkit_actors_mailbox_Envelope_Envelope__Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorScope_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_ActorRef_2V);
 _.toString__Ljava_lang_String_2$ = function im_actor_model_droidkit_actors_mailbox_Envelope_toString__Ljava_lang_String_2(){
   return '{' + this.im_actor_model_droidkit_actors_mailbox_Envelope_message + ' -> ' + this.im_actor_model_droidkit_actors_mailbox_Envelope_scope.im_actor_model_droidkit_actors_ActorScope_path + '}';
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1Envelope_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(125);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1Envelope_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(76);
 function im_actor_model_droidkit_actors_mailbox_Mailbox_$schedule__Lim_actor_model_droidkit_actors_mailbox_Mailbox_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(this$static, envelope, time){
   if (envelope.im_actor_model_droidkit_actors_mailbox_Envelope_mailbox != this$static) {
     throw new java_lang_RuntimeException_RuntimeException__Ljava_lang_String_2V($intern_72);
@@ -10346,7 +10351,7 @@ function im_actor_model_droidkit_actors_mailbox_MailboxesQueue_MailboxesQueue__V
   this.im_actor_model_droidkit_actors_mailbox_MailboxesQueue_envelopeRoot = new im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_EnvelopeRoot__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(775, 989, {}, im_actor_model_droidkit_actors_mailbox_MailboxesQueue_MailboxesQueue__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(775, 990, {}, im_actor_model_droidkit_actors_mailbox_MailboxesQueue_MailboxesQueue__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1MailboxesQueue_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(775);
 function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_$clinit__V(){
   im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -10356,7 +10361,7 @@ function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_$
 function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_$allEnvelopes__Lim_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_2_3Lim_actor_model_droidkit_actors_mailbox_Envelope_2(this$static){
   var i, res, scheduledEnvelopes;
   scheduledEnvelopes = java_util_AbstractCollection_$toArray__Ljava_util_AbstractCollection_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(new java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V(this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_envelopes), com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1collections_1ScheduledEnvelope_12_1classLit, $intern_8, 177, this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeCollection_envelopes.java_util_TreeMap_size, 0, 1));
-  res = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1Envelope_12_1classLit, $intern_8, 125, scheduledEnvelopes.length, 0, 1);
+  res = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1Envelope_12_1classLit, $intern_8, 76, scheduledEnvelopes.length, 0, 1);
   for (i = 0; i < res.length; i++) {
     res[i] = scheduledEnvelopes[i].im_actor_model_droidkit_actors_mailbox_collections_ScheduledEnvelope_envelope;
   }
@@ -10496,7 +10501,11 @@ function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_$attach
 }
 
 function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_$buildKey__Lim_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_2JJ(this$static, time){
-  var currentTime, iterator, shift_0, t;
+  var $tmp, currentTime, iterator, shift_0, t;
+  if (com_google_gwt_lang_LongLib_lte__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(time, {l:0, m:0, h:0}) || com_google_gwt_lang_LongLib_lt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(time, this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedNowSlot)) {
+    time = ($tmp = this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedNowSlot , this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedNowSlot = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedNowSlot, {l:1, m:0, h:0}) , $tmp);
+    return time;
+  }
   currentTime = im_actor_model_droidkit_actors_Environment_getActorTime__J();
   com_google_gwt_lang_LongLib_lt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(time, currentTime) && (time = currentTime);
   iterator = java_util_AbstractMap$1_$iterator__Ljava_util_AbstractMap$1_2Ljava_util_Iterator_2(new java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V(this$static.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedSlot.java_util_HashSet_map));
@@ -10566,6 +10575,7 @@ function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_$fetchC
 }
 
 function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_EnvelopeRoot__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V(queue){
+  this.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedNowSlot = im_actor_model_droidkit_actors_Environment_getActorTime__J();
   this.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedSlot = new java_util_HashSet_HashSet__V;
   this.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_collections = new java_util_HashMap_HashMap__V;
   this.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_lastTopKey = new java_util_HashMap_HashMap__V;
@@ -10573,8 +10583,9 @@ function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_Envelop
   this.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_queue = queue;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(819, 1, {}, im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_EnvelopeRoot__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1collections_1EnvelopeRoot_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(819);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(794, 1, {}, im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_EnvelopeRoot__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V);
+_.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot_usedNowSlot = {l:0, m:0, h:0};
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1collections_1EnvelopeRoot_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(794);
 function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_$clinit__V(){
   im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_RESULT_1CACHE = im_actor_model_droidkit_actors_Environment_createThreadLocal__Lim_actor_model_util_ThreadLocalCompat_2();
@@ -10618,10 +10629,10 @@ function im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchRe
   return res;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(410, 1, {}, im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_EnvelopeRoot$FetchResult__JV, im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_EnvelopeRoot$FetchResult__Lim_actor_model_droidkit_actors_mailbox_Envelope_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(403, 1, {}, im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_EnvelopeRoot$FetchResult__JV, im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_EnvelopeRoot$FetchResult__Lim_actor_model_droidkit_actors_mailbox_Envelope_2V);
 _.im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_delay = {l:0, m:0, h:0};
 var im_actor_model_droidkit_actors_mailbox_collections_EnvelopeRoot$FetchResult_RESULT_1CACHE;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1collections_1EnvelopeRoot$FetchResult_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(410);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1actors_1mailbox_1collections_1EnvelopeRoot$FetchResult_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(403);
 function im_actor_model_droidkit_actors_mailbox_collections_ScheduledEnvelope_ScheduledEnvelope__JJLim_actor_model_droidkit_actors_mailbox_Envelope_2V(key, time, envelope){
   this.im_actor_model_droidkit_actors_mailbox_collections_ScheduledEnvelope_key = key;
   this.im_actor_model_droidkit_actors_mailbox_collections_ScheduledEnvelope_time = time;
@@ -10965,7 +10976,7 @@ function im_actor_model_droidkit_bser_BserWriter_$writeRepeatedInt__Lim_actor_mo
   if (!values) {
     throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V($intern_78);
   }
-  if (values.size__I() > 1024) {
+  if (values.size__I() > $intern_25) {
     throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V($intern_79);
   }
   im_actor_model_droidkit_bser_util_SparseArray_$put__Lim_actor_model_droidkit_bser_util_SparseArray_2ILjava_lang_Object_2V(this$static.im_actor_model_droidkit_bser_BserWriter_writtenFields, fieldNumber, (java_lang_Boolean_$clinit__V() , java_lang_Boolean_$clinit__V() , java_lang_Boolean_TRUE));
@@ -10983,7 +10994,7 @@ function im_actor_model_droidkit_bser_BserWriter_$writeRepeatedLong__Lim_actor_m
   if (!values) {
     throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V($intern_78);
   }
-  if (values.size__I() > 1024) {
+  if (values.size__I() > $intern_25) {
     throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V($intern_79);
   }
   im_actor_model_droidkit_bser_util_SparseArray_$put__Lim_actor_model_droidkit_bser_util_SparseArray_2ILjava_lang_Object_2V(this$static.im_actor_model_droidkit_bser_BserWriter_writtenFields, fieldNumber, (java_lang_Boolean_$clinit__V() , java_lang_Boolean_$clinit__V() , java_lang_Boolean_TRUE));
@@ -11001,7 +11012,7 @@ function im_actor_model_droidkit_bser_BserWriter_$writeRepeatedObj__Lim_actor_mo
   if (!values) {
     throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V($intern_78);
   }
-  if (values.size__I() > 1024) {
+  if (values.size__I() > $intern_25) {
     throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V($intern_79);
   }
   im_actor_model_droidkit_bser_util_SparseArray_$put__Lim_actor_model_droidkit_bser_util_SparseArray_2ILjava_lang_Object_2V(this$static.im_actor_model_droidkit_bser_BserWriter_writtenFields, fieldNumber, (java_lang_Boolean_$clinit__V() , java_lang_Boolean_$clinit__V() , java_lang_Boolean_TRUE));
@@ -11081,8 +11092,8 @@ function im_actor_model_droidkit_bser_BserWriter_BserWriter__Lim_actor_model_dro
   this.im_actor_model_droidkit_bser_BserWriter_stream = stream;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(63, 1, {}, im_actor_model_droidkit_bser_BserWriter_BserWriter__Lim_actor_model_droidkit_bser_DataOutput_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1bser_1BserWriter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(63);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(64, 1, {}, im_actor_model_droidkit_bser_BserWriter_BserWriter__Lim_actor_model_droidkit_bser_DataOutput_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1bser_1BserWriter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(64);
 function im_actor_model_droidkit_bser_DataInput_$readByte__Lim_actor_model_droidkit_bser_DataInput_2I(this$static){
   if (this$static.im_actor_model_droidkit_bser_DataInput_offset == this$static.im_actor_model_droidkit_bser_DataInput_maxOffset) {
     throw new java_io_IOException_IOException__V;
@@ -11156,7 +11167,7 @@ function im_actor_model_droidkit_bser_DataInput_$readProtoLongs__Lim_actor_model
   if (com_google_gwt_lang_LongLib_lt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(len, {l:0, m:0, h:0})) {
     throw new java_io_IOException_IOException__V;
   }
-  if (com_google_gwt_lang_LongLib_gt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(len, {l:1024, m:0, h:0})) {
+  if (com_google_gwt_lang_LongLib_gt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(len, {l:$intern_25, m:0, h:0})) {
     throw new java_io_IOException_IOException__V;
   }
   res = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_J_1classLit, $intern_8, 0, com_google_gwt_lang_LongLib_toInt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2I(len), 6, 1);
@@ -11320,8 +11331,8 @@ function im_actor_model_droidkit_bser_DataOutput_$writeProtoBytes__Lim_actor_mod
 
 function im_actor_model_droidkit_bser_DataOutput_$writeProtoLongs__Lim_actor_model_droidkit_bser_DataOutput_2_3JV(this$static, values){
   var l, l$index, l$max;
-  if (values.length > 1024) {
-    throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V("Values can't be more than 1024");
+  if (values.length > $intern_25) {
+    throw new java_lang_IllegalArgumentException_IllegalArgumentException__Ljava_lang_String_2V("Values can't be more than 1048576");
   }
   im_actor_model_droidkit_bser_DataOutput_$writeVarInt__Lim_actor_model_droidkit_bser_DataOutput_2JV(this$static, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(values.length));
   for (l$index = 0 , l$max = values.length; l$index < l$max; ++l$index) {
@@ -11371,8 +11382,8 @@ function im_actor_model_droidkit_bser_UnknownFieldException_UnknownFieldExceptio
   java_io_IOException_IOException__Ljava_lang_String_2V.call(this, message);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(305, 5, $intern_83, im_actor_model_droidkit_bser_UnknownFieldException_UnknownFieldException__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1bser_1UnknownFieldException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(305);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(308, 5, $intern_83, im_actor_model_droidkit_bser_UnknownFieldException_UnknownFieldException__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1bser_1UnknownFieldException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(308);
 function im_actor_model_droidkit_bser_Utils_byteArrayToString___3BLjava_lang_String_2(data_0){
   return data_0 == null?$intern_6:im_actor_model_crypto_CryptoUtils_hex___3BLjava_lang_String_2(data_0);
 }
@@ -11588,8 +11599,8 @@ function im_actor_model_droidkit_engine_SyncKeyValue_SyncKeyValue__Lim_actor_mod
   this.im_actor_model_droidkit_engine_SyncKeyValue_storage = storage;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(281, 1, {}, im_actor_model_droidkit_engine_SyncKeyValue_SyncKeyValue__Lim_actor_model_droidkit_engine_KeyValueStorage_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1engine_1SyncKeyValue_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(281);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(284, 1, {}, im_actor_model_droidkit_engine_SyncKeyValue_SyncKeyValue__Lim_actor_model_droidkit_engine_KeyValueStorage_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1engine_1SyncKeyValue_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(284);
 function im_actor_model_droidkit_json_JSONArray_JSONArray__Lim_actor_model_droidkit_json_JSONTokener_2V(x_0){
   this.im_actor_model_droidkit_json_JSONArray_myArrayList = new java_util_ArrayList_ArrayList__V;
   if (im_actor_model_droidkit_json_JSONTokener_$nextClean__Lim_actor_model_droidkit_json_JSONTokener_2C(x_0) != 91) {
@@ -11672,7 +11683,7 @@ function im_actor_model_droidkit_json_JSONObject_$getInt__Lim_actor_model_droidk
 function im_actor_model_droidkit_json_JSONObject_$getJSONObject__Lim_actor_model_droidkit_json_JSONObject_2Ljava_lang_String_2Lim_actor_model_droidkit_json_JSONObject_2(this$static, key){
   var object;
   object = im_actor_model_droidkit_json_JSONObject_$get__Lim_actor_model_droidkit_json_JSONObject_2Ljava_lang_String_2Ljava_lang_Object_2(this$static, key);
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(object, 85)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(object, 86)) {
     return object;
   }
   throw new im_actor_model_droidkit_json_JSONException_JSONException__Ljava_lang_String_2V($intern_88 + key + '] is not a JSONObject.');
@@ -11820,9 +11831,9 @@ function im_actor_model_droidkit_json_JSONObject_testValidity__Ljava_lang_Object
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(85, 1, {85:1}, im_actor_model_droidkit_json_JSONObject_JSONObject__Lim_actor_model_droidkit_json_JSONTokener_2V, im_actor_model_droidkit_json_JSONObject_JSONObject__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(86, 1, {86:1}, im_actor_model_droidkit_json_JSONObject_JSONObject__Lim_actor_model_droidkit_json_JSONTokener_2V, im_actor_model_droidkit_json_JSONObject_JSONObject__Ljava_lang_String_2V);
 var im_actor_model_droidkit_json_JSONObject_NULL;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1json_1JSONObject_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(85);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1droidkit_1json_1JSONObject_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(86);
 function im_actor_model_droidkit_json_JSONObject$Null_JSONObject$Null__V(){
 }
 
@@ -12063,7 +12074,7 @@ function im_actor_model_entity_Avatar_Avatar___3BV(data_0){
   im_actor_model_entity_WrapperEntity_WrapperEntity__I_3BV.call(this, data_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(99, 67, $intern_32, im_actor_model_entity_Avatar_Avatar__Lim_actor_model_api_Avatar_2V, im_actor_model_entity_Avatar_Avatar___3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(100, 67, $intern_32, im_actor_model_entity_Avatar_Avatar__Lim_actor_model_api_Avatar_2V, im_actor_model_entity_Avatar_Avatar___3BV);
 _.applyWrapped__Lim_actor_model_droidkit_bser_BserObject_2V = function im_actor_model_entity_Avatar_applyWrapped__Lim_actor_model_droidkit_bser_BserObject_2V(wrapped){
   wrapped.im_actor_model_api_Avatar_smallImage?(this.im_actor_model_entity_Avatar_smallImage = new im_actor_model_entity_AvatarImage_AvatarImage__Lim_actor_model_api_AvatarImage_2V(wrapped.im_actor_model_api_Avatar_smallImage)):(this.im_actor_model_entity_Avatar_smallImage = null);
   wrapped.im_actor_model_api_Avatar_largeImage?(this.im_actor_model_entity_Avatar_largeImage = new im_actor_model_entity_AvatarImage_AvatarImage__Lim_actor_model_api_AvatarImage_2V(wrapped.im_actor_model_api_Avatar_largeImage)):(this.im_actor_model_entity_Avatar_largeImage = null);
@@ -12108,7 +12119,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
   im_actor_model_droidkit_bser_BserWriter_$writeBytes__Lim_actor_model_droidkit_bser_BserWriter_2I_3BV(writer, this.im_actor_model_entity_WrapperEntity_recordField, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this.im_actor_model_entity_WrapperEntity_wrapped));
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Avatar_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(99);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Avatar_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(100);
 function im_actor_model_entity_AvatarImage_$equals__Lim_actor_model_entity_AvatarImage_2Ljava_lang_Object_2Z(this$static, o){
   var that;
   if (this$static === o)
@@ -12227,12 +12238,12 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Contact_12
 function im_actor_model_entity_Contact$1_Contact$1__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(769, 1, {}, im_actor_model_entity_Contact$1_Contact$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(771, 1, {}, im_actor_model_entity_Contact$1_Contact$1__V);
 _.createInstance__Ljava_lang_Object_2 = function im_actor_model_entity_Contact$1_createInstance__Ljava_lang_Object_2(){
   return new im_actor_model_entity_Contact_Contact__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Contact$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(769);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Contact$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(771);
 function im_actor_model_entity_ContactRecord_ContactRecord__Lim_actor_model_entity_ContactRecordType_2Ljava_lang_String_2Ljava_lang_String_2V(recordType, recordData, recordTitle){
   this.im_actor_model_entity_ContactRecord_recordType = recordType;
   this.im_actor_model_entity_ContactRecord_recordData = recordData;
@@ -12266,7 +12277,7 @@ function im_actor_model_entity_ContentDescription_fromBytes___3BLim_actor_model_
 }
 
 function im_actor_model_entity_ContentDescription_fromContent__Lim_actor_model_entity_content_AbsContent_2Lim_actor_model_entity_ContentDescription_2(msg){
-  return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 59)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_TEXT), msg.im_actor_model_entity_content_TextContent_text):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 54)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1PHOTO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 71)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1VIDEO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 34)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 79)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1REGISTERED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 84)?!msg.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR_1REMOVED)):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 83)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1TITLE), msg.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 80)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1CREATED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 69)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1ADD), '', msg.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 81)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1KICK), '', msg.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 82)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1LEAVE), '', 0, true):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 106)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1JOINED), '', 0, false):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_UNKNOWN_1CONTENT));
+  return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 59)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_TEXT), msg.im_actor_model_entity_content_TextContent_text):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 54)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1PHOTO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 71)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1VIDEO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 34)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 80)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1REGISTERED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 85)?!msg.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR_1REMOVED)):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 84)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1TITLE), msg.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 81)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1CREATED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 69)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1ADD), '', msg.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 82)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1KICK), '', msg.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 83)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1LEAVE), '', 0, true):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(msg, 108)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1JOINED), '', 0, false):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_UNKNOWN_1CONTENT));
 }
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(13, 4, $intern_32, im_actor_model_entity_ContentDescription_ContentDescription__V, im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V, im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V, im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV);
@@ -12445,12 +12456,12 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Dialog_12_
 function im_actor_model_entity_Dialog$1_Dialog$1__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(770, 1, {}, im_actor_model_entity_Dialog$1_Dialog$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(772, 1, {}, im_actor_model_entity_Dialog$1_Dialog$1__V);
 _.createInstance__Ljava_lang_Object_2 = function im_actor_model_entity_Dialog$1_createInstance__Ljava_lang_Object_2(){
   return new im_actor_model_entity_Dialog_Dialog__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Dialog$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(770);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Dialog$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(772);
 function im_actor_model_entity_DialogBuilder_$$init__Lim_actor_model_entity_DialogBuilder_2V(this$static){
 }
 
@@ -12775,12 +12786,12 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Message_12
 function im_actor_model_entity_Message$1_Message$1__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(762, 1, {}, im_actor_model_entity_Message$1_Message$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(763, 1, {}, im_actor_model_entity_Message$1_Message$1__V);
 _.createInstance__Ljava_lang_Object_2 = function im_actor_model_entity_Message$1_createInstance__Ljava_lang_Object_2(){
   return new im_actor_model_entity_Message_Message__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Message$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(762);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1Message$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(763);
 function im_actor_model_entity_MessageState_$clinit__V(){
   im_actor_model_entity_MessageState_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_entity_MessageState_PENDING = new im_actor_model_entity_MessageState_MessageState__Ljava_lang_String_2IIV('PENDING', 0, 1);
@@ -12971,7 +12982,7 @@ function im_actor_model_entity_SearchEntity_SearchEntity__Lim_actor_model_entity
   this.im_actor_model_entity_SearchEntity_title = title_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(304, 4, $intern_32, im_actor_model_entity_SearchEntity_SearchEntity__V, im_actor_model_entity_SearchEntity_SearchEntity__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_Avatar_2Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(307, 4, $intern_32, im_actor_model_entity_SearchEntity_SearchEntity__V, im_actor_model_entity_SearchEntity_SearchEntity__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_Avatar_2Ljava_lang_String_2V);
 _.getEngineId__J = function im_actor_model_entity_SearchEntity_getEngineId__J(){
   return im_actor_model_entity_Peer_$getUnuqueId__Lim_actor_model_entity_Peer_2J(this.im_actor_model_entity_SearchEntity_peer);
 }
@@ -13000,16 +13011,16 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 ;
 _.im_actor_model_entity_SearchEntity_order = {l:0, m:0, h:0};
 var im_actor_model_entity_SearchEntity_CREATOR;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1SearchEntity_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(304);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1SearchEntity_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(307);
 function im_actor_model_entity_SearchEntity$1_SearchEntity$1__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(825, 1, {}, im_actor_model_entity_SearchEntity$1_SearchEntity$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(828, 1, {}, im_actor_model_entity_SearchEntity$1_SearchEntity$1__V);
 _.createInstance__Ljava_lang_Object_2 = function im_actor_model_entity_SearchEntity$1_createInstance__Ljava_lang_Object_2(){
   return new im_actor_model_entity_SearchEntity_SearchEntity__V;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1SearchEntity$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(825);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1SearchEntity$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(828);
 function im_actor_model_entity_Sex_$clinit__V(){
   im_actor_model_entity_Sex_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_entity_Sex_UNKNOWN = new im_actor_model_entity_Sex_Sex__Ljava_lang_String_2IIV($intern_30, 0);
@@ -13065,7 +13076,7 @@ function im_actor_model_entity_User_User___3BV(data_0){
   im_actor_model_entity_WrapperEntity_WrapperEntity__I_3BV.call(this, data_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(101, 67, $intern_32, im_actor_model_entity_User_User__Lim_actor_model_api_User_2V, im_actor_model_entity_User_User___3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(102, 67, $intern_32, im_actor_model_entity_User_User__Lim_actor_model_api_User_2V, im_actor_model_entity_User_User___3BV);
 _.applyWrapped__Lim_actor_model_droidkit_bser_BserObject_2V = function im_actor_model_entity_User_applyWrapped__Lim_actor_model_droidkit_bser_BserObject_2V(wrapped){
   im_actor_model_entity_User_$applyWrapped__Lim_actor_model_entity_User_2Lim_actor_model_api_User_2V(this, wrapped);
 }
@@ -13090,7 +13101,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 ;
 _.im_actor_model_entity_User_accessHash = {l:0, m:0, h:0};
 _.im_actor_model_entity_User_uid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1User_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(101);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1User_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(102);
 function im_actor_model_entity_compat_ObsoleteAvatar_$parse__Lim_actor_model_entity_compat_ObsoleteAvatar_2Lim_actor_model_droidkit_bser_BserValues_2V(this$static, values){
   var full, large, small_0;
   small_0 = im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B_3B(values, 1);
@@ -13429,8 +13440,8 @@ function im_actor_model_entity_compat_content_ObsoleteFileSource_fromBytes___3BL
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1001, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1compat_1content_1ObsoleteFileSource_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1001);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1002, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1compat_1content_1ObsoleteFileSource_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1002);
 function im_actor_model_entity_compat_content_ObsoleteLocalFileSource_$parse__Lim_actor_model_entity_compat_content_ObsoleteLocalFileSource_2Lim_actor_model_droidkit_bser_BserValues_2V(this$static, values){
   im_actor_model_droidkit_bser_Utils_convertString___3BLjava_lang_String_2(im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B(values, 2));
   this$static.im_actor_model_entity_compat_content_ObsoleteLocalFileSource_size = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 3));
@@ -13441,7 +13452,7 @@ function im_actor_model_entity_compat_content_ObsoleteLocalFileSource_ObsoleteLo
   im_actor_model_entity_compat_content_ObsoleteLocalFileSource_$parse__Lim_actor_model_entity_compat_content_ObsoleteLocalFileSource_2Lim_actor_model_droidkit_bser_BserValues_2V(this, values);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(146, 1001, {4:1, 146:1}, im_actor_model_entity_compat_content_ObsoleteLocalFileSource_ObsoleteLocalFileSource__Lim_actor_model_droidkit_bser_BserValues_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(146, 1002, {4:1, 146:1}, im_actor_model_entity_compat_content_ObsoleteLocalFileSource_ObsoleteLocalFileSource__Lim_actor_model_droidkit_bser_BserValues_2V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_entity_compat_content_ObsoleteLocalFileSource_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   im_actor_model_entity_compat_content_ObsoleteLocalFileSource_$parse__Lim_actor_model_entity_compat_content_ObsoleteLocalFileSource_2Lim_actor_model_droidkit_bser_BserValues_2V(this, values);
 }
@@ -13493,7 +13504,7 @@ function im_actor_model_entity_compat_content_ObsoleteRemoteFileSource_ObsoleteR
   this.im_actor_model_entity_compat_content_ObsoleteRemoteFileSource_fileReference = new im_actor_model_entity_compat_ObsoleteFileReference_ObsoleteFileReference___3BV(im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B(values, 2));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(147, 1001, {4:1, 147:1}, im_actor_model_entity_compat_content_ObsoleteRemoteFileSource_ObsoleteRemoteFileSource__Lim_actor_model_droidkit_bser_BserValues_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(147, 1002, {4:1, 147:1}, im_actor_model_entity_compat_content_ObsoleteRemoteFileSource_ObsoleteRemoteFileSource__Lim_actor_model_droidkit_bser_BserValues_2V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_entity_compat_content_ObsoleteRemoteFileSource_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_entity_compat_content_ObsoleteRemoteFileSource_fileReference = new im_actor_model_entity_compat_ObsoleteFileReference_ObsoleteFileReference___3BV(im_actor_model_droidkit_bser_BserValues_$getBytes__Lim_actor_model_droidkit_bser_BserValues_2I_3B(values, 2));
 }
@@ -13647,7 +13658,7 @@ function im_actor_model_entity_content_AbsContent_convertData__Lim_actor_model_e
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(container, 65)) {
     localContainer = container;
     content = container.im_actor_model_entity_content_internal_ContentLocalContainer_content;
-    if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 108)) {
+    if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 109)) {
       return new im_actor_model_entity_content_PhotoContent_PhotoContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V(localContainer);
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 141)) {
@@ -13666,14 +13677,14 @@ function im_actor_model_entity_content_AbsContent_convertData__Lim_actor_model_e
     try {
       if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 62)) {
         d = content;
-        return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(d.im_actor_model_api_DocumentMessage_ext, 109)?new im_actor_model_entity_content_PhotoContent_PhotoContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(d.im_actor_model_api_DocumentMessage_ext, 110)?new im_actor_model_entity_content_VideoContent_VideoContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):new im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer);
+        return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(d.im_actor_model_api_DocumentMessage_ext, 110)?new im_actor_model_entity_content_PhotoContent_PhotoContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(d.im_actor_model_api_DocumentMessage_ext, 111)?new im_actor_model_entity_content_VideoContent_VideoContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):new im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer);
       }
-       else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 111)) {
+       else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 112)) {
         return new im_actor_model_entity_content_TextContent_TextContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer);
       }
        else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 36)) {
         ext = content.im_actor_model_api_ServiceMessage_ext;
-        return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 138)?new im_actor_model_entity_content_ServiceUserRegistered_ServiceUserRegistered__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 142)?new im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitleChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 143)?new im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAvatarChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 139)?new im_actor_model_entity_content_ServiceGroupCreated_ServiceGroupCreated__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 112)?new im_actor_model_entity_content_ServiceGroupUserInvited_ServiceGroupUserInvited__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 144)?new im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKicked__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 140)?new im_actor_model_entity_content_ServiceGroupUserLeave_ServiceGroupUserLeave__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 311)?new im_actor_model_entity_content_ServiceGroupUserJoined_ServiceGroupUserJoined__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):new im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer);
+        return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 138)?new im_actor_model_entity_content_ServiceUserRegistered_ServiceUserRegistered__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 142)?new im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitleChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 143)?new im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAvatarChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 139)?new im_actor_model_entity_content_ServiceGroupCreated_ServiceGroupCreated__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 113)?new im_actor_model_entity_content_ServiceGroupUserInvited_ServiceGroupUserInvited__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 144)?new im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKicked__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 140)?new im_actor_model_entity_content_ServiceGroupUserLeave_ServiceGroupUserLeave__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(ext, 311)?new im_actor_model_entity_content_ServiceGroupUserJoined_ServiceGroupUserJoined__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer):new im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer);
       }
        else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 310)) {
         json = content;
@@ -13716,8 +13727,8 @@ function im_actor_model_entity_content_AbsContent_serialize__Lim_actor_model_ent
   return im_actor_model_droidkit_bser_DataOutput_$toByteArray__Lim_actor_model_droidkit_bser_DataOutput_2_3B(dataOutput);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(102, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1AbsContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(102);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(103, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1AbsContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(103);
 function im_actor_model_entity_content_BannerContent_BannerContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   var data_0, image, json;
   im_actor_model_entity_content_AbsContent_AbsContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
@@ -13730,7 +13741,7 @@ function im_actor_model_entity_content_BannerContent_BannerContent__Lim_actor_mo
   new im_actor_model_entity_FileReference_FileReference__Lim_actor_model_api_FileLocation_2Ljava_lang_String_2IV(new im_actor_model_api_FileLocation_FileLocation__JJV(com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_droidkit_json_JSONObject_$getInt__Lim_actor_model_droidkit_json_JSONObject_2Ljava_lang_String_2I(image, 'fileId')), im_actor_model_droidkit_json_JSONObject_$getLong__Lim_actor_model_droidkit_json_JSONObject_2Ljava_lang_String_2J(image)), 'banner.jpg', im_actor_model_droidkit_json_JSONObject_$getInt__Lim_actor_model_droidkit_json_JSONObject_2Ljava_lang_String_2I(image, 'fileSize'));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(843, 102, {}, im_actor_model_entity_content_BannerContent_BannerContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(843, 103, {}, im_actor_model_entity_content_BannerContent_BannerContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1BannerContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(843);
 function im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V(contentContainer){
   var localDocument;
@@ -13756,7 +13767,7 @@ function im_actor_model_entity_content_DocumentContent_createRemoteDocument__Lim
   return new im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_DocumentMessage_DocumentMessage__JJILjava_lang_String_2Ljava_lang_String_2Lim_actor_model_api_FastThumb_2Lim_actor_model_api_DocumentEx_2V(reference.im_actor_model_entity_WrapperEntity_wrapped.im_actor_model_api_FileLocation_fileId, reference.im_actor_model_entity_WrapperEntity_wrapped.im_actor_model_api_FileLocation_accessHash, reference.im_actor_model_entity_FileReference_fileSize, reference.im_actor_model_entity_FileReference_fileName, $intern_94, fastThumb?new im_actor_model_api_FastThumb_FastThumb__II_3BV(fastThumb.im_actor_model_entity_content_FastThumb_w, fastThumb.im_actor_model_entity_content_FastThumb_h, fastThumb.im_actor_model_entity_content_FastThumb_image):null, null)));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(34, 102, {34:1}, im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V, im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(34, 103, {34:1}, im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V, im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1DocumentContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(34);
 function im_actor_model_entity_content_FastThumb_FastThumb__II_3BV(w, h, image){
   this.im_actor_model_entity_content_FastThumb_w = w;
@@ -13780,13 +13791,13 @@ com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_cor
 _.im_actor_model_entity_content_FastThumb_h = 0;
 _.im_actor_model_entity_content_FastThumb_w = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1FastThumb_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(233);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(991, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1FileSource_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(991);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(992, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1FileSource_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(992);
 function im_actor_model_entity_content_FileLocalSource_FileLocalSource__Ljava_lang_String_2ILjava_lang_String_2V(size_0){
   this.im_actor_model_entity_content_FileLocalSource_size = size_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(195, 991, {195:1}, im_actor_model_entity_content_FileLocalSource_FileLocalSource__Ljava_lang_String_2ILjava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(195, 992, {195:1}, im_actor_model_entity_content_FileLocalSource_FileLocalSource__Ljava_lang_String_2ILjava_lang_String_2V);
 _.getSize__I = function im_actor_model_entity_content_FileLocalSource_getSize__I(){
   return this.im_actor_model_entity_content_FileLocalSource_size;
 }
@@ -13797,7 +13808,7 @@ function im_actor_model_entity_content_FileRemoteSource_FileRemoteSource__Lim_ac
   this.im_actor_model_entity_content_FileRemoteSource_fileReference = fileReference;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(194, 991, {194:1}, im_actor_model_entity_content_FileRemoteSource_FileRemoteSource__Lim_actor_model_entity_FileReference_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(194, 992, {194:1}, im_actor_model_entity_content_FileRemoteSource_FileRemoteSource__Lim_actor_model_entity_FileReference_2V);
 _.getSize__I = function im_actor_model_entity_content_FileRemoteSource_getSize__I(){
   return this.im_actor_model_entity_content_FileRemoteSource_fileReference.im_actor_model_entity_FileReference_fileSize;
 }
@@ -13835,7 +13846,7 @@ function im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_
   this.im_actor_model_entity_content_ServiceContent_compatText = contentContainer.im_actor_model_entity_content_internal_ContentRemoteContainer_message.im_actor_model_api_ServiceMessage_text;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(35, 102, {35:1}, im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(35, 103, {35:1}, im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(35);
 function im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAvatarChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer){
   var changedAvatar, serviceMessage;
@@ -13845,14 +13856,14 @@ function im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAva
   this.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar = changedAvatar.im_actor_model_api_ServiceExChangedAvatar_avatar?new im_actor_model_entity_Avatar_Avatar__Lim_actor_model_api_Avatar_2V(changedAvatar.im_actor_model_api_ServiceExChangedAvatar_avatar):null;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(84, 35, {35:1, 84:1}, im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAvatarChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupAvatarChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(84);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(85, 35, {35:1, 85:1}, im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAvatarChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupAvatarChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(85);
 function im_actor_model_entity_content_ServiceGroupCreated_ServiceGroupCreated__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(80, 35, {35:1, 80:1}, im_actor_model_entity_content_ServiceGroupCreated_ServiceGroupCreated__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupCreated_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(80);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(81, 35, {35:1, 81:1}, im_actor_model_entity_content_ServiceGroupCreated_ServiceGroupCreated__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupCreated_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(81);
 function im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitleChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer){
   var serviceMessage;
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, remoteContainer);
@@ -13860,8 +13871,8 @@ function im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitl
   this.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle = serviceMessage.im_actor_model_api_ServiceMessage_ext.im_actor_model_api_ServiceExChangedTitle_title;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(83, 35, {35:1, 83:1}, im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitleChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupTitleChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(83);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(84, 35, {35:1, 84:1}, im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitleChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupTitleChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(84);
 function im_actor_model_entity_content_ServiceGroupUserInvited_ServiceGroupUserInvited__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   var serviceMessage;
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
@@ -13876,8 +13887,8 @@ function im_actor_model_entity_content_ServiceGroupUserJoined_ServiceGroupUserJo
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(106, 35, {35:1, 106:1}, im_actor_model_entity_content_ServiceGroupUserJoined_ServiceGroupUserJoined__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupUserJoined_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(106);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(108, 35, {35:1, 108:1}, im_actor_model_entity_content_ServiceGroupUserJoined_ServiceGroupUserJoined__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupUserJoined_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(108);
 function im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKicked__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   var serviceMessage;
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
@@ -13885,21 +13896,21 @@ function im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKi
   this.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid = serviceMessage.im_actor_model_api_ServiceMessage_ext.im_actor_model_api_ServiceExUserKicked_kickedUid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(81, 35, {35:1, 81:1}, im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKicked__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(82, 35, {35:1, 82:1}, im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKicked__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
 _.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupUserKicked_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(81);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupUserKicked_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(82);
 function im_actor_model_entity_content_ServiceGroupUserLeave_ServiceGroupUserLeave__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(82, 35, {35:1, 82:1}, im_actor_model_entity_content_ServiceGroupUserLeave_ServiceGroupUserLeave__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupUserLeave_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(82);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(83, 35, {35:1, 83:1}, im_actor_model_entity_content_ServiceGroupUserLeave_ServiceGroupUserLeave__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceGroupUserLeave_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(83);
 function im_actor_model_entity_content_ServiceUserRegistered_ServiceUserRegistered__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   im_actor_model_entity_content_ServiceContent_ServiceContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(79, 35, {35:1, 79:1}, im_actor_model_entity_content_ServiceUserRegistered_ServiceUserRegistered__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceUserRegistered_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(79);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(80, 35, {35:1, 80:1}, im_actor_model_entity_content_ServiceUserRegistered_ServiceUserRegistered__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1ServiceUserRegistered_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(80);
 function im_actor_model_entity_content_TextContent_TextContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(remoteContainer){
   im_actor_model_entity_content_AbsContent_AbsContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, remoteContainer);
   this.im_actor_model_entity_content_TextContent_text = remoteContainer.im_actor_model_entity_content_internal_ContentRemoteContainer_message.im_actor_model_api_TextMessage_text;
@@ -13912,13 +13923,13 @@ function im_actor_model_entity_content_TextContent_create__Ljava_lang_String_2Lj
   return new im_actor_model_entity_content_TextContent_TextContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_TextMessage_TextMessage__Ljava_lang_String_2Ljava_util_List_2Lim_actor_model_api_TextMessageEx_2V(text_0, mentions)));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(59, 102, {59:1}, im_actor_model_entity_content_TextContent_TextContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(59, 103, {59:1}, im_actor_model_entity_content_TextContent_TextContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1TextContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(59);
 function im_actor_model_entity_content_UnsupportedContent_UnsupportedContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(contentContainer){
   im_actor_model_entity_content_AbsContent_AbsContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V.call(this, contentContainer);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(844, 102, {}, im_actor_model_entity_content_UnsupportedContent_UnsupportedContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(844, 103, {}, im_actor_model_entity_content_UnsupportedContent_UnsupportedContent__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1UnsupportedContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(844);
 function im_actor_model_entity_content_VideoContent_VideoContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V(contentContainer){
   var localVideo;
@@ -13983,13 +13994,13 @@ function im_actor_model_entity_content_internal_AbsContentContainer_loadContaine
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(995, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1AbsContentContainer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(995);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(996, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1AbsContentContainer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(996);
 function im_actor_model_entity_content_internal_AbsLocalContent_$buildContainer__Lim_actor_model_entity_content_internal_AbsLocalContent_2_3B(this$static){
   var res, writer;
   res = new im_actor_model_droidkit_bser_DataOutput_DataOutput__V;
   writer = new im_actor_model_droidkit_bser_BserWriter_BserWriter__Lim_actor_model_droidkit_bser_DataOutput_2V(res);
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(this$static, 108)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(this$static, 109)) {
     im_actor_model_droidkit_bser_BserWriter_$writeTag__Lim_actor_model_droidkit_bser_BserWriter_2IIV(writer, 1, 0);
     im_actor_model_droidkit_bser_DataOutput_$writeVarInt__Lim_actor_model_droidkit_bser_DataOutput_2JV(writer.im_actor_model_droidkit_bser_BserWriter_stream, {l:1, m:0, h:0});
   }
@@ -14024,19 +14035,19 @@ function im_actor_model_entity_content_internal_AbsLocalContent_loadContainer___
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(996, 4, $intern_32);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1AbsLocalContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(996);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(997, 4, $intern_32);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1AbsLocalContent_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(997);
 function im_actor_model_entity_content_internal_ContentLocalContainer_ContentLocalContainer__Lim_actor_model_entity_content_internal_AbsLocalContent_2V(content){
   this.im_actor_model_entity_content_internal_ContentLocalContainer_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(65, 995, {65:1}, im_actor_model_entity_content_internal_ContentLocalContainer_ContentLocalContainer__Lim_actor_model_entity_content_internal_AbsLocalContent_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(65, 996, {65:1}, im_actor_model_entity_content_internal_ContentLocalContainer_ContentLocalContainer__Lim_actor_model_entity_content_internal_AbsLocalContent_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1ContentLocalContainer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(65);
 function im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(message){
   this.im_actor_model_entity_content_internal_ContentRemoteContainer_message = message;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(20, 995, {20:1}, im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(20, 996, {20:1}, im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1ContentRemoteContainer_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(20);
 function im_actor_model_entity_content_internal_LocalDocument_$parse__Lim_actor_model_entity_content_internal_LocalDocument_2Lim_actor_model_droidkit_bser_BserValues_2V(this$static, values){
   var rawFT;
@@ -14068,7 +14079,7 @@ function im_actor_model_entity_content_internal_LocalDocument_LocalDocument___3B
   im_actor_model_droidkit_bser_BserObject_$load__Lim_actor_model_droidkit_bser_BserObject_2_3BV(this, data_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(86, 996, $intern_32, im_actor_model_entity_content_internal_LocalDocument_LocalDocument__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2V, im_actor_model_entity_content_internal_LocalDocument_LocalDocument___3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(87, 997, $intern_32, im_actor_model_entity_content_internal_LocalDocument_LocalDocument__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2V, im_actor_model_entity_content_internal_LocalDocument_LocalDocument___3BV);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_entity_content_internal_LocalDocument_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   im_actor_model_entity_content_internal_LocalDocument_$parse__Lim_actor_model_entity_content_internal_LocalDocument_2Lim_actor_model_droidkit_bser_BserValues_2V(this, values);
 }
@@ -14078,7 +14089,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 }
 ;
 _.im_actor_model_entity_content_internal_LocalDocument_fileSize = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1LocalDocument_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(86);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1LocalDocument_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(87);
 function im_actor_model_entity_content_internal_LocalFastThumb_LocalFastThumb__II_3BV(w, h, image){
   this.im_actor_model_entity_content_internal_LocalFastThumb_w = w;
   this.im_actor_model_entity_content_internal_LocalFastThumb_h = h;
@@ -14121,7 +14132,7 @@ function im_actor_model_entity_content_internal_LocalPhoto_LocalPhoto___3BV(data
   im_actor_model_entity_content_internal_LocalDocument_LocalDocument___3BV.call(this, data_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(108, 86, {4:1, 108:1}, im_actor_model_entity_content_internal_LocalPhoto_LocalPhoto__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2IIV, im_actor_model_entity_content_internal_LocalPhoto_LocalPhoto___3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(109, 87, {4:1, 109:1}, im_actor_model_entity_content_internal_LocalPhoto_LocalPhoto__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2IIV, im_actor_model_entity_content_internal_LocalPhoto_LocalPhoto___3BV);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_entity_content_internal_LocalPhoto_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   im_actor_model_entity_content_internal_LocalDocument_$parse__Lim_actor_model_entity_content_internal_LocalDocument_2Lim_actor_model_droidkit_bser_BserValues_2V(this, values);
   this.im_actor_model_entity_content_internal_LocalPhoto_w = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 10));
@@ -14136,7 +14147,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 ;
 _.im_actor_model_entity_content_internal_LocalPhoto_h = 0;
 _.im_actor_model_entity_content_internal_LocalPhoto_w = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1LocalPhoto_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(108);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1entity_1content_1internal_1LocalPhoto_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(109);
 function im_actor_model_entity_content_internal_LocalVideo_LocalVideo__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2IIIV(fileName, fileDescriptor, fileSize, mimeType, fastThumb, w, h, duration){
   im_actor_model_entity_content_internal_LocalDocument_LocalDocument__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2V.call(this, fileName, fileDescriptor, fileSize, mimeType, fastThumb);
   this.im_actor_model_entity_content_internal_LocalVideo_w = w;
@@ -14148,7 +14159,7 @@ function im_actor_model_entity_content_internal_LocalVideo_LocalVideo___3BV(data
   im_actor_model_entity_content_internal_LocalDocument_LocalDocument___3BV.call(this, data_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(141, 86, {4:1, 141:1}, im_actor_model_entity_content_internal_LocalVideo_LocalVideo__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2IIIV, im_actor_model_entity_content_internal_LocalVideo_LocalVideo___3BV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(141, 87, {4:1, 141:1}, im_actor_model_entity_content_internal_LocalVideo_LocalVideo__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2IIIV, im_actor_model_entity_content_internal_LocalVideo_LocalVideo___3BV);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_entity_content_internal_LocalVideo_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   im_actor_model_entity_content_internal_LocalDocument_$parse__Lim_actor_model_entity_content_internal_LocalDocument_2Lim_actor_model_droidkit_bser_BserValues_2V(this, values);
   this.im_actor_model_entity_content_internal_LocalVideo_w = im_actor_model_droidkit_bser_Utils_convertInt__JI(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 10));
@@ -14219,28 +14230,28 @@ function im_actor_model_i18n_I18nEngine_$formatFileSize__Lim_actor_model_i18n_I1
 }
 
 function im_actor_model_i18n_I18nEngine_$formatFullServiceMessage__Lim_actor_model_i18n_I18nEngine_2ILim_actor_model_entity_content_ServiceContent_2Ljava_lang_String_2(this$static, senderId, content){
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 79)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 80)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, 'ServiceRegisteredFull'), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId))));
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 80)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 81)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, 'ServiceGroupCreatedFull'), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId))));
   }
    else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 69)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, $intern_97), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId)))), $intern_98, im_actor_model_i18n_I18nEngine_$getSubjectName__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2(this$static, content.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid));
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 81)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 82)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, $intern_100), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId)))), $intern_101, im_actor_model_i18n_I18nEngine_$getSubjectName__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2(this$static, content.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid));
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 82)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 83)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, $intern_99), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId))));
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 83)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 84)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, 'ServiceGroupTitleFull'), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId)))), '{title}', content.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 84)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 85)) {
     return content.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, $intern_102), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId)))):java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, $intern_103), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId))));
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 106)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 108)) {
     return java_lang_String_$replace__Ljava_lang_String_2Ljava_lang_CharSequence_2Ljava_lang_CharSequence_2Ljava_lang_String_2(im_actor_model_i18n_I18nEngine_$getTemplate__Lim_actor_model_i18n_I18nEngine_2ILjava_lang_String_2Ljava_lang_String_2(this$static, senderId, $intern_104), $intern_95, senderId == this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?java_util_AbstractHashMap_$getStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Ljava_lang_Object_2(this$static.im_actor_model_i18n_I18nEngine_locale, $intern_96):im_actor_model_entity_User_$getName__Lim_actor_model_entity_User_2Ljava_lang_String_2(im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$getValue__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2JLim_actor_model_droidkit_engine_KeyValueItem_2(this$static.im_actor_model_i18n_I18nEngine_modules.im_actor_model_modules_Modules_users.im_actor_model_modules_Users_users, com_google_gwt_lang_LongLib_fromInt__ILcom_google_gwt_lang_LongLibBase$LongEmul_2(senderId))));
   }
   !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + 'i18NEngine' + ':' + ('Unknown service content: ' + content));
@@ -14581,7 +14592,7 @@ _.onDialogsClosed__V = function im_actor_model_js_JsFacade_onDialogsClosed__V(){
 }
 ;
 _.onDialogsEnd__V = function im_actor_model_js_JsFacade_onDialogsEnd__V(){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_js_JsFacade_messenger.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsHistoryActor, new im_actor_model_modules_messages_DialogsHistoryActor$LoadMore_DialogsHistoryActor$LoadMore__V, null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_js_JsFacade_messenger.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsHistoryActor, new im_actor_model_modules_messages_DialogsHistoryActor$LoadMore_DialogsHistoryActor$LoadMore__V);
 }
 ;
 _.onDialogsOpen__V = function im_actor_model_js_JsFacade_onDialogsOpen__V(){
@@ -14750,21 +14761,21 @@ function im_actor_model_js_entity_JsPromiseExecutor_$resolve__Lim_actor_model_js
   this$static.im_actor_model_js_entity_JsPromiseExecutor_resolveFunc(arg);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(982, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(983, 1, {});
 _.performExecute__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2V = function im_actor_model_js_entity_JsPromiseExecutor_performExecute__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2V(resolve, reject){
   this.im_actor_model_js_entity_JsPromiseExecutor_resolveFunc = resolve;
   this.im_actor_model_js_entity_JsPromiseExecutor_rejectFunc = reject;
   this.execute__V();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsPromiseExecutor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(982);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsPromiseExecutor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(983);
 function im_actor_model_js_JsFacade$10_JsFacade$10__Lim_actor_model_js_JsFacade_2V(this$0, val$gid, val$newTitle){
   this.im_actor_model_js_JsFacade$10_this$01 = this$0;
   this.im_actor_model_js_JsFacade$10_val$gid2 = val$gid;
   this.im_actor_model_js_JsFacade$10_val$newTitle3 = val$newTitle;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(515, 982, {}, im_actor_model_js_JsFacade$10_JsFacade$10__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(515, 983, {}, im_actor_model_js_JsFacade$10_JsFacade$10__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$10_execute__V(){
   im_actor_model_modules_Groups$4_$start__Lim_actor_model_modules_Groups$4_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$editGroupTitle__Lim_actor_model_Messenger_2ILjava_lang_String_2Lim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$10_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$10_val$gid2, this.im_actor_model_js_JsFacade$10_val$newTitle3), new im_actor_model_js_JsFacade$10$1_JsFacade$10$1__Lim_actor_model_js_JsFacade$10_2V(this));
 }
@@ -14795,7 +14806,7 @@ function im_actor_model_js_JsFacade$11_JsFacade$11__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$11_val$uid3 = val$uid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(517, 982, {}, im_actor_model_js_JsFacade$11_JsFacade$11__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(517, 983, {}, im_actor_model_js_JsFacade$11_JsFacade$11__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$11_execute__V(){
   im_actor_model_modules_Groups$6_$start__Lim_actor_model_modules_Groups$6_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$inviteMember__Lim_actor_model_Messenger_2IILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$11_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$11_val$gid2, this.im_actor_model_js_JsFacade$11_val$uid3), new im_actor_model_js_JsFacade$11$1_JsFacade$11$1__Lim_actor_model_js_JsFacade$11_2V(this));
 }
@@ -14827,7 +14838,7 @@ function im_actor_model_js_JsFacade$12_JsFacade$12__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$12_val$uid3 = val$uid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(519, 982, {}, im_actor_model_js_JsFacade$12_JsFacade$12__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(519, 983, {}, im_actor_model_js_JsFacade$12_JsFacade$12__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$12_execute__V(){
   im_actor_model_modules_Groups$7_$start__Lim_actor_model_modules_Groups$7_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$kickMember__Lim_actor_model_Messenger_2IILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$12_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$12_val$gid2, this.im_actor_model_js_JsFacade$12_val$uid3), new im_actor_model_js_JsFacade$12$1_JsFacade$12$1__Lim_actor_model_js_JsFacade$12_2V(this));
 }
@@ -14858,7 +14869,7 @@ function im_actor_model_js_JsFacade$13_JsFacade$13__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$13_val$gid2 = val$gid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(521, 982, {}, im_actor_model_js_JsFacade$13_JsFacade$13__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(521, 983, {}, im_actor_model_js_JsFacade$13_JsFacade$13__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$13_execute__V(){
   im_actor_model_modules_Groups$5_$start__Lim_actor_model_modules_Groups$5_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$leaveGroup__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$13_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$13_val$gid2), new im_actor_model_js_JsFacade$13$1_JsFacade$13$1__Lim_actor_model_js_JsFacade$13_2V(this));
 }
@@ -14888,7 +14899,7 @@ function im_actor_model_js_JsFacade$14_JsFacade$14__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$14_val$gid2 = val$gid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(523, 982, {}, im_actor_model_js_JsFacade$14_JsFacade$14__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(523, 983, {}, im_actor_model_js_JsFacade$14_JsFacade$14__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$14_execute__V(){
   im_actor_model_modules_Groups$11_$start__Lim_actor_model_modules_Groups$11_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$requestIntegrationToken__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$14_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$14_val$gid2), new im_actor_model_js_JsFacade$14$1_JsFacade$14$1__Lim_actor_model_js_JsFacade$14_2V(this));
 }
@@ -14918,7 +14929,7 @@ function im_actor_model_js_JsFacade$15_JsFacade$15__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$15_val$gid2 = val$gid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(525, 982, {}, im_actor_model_js_JsFacade$15_JsFacade$15__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(525, 983, {}, im_actor_model_js_JsFacade$15_JsFacade$15__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$15_execute__V(){
   im_actor_model_modules_Groups$12_$start__Lim_actor_model_modules_Groups$12_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$revokeIntegrationToken__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$15_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$15_val$gid2), new im_actor_model_js_JsFacade$15$1_JsFacade$15$1__Lim_actor_model_js_JsFacade$15_2V(this));
 }
@@ -14948,7 +14959,7 @@ function im_actor_model_js_JsFacade$16_JsFacade$16__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$16_val$gid2 = val$gid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(527, 982, {}, im_actor_model_js_JsFacade$16_JsFacade$16__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(527, 983, {}, im_actor_model_js_JsFacade$16_JsFacade$16__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$16_execute__V(){
   im_actor_model_modules_Groups$8_$start__Lim_actor_model_modules_Groups$8_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$requestInviteLink__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$16_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$16_val$gid2), new im_actor_model_js_JsFacade$16$1_JsFacade$16$1__Lim_actor_model_js_JsFacade$16_2V(this));
 }
@@ -14978,7 +14989,7 @@ function im_actor_model_js_JsFacade$17_JsFacade$17__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$17_val$gid2 = val$gid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(529, 982, {}, im_actor_model_js_JsFacade$17_JsFacade$17__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(529, 983, {}, im_actor_model_js_JsFacade$17_JsFacade$17__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$17_execute__V(){
   im_actor_model_modules_Groups$9_$start__Lim_actor_model_modules_Groups$9_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$revokeInviteLink__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$17_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$17_val$gid2), new im_actor_model_js_JsFacade$17$1_JsFacade$17$1__Lim_actor_model_js_JsFacade$17_2V(this));
 }
@@ -15008,7 +15019,7 @@ function im_actor_model_js_JsFacade$18_JsFacade$18__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$18_val$uid2 = val$uid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(531, 982, {}, im_actor_model_js_JsFacade$18_JsFacade$18__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(531, 983, {}, im_actor_model_js_JsFacade$18_JsFacade$18__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$18_execute__V(){
   im_actor_model_modules_Contacts$4_$start__Lim_actor_model_modules_Contacts$4_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$addContact__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$18_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$18_val$uid2), new im_actor_model_js_JsFacade$18$1_JsFacade$18$1__Lim_actor_model_js_JsFacade$18_2V(this));
 }
@@ -15038,7 +15049,7 @@ function im_actor_model_js_JsFacade$19_JsFacade$19__Lim_actor_model_js_JsFacade_
   this.im_actor_model_js_JsFacade$19_val$uid2 = val$uid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(533, 982, {}, im_actor_model_js_JsFacade$19_JsFacade$19__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(533, 983, {}, im_actor_model_js_JsFacade$19_JsFacade$19__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$19_execute__V(){
   im_actor_model_modules_Contacts$5_$start__Lim_actor_model_modules_Contacts$5_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$removeContact__Lim_actor_model_Messenger_2ILim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$19_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$19_val$uid2), new im_actor_model_js_JsFacade$19$1_JsFacade$19$1__Lim_actor_model_js_JsFacade$19_2V(this));
 }
@@ -15182,7 +15193,7 @@ function im_actor_model_js_JsFacade$8_JsFacade$8__Lim_actor_model_js_JsFacade_2V
   this.im_actor_model_js_JsFacade$8_val$newName2 = val$newName;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(511, 982, {}, im_actor_model_js_JsFacade$8_JsFacade$8__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(511, 983, {}, im_actor_model_js_JsFacade$8_JsFacade$8__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$8_execute__V(){
   im_actor_model_modules_Users$2_$start__Lim_actor_model_modules_Users$2_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$editMyName__Lim_actor_model_Messenger_2Ljava_lang_String_2Lim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$8_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$8_val$newName2), new im_actor_model_js_JsFacade$8$1_JsFacade$8$1__Lim_actor_model_js_JsFacade$8_2V(this));
 }
@@ -15214,7 +15225,7 @@ function im_actor_model_js_JsFacade$9_JsFacade$9__Lim_actor_model_js_JsFacade_2V
   this.im_actor_model_js_JsFacade$9_val$newName3 = val$newName;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(513, 982, {}, im_actor_model_js_JsFacade$9_JsFacade$9__Lim_actor_model_js_JsFacade_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(513, 983, {}, im_actor_model_js_JsFacade$9_JsFacade$9__Lim_actor_model_js_JsFacade_2V);
 _.execute__V = function im_actor_model_js_JsFacade$9_execute__V(){
   im_actor_model_modules_Users$3_$start__Lim_actor_model_modules_Users$3_2Lim_actor_model_concurrency_CommandCallback_2V(im_actor_model_Messenger_$editName__Lim_actor_model_Messenger_2ILjava_lang_String_2Lim_actor_model_concurrency_Command_2(this.im_actor_model_js_JsFacade$9_this$01.im_actor_model_js_JsFacade_messenger, this.im_actor_model_js_JsFacade$9_val$uid2, this.im_actor_model_js_JsFacade$9_val$newName3), new im_actor_model_js_JsFacade$9$1_JsFacade$9$1__Lim_actor_model_js_JsFacade$9_2V(this));
 }
@@ -15538,7 +15549,7 @@ function im_actor_model_js_JsMessenger_$getTyping__Lim_actor_model_js_JsMessenge
 }
 
 function im_actor_model_js_JsMessenger_$loadMoreHistory__Lim_actor_model_js_JsMessenger_2Lim_actor_model_entity_Peer_2V(this$static, peer){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationHistoryActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationHistoryActor$LoadMore_ConversationHistoryActor$LoadMore__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationHistoryActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_Messenger_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationHistoryActor$LoadMore_ConversationHistoryActor$LoadMore__V);
 }
 
 function im_actor_model_js_JsMessenger_$onMessageShown__Lim_actor_model_js_JsMessenger_2Lim_actor_model_entity_Peer_2Ljava_lang_Long_2V(this$static, peer, sortKey){
@@ -17009,8 +17020,8 @@ function im_actor_model_js_providers_fs_JsFileInput_JsFileInput__Lim_actor_model
   this.im_actor_model_js_providers_fs_JsFileInput_jsFile = jsFile;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(953, 1, {}, im_actor_model_js_providers_fs_JsFileInput_JsFileInput__Lim_actor_model_js_providers_fs_JsBlob_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1fs_1JsFileInput_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(953);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(954, 1, {}, im_actor_model_js_providers_fs_JsFileInput_JsFileInput__Lim_actor_model_js_providers_fs_JsBlob_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1fs_1JsFileInput_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(954);
 function im_actor_model_js_providers_fs_JsFileInput$1_JsFileInput$1__Lim_actor_model_js_providers_fs_JsFileInput_2V(val$len, val$data, val$callback){
   this.im_actor_model_js_providers_fs_JsFileInput$1_val$len2 = val$len;
   this.im_actor_model_js_providers_fs_JsFileInput$1_val$data3 = val$data;
@@ -17018,7 +17029,7 @@ function im_actor_model_js_providers_fs_JsFileInput$1_JsFileInput$1__Lim_actor_m
   this.im_actor_model_js_providers_fs_JsFileInput$1_val$callback5 = val$callback;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(954, 1, {}, im_actor_model_js_providers_fs_JsFileInput$1_JsFileInput$1__Lim_actor_model_js_providers_fs_JsFileInput_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(955, 1, {}, im_actor_model_js_providers_fs_JsFileInput$1_JsFileInput$1__Lim_actor_model_js_providers_fs_JsFileInput_2V);
 _.onLoaded__Lcom_google_gwt_typedarrays_shared_ArrayBuffer_2V = function im_actor_model_js_providers_fs_JsFileInput$1_onLoaded__Lcom_google_gwt_typedarrays_shared_ArrayBuffer_2V(message){
   var array, i;
   array = new Uint8Array(message);
@@ -17030,7 +17041,7 @@ _.onLoaded__Lcom_google_gwt_typedarrays_shared_ArrayBuffer_2V = function im_acto
 ;
 _.im_actor_model_js_providers_fs_JsFileInput$1_val$len2 = 0;
 _.im_actor_model_js_providers_fs_JsFileInput$1_val$offset4 = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1fs_1JsFileInput$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(954);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1fs_1JsFileInput$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(955);
 function im_actor_model_js_providers_fs_JsFileReader_$readAsArrayBuffer__Lim_actor_model_js_providers_fs_JsFileReader_2Lim_actor_model_js_providers_fs_JsFileSlice_2V(this$static, slice_0){
   this$static.readAsArrayBuffer(slice_0);
 }
@@ -17050,8 +17061,8 @@ function im_actor_model_js_providers_fs_JsFileSystemReference_JsFileSystemRefere
   this.im_actor_model_js_providers_fs_JsFileSystemReference_file = file;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(764, 1, {}, im_actor_model_js_providers_fs_JsFileSystemReference_JsFileSystemReference__Lim_actor_model_js_providers_fs_JsBlob_2Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1fs_1JsFileSystemReference_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(764);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(766, 1, {}, im_actor_model_js_providers_fs_JsFileSystemReference_JsFileSystemReference__Lim_actor_model_js_providers_fs_JsBlob_2Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1fs_1JsFileSystemReference_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(766);
 function im_actor_model_js_providers_http_JsHttpRequest_$send__Lim_actor_model_js_providers_http_JsHttpRequest_2Lcom_google_gwt_typedarrays_shared_ArrayBuffer_2V(this$static, data_0){
   this$static.send(new Blob([data_0]));
 }
@@ -17234,8 +17245,8 @@ function im_actor_model_js_providers_storage_JsKeyValueStorage_JsKeyValueStorage
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(759, 1, {}, im_actor_model_js_providers_storage_JsKeyValueStorage_JsKeyValueStorage__Ljava_lang_String_2Lcom_google_gwt_storage_client_Storage_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsKeyValueStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(759);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(760, 1, {}, im_actor_model_js_providers_storage_JsKeyValueStorage_JsKeyValueStorage__Ljava_lang_String_2Lcom_google_gwt_storage_client_Storage_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsKeyValueStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(760);
 function im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static, item_0){
   var callback, callback$iterator, e;
   java_util_AbstractHashMap_$put__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2(this$static.im_actor_model_js_providers_storage_JsListEngine_cache, java_lang_Long_valueOf__JLjava_lang_Long_2(item_0.getEngineId__J()), item_0);
@@ -17582,8 +17593,8 @@ function im_actor_model_js_providers_storage_JsListStorage_JsListStorage__Ljava_
   im_actor_model_js_providers_storage_JsListStorage_$updateIndex__Lim_actor_model_js_providers_storage_JsListStorage_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(760, 1, {}, im_actor_model_js_providers_storage_JsListStorage_JsListStorage__Ljava_lang_String_2Lcom_google_gwt_storage_client_Storage_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsListStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(760);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(761, 1, {}, im_actor_model_js_providers_storage_JsListStorage_JsListStorage__Ljava_lang_String_2Lcom_google_gwt_storage_client_Storage_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsListStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(761);
 function im_actor_model_js_providers_storage_JsListStorage$1_$compare__Lim_actor_model_js_providers_storage_JsListStorage$1_2JJI(x_0, y_0){
   return com_google_gwt_lang_LongLib_lt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(x_0, y_0)?-1:com_google_gwt_lang_LongLib_eq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(x_0, y_0)?0:1;
 }
@@ -17591,12 +17602,12 @@ function im_actor_model_js_providers_storage_JsListStorage$1_$compare__Lim_actor
 function im_actor_model_js_providers_storage_JsListStorage$1_JsListStorage$1__Lim_actor_model_js_providers_storage_JsListStorage_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(761, 1, {}, im_actor_model_js_providers_storage_JsListStorage$1_JsListStorage$1__Lim_actor_model_js_providers_storage_JsListStorage_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(762, 1, {}, im_actor_model_js_providers_storage_JsListStorage$1_JsListStorage$1__Lim_actor_model_js_providers_storage_JsListStorage_2V);
 _.compare__Ljava_lang_Object_2Ljava_lang_Object_2I = function im_actor_model_js_providers_storage_JsListStorage$1_compare__Ljava_lang_Object_2Ljava_lang_Object_2I(o1, o2){
   return -im_actor_model_js_providers_storage_JsListStorage$1_$compare__Lim_actor_model_js_providers_storage_JsListStorage$1_2JJI(o1.im_actor_model_js_providers_storage_JsListStorage$Index_sortKey, o2.im_actor_model_js_providers_storage_JsListStorage$Index_sortKey);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsListStorage$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(761);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsListStorage$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(762);
 function im_actor_model_js_providers_storage_JsListStorage$Index_JsListStorage$Index__Lim_actor_model_js_providers_storage_JsListStorage_2JJV(id_0, sortKey){
   this.im_actor_model_js_providers_storage_JsListStorage$Index_id = id_0;
   this.im_actor_model_js_providers_storage_JsListStorage$Index_sortKey = sortKey;
@@ -17658,10 +17669,10 @@ function im_actor_model_js_providers_storage_JsPreferencesStorage_JsPreferencesS
   this.im_actor_model_js_providers_storage_JsPreferencesStorage_storage = storage;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(765, 1, {}, im_actor_model_js_providers_storage_JsPreferencesStorage_JsPreferencesStorage__Lcom_google_gwt_storage_client_Storage_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsPreferencesStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(765);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(988, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1util_1AtomicIntegerCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(988);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(767, 1, {}, im_actor_model_js_providers_storage_JsPreferencesStorage_JsPreferencesStorage__Lcom_google_gwt_storage_client_Storage_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1storage_1JsPreferencesStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(767);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(989, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1util_1AtomicIntegerCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(989);
 function im_actor_model_js_providers_threading_JsAtomicInteger_$compareAndSet__Lim_actor_model_js_providers_threading_JsAtomicInteger_2IIV(this$static, exp_0){
   this$static.im_actor_model_js_providers_threading_JsAtomicInteger_value == exp_0 && (this$static.im_actor_model_js_providers_threading_JsAtomicInteger_value = 50);
 }
@@ -17670,18 +17681,18 @@ function im_actor_model_js_providers_threading_JsAtomicInteger_JsAtomicInteger__
   this.im_actor_model_js_providers_threading_JsAtomicInteger_value = 1;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(823, 988, {}, im_actor_model_js_providers_threading_JsAtomicInteger_JsAtomicInteger__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(826, 989, {}, im_actor_model_js_providers_threading_JsAtomicInteger_JsAtomicInteger__IV);
 _.im_actor_model_js_providers_threading_JsAtomicInteger_value = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsAtomicInteger_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(823);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(990, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1util_1AtomicLongCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(990);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsAtomicInteger_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(826);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(991, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1util_1AtomicLongCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(991);
 function im_actor_model_js_providers_threading_JsAtomicLong_JsAtomicLong__JV(){
   this.im_actor_model_js_providers_threading_JsAtomicLong_value = {l:1, m:0, h:0};
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(824, 990, {}, im_actor_model_js_providers_threading_JsAtomicLong_JsAtomicLong__JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(827, 991, {}, im_actor_model_js_providers_threading_JsAtomicLong_JsAtomicLong__JV);
 _.im_actor_model_js_providers_threading_JsAtomicLong_value = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsAtomicLong_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(824);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsAtomicLong_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(827);
 function im_actor_model_js_providers_threading_JsDispatch_JsDispatch__Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorSystem_2V(actorSystem){
   this.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_endpoints = new java_util_HashMap_HashMap__V;
   this.im_actor_model_droidkit_actors_mailbox_ActorDispatcher_scopes = new java_util_HashMap_HashMap__V;
@@ -17689,8 +17700,8 @@ function im_actor_model_js_providers_threading_JsDispatch_JsDispatch__Ljava_lang
   im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$initDispatcher__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_dispatch_AbstractDispatcher_2V(this, new im_actor_model_js_providers_threading_JsThreads_JsThreads__Lim_actor_model_droidkit_actors_dispatch_AbstractDispatchQueue_2Lim_actor_model_droidkit_actors_dispatch_Dispatch_2V(new im_actor_model_droidkit_actors_mailbox_MailboxesQueue_MailboxesQueue__V, new im_actor_model_js_providers_threading_JsDispatch$1_JsDispatch$1__Lim_actor_model_js_providers_threading_JsDispatch_2V(this)));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(794, 749, {}, im_actor_model_js_providers_threading_JsDispatch_JsDispatch__Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorSystem_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsDispatch_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(794);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(798, 745, {}, im_actor_model_js_providers_threading_JsDispatch_JsDispatch__Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorSystem_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsDispatch_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(798);
 function im_actor_model_js_providers_threading_JsDispatch$1_$dispatchMessage__Lim_actor_model_js_providers_threading_JsDispatch$1_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2V(this$static, message){
   im_actor_model_droidkit_actors_mailbox_ActorDispatcher_$processEnvelope__Lim_actor_model_droidkit_actors_mailbox_ActorDispatcher_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2V(this$static.im_actor_model_js_providers_threading_JsDispatch$1_this$01, message);
 }
@@ -17699,8 +17710,8 @@ function im_actor_model_js_providers_threading_JsDispatch$1_JsDispatch$1__Lim_ac
   this.im_actor_model_js_providers_threading_JsDispatch$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(795, 1, {}, im_actor_model_js_providers_threading_JsDispatch$1_JsDispatch$1__Lim_actor_model_js_providers_threading_JsDispatch_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsDispatch$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(795);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(799, 1, {}, im_actor_model_js_providers_threading_JsDispatch$1_JsDispatch$1__Lim_actor_model_js_providers_threading_JsDispatch_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsDispatch$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(799);
 function im_actor_model_js_providers_threading_JsSecureInterval_$schedule__Lim_actor_model_js_providers_threading_JsSecureInterval_2IV(this$static, msec){
   if (this$static.useWebWorker) {
     this$static.worker.postMessage({message:'schedule', delay:msec});
@@ -17719,6 +17730,7 @@ function im_actor_model_js_providers_threading_JsSecureInterval_$schedule__Lim_a
 }
 
 function im_actor_model_js_providers_threading_JsSecureInterval_create__Ljava_lang_Runnable_2Lim_actor_model_js_providers_threading_JsSecureInterval_2(runnable){
+  console.warn('Create jsSecureInverval');
   if (typeof Worker !== 'undefined') {
     var worker = new Worker('assets/js/interval.js');
     var _runnable = runnable;
@@ -17733,8 +17745,8 @@ function im_actor_model_js_providers_threading_JsSecureInterval_create__Ljava_la
   }
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1002, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1util_1ThreadLocalCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1002);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(1003, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1util_1ThreadLocalCompat_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(1003);
 function im_actor_model_js_providers_threading_JsThreadLocal_$set__Lim_actor_model_js_providers_threading_JsThreadLocal_2Ljava_lang_Object_2V(this$static, v){
   this$static.im_actor_model_js_providers_threading_JsThreadLocal_obj = v;
 }
@@ -17742,7 +17754,7 @@ function im_actor_model_js_providers_threading_JsThreadLocal_$set__Lim_actor_mod
 function im_actor_model_js_providers_threading_JsThreadLocal_JsThreadLocal__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(858, 1002, {}, im_actor_model_js_providers_threading_JsThreadLocal_JsThreadLocal__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(858, 1003, {}, im_actor_model_js_providers_threading_JsThreadLocal_JsThreadLocal__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsThreadLocal_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(858);
 function im_actor_model_js_providers_threading_JsThreads_$doIteration__Lim_actor_model_js_providers_threading_JsThreads_2J(this$static){
   var action, time;
@@ -17769,14 +17781,14 @@ function im_actor_model_js_providers_threading_JsThreads_JsThreads__Lim_actor_mo
   this.im_actor_model_js_providers_threading_JsThreads_secureInterval = im_actor_model_js_providers_threading_JsSecureInterval_create__Ljava_lang_Runnable_2Lim_actor_model_js_providers_threading_JsSecureInterval_2(new im_actor_model_js_providers_threading_JsThreads$1_JsThreads$1__Lim_actor_model_js_providers_threading_JsThreads_2V(this));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(821, 773, {}, im_actor_model_js_providers_threading_JsThreads_JsThreads__Lim_actor_model_droidkit_actors_dispatch_AbstractDispatchQueue_2Lim_actor_model_droidkit_actors_dispatch_Dispatch_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(824, 773, {}, im_actor_model_js_providers_threading_JsThreads_JsThreads__Lim_actor_model_droidkit_actors_dispatch_AbstractDispatchQueue_2Lim_actor_model_droidkit_actors_dispatch_Dispatch_2V);
 _.im_actor_model_js_providers_threading_JsThreads_isDoingIteration = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsThreads_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(821);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsThreads_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(824);
 function im_actor_model_js_providers_threading_JsThreads$1_JsThreads$1__Lim_actor_model_js_providers_threading_JsThreads_2V(this$0){
   this.im_actor_model_js_providers_threading_JsThreads$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(822, 1, $intern_125, im_actor_model_js_providers_threading_JsThreads$1_JsThreads$1__Lim_actor_model_js_providers_threading_JsThreads_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(825, 1, $intern_125, im_actor_model_js_providers_threading_JsThreads$1_JsThreads$1__Lim_actor_model_js_providers_threading_JsThreads_2V);
 _.run__V = function im_actor_model_js_providers_threading_JsThreads$1_run__V(){
   var delay, iteration;
   this.im_actor_model_js_providers_threading_JsThreads$1_this$01.im_actor_model_js_providers_threading_JsThreads_isDoingIteration = true;
@@ -17797,7 +17809,7 @@ _.run__V = function im_actor_model_js_providers_threading_JsThreads$1_run__V(){
   }
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsThreads$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(822);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1threading_1JsThreads$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(825);
 function im_actor_model_network_connection_AsyncConnection_$onReceived__Lim_actor_model_network_connection_AsyncConnection_2_3BV(this$static, data_0){
   im_actor_model_network_connection_ManagedConnection$ConnectionInterface_$onReceived__Lim_actor_model_network_connection_ManagedConnection$ConnectionInterface_2_3BV(this$static.im_actor_model_network_connection_AsyncConnection_connection, data_0);
 }
@@ -17869,7 +17881,7 @@ function im_actor_model_js_providers_websocket_WebSocketConnection_WebSocketConn
   this.im_actor_model_network_connection_AsyncConnection_endpoint = endpoint;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(951, 947, {}, im_actor_model_js_providers_websocket_WebSocketConnection_WebSocketConnection__Lim_actor_model_network_ConnectionEndpoint_2Lim_actor_model_network_connection_AsyncConnectionInterface_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(952, 947, {}, im_actor_model_js_providers_websocket_WebSocketConnection_WebSocketConnection__Lim_actor_model_network_ConnectionEndpoint_2Lim_actor_model_network_connection_AsyncConnectionInterface_2V);
 _.private$im_actor_model_js_providers_websocket_WebSocketConnection$onRawClosed__V = function im_actor_model_js_providers_websocket_WebSocketConnection_onRawClosed__V(){
   this.im_actor_model_js_providers_websocket_WebSocketConnection_isClosed = true;
   im_actor_model_network_connection_ManagedConnection_$close__Lim_actor_model_network_connection_ManagedConnection_2V(this.im_actor_model_network_connection_AsyncConnection_connection.im_actor_model_network_connection_ManagedConnection$ConnectionInterface_this$01);
@@ -17888,7 +17900,7 @@ _.private$im_actor_model_js_providers_websocket_WebSocketConnection$onRawMessage
 }
 ;
 _.im_actor_model_js_providers_websocket_WebSocketConnection_isClosed = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1websocket_1WebSocketConnection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(951);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1providers_1websocket_1WebSocketConnection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(952);
 function im_actor_model_js_utils_Conversion_convertBytes__Lcom_google_gwt_typedarrays_shared_ArrayBuffer_2_3B(buffer){
   var array, i, res;
   array = new Uint8Array(buffer);
@@ -17938,11 +17950,11 @@ function im_actor_model_modules_Analytics_Analytics__Lim_actor_model_modules_Mod
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(604, 24, {}, im_actor_model_modules_Analytics_Analytics__Lim_actor_model_modules_Modules_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Analytics_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(604);
 function im_actor_model_modules_AppStateModule_$onContactsUpdate__Lim_actor_model_modules_AppStateModule_2ZV(this$static, isEmpty){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnContactsChanged_ListsStatesActor$OnContactsChanged__ZV(isEmpty));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnContactsChanged_ListsStatesActor$OnContactsChanged__ZV(isEmpty));
 }
 
 function im_actor_model_modules_AppStateModule_$onDialogsUpdate__Lim_actor_model_modules_AppStateModule_2ZV(this$static, isEmpty){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnDialogsChanged_ListsStatesActor$OnDialogsChanged__ZV(isEmpty));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnDialogsChanged_ListsStatesActor$OnDialogsChanged__ZV(isEmpty));
 }
 
 function im_actor_model_modules_AppStateModule_$run__Lim_actor_model_modules_AppStateModule_2V(this$static){
@@ -17954,18 +17966,18 @@ function im_actor_model_modules_AppStateModule_AppStateModule__Lim_actor_model_m
   this.im_actor_model_modules_AppStateModule_appStateVM = new im_actor_model_viewmodel_AppStateVM_AppStateVM__Lim_actor_model_modules_Modules_2V(modules);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(755, 24, {}, im_actor_model_modules_AppStateModule_AppStateModule__Lim_actor_model_modules_Modules_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1AppStateModule_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(755);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(756, 24, {}, im_actor_model_modules_AppStateModule_AppStateModule__Lim_actor_model_modules_Modules_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1AppStateModule_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(756);
 function im_actor_model_modules_AppStateModule$1_AppStateModule$1__Lim_actor_model_modules_AppStateModule_2V(this$0){
   this.im_actor_model_modules_AppStateModule$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(757, 1, {}, im_actor_model_modules_AppStateModule$1_AppStateModule$1__Lim_actor_model_modules_AppStateModule_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(758, 1, {}, im_actor_model_modules_AppStateModule$1_AppStateModule$1__Lim_actor_model_modules_AppStateModule_2V);
 _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modules_AppStateModule$1_create__Lim_actor_model_droidkit_actors_Actor_2(){
   return new im_actor_model_modules_state_ListsStatesActor_ListsStatesActor__Lim_actor_model_modules_Modules_2V(this.im_actor_model_modules_AppStateModule$1_this$01.im_actor_model_modules_BaseModule_modules);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1AppStateModule$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(757);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1AppStateModule$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(758);
 function im_actor_model_modules_Auth_$onLoggedIn__Lim_actor_model_modules_Auth_2Lim_actor_model_concurrency_CommandCallback_2Lim_actor_model_api_rpc_ResponseAuth_2V(this$static, callback, response){
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBool__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2ZV(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_preferences, 'auth_yes', true);
   this$static.im_actor_model_modules_Auth_state = (im_actor_model_AuthState_$clinit__V() , im_actor_model_AuthState_LOGGED_1IN);
@@ -18361,8 +18373,8 @@ function im_actor_model_modules_External_External__Lim_actor_model_modules_Modul
   im_actor_model_modules_BaseModule_BaseModule__Lim_actor_model_modules_Modules_2V.call(this, modules);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(758, 24, {}, im_actor_model_modules_External_External__Lim_actor_model_modules_Modules_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1External_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(758);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(759, 24, {}, im_actor_model_modules_External_External__Lim_actor_model_modules_Modules_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1External_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(759);
 function im_actor_model_modules_Files_$requestUpload__Lim_actor_model_modules_Files_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static, rid, descriptor, fileName, requester){
   im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Files_uploadManager, new im_actor_model_modules_file_UploadManager$StartUpload_UploadManager$StartUpload__JLjava_lang_String_2Ljava_lang_String_2V(rid, descriptor, fileName), requester);
 }
@@ -19128,7 +19140,7 @@ function im_actor_model_modules_Messages_$loadReadState__Lim_actor_model_modules
 }
 
 function im_actor_model_modules_Messages_$onInMessageShown__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2JV(this$static, peer, sortDate){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageRead_OwnReadActor$MessageRead__Lim_actor_model_entity_Peer_2JV(peer, sortDate), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageRead_OwnReadActor$MessageRead__Lim_actor_model_entity_Peer_2JV(peer, sortDate));
 }
 
 function im_actor_model_modules_Messages_$run__Lim_actor_model_modules_Messages_2V(this$static){
@@ -19152,17 +19164,17 @@ function im_actor_model_modules_Messages_$saveReadState__Lim_actor_model_modules
 function im_actor_model_modules_Messages_$sendDocument__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Ljava_lang_String_2Ljava_lang_String_2Lim_actor_model_entity_content_FastThumb_2Ljava_lang_String_2V(this$static, peer, fileName, mimeType, descriptor){
   var reference;
   reference = im_actor_model_js_providers_JsFileSystemProvider_$fileFromDescriptor__Lim_actor_model_js_providers_JsFileSystemProvider_2Ljava_lang_String_2Lim_actor_model_files_FileSystemReference_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_configuration.im_actor_model_Configuration_fileSystemProvider, descriptor);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$SendDocument_SenderActor$SendDocument__Lim_actor_model_entity_Peer_2Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_FastThumb_2V(peer, fileName, mimeType, reference.im_actor_model_js_providers_fs_JsFileSystemReference_file.size, reference.im_actor_model_js_providers_fs_JsFileSystemReference_key), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$SendDocument_SenderActor$SendDocument__Lim_actor_model_entity_Peer_2Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_FastThumb_2V(peer, fileName, mimeType, reference.im_actor_model_js_providers_fs_JsFileSystemReference_file.size, reference.im_actor_model_js_providers_fs_JsFileSystemReference_key));
 }
 
 function im_actor_model_modules_Messages_$sendMessage__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Ljava_lang_String_2Ljava_lang_String_2Ljava_util_ArrayList_2V(this$static, peer, message, mentions){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$SendText_SenderActor$SendText__Lim_actor_model_entity_Peer_2Ljava_lang_String_2Ljava_lang_String_2Ljava_util_ArrayList_2V(peer, message, mentions), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$SendText_SenderActor$SendText__Lim_actor_model_entity_Peer_2Ljava_lang_String_2Ljava_lang_String_2Ljava_util_ArrayList_2V(peer, message, mentions));
 }
 
 function im_actor_model_modules_Messages_$sendPhoto__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Ljava_lang_String_2IILim_actor_model_entity_content_FastThumb_2Ljava_lang_String_2V(this$static, peer, fileName, w, h, fastThumb, descriptor){
   var reference;
   reference = im_actor_model_js_providers_JsFileSystemProvider_$fileFromDescriptor__Lim_actor_model_js_providers_JsFileSystemProvider_2Ljava_lang_String_2Lim_actor_model_files_FileSystemReference_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_configuration.im_actor_model_Configuration_fileSystemProvider, descriptor);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$SendPhoto_SenderActor$SendPhoto__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_content_FastThumb_2Ljava_lang_String_2Ljava_lang_String_2IIIV(peer, fastThumb, descriptor, fileName, reference.im_actor_model_js_providers_fs_JsFileSystemReference_file.size, w, h), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$SendPhoto_SenderActor$SendPhoto__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_content_FastThumb_2Ljava_lang_String_2Ljava_lang_String_2IIIV(peer, fastThumb, descriptor, fileName, reference.im_actor_model_js_providers_fs_JsFileSystemReference_file.size, w, h));
 }
 
 function im_actor_model_modules_Messages_Messages__Lim_actor_model_modules_Modules_2V(messenger){
@@ -19475,17 +19487,17 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Messages$
 function im_actor_model_modules_Modules_$onAppHidden__Lim_actor_model_modules_Modules_2V(this$static){
   this$static.im_actor_model_modules_Modules_isAppVisible = false;
   if (this$static.im_actor_model_modules_Modules_presence) {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_myPresence, new im_actor_model_modules_presence_OwnPresenceActor$OnAppHidden_OwnPresenceActor$OnAppHidden__V);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppHidden_NotificationsActor$OnAppHidden__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_myPresence, new im_actor_model_modules_presence_OwnPresenceActor$OnAppHidden_OwnPresenceActor$OnAppHidden__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppHidden_NotificationsActor$OnAppHidden__V);
   }
 }
 
 function im_actor_model_modules_Modules_$onAppVisible__Lim_actor_model_modules_Modules_2V(this$static){
   this$static.im_actor_model_modules_Modules_isAppVisible = true;
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_actorApi.im_actor_model_network_ActorApi_apiBroker, new im_actor_model_network_api_ApiBroker$ForceNetworkCheck_ApiBroker$ForceNetworkCheck__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_actorApi.im_actor_model_network_ActorApi_apiBroker, new im_actor_model_network_api_ApiBroker$ForceNetworkCheck_ApiBroker$ForceNetworkCheck__V);
   if (this$static.im_actor_model_modules_Modules_presence) {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_myPresence, new im_actor_model_modules_presence_OwnPresenceActor$OnAppVisible_OwnPresenceActor$OnAppVisible__V);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppVisible_NotificationsActor$OnAppVisible__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_myPresence, new im_actor_model_modules_presence_OwnPresenceActor$OnAppVisible_OwnPresenceActor$OnAppVisible__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppVisible_NotificationsActor$OnAppVisible__V);
   }
 }
 
@@ -19539,11 +19551,11 @@ function im_actor_model_modules_Modules_$onLoggedIn__Lim_actor_model_modules_Mod
   im_actor_model_util_Timing_$section__Lim_actor_model_util_Timing_2Ljava_lang_String_2V(timing, 'Presence');
   im_actor_model_util_Timing_$end__Lim_actor_model_util_Timing_2V(timing);
   if (this$static.im_actor_model_modules_Modules_isAppVisible) {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_myPresence, new im_actor_model_modules_presence_OwnPresenceActor$OnAppVisible_OwnPresenceActor$OnAppVisible__V);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppVisible_NotificationsActor$OnAppVisible__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_myPresence, new im_actor_model_modules_presence_OwnPresenceActor$OnAppVisible_OwnPresenceActor$OnAppVisible__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppVisible_NotificationsActor$OnAppVisible__V);
   }
    else {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppHidden_NotificationsActor$OnAppHidden__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnAppHidden_NotificationsActor$OnAppHidden__V);
   }
 }
 
@@ -19586,8 +19598,8 @@ _.run__V = function im_actor_model_modules_Modules$1_run__V(){
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Modules$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(558);
 function im_actor_model_modules_Modules$ActorApiCallbackImpl_$onNewSessionCreated__Lim_actor_model_modules_Modules$ActorApiCallbackImpl_2V(this$static){
-  !!this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_updates && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_updates.im_actor_model_modules_Updates_updateActor, new im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V);
-  !!this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_presence && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_presence, new im_actor_model_modules_presence_PresenceActor$SessionCreated_PresenceActor$SessionCreated__V);
+  !!this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_updates && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_updates.im_actor_model_modules_Updates_updateActor, new im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V);
+  !!this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_presence && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01.im_actor_model_modules_Modules_presence.im_actor_model_modules_Presence_presence, new im_actor_model_modules_presence_PresenceActor$SessionCreated_PresenceActor$SessionCreated__V);
 }
 
 function im_actor_model_modules_Modules$ActorApiCallbackImpl_$onUpdateReceived__Lim_actor_model_modules_Modules$ActorApiCallbackImpl_2Ljava_lang_Object_2V(this$static, obj){
@@ -19601,19 +19613,19 @@ function im_actor_model_modules_Modules$ActorApiCallbackImpl_Modules$ActorApiCal
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(557, 1, {}, im_actor_model_modules_Modules$ActorApiCallbackImpl_Modules$ActorApiCallbackImpl__Lim_actor_model_modules_Modules_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Modules$ActorApiCallbackImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(557);
 function im_actor_model_modules_Notifications_$onConversationClose__Lim_actor_model_modules_Notifications_2Lim_actor_model_entity_Peer_2V(this$static, peer){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnConversationHidden_NotificationsActor$OnConversationHidden__Lim_actor_model_entity_Peer_2V(peer), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnConversationHidden_NotificationsActor$OnConversationHidden__Lim_actor_model_entity_Peer_2V(peer));
 }
 
 function im_actor_model_modules_Notifications_$onConversationOpen__Lim_actor_model_modules_Notifications_2Lim_actor_model_entity_Peer_2V(this$static, peer){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnConversationVisible_NotificationsActor$OnConversationVisible__Lim_actor_model_entity_Peer_2V(peer), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$OnConversationVisible_NotificationsActor$OnConversationVisible__Lim_actor_model_entity_Peer_2V(peer));
 }
 
 function im_actor_model_modules_Notifications_$onInMessage__Lim_actor_model_modules_Notifications_2Lim_actor_model_entity_Peer_2IJLim_actor_model_entity_ContentDescription_2ZV(this$static, peer, sender, sortDate, contentDescription, hasCurrentUserMention){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$NewMessage_NotificationsActor$NewMessage__Lim_actor_model_entity_Peer_2IJLim_actor_model_entity_ContentDescription_2ZV(peer, sender, sortDate, contentDescription, hasCurrentUserMention), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$NewMessage_NotificationsActor$NewMessage__Lim_actor_model_entity_Peer_2IJLim_actor_model_entity_ContentDescription_2ZV(peer, sender, sortDate, contentDescription, hasCurrentUserMention));
 }
 
 function im_actor_model_modules_Notifications_$onOwnRead__Lim_actor_model_modules_Notifications_2Lim_actor_model_entity_Peer_2JV(this$static, peer, fromDate){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$MessagesRead_NotificationsActor$MessagesRead__Lim_actor_model_entity_Peer_2JV(peer, fromDate), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$MessagesRead_NotificationsActor$MessagesRead__Lim_actor_model_entity_Peer_2JV(peer, fromDate));
 }
 
 function im_actor_model_modules_Notifications_$run__Lim_actor_model_modules_Notifications_2V(this$static){
@@ -19638,7 +19650,7 @@ _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modu
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Notifications$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(610);
 function im_actor_model_modules_Presence_$subscribe__Lim_actor_model_modules_Presence_2Lim_actor_model_entity_Peer_2V(this$static, peer){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Presence_presence, new im_actor_model_modules_presence_PresenceActor$Subscribe_PresenceActor$Subscribe__Lim_actor_model_entity_Peer_2V(peer), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Presence_presence, new im_actor_model_modules_presence_PresenceActor$Subscribe_PresenceActor$Subscribe__Lim_actor_model_entity_Peer_2V(peer));
 }
 
 function im_actor_model_modules_Presence_Presence__Lim_actor_model_modules_Modules_2V(modules){
@@ -19678,7 +19690,7 @@ _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modu
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Profile$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(793);
 function im_actor_model_modules_Pushes_$registerGooglePush__Lim_actor_model_modules_Pushes_2JLjava_lang_String_2V(this$static, token){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Pushes_pushActor, new im_actor_model_modules_push_PushRegisterActor$RegisterGooglePush_PushRegisterActor$RegisterGooglePush__JLjava_lang_String_2V(token));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Pushes_pushActor, new im_actor_model_modules_push_PushRegisterActor$RegisterGooglePush_PushRegisterActor$RegisterGooglePush__JLjava_lang_String_2V(token));
 }
 
 function im_actor_model_modules_Pushes_Pushes__Lim_actor_model_modules_Modules_2V(modules){
@@ -19686,29 +19698,29 @@ function im_actor_model_modules_Pushes_Pushes__Lim_actor_model_modules_Modules_2
   this.im_actor_model_modules_Pushes_pushActor = im_actor_model_droidkit_actors_ActorSystem_$actorOf__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2((im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_mainSystem), new im_actor_model_droidkit_actors_Props_Props__Ljava_lang_Class_2_3Ljava_lang_Object_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorCreator_2Lim_actor_model_droidkit_actors_MailboxCreator_2V(new im_actor_model_modules_Pushes$1_Pushes$1__Lim_actor_model_modules_Pushes_2V(this), null), 'actor/push');
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(752, 24, {}, im_actor_model_modules_Pushes_Pushes__Lim_actor_model_modules_Modules_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Pushes_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(752);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(753, 24, {}, im_actor_model_modules_Pushes_Pushes__Lim_actor_model_modules_Modules_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Pushes_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(753);
 function im_actor_model_modules_Pushes$1_Pushes$1__Lim_actor_model_modules_Pushes_2V(this$0){
   this.im_actor_model_modules_Pushes$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(754, 1, {}, im_actor_model_modules_Pushes$1_Pushes$1__Lim_actor_model_modules_Pushes_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(755, 1, {}, im_actor_model_modules_Pushes$1_Pushes$1__Lim_actor_model_modules_Pushes_2V);
 _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modules_Pushes$1_create__Lim_actor_model_droidkit_actors_Actor_2(){
   return new im_actor_model_modules_push_PushRegisterActor_PushRegisterActor__Lim_actor_model_modules_Modules_2V(this.im_actor_model_modules_Pushes$1_this$01.im_actor_model_modules_BaseModule_modules);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Pushes$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(754);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Pushes$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(755);
 function im_actor_model_modules_SearchModule_$onContactsChanged__Lim_actor_model_modules_SearchModule_2_3Ljava_lang_Integer_2V(this$static, contacts){
   var i, res;
   res = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_I_1classLit, $intern_8, 0, contacts.length, 7, 1);
   for (i = 0; i < res.length; i++) {
     res[i] = contacts[i].java_lang_Integer_value;
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_SearchModule_actorRef, new im_actor_model_modules_search_SearchActor$OnContactsUpdated_SearchActor$OnContactsUpdated___3IV(res));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_SearchModule_actorRef, new im_actor_model_modules_search_SearchActor$OnContactsUpdated_SearchActor$OnContactsUpdated___3IV(res));
 }
 
 function im_actor_model_modules_SearchModule_$onDialogsChanged__Lim_actor_model_modules_SearchModule_2Ljava_util_List_2V(this$static, dialogs){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_SearchModule_actorRef, new im_actor_model_modules_search_SearchActor$OnDialogsUpdated_SearchActor$OnDialogsUpdated__Ljava_util_List_2V(dialogs));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_SearchModule_actorRef, new im_actor_model_modules_search_SearchActor$OnDialogsUpdated_SearchActor$OnDialogsUpdated__Ljava_util_List_2V(dialogs));
 }
 
 function im_actor_model_modules_SearchModule_$run__Lim_actor_model_modules_SearchModule_2V(this$static){
@@ -19752,14 +19764,14 @@ function im_actor_model_modules_Settings_$changeNotificationsEnabled__Lim_actor_
 
 function im_actor_model_modules_Settings_$changeValue__Lim_actor_model_modules_Settings_2Ljava_lang_String_2Ljava_lang_String_2V(this$static, key, val){
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putString__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2Ljava_lang_String_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_preferences, $intern_143 + key, val);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Settings_settingsSync, new im_actor_model_modules_settings_SettingsSyncActor$ChangeSettings_SettingsSyncActor$ChangeSettings__Ljava_lang_String_2Ljava_lang_String_2V(key, val), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Settings_settingsSync, new im_actor_model_modules_settings_SettingsSyncActor$ChangeSettings_SettingsSyncActor$ChangeSettings__Ljava_lang_String_2Ljava_lang_String_2V(key, val));
 }
 
 function im_actor_model_modules_Settings_$changeValue__Lim_actor_model_modules_Settings_2Ljava_lang_String_2ZV(this$static, key, val){
   var sVal;
   sVal = val?$intern_89:'false';
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putString__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2Ljava_lang_String_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_preferences, $intern_143 + key, sVal);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Settings_settingsSync, new im_actor_model_modules_settings_SettingsSyncActor$ChangeSettings_SettingsSyncActor$ChangeSettings__Ljava_lang_String_2Ljava_lang_String_2V(key, sVal));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Settings_settingsSync, new im_actor_model_modules_settings_SettingsSyncActor$ChangeSettings_SettingsSyncActor$ChangeSettings__Ljava_lang_String_2Ljava_lang_String_2V(key, sVal));
 }
 
 function im_actor_model_modules_Settings_$getChatKey__Lim_actor_model_modules_Settings_2Lim_actor_model_entity_Peer_2Ljava_lang_String_2(peer){
@@ -19861,7 +19873,7 @@ function im_actor_model_modules_Typing_$getTyping__Lim_actor_model_modules_Typin
 }
 
 function im_actor_model_modules_Typing_$onTyping__Lim_actor_model_modules_Typing_2Lim_actor_model_entity_Peer_2V(this$static, peer){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Typing_ownTypingActor, new im_actor_model_modules_typing_OwnTypingActor$Typing_OwnTypingActor$Typing__Lim_actor_model_entity_Peer_2V(peer), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Typing_ownTypingActor, new im_actor_model_modules_typing_OwnTypingActor$Typing_OwnTypingActor$Typing__Lim_actor_model_entity_Peer_2V(peer));
 }
 
 function im_actor_model_modules_Typing_Typing__Lim_actor_model_modules_Modules_2V(messenger){
@@ -19885,15 +19897,15 @@ _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modu
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1Typing$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(613);
 function im_actor_model_modules_Updates_$executeAfter__Lim_actor_model_modules_Updates_2ILjava_lang_Runnable_2V(this$static, seq, runnable){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Updates_updateActor, new im_actor_model_modules_updates_internal_ExecuteAfter_ExecuteAfter__ILjava_lang_Runnable_2V(seq, runnable));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Updates_updateActor, new im_actor_model_modules_updates_internal_ExecuteAfter_ExecuteAfter__ILjava_lang_Runnable_2V(seq, runnable));
 }
 
 function im_actor_model_modules_Updates_$onSeqUpdateReceived__Lim_actor_model_modules_Updates_2I_3BLim_actor_model_network_parser_Update_2V(this$static, seq, state, update){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Updates_updateActor, new im_actor_model_api_base_SeqUpdate_SeqUpdate__I_3BI_3BV(seq, state, update.getHeaderKey__I(), im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(update)));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Updates_updateActor, new im_actor_model_api_base_SeqUpdate_SeqUpdate__I_3BI_3BV(seq, state, update.getHeaderKey__I(), im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(update)));
 }
 
 function im_actor_model_modules_Updates_$onUpdateReceived__Lim_actor_model_modules_Updates_2Ljava_lang_Object_2V(this$static, update){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_Updates_updateActor, update);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_Updates_updateActor, update);
 }
 
 function im_actor_model_modules_Updates_$run__Lim_actor_model_modules_Updates_2V(this$static){
@@ -20129,7 +20141,7 @@ function im_actor_model_modules_utils_ModuleActor_ModuleActor__Lim_actor_model_m
   this.im_actor_model_modules_utils_ModuleActor_modules = modules;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(27, 983, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(27, 984, {});
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1utils_1ModuleActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(27);
 function im_actor_model_modules_avatar_GroupAvatarChangeActor_$avatarChanged__Lim_actor_model_modules_avatar_GroupAvatarChangeActor_2IJV(this$static, gid, rid){
   if (!java_util_AbstractHashMap_$containsKey__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_avatar_GroupAvatarChangeActor_currentTasks, java_lang_Integer_valueOf__ILjava_lang_Integer_2(gid))) {
@@ -20182,7 +20194,7 @@ _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_avatar_Group
     uploadCompleted = message;
     im_actor_model_modules_avatar_GroupAvatarChangeActor_$uploadCompleted__Lim_actor_model_modules_avatar_GroupAvatarChangeActor_2JLim_actor_model_entity_FileReference_2V(this, uploadCompleted.im_actor_model_modules_file_UploadManager$UploadCompleted_rid, uploadCompleted.im_actor_model_modules_file_UploadManager$UploadCompleted_fileReference);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 280)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 283)) {
     avatarChanged = message;
     im_actor_model_modules_avatar_GroupAvatarChangeActor_$avatarChanged__Lim_actor_model_modules_avatar_GroupAvatarChangeActor_2IJV(this, avatarChanged.im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_gid, avatarChanged.im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_rid);
   }
@@ -20203,7 +20215,7 @@ function im_actor_model_modules_avatar_GroupAvatarChangeActor$1_GroupAvatarChang
   this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_val$rid3 = val$rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(797, 1, {}, im_actor_model_modules_avatar_GroupAvatarChangeActor$1_GroupAvatarChangeActor$1__Lim_actor_model_modules_avatar_GroupAvatarChangeActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(801, 1, {}, im_actor_model_modules_avatar_GroupAvatarChangeActor$1_GroupAvatarChangeActor$1__Lim_actor_model_modules_avatar_GroupAvatarChangeActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_avatar_GroupAvatarChangeActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
   var gid;
   if (!java_util_AbstractHashMap_$containsKey__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Z(this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_this$01.im_actor_model_modules_avatar_GroupAvatarChangeActor_tasksMap, java_lang_Long_valueOf__JLjava_lang_Long_2(this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_val$rid3))) {
@@ -20225,30 +20237,30 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 ;
 _.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_val$gid2 = 0;
 _.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_val$rid3 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1GroupAvatarChangeActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(797);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1GroupAvatarChangeActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(801);
 function im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_GroupAvatarChangeActor$1$1__Lim_actor_model_modules_avatar_GroupAvatarChangeActor$1_2V(this$1, val$gid, val$rid){
   this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_this$11 = this$1;
   this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$gid2 = val$gid;
   this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$rid3 = val$rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(798, 1, $intern_125, im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_GroupAvatarChangeActor$1$1__Lim_actor_model_modules_avatar_GroupAvatarChangeActor$1_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(802, 1, $intern_125, im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_GroupAvatarChangeActor$1$1__Lim_actor_model_modules_avatar_GroupAvatarChangeActor$1_2V);
 _.run__V = function im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_run__V(){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_this$11.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_GroupAvatarChangeActor$AvatarChanged__IJV(this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$gid2, this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$rid3));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_this$11.im_actor_model_modules_avatar_GroupAvatarChangeActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_GroupAvatarChangeActor$AvatarChanged__IJV(this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$gid2, this.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$rid3));
 }
 ;
 _.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$gid2 = 0;
 _.im_actor_model_modules_avatar_GroupAvatarChangeActor$1$1_val$rid3 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1GroupAvatarChangeActor$1$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(798);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1GroupAvatarChangeActor$1$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(802);
 function im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_GroupAvatarChangeActor$AvatarChanged__IJV(gid, rid){
   this.im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_gid = gid;
   this.im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_rid = rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(280, 1, {280:1}, im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_GroupAvatarChangeActor$AvatarChanged__IJV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(283, 1, {283:1}, im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_GroupAvatarChangeActor$AvatarChanged__IJV);
 _.im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_gid = 0;
 _.im_actor_model_modules_avatar_GroupAvatarChangeActor$AvatarChanged_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1GroupAvatarChangeActor$AvatarChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(280);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1GroupAvatarChangeActor$AvatarChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(283);
 function im_actor_model_modules_avatar_OwnAvatarChangeActor_$avatarChanged__Lim_actor_model_modules_avatar_OwnAvatarChangeActor_2JV(this$static, rid){
   if (com_google_gwt_lang_LongLib_neq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(rid, this$static.im_actor_model_modules_avatar_OwnAvatarChangeActor_currentChangeTask)) {
     return;
@@ -20288,7 +20300,7 @@ _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_avatar_OwnAv
     im_actor_model_modules_avatar_OwnAvatarChangeActor_$uploadError__Lim_actor_model_modules_avatar_OwnAvatarChangeActor_2JV(this, uploadError.im_actor_model_modules_file_UploadManager$UploadError_rid);
   }
    else 
-    com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 284)?im_actor_model_modules_avatar_OwnAvatarChangeActor_$avatarChanged__Lim_actor_model_modules_avatar_OwnAvatarChangeActor_2JV(this, message.im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_rid):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
+    com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 287)?im_actor_model_modules_avatar_OwnAvatarChangeActor_$avatarChanged__Lim_actor_model_modules_avatar_OwnAvatarChangeActor_2JV(this, message.im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_rid):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 ;
 _.im_actor_model_modules_avatar_OwnAvatarChangeActor_currentChangeTask = {l:0, m:0, h:0};
@@ -20298,7 +20310,7 @@ function im_actor_model_modules_avatar_OwnAvatarChangeActor$1_OwnAvatarChangeAct
   this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1_val$rid2 = val$rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(802, 1, {}, im_actor_model_modules_avatar_OwnAvatarChangeActor$1_OwnAvatarChangeActor$1__Lim_actor_model_modules_avatar_OwnAvatarChangeActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(806, 1, {}, im_actor_model_modules_avatar_OwnAvatarChangeActor$1_OwnAvatarChangeActor$1__Lim_actor_model_modules_avatar_OwnAvatarChangeActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_avatar_OwnAvatarChangeActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
   if (com_google_gwt_lang_LongLib_neq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1_val$rid2, this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1_this$01.im_actor_model_modules_avatar_OwnAvatarChangeActor_currentChangeTask)) {
     return;
@@ -20313,26 +20325,26 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 }
 ;
 _.im_actor_model_modules_avatar_OwnAvatarChangeActor$1_val$rid2 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1OwnAvatarChangeActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(802);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1OwnAvatarChangeActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(806);
 function im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_OwnAvatarChangeActor$1$1__Lim_actor_model_modules_avatar_OwnAvatarChangeActor$1_2V(this$1, val$rid){
   this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_this$11 = this$1;
   this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_val$rid2 = val$rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(803, 1, $intern_125, im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_OwnAvatarChangeActor$1$1__Lim_actor_model_modules_avatar_OwnAvatarChangeActor$1_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(807, 1, $intern_125, im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_OwnAvatarChangeActor$1$1__Lim_actor_model_modules_avatar_OwnAvatarChangeActor$1_2V);
 _.run__V = function im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_run__V(){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_this$11.im_actor_model_modules_avatar_OwnAvatarChangeActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_OwnAvatarChangeActor$AvatarChanged__JV(this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_val$rid2));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_this$11.im_actor_model_modules_avatar_OwnAvatarChangeActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_OwnAvatarChangeActor$AvatarChanged__JV(this.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_val$rid2));
 }
 ;
 _.im_actor_model_modules_avatar_OwnAvatarChangeActor$1$1_val$rid2 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1OwnAvatarChangeActor$1$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(803);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1OwnAvatarChangeActor$1$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(807);
 function im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_OwnAvatarChangeActor$AvatarChanged__JV(rid){
   this.im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_rid = rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(284, 1, {284:1}, im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_OwnAvatarChangeActor$AvatarChanged__JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(287, 1, {287:1}, im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_OwnAvatarChangeActor$AvatarChanged__JV);
 _.im_actor_model_modules_avatar_OwnAvatarChangeActor$AvatarChanged_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1OwnAvatarChangeActor$AvatarChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(284);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1avatar_1OwnAvatarChangeActor$AvatarChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(287);
 function im_actor_model_modules_contacts_BookImportActor_$isImported__Lim_actor_model_modules_contacts_BookImportActor_2JZ(this$static, phone){
   return im_actor_model_js_providers_storage_JsPreferencesStorage_$getBool__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2ZZ(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_146 + com_google_gwt_lang_LongLib_toString__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Ljava_lang_String_2(phone), false);
 }
@@ -20383,7 +20395,7 @@ function im_actor_model_modules_contacts_BookImportActor_$onPhoneBookLoaded__Lim
   }
   if (phoneToImports.size__I() == 0 && emailToImports.size__I() == 0) {
     this$static.im_actor_model_modules_contacts_BookImportActor_ENABLE_1LOG && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_148 + ':' + 'No new contacts found');
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnBookImported_ListsStatesActor$OnBookImported__V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnBookImported_ListsStatesActor$OnBookImported__V);
     return;
   }
    else {
@@ -20420,8 +20432,8 @@ function im_actor_model_modules_contacts_BookImportActor_$onPhoneBookLoaded__Lim
 function im_actor_model_modules_contacts_BookImportActor_$performImport__Lim_actor_model_modules_contacts_BookImportActor_2Ljava_util_ArrayList_2Ljava_util_ArrayList_2V(this$static, phoneToImportsPart, emailToImportsPart){
   var emailToImports, phones;
   this$static.im_actor_model_modules_contacts_BookImportActor_ENABLE_1LOG && im_actor_model_log_Log_d__Ljava_lang_String_2Ljava_lang_String_2V($intern_148, 'Performing import part with ' + phoneToImportsPart.size__I() + ' phones and ' + emailToImportsPart.size__I() + ' emails');
-  phones = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(phoneToImportsPart, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1PhoneToImport_12_1classLit, $intern_8, 198, phoneToImportsPart.size__I(), 0, 1));
-  emailToImports = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(emailToImportsPart, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1EmailToImport_12_1classLit, $intern_8, 199, emailToImportsPart.size__I(), 0, 1));
+  phones = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(phoneToImportsPart, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1PhoneToImport_12_1classLit, $intern_8, 199, phoneToImportsPart.size__I(), 0, 1));
+  emailToImports = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(emailToImportsPart, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1api_1EmailToImport_12_1classLit, $intern_8, 200, emailToImportsPart.size__I(), 0, 1));
   im_actor_model_modules_utils_ModuleActor_$request__Lim_actor_model_modules_utils_ModuleActor_2Lim_actor_model_network_parser_Request_2Lim_actor_model_network_RpcCallback_2V(this$static, new im_actor_model_api_rpc_RequestImportContacts_RequestImportContacts__Ljava_util_List_2Ljava_util_List_2V(new java_util_ArrayList_ArrayList__Ljava_util_Collection_2V(phoneToImportsPart), new java_util_ArrayList_ArrayList__Ljava_util_Collection_2V(emailToImportsPart)), new im_actor_model_modules_contacts_BookImportActor$2_BookImportActor$2__Lim_actor_model_modules_contacts_BookImportActor_2V(this$static, phones, emailToImports));
 }
 
@@ -20445,26 +20457,26 @@ function im_actor_model_modules_contacts_BookImportActor_BookImportActor__Lim_ac
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(636, 27, {}, im_actor_model_modules_contacts_BookImportActor_BookImportActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_contacts_BookImportActor_onReceive__Ljava_lang_Object_2V(message){
-  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 291)?im_actor_model_modules_contacts_BookImportActor_$performSync__Lim_actor_model_modules_contacts_BookImportActor_2V(this):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 292)?im_actor_model_modules_contacts_BookImportActor_$onPhoneBookLoaded__Lim_actor_model_modules_contacts_BookImportActor_2Ljava_util_List_2V(this, message.im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_phoneBook):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
+  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 294)?im_actor_model_modules_contacts_BookImportActor_$performSync__Lim_actor_model_modules_contacts_BookImportActor_2V(this):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 295)?im_actor_model_modules_contacts_BookImportActor_$onPhoneBookLoaded__Lim_actor_model_modules_contacts_BookImportActor_2Ljava_util_List_2V(this, message.im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_phoneBook):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 ;
 _.preStart__V = function im_actor_model_modules_contacts_BookImportActor_preStart__V(){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_BookImportActor$PerformSync_BookImportActor$PerformSync__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_BookImportActor$PerformSync_BookImportActor$PerformSync__V);
 }
 ;
 _.im_actor_model_modules_contacts_BookImportActor_ENABLE_1LOG = false;
 _.im_actor_model_modules_contacts_BookImportActor_isSyncInProgress = false;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(636);
 function im_actor_model_modules_contacts_BookImportActor$1_$onLoaded__Lim_actor_model_modules_contacts_BookImportActor$1_2Ljava_util_List_2V(this$static, contacts){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_contacts_BookImportActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_BookImportActor$PhoneBookLoaded__Ljava_util_List_2V(contacts));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_contacts_BookImportActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_BookImportActor$PhoneBookLoaded__Ljava_util_List_2V(contacts));
 }
 
 function im_actor_model_modules_contacts_BookImportActor$1_BookImportActor$1__Lim_actor_model_modules_contacts_BookImportActor_2V(this$0){
   this.im_actor_model_modules_contacts_BookImportActor$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(810, 1, {}, im_actor_model_modules_contacts_BookImportActor$1_BookImportActor$1__Lim_actor_model_modules_contacts_BookImportActor_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(810);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(814, 1, {}, im_actor_model_modules_contacts_BookImportActor$1_BookImportActor$1__Lim_actor_model_modules_contacts_BookImportActor_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(814);
 function im_actor_model_modules_contacts_BookImportActor$2_$onResult__Lim_actor_model_modules_contacts_BookImportActor$2_2Lim_actor_model_api_rpc_ResponseImportContacts_2V(this$static, response){
   var emailToImport, emailToImport$array, emailToImport$index, emailToImport$max, phoneToImport, phoneToImport$array, phoneToImport$index, phoneToImport$max, u, u$iterator, uids;
   for (phoneToImport$array = this$static.im_actor_model_modules_contacts_BookImportActor$2_val$phones2 , phoneToImport$index = 0 , phoneToImport$max = phoneToImport$array.length; phoneToImport$index < phoneToImport$max; ++phoneToImport$index) {
@@ -20477,7 +20489,7 @@ function im_actor_model_modules_contacts_BookImportActor$2_$onResult__Lim_actor_
     im_actor_model_modules_contacts_BookImportActor_$markImported__Lim_actor_model_modules_contacts_BookImportActor_2Ljava_lang_String_2V(this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01, emailToImport.im_actor_model_api_EmailToImport_email);
     java_util_HashSet_$remove__Ljava_util_HashSet_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_importingEmails, emailToImport.im_actor_model_api_EmailToImport_email);
   }
-  this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_importingEmails.java_util_HashSet_map.java_util_AbstractHashMap_size == 0 && this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_importingPhones.java_util_HashSet_map.java_util_AbstractHashMap_size == 0 && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnBookImported_ListsStatesActor$OnBookImported__V);
+  this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_importingEmails.java_util_HashSet_map.java_util_AbstractHashMap_size == 0 && this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_importingPhones.java_util_HashSet_map.java_util_AbstractHashMap_size == 0 && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnBookImported_ListsStatesActor$OnBookImported__V);
   if (response.im_actor_model_api_rpc_ResponseImportContacts_users.size__I() == 0) {
     this$static.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_ENABLE_1LOG && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_148 + ':' + 'Import success, but no new contacts found');
     return;
@@ -20497,7 +20509,7 @@ function im_actor_model_modules_contacts_BookImportActor$2_BookImportActor$2__Li
   this.im_actor_model_modules_contacts_BookImportActor$2_val$emailToImports3 = val$emailToImports;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(811, 1, {}, im_actor_model_modules_contacts_BookImportActor$2_BookImportActor$2__Lim_actor_model_modules_contacts_BookImportActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(815, 1, {}, im_actor_model_modules_contacts_BookImportActor$2_BookImportActor$2__Lim_actor_model_modules_contacts_BookImportActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_contacts_BookImportActor$2_onError__Lim_actor_model_network_RpcException_2V(e){
   this.im_actor_model_modules_contacts_BookImportActor$2_this$01.im_actor_model_modules_contacts_BookImportActor_ENABLE_1LOG && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_148 + ':' + 'Import failure');
   java_lang_Throwable_$printStackTrace__Ljava_lang_Throwable_2Ljava_io_PrintStream_2V(e, (java_lang_System_$clinit__V() , java_lang_System_err));
@@ -20507,18 +20519,18 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_contacts_BookImportActor$2_$onResult__Lim_actor_model_modules_contacts_BookImportActor$2_2Lim_actor_model_api_rpc_ResponseImportContacts_2V(this, response);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(811);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(815);
 function im_actor_model_modules_contacts_BookImportActor$PerformSync_BookImportActor$PerformSync__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(291, 1, {291:1}, im_actor_model_modules_contacts_BookImportActor$PerformSync_BookImportActor$PerformSync__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$PerformSync_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(291);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(294, 1, {294:1}, im_actor_model_modules_contacts_BookImportActor$PerformSync_BookImportActor$PerformSync__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$PerformSync_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(294);
 function im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_BookImportActor$PhoneBookLoaded__Ljava_util_List_2V(phoneBook){
   this.im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_phoneBook = phoneBook;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(292, 1, {292:1}, im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_BookImportActor$PhoneBookLoaded__Ljava_util_List_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$PhoneBookLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(292);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(295, 1, {295:1}, im_actor_model_modules_contacts_BookImportActor$PhoneBookLoaded_BookImportActor$PhoneBookLoaded__Ljava_util_List_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1BookImportActor$PhoneBookLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(295);
 function im_actor_model_modules_contacts_ContactsSyncActor_$onContactsAdded__Lim_actor_model_modules_contacts_ContactsSyncActor_2_3IV(this$static, uids){
   var uid, uid$index, uid$max;
   this$static.im_actor_model_modules_contacts_ContactsSyncActor_ENABLE_1LOG && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_149 + ':' + 'OnContactsAdded received');
@@ -20531,14 +20543,14 @@ function im_actor_model_modules_contacts_ContactsSyncActor_$onContactsAdded__Lim
   }
   im_actor_model_modules_contacts_ContactsSyncActor_$saveList__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
   im_actor_model_modules_contacts_ContactsSyncActor_$updateEngineList__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
 }
 
 function im_actor_model_modules_contacts_ContactsSyncActor_$onContactsLoaded__Lim_actor_model_modules_contacts_ContactsSyncActor_2Lim_actor_model_api_rpc_ResponseGetContacts_2V(this$static, result){
   var u, u$iterator, u$iterator0, uid, uid$array, uid$index, uid$max;
   this$static.im_actor_model_modules_contacts_ContactsSyncActor_ENABLE_1LOG && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_149 + ':' + 'Sync result received');
   this$static.im_actor_model_modules_contacts_ContactsSyncActor_isInProgress = false;
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnContactsLoaded_ListsStatesActor$OnContactsLoaded__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnContactsLoaded_ListsStatesActor$OnContactsLoaded__V);
   if (result.im_actor_model_api_rpc_ResponseGetContacts_isNotChanged) {
     !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_149 + ':' + 'Sync: Not changed');
     this$static.im_actor_model_modules_contacts_ContactsSyncActor_isInvalidated && im_actor_model_modules_contacts_ContactsSyncActor_$performSync__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
@@ -20570,7 +20582,7 @@ function im_actor_model_modules_contacts_ContactsSyncActor_$onContactsLoaded__Li
   }
   im_actor_model_modules_contacts_ContactsSyncActor_$saveList__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
   im_actor_model_modules_contacts_ContactsSyncActor_$updateEngineList__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
-  this$static.im_actor_model_modules_contacts_ContactsSyncActor_isInvalidated && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
+  this$static.im_actor_model_modules_contacts_ContactsSyncActor_isInvalidated && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
 }
 
 function im_actor_model_modules_contacts_ContactsSyncActor_$onContactsRemoved__Lim_actor_model_modules_contacts_ContactsSyncActor_2_3IV(this$static, uids){
@@ -20585,7 +20597,7 @@ function im_actor_model_modules_contacts_ContactsSyncActor_$onContactsRemoved__L
   }
   im_actor_model_modules_contacts_ContactsSyncActor_$saveList__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
   im_actor_model_modules_contacts_ContactsSyncActor_$updateEngineList__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this$static);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
 }
 
 function im_actor_model_modules_contacts_ContactsSyncActor_$onUserChanged__Lim_actor_model_modules_contacts_ContactsSyncActor_2Lim_actor_model_entity_User_2V(this$static, user){
@@ -20676,7 +20688,7 @@ function im_actor_model_modules_contacts_ContactsSyncActor_ContactsSyncActor__Li
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(637, 27, {}, im_actor_model_modules_contacts_ContactsSyncActor_ContactsSyncActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_contacts_ContactsSyncActor_onReceive__Ljava_lang_Object_2V(message){
-  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 293)?im_actor_model_modules_contacts_ContactsSyncActor_$onContactsLoaded__Lim_actor_model_modules_contacts_ContactsSyncActor_2Lim_actor_model_api_rpc_ResponseGetContacts_2V(this, message.im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_result):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 294)?im_actor_model_modules_contacts_ContactsSyncActor_$onContactsAdded__Lim_actor_model_modules_contacts_ContactsSyncActor_2_3IV(this, message.im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_uids):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 295)?im_actor_model_modules_contacts_ContactsSyncActor_$onContactsRemoved__Lim_actor_model_modules_contacts_ContactsSyncActor_2_3IV(this, message.im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_uids):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 104)?im_actor_model_modules_contacts_ContactsSyncActor_$onUserChanged__Lim_actor_model_modules_contacts_ContactsSyncActor_2Lim_actor_model_entity_User_2V(this, message.im_actor_model_modules_contacts_ContactsSyncActor$UserChanged_user):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 103)?im_actor_model_modules_contacts_ContactsSyncActor_$performSync__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
+  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 296)?im_actor_model_modules_contacts_ContactsSyncActor_$onContactsLoaded__Lim_actor_model_modules_contacts_ContactsSyncActor_2Lim_actor_model_api_rpc_ResponseGetContacts_2V(this, message.im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_result):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 297)?im_actor_model_modules_contacts_ContactsSyncActor_$onContactsAdded__Lim_actor_model_modules_contacts_ContactsSyncActor_2_3IV(this, message.im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_uids):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 298)?im_actor_model_modules_contacts_ContactsSyncActor_$onContactsRemoved__Lim_actor_model_modules_contacts_ContactsSyncActor_2_3IV(this, message.im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_uids):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 106)?im_actor_model_modules_contacts_ContactsSyncActor_$onUserChanged__Lim_actor_model_modules_contacts_ContactsSyncActor_2Lim_actor_model_entity_User_2V(this, message.im_actor_model_modules_contacts_ContactsSyncActor$UserChanged_user):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 105)?im_actor_model_modules_contacts_ContactsSyncActor_$performSync__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(this):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 ;
 _.preStart__V = function im_actor_model_modules_contacts_ContactsSyncActor_preStart__V(){
@@ -20702,7 +20714,7 @@ _.preStart__V = function im_actor_model_modules_contacts_ContactsSyncActor_preSt
     }
   }
   im_actor_model_modules_AppStateModule_$onContactsUpdate__Lim_actor_model_modules_AppStateModule_2ZV(this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule, this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_contacts.im_actor_model_modules_Contacts_contacts.im_actor_model_js_providers_storage_JsListEngine_storage.im_actor_model_js_providers_storage_JsListStorage_index.size__I() == 0);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
 }
 ;
 _.im_actor_model_modules_contacts_ContactsSyncActor_ENABLE_1LOG = false;
@@ -20713,7 +20725,7 @@ function im_actor_model_modules_contacts_ContactsSyncActor$1_ContactsSyncActor$1
   this.im_actor_model_modules_contacts_ContactsSyncActor$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(812, 1, {}, im_actor_model_modules_contacts_ContactsSyncActor$1_ContactsSyncActor$1__Lim_actor_model_modules_contacts_ContactsSyncActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(816, 1, {}, im_actor_model_modules_contacts_ContactsSyncActor$1_ContactsSyncActor$1__Lim_actor_model_modules_contacts_ContactsSyncActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_contacts_ContactsSyncActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
   this.im_actor_model_modules_contacts_ContactsSyncActor$1_this$01.im_actor_model_modules_contacts_ContactsSyncActor_isInProgress = false;
   java_lang_Throwable_$printStackTrace__Ljava_lang_Throwable_2Ljava_io_PrintStream_2V(e, (java_lang_System_$clinit__V() , java_lang_System_err));
@@ -20723,45 +20735,45 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_Updates_$onUpdateReceived__Lim_actor_model_modules_Updates_2Ljava_lang_Object_2V(this.im_actor_model_modules_contacts_ContactsSyncActor$1_this$01.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_updates, new im_actor_model_modules_updates_internal_ContactsLoaded_ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V(response));
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(812);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(816);
 function im_actor_model_modules_contacts_ContactsSyncActor$2_ContactsSyncActor$2__Lim_actor_model_modules_contacts_ContactsSyncActor_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(813, 1, {}, im_actor_model_modules_contacts_ContactsSyncActor$2_ContactsSyncActor$2__Lim_actor_model_modules_contacts_ContactsSyncActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(817, 1, {}, im_actor_model_modules_contacts_ContactsSyncActor$2_ContactsSyncActor$2__Lim_actor_model_modules_contacts_ContactsSyncActor_2V);
 _.compare__Ljava_lang_Object_2Ljava_lang_Object_2I = function im_actor_model_modules_contacts_ContactsSyncActor$2_compare__Ljava_lang_Object_2Ljava_lang_Object_2I(lhs, rhs){
   return java_lang_String_compareTo__Ljava_lang_String_2Ljava_lang_String_2I(lhs.im_actor_model_entity_User_localName == null?lhs.im_actor_model_entity_User_name:lhs.im_actor_model_entity_User_localName, rhs.im_actor_model_entity_User_localName == null?rhs.im_actor_model_entity_User_name:rhs.im_actor_model_entity_User_localName);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(813);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(817);
 function im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_ContactsSyncActor$ContactsAdded___3IV(uids){
   this.im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_uids = uids;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(294, 1, {294:1}, im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_ContactsSyncActor$ContactsAdded___3IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$ContactsAdded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(294);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(297, 1, {297:1}, im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_ContactsSyncActor$ContactsAdded___3IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$ContactsAdded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(297);
 function im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_ContactsSyncActor$ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V(result){
   this.im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_result = result;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(293, 1, {293:1}, im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_ContactsSyncActor$ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$ContactsLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(293);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(296, 1, {296:1}, im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_ContactsSyncActor$ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$ContactsLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(296);
 function im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_ContactsSyncActor$ContactsRemoved___3IV(uids){
   this.im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_uids = uids;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(295, 1, {295:1}, im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_ContactsSyncActor$ContactsRemoved___3IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$ContactsRemoved_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(295);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(298, 1, {298:1}, im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_ContactsSyncActor$ContactsRemoved___3IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$ContactsRemoved_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(298);
 function im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(103, 1, {103:1}, im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$PerformSync_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(103);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(105, 1, {105:1}, im_actor_model_modules_contacts_ContactsSyncActor$PerformSync_ContactsSyncActor$PerformSync__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$PerformSync_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(105);
 function im_actor_model_modules_contacts_ContactsSyncActor$UserChanged_ContactsSyncActor$UserChanged__Lim_actor_model_entity_User_2V(user){
   this.im_actor_model_modules_contacts_ContactsSyncActor$UserChanged_user = user;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(104, 1, {104:1}, im_actor_model_modules_contacts_ContactsSyncActor$UserChanged_ContactsSyncActor$UserChanged__Lim_actor_model_entity_User_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$UserChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(104);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(106, 1, {106:1}, im_actor_model_modules_contacts_ContactsSyncActor$UserChanged_ContactsSyncActor$UserChanged__Lim_actor_model_entity_User_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1contacts_1ContactsSyncActor$UserChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(106);
 function im_actor_model_modules_file_DownloadManager_DownloadManager__Lim_actor_model_modules_Modules_2V(messenger){
   im_actor_model_modules_utils_ModuleActor_ModuleActor__Lim_actor_model_modules_Modules_2V.call(this, messenger);
   new java_util_ArrayList_ArrayList__V;
@@ -20828,14 +20840,14 @@ function im_actor_model_modules_file_UploadManager_$onUploadTaskComplete__Lim_ac
     return;
   }
   java_util_ArrayList_$remove__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_file_UploadManager_queue, queueItem);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_taskRef, (im_actor_model_droidkit_actors_messages_PoisonPill_$clinit__V() , im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_taskRef, (im_actor_model_droidkit_actors_messages_PoisonPill_$clinit__V() , im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE));
   im_actor_model_modules_utils_BaseKeyValueEngine_$addOrUpdateItem__Lim_actor_model_modules_utils_BaseKeyValueEngine_2Lim_actor_model_droidkit_engine_KeyValueItem_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_filesModule.im_actor_model_modules_Files_downloadedEngine, new im_actor_model_modules_file_entity_Downloaded_Downloaded__JILjava_lang_String_2V(fileReference.im_actor_model_entity_WrapperEntity_wrapped.im_actor_model_api_FileLocation_fileId, fileReference.im_actor_model_entity_FileReference_fileSize, reference.im_actor_model_js_providers_fs_JsFileSystemReference_key));
   for (fileCallback$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_callbacks); fileCallback$iterator.java_util_AbstractList$IteratorImpl_i < fileCallback$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
     com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(fileCallback$iterator.java_util_AbstractList$IteratorImpl_i < fileCallback$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I());
     fileCallback$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(fileCallback$iterator.java_util_AbstractList$IteratorImpl_last = fileCallback$iterator.java_util_AbstractList$IteratorImpl_i++);
     im_actor_model_droidkit_actors_Environment_dispatchCallback__Ljava_lang_Runnable_2V(new im_actor_model_modules_file_UploadManager$12_UploadManager$12__Lim_actor_model_modules_file_UploadManager_2V);
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_requestActor, new im_actor_model_modules_file_UploadManager$UploadCompleted_UploadManager$UploadCompleted__JLim_actor_model_entity_FileReference_2V(rid, fileReference));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_requestActor, new im_actor_model_modules_file_UploadManager$UploadCompleted_UploadManager$UploadCompleted__JLim_actor_model_entity_FileReference_2V(rid, fileReference));
   im_actor_model_modules_file_UploadManager_$checkQueue__Lim_actor_model_modules_file_UploadManager_2V(this$static);
 }
 
@@ -20850,7 +20862,7 @@ function im_actor_model_modules_file_UploadManager_$onUploadTaskError__Lim_actor
   if (!queueItem.im_actor_model_modules_file_UploadManager$QueueItem_isStarted) {
     return;
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_taskRef, (im_actor_model_droidkit_actors_messages_PoisonPill_$clinit__V() , im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_taskRef, (im_actor_model_droidkit_actors_messages_PoisonPill_$clinit__V() , im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE));
   queueItem.im_actor_model_modules_file_UploadManager$QueueItem_isStopped = true;
   queueItem.im_actor_model_modules_file_UploadManager$QueueItem_isStarted = false;
   for (callback$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_callbacks); callback$iterator.java_util_AbstractList$IteratorImpl_i < callback$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
@@ -20858,7 +20870,7 @@ function im_actor_model_modules_file_UploadManager_$onUploadTaskError__Lim_actor
     callback$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(callback$iterator.java_util_AbstractList$IteratorImpl_last = callback$iterator.java_util_AbstractList$IteratorImpl_i++);
     im_actor_model_droidkit_actors_Environment_dispatchCallback__Ljava_lang_Runnable_2V(new im_actor_model_modules_file_UploadManager$10_UploadManager$10__Lim_actor_model_modules_file_UploadManager_2V);
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_requestActor, new im_actor_model_modules_file_UploadManager$UploadError_UploadManager$UploadError__JV(rid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(queueItem.im_actor_model_modules_file_UploadManager$QueueItem_requestActor, new im_actor_model_modules_file_UploadManager$UploadError_UploadManager$UploadError__JV(rid));
   im_actor_model_modules_file_UploadManager_$checkQueue__Lim_actor_model_modules_file_UploadManager_2V(this$static);
 }
 
@@ -20897,19 +20909,19 @@ function im_actor_model_modules_file_UploadManager_UploadManager__Lim_actor_mode
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(787, 27, {}, im_actor_model_modules_file_UploadManager_UploadManager__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_file_UploadManager_onReceive__Ljava_lang_Object_2V(message){
   var startUpload, taskComplete, taskProgress, uploadTaskError;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 285)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 288)) {
     startUpload = message;
     im_actor_model_modules_file_UploadManager_$startUpload__Lim_actor_model_modules_file_UploadManager_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V(this, startUpload.im_actor_model_modules_file_UploadManager$StartUpload_rid, startUpload.im_actor_model_modules_file_UploadManager$StartUpload_fileDescriptor, startUpload.im_actor_model_modules_file_UploadManager$StartUpload_fileName, this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_sender);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 286)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 289)) {
     uploadTaskError = message;
     im_actor_model_modules_file_UploadManager_$onUploadTaskError__Lim_actor_model_modules_file_UploadManager_2JV(this, uploadTaskError.im_actor_model_modules_file_UploadManager$UploadTaskError_rid);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 287)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 290)) {
     taskProgress = message;
     im_actor_model_modules_file_UploadManager_$onUploadTaskProgress__Lim_actor_model_modules_file_UploadManager_2JFV(this, taskProgress.im_actor_model_modules_file_UploadManager$UploadTaskProgress_rid, taskProgress.im_actor_model_modules_file_UploadManager$UploadTaskProgress_progress);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 288)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 291)) {
     taskComplete = message;
     im_actor_model_modules_file_UploadManager_$onUploadTaskComplete__Lim_actor_model_modules_file_UploadManager_2JLim_actor_model_entity_FileReference_2Lim_actor_model_files_FileSystemReference_2V(this, taskComplete.im_actor_model_modules_file_UploadManager$UploadTaskComplete_rid, taskComplete.im_actor_model_modules_file_UploadManager$UploadTaskComplete_location, taskComplete.im_actor_model_modules_file_UploadManager$UploadTaskComplete_reference);
   }
@@ -20924,41 +20936,41 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1Upl
 function im_actor_model_modules_file_UploadManager$10_UploadManager$10__Lim_actor_model_modules_file_UploadManager_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(806, 1, $intern_125, im_actor_model_modules_file_UploadManager$10_UploadManager$10__Lim_actor_model_modules_file_UploadManager_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(810, 1, $intern_125, im_actor_model_modules_file_UploadManager$10_UploadManager$10__Lim_actor_model_modules_file_UploadManager_2V);
 _.run__V = function im_actor_model_modules_file_UploadManager$10_run__V(){
   null.nullMethod();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$10_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(806);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$10_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(810);
 function im_actor_model_modules_file_UploadManager$11_UploadManager$11__Lim_actor_model_modules_file_UploadManager_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(807, 1, $intern_125, im_actor_model_modules_file_UploadManager$11_UploadManager$11__Lim_actor_model_modules_file_UploadManager_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(811, 1, $intern_125, im_actor_model_modules_file_UploadManager$11_UploadManager$11__Lim_actor_model_modules_file_UploadManager_2V);
 _.run__V = function im_actor_model_modules_file_UploadManager$11_run__V(){
   null.nullMethod();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$11_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(807);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$11_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(811);
 function im_actor_model_modules_file_UploadManager$12_UploadManager$12__Lim_actor_model_modules_file_UploadManager_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(808, 1, $intern_125, im_actor_model_modules_file_UploadManager$12_UploadManager$12__Lim_actor_model_modules_file_UploadManager_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(812, 1, $intern_125, im_actor_model_modules_file_UploadManager$12_UploadManager$12__Lim_actor_model_modules_file_UploadManager_2V);
 _.run__V = function im_actor_model_modules_file_UploadManager$12_run__V(){
   null.nullMethod();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$12_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(808);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$12_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(812);
 function im_actor_model_modules_file_UploadManager$13_UploadManager$13__Lim_actor_model_modules_file_UploadManager_2V(this$0, val$finalPendingQueue){
   this.im_actor_model_modules_file_UploadManager$13_this$01 = this$0;
   this.im_actor_model_modules_file_UploadManager$13_val$finalPendingQueue2 = val$finalPendingQueue;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(809, 1, {}, im_actor_model_modules_file_UploadManager$13_UploadManager$13__Lim_actor_model_modules_file_UploadManager_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(813, 1, {}, im_actor_model_modules_file_UploadManager$13_UploadManager$13__Lim_actor_model_modules_file_UploadManager_2V);
 _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modules_file_UploadManager$13_create__Lim_actor_model_droidkit_actors_Actor_2(){
   return new im_actor_model_modules_file_UploadTask_UploadTask__JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2Lim_actor_model_modules_Modules_2V(this.im_actor_model_modules_file_UploadManager$13_val$finalPendingQueue2.im_actor_model_modules_file_UploadManager$QueueItem_rid, this.im_actor_model_modules_file_UploadManager$13_val$finalPendingQueue2.im_actor_model_modules_file_UploadManager$QueueItem_fileDescriptor, this.im_actor_model_modules_file_UploadManager$13_val$finalPendingQueue2.im_actor_model_modules_file_UploadManager$QueueItem_fileName, this.im_actor_model_modules_file_UploadManager$13_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, this.im_actor_model_modules_file_UploadManager$13_this$01.im_actor_model_modules_utils_ModuleActor_modules);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$13_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(809);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$13_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(813);
 function im_actor_model_modules_file_UploadManager$QueueItem_UploadManager$QueueItem__Lim_actor_model_modules_file_UploadManager_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V(rid, fileDescriptor, fileName, requestActor){
   this.im_actor_model_modules_file_UploadManager$QueueItem_callbacks = new java_util_ArrayList_ArrayList__V;
   this.im_actor_model_modules_file_UploadManager$QueueItem_rid = rid;
@@ -20967,20 +20979,20 @@ function im_actor_model_modules_file_UploadManager$QueueItem_UploadManager$Queue
   this.im_actor_model_modules_file_UploadManager$QueueItem_fileName = fileName;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(805, 1, {}, im_actor_model_modules_file_UploadManager$QueueItem_UploadManager$QueueItem__Lim_actor_model_modules_file_UploadManager_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(809, 1, {}, im_actor_model_modules_file_UploadManager$QueueItem_UploadManager$QueueItem__Lim_actor_model_modules_file_UploadManager_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V);
 _.im_actor_model_modules_file_UploadManager$QueueItem_isStarted = false;
 _.im_actor_model_modules_file_UploadManager$QueueItem_isStopped = false;
 _.im_actor_model_modules_file_UploadManager$QueueItem_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$QueueItem_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(805);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$QueueItem_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(809);
 function im_actor_model_modules_file_UploadManager$StartUpload_UploadManager$StartUpload__JLjava_lang_String_2Ljava_lang_String_2V(rid, fileDescriptor, fileName){
   this.im_actor_model_modules_file_UploadManager$StartUpload_rid = rid;
   this.im_actor_model_modules_file_UploadManager$StartUpload_fileDescriptor = fileDescriptor;
   this.im_actor_model_modules_file_UploadManager$StartUpload_fileName = fileName;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(285, 1, {285:1}, im_actor_model_modules_file_UploadManager$StartUpload_UploadManager$StartUpload__JLjava_lang_String_2Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(288, 1, {288:1}, im_actor_model_modules_file_UploadManager$StartUpload_UploadManager$StartUpload__JLjava_lang_String_2Ljava_lang_String_2V);
 _.im_actor_model_modules_file_UploadManager$StartUpload_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$StartUpload_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(285);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$StartUpload_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(288);
 function im_actor_model_modules_file_UploadManager$UploadCompleted_UploadManager$UploadCompleted__JLim_actor_model_entity_FileReference_2V(rid, fileReference){
   this.im_actor_model_modules_file_UploadManager$UploadCompleted_rid = rid;
   this.im_actor_model_modules_file_UploadManager$UploadCompleted_fileReference = fileReference;
@@ -21002,25 +21014,25 @@ function im_actor_model_modules_file_UploadManager$UploadTaskComplete_UploadMana
   this.im_actor_model_modules_file_UploadManager$UploadTaskComplete_reference = reference;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(288, 1, {288:1}, im_actor_model_modules_file_UploadManager$UploadTaskComplete_UploadManager$UploadTaskComplete__JLim_actor_model_entity_FileReference_2Lim_actor_model_files_FileSystemReference_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(291, 1, {291:1}, im_actor_model_modules_file_UploadManager$UploadTaskComplete_UploadManager$UploadTaskComplete__JLim_actor_model_entity_FileReference_2Lim_actor_model_files_FileSystemReference_2V);
 _.im_actor_model_modules_file_UploadManager$UploadTaskComplete_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$UploadTaskComplete_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(288);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$UploadTaskComplete_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(291);
 function im_actor_model_modules_file_UploadManager$UploadTaskError_UploadManager$UploadTaskError__JV(rid){
   this.im_actor_model_modules_file_UploadManager$UploadTaskError_rid = rid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(286, 1, {286:1}, im_actor_model_modules_file_UploadManager$UploadTaskError_UploadManager$UploadTaskError__JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(289, 1, {289:1}, im_actor_model_modules_file_UploadManager$UploadTaskError_UploadManager$UploadTaskError__JV);
 _.im_actor_model_modules_file_UploadManager$UploadTaskError_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$UploadTaskError_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(286);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$UploadTaskError_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(289);
 function im_actor_model_modules_file_UploadManager$UploadTaskProgress_UploadManager$UploadTaskProgress__JFV(rid, progress){
   this.im_actor_model_modules_file_UploadManager$UploadTaskProgress_rid = rid;
   this.im_actor_model_modules_file_UploadManager$UploadTaskProgress_progress = progress;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(287, 1, {287:1}, im_actor_model_modules_file_UploadManager$UploadTaskProgress_UploadManager$UploadTaskProgress__JFV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(290, 1, {290:1}, im_actor_model_modules_file_UploadManager$UploadTaskProgress_UploadManager$UploadTaskProgress__JFV);
 _.im_actor_model_modules_file_UploadManager$UploadTaskProgress_progress = 0;
 _.im_actor_model_modules_file_UploadManager$UploadTaskProgress_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$UploadTaskProgress_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(287);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadManager$UploadTaskProgress_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(290);
 function im_actor_model_modules_file_UploadTask_$checkQueue__Lim_actor_model_modules_file_UploadTask_2V(this$static){
   var crc;
   if (this$static.im_actor_model_modules_file_UploadTask_isCompleted) {
@@ -21054,7 +21066,7 @@ function im_actor_model_modules_file_UploadTask_$reportComplete__Lim_actor_model
     return;
   }
   this$static.im_actor_model_modules_file_UploadTask_isCompleted = true;
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_file_UploadTask_manager, new im_actor_model_modules_file_UploadManager$UploadTaskComplete_UploadManager$UploadTaskComplete__JLim_actor_model_entity_FileReference_2Lim_actor_model_files_FileSystemReference_2V(this$static.im_actor_model_modules_file_UploadTask_rid, location_0, reference));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_file_UploadTask_manager, new im_actor_model_modules_file_UploadManager$UploadTaskComplete_UploadManager$UploadTaskComplete__JLim_actor_model_entity_FileReference_2Lim_actor_model_files_FileSystemReference_2V(this$static.im_actor_model_modules_file_UploadTask_rid, location_0, reference));
 }
 
 function im_actor_model_modules_file_UploadTask_$reportError__Lim_actor_model_modules_file_UploadTask_2V(this$static){
@@ -21063,14 +21075,14 @@ function im_actor_model_modules_file_UploadTask_$reportError__Lim_actor_model_mo
     return;
   }
   this$static.im_actor_model_modules_file_UploadTask_isCompleted = true;
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_file_UploadTask_manager, new im_actor_model_modules_file_UploadManager$UploadTaskError_UploadManager$UploadTaskError__JV(this$static.im_actor_model_modules_file_UploadTask_rid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_file_UploadTask_manager, new im_actor_model_modules_file_UploadManager$UploadTaskError_UploadManager$UploadTaskError__JV(this$static.im_actor_model_modules_file_UploadTask_rid));
 }
 
 function im_actor_model_modules_file_UploadTask_$reportProgress__Lim_actor_model_modules_file_UploadTask_2FV(this$static, progress){
   if (this$static.im_actor_model_modules_file_UploadTask_isCompleted) {
     return;
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_file_UploadTask_manager, new im_actor_model_modules_file_UploadManager$UploadTaskProgress_UploadManager$UploadTaskProgress__JFV(this$static.im_actor_model_modules_file_UploadTask_rid, progress));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_file_UploadTask_manager, new im_actor_model_modules_file_UploadManager$UploadTaskProgress_UploadManager$UploadTaskProgress__JFV(this$static.im_actor_model_modules_file_UploadTask_rid, progress));
 }
 
 function im_actor_model_modules_file_UploadTask_$startUpload__Lim_actor_model_modules_file_UploadTask_2V(this$static){
@@ -21097,7 +21109,7 @@ function im_actor_model_modules_file_UploadTask_UploadTask__JLjava_lang_String_2
   this.im_actor_model_modules_file_UploadTask_TAG = 'UploadTask{' + com_google_gwt_lang_LongLib_toString__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Ljava_lang_String_2(rid) + '}';
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(804, 27, {}, im_actor_model_modules_file_UploadTask_UploadTask__JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2Lim_actor_model_modules_Modules_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(808, 27, {}, im_actor_model_modules_file_UploadTask_UploadTask__JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2Lim_actor_model_modules_Modules_2V);
 _.preStart__V = function im_actor_model_modules_file_UploadTask_preStart__V(){
   this.im_actor_model_modules_file_UploadTask_fileSystemProvider = this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_configuration.im_actor_model_Configuration_fileSystemProvider;
   if (!this.im_actor_model_modules_file_UploadTask_fileSystemProvider) {
@@ -21148,7 +21160,7 @@ _.im_actor_model_modules_file_UploadTask_nextBlock = 0;
 _.im_actor_model_modules_file_UploadTask_rid = {l:0, m:0, h:0};
 _.im_actor_model_modules_file_UploadTask_uploadCount = 0;
 _.im_actor_model_modules_file_UploadTask_uploaded = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadTask_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(804);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadTask_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(808);
 function im_actor_model_modules_file_UploadTask$1_UploadTask$1__Lim_actor_model_modules_file_UploadTask_2V(this$0){
   this.im_actor_model_modules_file_UploadTask$1_this$01 = this$0;
 }
@@ -21195,7 +21207,7 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadTask$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(926);
 function im_actor_model_modules_file_UploadTask$3_$onFileRead__Lim_actor_model_modules_file_UploadTask$3_2I_3BIIV(this$static, data_0){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_file_UploadTask$3_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_file_UploadTask$3$1_UploadTask$3$1__Lim_actor_model_modules_file_UploadTask$3_2V(this$static, this$static.im_actor_model_modules_file_UploadTask$3_val$blockIndex2, data_0, this$static.im_actor_model_modules_file_UploadTask$3_val$finalSize3));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_file_UploadTask$3_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_file_UploadTask$3$1_UploadTask$3$1__Lim_actor_model_modules_file_UploadTask$3_2V(this$static, this$static.im_actor_model_modules_file_UploadTask$3_val$blockIndex2, data_0, this$static.im_actor_model_modules_file_UploadTask$3_val$finalSize3));
 }
 
 function im_actor_model_modules_file_UploadTask$3_UploadTask$3__Lim_actor_model_modules_file_UploadTask_2V(this$0, val$blockIndex, val$finalSize){
@@ -21257,11 +21269,11 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 _.im_actor_model_modules_file_UploadTask$4_val$blockIndex3 = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1file_1UploadTask$4_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(929);
 function im_actor_model_modules_file_UploadTask$4$1_$onUploadFailure__Lim_actor_model_modules_file_UploadTask$4$1_2V(this$static){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_file_UploadTask$4$1_this$11.im_actor_model_modules_file_UploadTask$4_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_file_UploadTask$4$1$2_UploadTask$4$1$2__Lim_actor_model_modules_file_UploadTask$4$1_2V(this$static, this$static.im_actor_model_modules_file_UploadTask$4$1_val$blockIndex2));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_file_UploadTask$4$1_this$11.im_actor_model_modules_file_UploadTask$4_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_file_UploadTask$4$1$2_UploadTask$4$1$2__Lim_actor_model_modules_file_UploadTask$4$1_2V(this$static, this$static.im_actor_model_modules_file_UploadTask$4$1_val$blockIndex2));
 }
 
 function im_actor_model_modules_file_UploadTask$4$1_$onUploaded__Lim_actor_model_modules_file_UploadTask$4$1_2V(this$static){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_file_UploadTask$4$1_this$11.im_actor_model_modules_file_UploadTask$4_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_file_UploadTask$4$1$1_UploadTask$4$1$1__Lim_actor_model_modules_file_UploadTask$4$1_2V(this$static, this$static.im_actor_model_modules_file_UploadTask$4$1_val$blockIndex2));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_file_UploadTask$4$1_this$11.im_actor_model_modules_file_UploadTask$4_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_file_UploadTask$4$1$1_UploadTask$4$1$1__Lim_actor_model_modules_file_UploadTask$4$1_2V(this$static, this$static.im_actor_model_modules_file_UploadTask$4$1_val$blockIndex2));
 }
 
 function im_actor_model_modules_file_UploadTask$4$1_UploadTask$4$1__Lim_actor_model_modules_file_UploadTask$4_2V(this$1, val$blockIndex){
@@ -21351,7 +21363,7 @@ function im_actor_model_modules_messages_ConversationActor_$onInMessage__Lim_act
     return;
   }
   im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_ConversationActor_messages, message);
-  message.im_actor_model_entity_Message_messageState != (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_PENDING) && message.im_actor_model_entity_Message_messageState != im_actor_model_entity_MessageState_ERROR && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, message));
+  message.im_actor_model_entity_Message_messageState != (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_PENDING) && message.im_actor_model_entity_Message_messageState != im_actor_model_entity_MessageState_ERROR && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, message));
   if (message.im_actor_model_entity_Message_senderId == this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid) {
     java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_ConversationActor_messagesStorage.im_actor_model_modules_messages_entity_OutUnreadMessagesStorage_messages, new im_actor_model_modules_messages_entity_OutUnreadMessage_OutUnreadMessage__JJV(message.im_actor_model_entity_Message_rid, message.im_actor_model_entity_Message_date));
     im_actor_model_droidkit_engine_SyncKeyValue_$put__Lim_actor_model_droidkit_engine_SyncKeyValue_2J_3BV(this$static.im_actor_model_modules_messages_ConversationActor_pendingKeyValue, im_actor_model_entity_Peer_$getUnuqueId__Lim_actor_model_entity_Peer_2J(this$static.im_actor_model_modules_messages_ConversationActor_peer), im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_ConversationActor_messagesStorage));
@@ -21366,7 +21378,7 @@ function im_actor_model_modules_messages_ConversationActor_$onMessageContentUpda
   }
   updatedMsg = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(message.im_actor_model_entity_Message_rid, message.im_actor_model_entity_Message_sortDate, message.im_actor_model_entity_Message_date, message.im_actor_model_entity_Message_senderId, message.im_actor_model_entity_Message_messageState, content);
   im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_ConversationActor_messages, updatedMsg);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageContentChanged_DialogsActor$MessageContentChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, rid, content));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageContentChanged_DialogsActor$MessageContentChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, rid, content));
 }
 
 function im_actor_model_modules_messages_ConversationActor_$onMessageDateChange__Lim_actor_model_modules_messages_ConversationActor_2JJV(this$static, rid, date){
@@ -21384,7 +21396,7 @@ function im_actor_model_modules_messages_ConversationActor_$onMessageError__Lim_
   if (!!msg && (msg.im_actor_model_entity_Message_messageState == (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT) || msg.im_actor_model_entity_Message_messageState == im_actor_model_entity_MessageState_PENDING)) {
     updatedMsg = im_actor_model_entity_Message_$changeState__Lim_actor_model_entity_Message_2Lim_actor_model_entity_MessageState_2Lim_actor_model_entity_Message_2(msg, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_ERROR));
     im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_ConversationActor_messages, updatedMsg);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, rid, im_actor_model_entity_MessageState_ERROR));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, rid, im_actor_model_entity_MessageState_ERROR));
   }
 }
 
@@ -21392,14 +21404,14 @@ function im_actor_model_modules_messages_ConversationActor_$onMessagePlainRead__
   var messagesStorageMessages, msg, p, p$array, p$index, p$max, removed, updatedMsg;
   removed = false;
   messagesStorageMessages = this$static.im_actor_model_modules_messages_ConversationActor_messagesStorage.im_actor_model_modules_messages_entity_OutUnreadMessagesStorage_messages;
-  for (p$array = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(messagesStorageMessages, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1OutUnreadMessage_12_1classLit, $intern_8, 100, messagesStorageMessages.size__I(), 0, 1)) , p$index = 0 , p$max = p$array.length; p$index < p$max; ++p$index) {
+  for (p$array = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(messagesStorageMessages, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1OutUnreadMessage_12_1classLit, $intern_8, 101, messagesStorageMessages.size__I(), 0, 1)) , p$index = 0 , p$max = p$array.length; p$index < p$max; ++p$index) {
     p = p$array[p$index];
     if (com_google_gwt_lang_LongLib_lte__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(p.im_actor_model_modules_messages_entity_OutUnreadMessage_date, date)) {
       msg = im_actor_model_js_providers_storage_JsListEngine_$getValue__Lim_actor_model_js_providers_storage_JsListEngine_2JLim_actor_model_droidkit_bser_BserObject_2(this$static.im_actor_model_modules_messages_ConversationActor_messages, p.im_actor_model_modules_messages_entity_OutUnreadMessage_rid);
       if (!!msg && (msg.im_actor_model_entity_Message_messageState == (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT) || msg.im_actor_model_entity_Message_messageState == im_actor_model_entity_MessageState_RECEIVED)) {
         updatedMsg = im_actor_model_entity_Message_$changeState__Lim_actor_model_entity_Message_2Lim_actor_model_entity_MessageState_2Lim_actor_model_entity_Message_2(msg, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_READ));
         im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_ConversationActor_messages, updatedMsg);
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, p.im_actor_model_modules_messages_entity_OutUnreadMessage_rid, im_actor_model_entity_MessageState_READ));
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, p.im_actor_model_modules_messages_entity_OutUnreadMessage_rid, im_actor_model_entity_MessageState_READ));
         removed = true;
         java_util_ArrayList_$remove__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_ConversationActor_messagesStorage.im_actor_model_modules_messages_entity_OutUnreadMessagesStorage_messages, p);
       }
@@ -21414,10 +21426,10 @@ function im_actor_model_modules_messages_ConversationActor_$onMessagePlainReceiv
     p = (com_google_gwt_core_shared_impl_InternalPreconditions_checkCriticalElement__ZV(p$iterator.java_util_AbstractList$IteratorImpl_i < p$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I()) , p$iterator.java_util_AbstractList$IteratorImpl_this$01.get__ILjava_lang_Object_2(p$iterator.java_util_AbstractList$IteratorImpl_last = p$iterator.java_util_AbstractList$IteratorImpl_i++));
     if (com_google_gwt_lang_LongLib_lte__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(p.im_actor_model_modules_messages_entity_OutUnreadMessage_date, date)) {
       msg = im_actor_model_js_providers_storage_JsListEngine_$getValue__Lim_actor_model_js_providers_storage_JsListEngine_2JLim_actor_model_droidkit_bser_BserObject_2(this$static.im_actor_model_modules_messages_ConversationActor_messages, p.im_actor_model_modules_messages_entity_OutUnreadMessage_rid);
-      if (!!msg && (msg.im_actor_model_entity_Message_messageState == (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT) || msg.im_actor_model_entity_Message_messageState == im_actor_model_entity_MessageState_RECEIVED)) {
+      if (!!msg && (msg.im_actor_model_entity_Message_messageState == (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT) || msg.im_actor_model_entity_Message_messageState == im_actor_model_entity_MessageState_SENT)) {
         updatedMsg = im_actor_model_entity_Message_$changeState__Lim_actor_model_entity_Message_2Lim_actor_model_entity_MessageState_2Lim_actor_model_entity_Message_2(msg, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_RECEIVED));
         im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_ConversationActor_messages, updatedMsg);
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, p.im_actor_model_modules_messages_entity_OutUnreadMessage_rid, im_actor_model_entity_MessageState_RECEIVED));
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, p.im_actor_model_modules_messages_entity_OutUnreadMessage_rid, im_actor_model_entity_MessageState_RECEIVED));
       }
     }
   }
@@ -21438,7 +21450,7 @@ function im_actor_model_modules_messages_ConversationActor_$onMessageSent__Lim_a
     im_actor_model_droidkit_engine_SyncKeyValue_$put__Lim_actor_model_droidkit_engine_SyncKeyValue_2J_3BV(this$static.im_actor_model_modules_messages_ConversationActor_pendingKeyValue, im_actor_model_entity_Peer_$getUnuqueId__Lim_actor_model_entity_Peer_2J(this$static.im_actor_model_modules_messages_ConversationActor_peer), im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_ConversationActor_messagesStorage));
     updatedMsg = im_actor_model_entity_Message_$changeState__Lim_actor_model_entity_Message_2Lim_actor_model_entity_MessageState_2Lim_actor_model_entity_Message_2(new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(msg.im_actor_model_entity_Message_rid, date, date, msg.im_actor_model_entity_Message_senderId, msg.im_actor_model_entity_Message_messageState, msg.im_actor_model_entity_Message_content), (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT));
     im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_ConversationActor_messages, updatedMsg);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, updatedMsg));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, updatedMsg));
   }
 }
 
@@ -21450,7 +21462,7 @@ function im_actor_model_modules_messages_ConversationActor_$onMessagesDeleted__L
   }
   im_actor_model_js_providers_storage_JsListEngine_$removeItems__Lim_actor_model_js_providers_storage_JsListEngine_2_3JV(this$static.im_actor_model_modules_messages_ConversationActor_messages, rids2);
   topMessage = im_actor_model_js_providers_storage_JsListEngine_$getHeadValue__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2(this$static.im_actor_model_modules_messages_ConversationActor_messages);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageDeleted_DialogsActor$MessageDeleted__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, topMessage));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$MessageDeleted_DialogsActor$MessageDeleted__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(this$static.im_actor_model_modules_messages_ConversationActor_peer, topMessage));
 }
 
 function im_actor_model_modules_messages_ConversationActor_ConversationActor__Lim_actor_model_entity_Peer_2Lim_actor_model_modules_Modules_2V(peer, messenger){
@@ -21478,7 +21490,7 @@ _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_messages_Con
     im_actor_model_modules_messages_ConversationActor_$onMessageError__Lim_actor_model_modules_messages_ConversationActor_2JV(this, messageError.im_actor_model_modules_messages_ConversationActor$MessageError_rid);
   }
    else 
-    com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 264)?im_actor_model_modules_messages_ConversationActor_$onMessagePlainRead__Lim_actor_model_modules_messages_ConversationActor_2JV(this, message.im_actor_model_modules_messages_ConversationActor$MessageRead_date):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 263)?im_actor_model_modules_messages_ConversationActor_$onMessagePlainReceived__Lim_actor_model_modules_messages_ConversationActor_2JV(this, message.im_actor_model_modules_messages_ConversationActor$MessageReceived_date):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 262)?im_actor_model_modules_messages_ConversationActor_$onHistoryLoaded__Lim_actor_model_modules_messages_ConversationActor_2Ljava_util_List_2V(this, message.im_actor_model_modules_messages_ConversationActor$HistoryLoaded_messages):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 268)?(im_actor_model_js_providers_storage_JsListEngine_$clear__Lim_actor_model_js_providers_storage_JsListEngine_2V(this.im_actor_model_modules_messages_ConversationActor_messages) , im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$ChatClear_DialogsActor$ChatClear__Lim_actor_model_entity_Peer_2V(this.im_actor_model_modules_messages_ConversationActor_peer))):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 269)?(im_actor_model_js_providers_storage_JsListEngine_$clear__Lim_actor_model_js_providers_storage_JsListEngine_2V(this.im_actor_model_modules_messages_ConversationActor_messages) , im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$ChatDelete_DialogsActor$ChatDelete__Lim_actor_model_entity_Peer_2V(this.im_actor_model_modules_messages_ConversationActor_peer))):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 187)?im_actor_model_modules_messages_ConversationActor_$onMessagesDeleted__Lim_actor_model_modules_messages_ConversationActor_2Ljava_util_List_2V(this, message.im_actor_model_modules_messages_ConversationActor$MessagesDeleted_rids):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 266)?im_actor_model_modules_messages_ConversationActor_$onMessageDateChange__Lim_actor_model_modules_messages_ConversationActor_2JJV(this, message.im_actor_model_modules_messages_ConversationActor$MessageDateChange_rid, message.im_actor_model_modules_messages_ConversationActor$MessageDateChange_date):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
+    com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 264)?im_actor_model_modules_messages_ConversationActor_$onMessagePlainRead__Lim_actor_model_modules_messages_ConversationActor_2JV(this, message.im_actor_model_modules_messages_ConversationActor$MessageRead_date):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 263)?im_actor_model_modules_messages_ConversationActor_$onMessagePlainReceived__Lim_actor_model_modules_messages_ConversationActor_2JV(this, message.im_actor_model_modules_messages_ConversationActor$MessageReceived_date):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 262)?im_actor_model_modules_messages_ConversationActor_$onHistoryLoaded__Lim_actor_model_modules_messages_ConversationActor_2Ljava_util_List_2V(this, message.im_actor_model_modules_messages_ConversationActor$HistoryLoaded_messages):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 268)?(im_actor_model_js_providers_storage_JsListEngine_$clear__Lim_actor_model_js_providers_storage_JsListEngine_2V(this.im_actor_model_modules_messages_ConversationActor_messages) , im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$ChatClear_DialogsActor$ChatClear__Lim_actor_model_entity_Peer_2V(this.im_actor_model_modules_messages_ConversationActor_peer))):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 269)?(im_actor_model_js_providers_storage_JsListEngine_$clear__Lim_actor_model_js_providers_storage_JsListEngine_2V(this.im_actor_model_modules_messages_ConversationActor_messages) , im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_messages_ConversationActor_dialogsActor, new im_actor_model_modules_messages_DialogsActor$ChatDelete_DialogsActor$ChatDelete__Lim_actor_model_entity_Peer_2V(this.im_actor_model_modules_messages_ConversationActor_peer))):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 187)?im_actor_model_modules_messages_ConversationActor_$onMessagesDeleted__Lim_actor_model_modules_messages_ConversationActor_2Ljava_util_List_2V(this, message.im_actor_model_modules_messages_ConversationActor$MessagesDeleted_rids):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 266)?im_actor_model_modules_messages_ConversationActor_$onMessageDateChange__Lim_actor_model_modules_messages_ConversationActor_2JJV(this, message.im_actor_model_modules_messages_ConversationActor$MessageDateChange_rid, message.im_actor_model_modules_messages_ConversationActor$MessageDateChange_date):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 ;
 _.preStart__V = function im_actor_model_modules_messages_ConversationActor_preStart__V(){
@@ -21680,7 +21692,7 @@ function im_actor_model_modules_messages_CursorActor_$moveCursor__Lim_actor_mode
 }
 
 function im_actor_model_modules_messages_CursorActor_$onCompleted__Lim_actor_model_modules_messages_CursorActor_2Lim_actor_model_entity_Peer_2JV(this$static, peer, date){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_CursorActor$OnCompleted_CursorActor$OnCompleted__Lim_actor_model_entity_Peer_2JV(peer, date));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_CursorActor$OnCompleted_CursorActor$OnCompleted__Lim_actor_model_entity_Peer_2JV(peer, date));
 }
 
 function im_actor_model_modules_messages_CursorActor_$onMoved__Lim_actor_model_modules_messages_CursorActor_2Lim_actor_model_entity_Peer_2JV(this$static, peer, date){
@@ -21698,7 +21710,7 @@ function im_actor_model_modules_messages_CursorActor_$onMoved__Lim_actor_model_m
 
 function im_actor_model_modules_messages_CursorActor_$onReceive__Lim_actor_model_modules_messages_CursorActor_2Ljava_lang_Object_2V(this$static, message){
   var completed;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 302)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 305)) {
     completed = message;
     im_actor_model_modules_messages_CursorActor_$onMoved__Lim_actor_model_modules_messages_CursorActor_2Lim_actor_model_entity_Peer_2JV(this$static, completed.im_actor_model_modules_messages_CursorActor$OnCompleted_peer, completed.im_actor_model_modules_messages_CursorActor$OnCompleted_date);
   }
@@ -21754,9 +21766,9 @@ function im_actor_model_modules_messages_CursorActor$OnCompleted_CursorActor$OnC
   this.im_actor_model_modules_messages_CursorActor$OnCompleted_date = date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(302, 1, {302:1}, im_actor_model_modules_messages_CursorActor$OnCompleted_CursorActor$OnCompleted__Lim_actor_model_entity_Peer_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(305, 1, {305:1}, im_actor_model_modules_messages_CursorActor$OnCompleted_CursorActor$OnCompleted__Lim_actor_model_entity_Peer_2JV);
 _.im_actor_model_modules_messages_CursorActor$OnCompleted_date = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorActor$OnCompleted_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(302);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorActor$OnCompleted_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(305);
 function im_actor_model_modules_messages_CursorReaderActor_CursorReaderActor__Lim_actor_model_modules_Modules_2V(messenger){
   im_actor_model_modules_messages_CursorActor_CursorActor__JLim_actor_model_modules_Modules_2V.call(this, {l:1, m:0, h:0}, messenger);
 }
@@ -21764,7 +21776,7 @@ function im_actor_model_modules_messages_CursorReaderActor_CursorReaderActor__Li
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(563, 371, {}, im_actor_model_modules_messages_CursorReaderActor_CursorReaderActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_messages_CursorReaderActor_onReceive__Ljava_lang_Object_2V(message){
   var markRead;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 301)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 304)) {
     markRead = message;
     im_actor_model_modules_messages_CursorActor_$moveCursor__Lim_actor_model_modules_messages_CursorActor_2Lim_actor_model_entity_Peer_2JV(this, markRead.im_actor_model_modules_messages_CursorReaderActor$MarkRead_peer, markRead.im_actor_model_modules_messages_CursorReaderActor$MarkRead_date);
   }
@@ -21793,7 +21805,7 @@ function im_actor_model_modules_messages_CursorReaderActor$1_CursorReaderActor$1
   this.im_actor_model_modules_messages_CursorReaderActor$1_val$date3 = val$date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(814, 1, {}, im_actor_model_modules_messages_CursorReaderActor$1_CursorReaderActor$1__Lim_actor_model_modules_messages_CursorReaderActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(818, 1, {}, im_actor_model_modules_messages_CursorReaderActor$1_CursorReaderActor$1__Lim_actor_model_modules_messages_CursorReaderActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_messages_CursorReaderActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
@@ -21802,15 +21814,15 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 }
 ;
 _.im_actor_model_modules_messages_CursorReaderActor$1_val$date3 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReaderActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(814);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReaderActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(818);
 function im_actor_model_modules_messages_CursorReaderActor$MarkRead_CursorReaderActor$MarkRead__Lim_actor_model_entity_Peer_2JV(peer, date){
   this.im_actor_model_modules_messages_CursorReaderActor$MarkRead_peer = peer;
   this.im_actor_model_modules_messages_CursorReaderActor$MarkRead_date = date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(301, 1, {301:1}, im_actor_model_modules_messages_CursorReaderActor$MarkRead_CursorReaderActor$MarkRead__Lim_actor_model_entity_Peer_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(304, 1, {304:1}, im_actor_model_modules_messages_CursorReaderActor$MarkRead_CursorReaderActor$MarkRead__Lim_actor_model_entity_Peer_2JV);
 _.im_actor_model_modules_messages_CursorReaderActor$MarkRead_date = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReaderActor$MarkRead_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(301);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReaderActor$MarkRead_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(304);
 function im_actor_model_modules_messages_CursorReceiverActor_CursorReceiverActor__Lim_actor_model_modules_Modules_2V(messenger){
   im_actor_model_modules_messages_CursorActor_CursorActor__JLim_actor_model_modules_Modules_2V.call(this, {l:0, m:0, h:0}, messenger);
 }
@@ -21818,7 +21830,7 @@ function im_actor_model_modules_messages_CursorReceiverActor_CursorReceiverActor
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(564, 371, {}, im_actor_model_modules_messages_CursorReceiverActor_CursorReceiverActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_messages_CursorReceiverActor_onReceive__Ljava_lang_Object_2V(message){
   var received;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 303)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 306)) {
     received = message;
     im_actor_model_modules_messages_CursorActor_$moveCursor__Lim_actor_model_modules_messages_CursorActor_2Lim_actor_model_entity_Peer_2JV(this, received.im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_peer, received.im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_date);
   }
@@ -21847,7 +21859,7 @@ function im_actor_model_modules_messages_CursorReceiverActor$1_CursorReceiverAct
   this.im_actor_model_modules_messages_CursorReceiverActor$1_val$date3 = val$date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(815, 1, {}, im_actor_model_modules_messages_CursorReceiverActor$1_CursorReceiverActor$1__Lim_actor_model_modules_messages_CursorReceiverActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(819, 1, {}, im_actor_model_modules_messages_CursorReceiverActor$1_CursorReceiverActor$1__Lim_actor_model_modules_messages_CursorReceiverActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_messages_CursorReceiverActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
@@ -21856,15 +21868,15 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 }
 ;
 _.im_actor_model_modules_messages_CursorReceiverActor$1_val$date3 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReceiverActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(815);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReceiverActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(819);
 function im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_CursorReceiverActor$MarkReceived__Lim_actor_model_entity_Peer_2JV(peer, date){
   this.im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_peer = peer;
   this.im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_date = date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(303, 1, {303:1}, im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_CursorReceiverActor$MarkReceived__Lim_actor_model_entity_Peer_2JV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(306, 1, {306:1}, im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_CursorReceiverActor$MarkReceived__Lim_actor_model_entity_Peer_2JV);
 _.im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_date = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReceiverActor$MarkReceived_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(303);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1CursorReceiverActor$MarkReceived_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(306);
 function im_actor_model_modules_messages_DialogsActor_$addOrUpdateItem__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Dialog_2V(this$static, dialog){
   var d;
   im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItem__Lim_actor_model_js_providers_storage_JsListEngine_2Lim_actor_model_droidkit_bser_BserObject_2V(this$static.im_actor_model_modules_messages_DialogsActor_dialogs, dialog);
@@ -21939,7 +21951,7 @@ function im_actor_model_modules_messages_DialogsActor_$onHistoryLoaded__Lim_acto
   }
   im_actor_model_js_providers_storage_JsListEngine_$addOrUpdateItems__Lim_actor_model_js_providers_storage_JsListEngine_2Ljava_util_List_2V(this$static.im_actor_model_modules_messages_DialogsActor_dialogs, updated);
   im_actor_model_modules_SearchModule_$onDialogsChanged__Lim_actor_model_modules_SearchModule_2Ljava_util_List_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_search, updated);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnDialogsLoaded_ListsStatesActor$OnDialogsLoaded__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnDialogsLoaded_ListsStatesActor$OnDialogsLoaded__V);
   im_actor_model_modules_messages_DialogsActor_$notifyState__Lim_actor_model_modules_messages_DialogsActor_2V(this$static);
 }
 
@@ -21981,7 +21993,7 @@ function im_actor_model_modules_messages_DialogsActor_$onMessageContentChanged__
   var description, dialog;
   dialog = im_actor_model_js_providers_storage_JsListEngine_$getValue__Lim_actor_model_js_providers_storage_JsListEngine_2JLim_actor_model_droidkit_bser_BserObject_2(this$static.im_actor_model_modules_messages_DialogsActor_dialogs, im_actor_model_entity_Peer_$getUnuqueId__Lim_actor_model_entity_Peer_2J(peer));
   if (!!dialog && com_google_gwt_lang_LongLib_eq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(dialog.im_actor_model_entity_Dialog_rid, rid)) {
-    description = com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 59)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_TEXT), content.im_actor_model_entity_content_TextContent_text):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 54)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1PHOTO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 71)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1VIDEO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 34)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 79)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1REGISTERED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 84)?!content.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR_1REMOVED)):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 83)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1TITLE), content.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 80)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1CREATED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 69)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1ADD), '', content.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 81)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1KICK), '', content.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 82)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1LEAVE), '', 0, true):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 106)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1JOINED), '', 0, false):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_UNKNOWN_1CONTENT));
+    description = com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 59)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_TEXT), content.im_actor_model_entity_content_TextContent_text):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 54)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1PHOTO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 71)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1VIDEO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 34)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 80)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1REGISTERED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 85)?!content.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR_1REMOVED)):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 84)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1TITLE), content.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 81)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1CREATED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 69)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1ADD), '', content.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 82)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1KICK), '', content.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 83)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1LEAVE), '', 0, true):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 108)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1JOINED), '', 0, false):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_UNKNOWN_1CONTENT));
     im_actor_model_modules_messages_DialogsActor_$addOrUpdateItem__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Dialog_2V(this$static, im_actor_model_entity_DialogBuilder_$createDialog__Lim_actor_model_entity_DialogBuilder_2Lim_actor_model_entity_Dialog_2(im_actor_model_entity_DialogBuilder_$setMessageType__Lim_actor_model_entity_DialogBuilder_2Lim_actor_model_entity_ContentType_2Lim_actor_model_entity_DialogBuilder_2(im_actor_model_entity_DialogBuilder_$setRelatedUid__Lim_actor_model_entity_DialogBuilder_2ILim_actor_model_entity_DialogBuilder_2(im_actor_model_entity_DialogBuilder_$setText__Lim_actor_model_entity_DialogBuilder_2Ljava_lang_String_2Lim_actor_model_entity_DialogBuilder_2(new im_actor_model_entity_DialogBuilder_DialogBuilder__Lim_actor_model_entity_Dialog_2V(dialog), description.im_actor_model_entity_ContentDescription_text), description.im_actor_model_entity_ContentDescription_relatedUser), description.im_actor_model_entity_ContentDescription_contentType)));
   }
 }
@@ -22010,18 +22022,18 @@ function im_actor_model_modules_messages_DialogsActor_DialogsActor__Lim_actor_mo
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(560, 27, {}, im_actor_model_modules_messages_DialogsActor_DialogsActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_messages_DialogsActor_onReceive__Ljava_lang_Object_2V(message){
   var contentChanged, counterChanged, deleted, groupChanged, historyLoaded, inMessage, messageStateChanged, userChanged;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 200)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 201)) {
     inMessage = message;
     im_actor_model_modules_messages_DialogsActor_$onMessage__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2ZV(this, inMessage.im_actor_model_modules_messages_DialogsActor$InMessage_peer, inMessage.im_actor_model_modules_messages_DialogsActor$InMessage_message, false);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 105)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 107)) {
     userChanged = message;
     im_actor_model_modules_messages_DialogsActor_$onUserChanged__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_User_2V(this, userChanged.im_actor_model_modules_messages_DialogsActor$UserChanged_user);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 296)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 299)) {
     im_actor_model_modules_messages_DialogsActor_$onChatClear__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Peer_2V(this, message.im_actor_model_modules_messages_DialogsActor$ChatClear_peer);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 297)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 300)) {
     im_actor_model_modules_messages_DialogsActor_$onChatDeleted__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Peer_2V(this, message.im_actor_model_modules_messages_DialogsActor$ChatDelete_peer);
   }
    else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 136)) {
@@ -22032,11 +22044,11 @@ _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_messages_Dia
     counterChanged = message;
     im_actor_model_modules_messages_DialogsActor_$onCounterChanged__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Peer_2IV(this, counterChanged.im_actor_model_modules_messages_DialogsActor$CounterChanged_peer, counterChanged.im_actor_model_modules_messages_DialogsActor$CounterChanged_count);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 299)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 302)) {
     deleted = message;
     im_actor_model_modules_messages_DialogsActor_$onMessage__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2ZV(this, deleted.im_actor_model_modules_messages_DialogsActor$MessageDeleted_peer, deleted.im_actor_model_modules_messages_DialogsActor$MessageDeleted_topMessage, true);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 300)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 303)) {
     historyLoaded = message;
     im_actor_model_modules_messages_DialogsActor_$onHistoryLoaded__Lim_actor_model_modules_messages_DialogsActor_2Ljava_util_List_2V(this, historyLoaded.im_actor_model_modules_messages_DialogsActor$HistoryLoaded_history);
   }
@@ -22044,7 +22056,7 @@ _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_messages_Dia
     groupChanged = message;
     im_actor_model_modules_messages_DialogsActor_$onGroupChanged__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Group_2V(this, groupChanged.im_actor_model_modules_messages_DialogsActor$GroupChanged_group);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 298)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 301)) {
     contentChanged = message;
     im_actor_model_modules_messages_DialogsActor_$onMessageContentChanged__Lim_actor_model_modules_messages_DialogsActor_2Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(this, contentChanged.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_peer, contentChanged.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_rid, contentChanged.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_content);
   }
@@ -22064,14 +22076,14 @@ function im_actor_model_modules_messages_DialogsActor$ChatClear_DialogsActor$Cha
   this.im_actor_model_modules_messages_DialogsActor$ChatClear_peer = peer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(296, 1, {296:1}, im_actor_model_modules_messages_DialogsActor$ChatClear_DialogsActor$ChatClear__Lim_actor_model_entity_Peer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$ChatClear_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(296);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(299, 1, {299:1}, im_actor_model_modules_messages_DialogsActor$ChatClear_DialogsActor$ChatClear__Lim_actor_model_entity_Peer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$ChatClear_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(299);
 function im_actor_model_modules_messages_DialogsActor$ChatDelete_DialogsActor$ChatDelete__Lim_actor_model_entity_Peer_2V(peer){
   this.im_actor_model_modules_messages_DialogsActor$ChatDelete_peer = peer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(297, 1, {297:1}, im_actor_model_modules_messages_DialogsActor$ChatDelete_DialogsActor$ChatDelete__Lim_actor_model_entity_Peer_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$ChatDelete_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(297);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(300, 1, {300:1}, im_actor_model_modules_messages_DialogsActor$ChatDelete_DialogsActor$ChatDelete__Lim_actor_model_entity_Peer_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$ChatDelete_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(300);
 function im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, count){
   this.im_actor_model_modules_messages_DialogsActor$CounterChanged_peer = peer;
   this.im_actor_model_modules_messages_DialogsActor$CounterChanged_count = count;
@@ -22090,31 +22102,31 @@ function im_actor_model_modules_messages_DialogsActor$HistoryLoaded_DialogsActor
   this.im_actor_model_modules_messages_DialogsActor$HistoryLoaded_history = history_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(300, 1, {300:1}, im_actor_model_modules_messages_DialogsActor$HistoryLoaded_DialogsActor$HistoryLoaded__Ljava_util_List_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$HistoryLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(300);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(303, 1, {303:1}, im_actor_model_modules_messages_DialogsActor$HistoryLoaded_DialogsActor$HistoryLoaded__Ljava_util_List_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$HistoryLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(303);
 function im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(peer, message){
   this.im_actor_model_modules_messages_DialogsActor$InMessage_peer = peer;
   this.im_actor_model_modules_messages_DialogsActor$InMessage_message = message;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(200, 1, {200:1}, im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$InMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(200);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(201, 1, {201:1}, im_actor_model_modules_messages_DialogsActor$InMessage_DialogsActor$InMessage__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$InMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(201);
 function im_actor_model_modules_messages_DialogsActor$MessageContentChanged_DialogsActor$MessageContentChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(peer, rid, content){
   this.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_peer = peer;
   this.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_rid = rid;
   this.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(298, 1, {298:1}, im_actor_model_modules_messages_DialogsActor$MessageContentChanged_DialogsActor$MessageContentChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(301, 1, {301:1}, im_actor_model_modules_messages_DialogsActor$MessageContentChanged_DialogsActor$MessageContentChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V);
 _.im_actor_model_modules_messages_DialogsActor$MessageContentChanged_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$MessageContentChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(298);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$MessageContentChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(301);
 function im_actor_model_modules_messages_DialogsActor$MessageDeleted_DialogsActor$MessageDeleted__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V(peer, topMessage){
   this.im_actor_model_modules_messages_DialogsActor$MessageDeleted_peer = peer;
   this.im_actor_model_modules_messages_DialogsActor$MessageDeleted_topMessage = topMessage;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(299, 1, {299:1}, im_actor_model_modules_messages_DialogsActor$MessageDeleted_DialogsActor$MessageDeleted__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$MessageDeleted_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(299);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(302, 1, {302:1}, im_actor_model_modules_messages_DialogsActor$MessageDeleted_DialogsActor$MessageDeleted__Lim_actor_model_entity_Peer_2Lim_actor_model_entity_Message_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$MessageDeleted_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(302);
 function im_actor_model_modules_messages_DialogsActor$MessageStateChanged_DialogsActor$MessageStateChanged__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_MessageState_2V(peer, rid, state){
   this.im_actor_model_modules_messages_DialogsActor$MessageStateChanged_peer = peer;
   this.im_actor_model_modules_messages_DialogsActor$MessageStateChanged_rid = rid;
@@ -22129,14 +22141,14 @@ function im_actor_model_modules_messages_DialogsActor$PeerDesc_DialogsActor$Peer
   this.im_actor_model_modules_messages_DialogsActor$PeerDesc_avatar = avatar;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(409, 1, {}, im_actor_model_modules_messages_DialogsActor$PeerDesc_DialogsActor$PeerDesc__Lim_actor_model_modules_messages_DialogsActor_2Ljava_lang_String_2Lim_actor_model_entity_Avatar_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$PeerDesc_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(409);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(411, 1, {}, im_actor_model_modules_messages_DialogsActor$PeerDesc_DialogsActor$PeerDesc__Lim_actor_model_modules_messages_DialogsActor_2Ljava_lang_String_2Lim_actor_model_entity_Avatar_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$PeerDesc_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(411);
 function im_actor_model_modules_messages_DialogsActor$UserChanged_DialogsActor$UserChanged__Lim_actor_model_entity_User_2V(user){
   this.im_actor_model_modules_messages_DialogsActor$UserChanged_user = user;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(105, 1, {105:1}, im_actor_model_modules_messages_DialogsActor$UserChanged_DialogsActor$UserChanged__Lim_actor_model_entity_User_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$UserChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(105);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(107, 1, {107:1}, im_actor_model_modules_messages_DialogsActor$UserChanged_DialogsActor$UserChanged__Lim_actor_model_entity_User_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1DialogsActor$UserChanged_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(107);
 function im_actor_model_modules_messages_DialogsHistoryActor_$onLoadMore__Lim_actor_model_modules_messages_DialogsHistoryActor_2V(this$static){
   if (this$static.im_actor_model_modules_messages_DialogsHistoryActor_historyLoaded) {
     return;
@@ -22288,7 +22300,7 @@ function im_actor_model_modules_messages_MessageDeleteActor$1_MessageDeleteActor
   this.im_actor_model_modules_messages_MessageDeleteActor$1_val$apiPeer4 = val$apiPeer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(816, 1, {}, im_actor_model_modules_messages_MessageDeleteActor$1_MessageDeleteActor$1__Lim_actor_model_modules_messages_MessageDeleteActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(820, 1, {}, im_actor_model_modules_messages_MessageDeleteActor$1_MessageDeleteActor$1__Lim_actor_model_modules_messages_MessageDeleteActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_messages_MessageDeleteActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
@@ -22296,12 +22308,12 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_messages_MessageDeleteActor$1_$onResult__Lim_actor_model_modules_messages_MessageDeleteActor$1_2Lim_actor_model_api_rpc_ResponseSeq_2V(this, response);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1MessageDeleteActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(816);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1MessageDeleteActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(820);
 function im_actor_model_modules_messages_OwnReadActor_$onMessageDelete__Lim_actor_model_modules_messages_OwnReadActor_2Lim_actor_model_entity_Peer_2Ljava_util_List_2V(this$static, peer, rids){
   var isRemoved, u, u$array, u$index, u$max, unread;
   unread = im_actor_model_modules_messages_entity_UnreadMessagesStorage_$getUnread__Lim_actor_model_modules_messages_entity_UnreadMessagesStorage_2Lim_actor_model_entity_Peer_2Ljava_util_HashSet_2(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage, peer);
   isRemoved = false;
-  for (u$array = unread.toArray___3Ljava_lang_Object_2_3Ljava_lang_Object_2(com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit, $intern_8, 98, unread.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1)) , u$index = 0 , u$max = u$array.length; u$index < u$max; ++u$index) {
+  for (u$array = unread.toArray___3Ljava_lang_Object_2_3Ljava_lang_Object_2(com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit, $intern_8, 99, unread.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1)) , u$index = 0 , u$max = u$array.length; u$index < u$max; ++u$index) {
     u = u$array[u$index];
     if (java_util_ArrayList_$indexOf__Ljava_util_ArrayList_2Ljava_lang_Object_2II(rids, java_lang_Long_valueOf__JLjava_lang_Long_2(u.im_actor_model_modules_messages_entity_UnreadMessage_rid), 0) != -1) {
       java_util_AbstractHashMap_$remove__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2(unread.java_util_HashSet_map, u) != null;
@@ -22312,7 +22324,7 @@ function im_actor_model_modules_messages_OwnReadActor_$onMessageDelete__Lim_acto
     return;
   }
   im_actor_model_droidkit_engine_SyncKeyValue_$put__Lim_actor_model_droidkit_engine_SyncKeyValue_2J_3BV(this$static.im_actor_model_modules_messages_OwnReadActor_syncKeyValue, {l:2, m:0, h:0}, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, unread.java_util_HashSet_map.java_util_AbstractHashMap_size));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, unread.java_util_HashSet_map.java_util_AbstractHashMap_size));
 }
 
 function im_actor_model_modules_messages_OwnReadActor_$onMessageRead__Lim_actor_model_modules_messages_OwnReadActor_2Lim_actor_model_entity_Peer_2JV(this$static, peer, sortingDate){
@@ -22324,7 +22336,7 @@ function im_actor_model_modules_messages_OwnReadActor_$onMessageRead__Lim_actor_
   unread = im_actor_model_modules_messages_entity_UnreadMessagesStorage_$getUnread__Lim_actor_model_modules_messages_entity_UnreadMessagesStorage_2Lim_actor_model_entity_Peer_2Ljava_util_HashSet_2(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage, peer);
   maxPlainReadDate = sortingDate;
   removed = false;
-  for (u$array = java_util_AbstractCollection_$toArray__Ljava_util_AbstractCollection_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(unread, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit, $intern_8, 98, unread.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1)) , u$index = 0 , u$max = u$array.length; u$index < u$max; ++u$index) {
+  for (u$array = java_util_AbstractCollection_$toArray__Ljava_util_AbstractCollection_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(unread, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit, $intern_8, 99, unread.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1)) , u$index = 0 , u$max = u$array.length; u$index < u$max; ++u$index) {
     u = u$array[u$index];
     if (com_google_gwt_lang_LongLib_lte__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(u.im_actor_model_modules_messages_entity_UnreadMessage_sortDate, sortingDate)) {
       maxPlainReadDate = java_lang_Math_max__JJJ(u.im_actor_model_modules_messages_entity_UnreadMessage_sortDate, maxPlainReadDate);
@@ -22333,9 +22345,9 @@ function im_actor_model_modules_messages_OwnReadActor_$onMessageRead__Lim_actor_
     }
   }
   removed && im_actor_model_droidkit_engine_SyncKeyValue_$put__Lim_actor_model_droidkit_engine_SyncKeyValue_2J_3BV(this$static.im_actor_model_modules_messages_OwnReadActor_syncKeyValue, {l:2, m:0, h:0}, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage));
-  com_google_gwt_lang_LongLib_gt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(maxPlainReadDate, {l:0, m:0, h:0}) && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_plainReadActor, new im_actor_model_modules_messages_CursorReaderActor$MarkRead_CursorReaderActor$MarkRead__Lim_actor_model_entity_Peer_2JV(peer, maxPlainReadDate));
+  com_google_gwt_lang_LongLib_gt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(maxPlainReadDate, {l:0, m:0, h:0}) && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_plainReadActor, new im_actor_model_modules_messages_CursorReaderActor$MarkRead_CursorReaderActor$MarkRead__Lim_actor_model_entity_Peer_2JV(peer, maxPlainReadDate));
   im_actor_model_modules_Messages_$saveReadState__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2JV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer, sortingDate);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, unread.java_util_HashSet_map.java_util_AbstractHashMap_size));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, unread.java_util_HashSet_map.java_util_AbstractHashMap_size));
   im_actor_model_modules_Notifications_$onOwnRead__Lim_actor_model_modules_Notifications_2Lim_actor_model_entity_Peer_2JV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_notifications, peer, sortingDate);
 }
 
@@ -22343,7 +22355,7 @@ function im_actor_model_modules_messages_OwnReadActor_$onMessageReadByMe__Lim_ac
   var msgSortingDate, u, u$array, u$index, u$max, unread;
   msgSortingDate = {l:0, m:0, h:0};
   unread = im_actor_model_modules_messages_entity_UnreadMessagesStorage_$getUnread__Lim_actor_model_modules_messages_entity_UnreadMessagesStorage_2Lim_actor_model_entity_Peer_2Ljava_util_HashSet_2(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage, peer);
-  for (u$array = unread.toArray___3Ljava_lang_Object_2_3Ljava_lang_Object_2(com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit, $intern_8, 98, unread.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1)) , u$index = 0 , u$max = u$array.length; u$index < u$max; ++u$index) {
+  for (u$array = unread.toArray___3Ljava_lang_Object_2_3Ljava_lang_Object_2(com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit, $intern_8, 99, unread.java_util_HashSet_map.java_util_AbstractHashMap_size, 0, 1)) , u$index = 0 , u$max = u$array.length; u$index < u$max; ++u$index) {
     u = u$array[u$index];
     com_google_gwt_lang_LongLib_lte__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(u.im_actor_model_modules_messages_entity_UnreadMessage_sortDate, sortingDate) && com_google_gwt_lang_LongLib_gt__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(u.im_actor_model_modules_messages_entity_UnreadMessage_sortDate, msgSortingDate) && (msgSortingDate = u.im_actor_model_modules_messages_entity_UnreadMessage_sortDate);
   }
@@ -22360,7 +22372,7 @@ function im_actor_model_modules_messages_OwnReadActor_$onNewInMessage__Lim_actor
   unread = im_actor_model_modules_messages_entity_UnreadMessagesStorage_$getUnread__Lim_actor_model_modules_messages_entity_UnreadMessagesStorage_2Lim_actor_model_entity_Peer_2Ljava_util_HashSet_2(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage, peer);
   java_util_HashSet_$add__Ljava_util_HashSet_2Ljava_lang_Object_2Z(unread, new im_actor_model_modules_messages_entity_UnreadMessage_UnreadMessage__Lim_actor_model_entity_Peer_2JJV(peer, rid, sortingDate));
   im_actor_model_droidkit_engine_SyncKeyValue_$put__Lim_actor_model_droidkit_engine_SyncKeyValue_2J_3BV(this$static.im_actor_model_modules_messages_OwnReadActor_syncKeyValue, {l:2, m:0, h:0}, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_OwnReadActor_messagesStorage));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, unread.java_util_HashSet_map.java_util_AbstractHashMap_size));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$CounterChanged_DialogsActor$CounterChanged__Lim_actor_model_entity_Peer_2IV(peer, unread.java_util_HashSet_map.java_util_AbstractHashMap_size));
 }
 
 function im_actor_model_modules_messages_OwnReadActor_OwnReadActor__Lim_actor_model_modules_Modules_2V(messenger){
@@ -22465,7 +22477,7 @@ function im_actor_model_modules_messages_SenderActor_$doSendDocument__Lim_actor_
   sortDate = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(date, {l:3222528, m:7518, h:0});
   documentContent = new im_actor_model_entity_content_DocumentContent_DocumentContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V(new im_actor_model_entity_content_internal_ContentLocalContainer_ContentLocalContainer__Lim_actor_model_entity_content_internal_AbsLocalContent_2V(new im_actor_model_entity_content_internal_LocalDocument_LocalDocument__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2V(fileName, descriptor, fileSize, mimeType, null)));
   message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, sortDate, date, this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_PENDING), documentContent);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), message);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), message);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages, new im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(peer, rid, documentContent));
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBytes__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2_3BV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_159, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages));
   im_actor_model_modules_Files_$requestUpload__Lim_actor_model_modules_Files_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_filesModule, rid, descriptor, fileName, this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef);
@@ -22478,7 +22490,7 @@ function im_actor_model_modules_messages_SenderActor_$doSendPhoto__Lim_actor_mod
   sortDate = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(date, {l:3222528, m:7518, h:0});
   photoContent = new im_actor_model_entity_content_PhotoContent_PhotoContent__Lim_actor_model_entity_content_internal_ContentLocalContainer_2V(new im_actor_model_entity_content_internal_ContentLocalContainer_ContentLocalContainer__Lim_actor_model_entity_content_internal_AbsLocalContent_2V(new im_actor_model_entity_content_internal_LocalPhoto_LocalPhoto__Ljava_lang_String_2Ljava_lang_String_2ILjava_lang_String_2Lim_actor_model_entity_content_internal_LocalFastThumb_2IIV(fileName, descriptor, fileSize, $intern_94, fastThumb?new im_actor_model_entity_content_internal_LocalFastThumb_LocalFastThumb__Lim_actor_model_entity_content_FastThumb_2V(fastThumb):null, w, h)));
   message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, sortDate, date, this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_PENDING), photoContent);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), message);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), message);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages, new im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(peer, rid, photoContent));
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBytes__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2_3BV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_159, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages));
   im_actor_model_modules_Files_$requestUpload__Lim_actor_model_modules_Files_2JLjava_lang_String_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_filesModule, rid, descriptor, fileName, this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef);
@@ -22491,7 +22503,7 @@ function im_actor_model_modules_messages_SenderActor_$doSendText__Lim_actor_mode
   sortDate = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(date, {l:3222528, m:7518, h:0});
   content = im_actor_model_entity_content_TextContent_create__Ljava_lang_String_2Ljava_lang_String_2Ljava_util_ArrayList_2Lim_actor_model_entity_content_TextContent_2(text_0, mentions);
   message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, sortDate, date, this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_PENDING), content);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), message);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), message);
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages, new im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(peer, rid, content));
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBytes__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2_3BV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_159, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages));
   im_actor_model_modules_messages_SenderActor_$performSendContent__Lim_actor_model_modules_messages_SenderActor_2Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(this$static, peer, rid, content);
@@ -22518,7 +22530,7 @@ function im_actor_model_modules_messages_SenderActor_$onError__Lim_actor_model_m
     }
   }
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBytes__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2_3BV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_159, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageError_ConversationActor$MessageError__JV(rid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageError_ConversationActor$MessageError__JV(rid));
 }
 
 function im_actor_model_modules_messages_SenderActor_$onFileUploadError__Lim_actor_model_modules_messages_SenderActor_2JV(this$static, rid){
@@ -22527,7 +22539,7 @@ function im_actor_model_modules_messages_SenderActor_$onFileUploadError__Lim_act
   if (!msg) {
     return;
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_SenderActor$MessageError_SenderActor$MessageError__Lim_actor_model_entity_Peer_2JV(msg.im_actor_model_modules_messages_entity_PendingMessage_peer, msg.im_actor_model_modules_messages_entity_PendingMessage_rid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_SenderActor$MessageError_SenderActor$MessageError__Lim_actor_model_entity_Peer_2JV(msg.im_actor_model_modules_messages_entity_PendingMessage_peer, msg.im_actor_model_modules_messages_entity_PendingMessage_rid));
 }
 
 function im_actor_model_modules_messages_SenderActor_$onFileUploaded__Lim_actor_model_modules_messages_SenderActor_2JLim_actor_model_entity_FileReference_2V(this$static, rid, fileReference){
@@ -22553,7 +22565,7 @@ function im_actor_model_modules_messages_SenderActor_$onFileUploaded__Lim_actor_
     return;
   }
   java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_SenderActor_pendingMessages.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages, new im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(msg.im_actor_model_modules_messages_entity_PendingMessage_peer, msg.im_actor_model_modules_messages_entity_PendingMessage_rid, nContent));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_utils_ModuleActor_$getConversationActor__Lim_actor_model_modules_utils_ModuleActor_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, msg.im_actor_model_modules_messages_entity_PendingMessage_peer), new im_actor_model_modules_messages_ConversationActor$MessageContentUpdated_ConversationActor$MessageContentUpdated__JLim_actor_model_entity_content_AbsContent_2V(msg.im_actor_model_modules_messages_entity_PendingMessage_rid, nContent));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_utils_ModuleActor_$getConversationActor__Lim_actor_model_modules_utils_ModuleActor_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, msg.im_actor_model_modules_messages_entity_PendingMessage_peer), new im_actor_model_modules_messages_ConversationActor$MessageContentUpdated_ConversationActor$MessageContentUpdated__JLim_actor_model_entity_content_AbsContent_2V(msg.im_actor_model_modules_messages_entity_PendingMessage_rid, nContent));
   im_actor_model_modules_messages_SenderActor_$performSendContent__Lim_actor_model_modules_messages_SenderActor_2Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(this$static, msg.im_actor_model_modules_messages_entity_PendingMessage_peer, rid, nContent);
 }
 
@@ -22662,7 +22674,7 @@ _.preStart__V = function im_actor_model_modules_messages_SenderActor_preStart__V
   }
   isChanged = false;
   messages = this.im_actor_model_modules_messages_SenderActor_pendingMessages.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages;
-  for (pending$array = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(messages, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1PendingMessage_12_1classLit, $intern_8, 76, messages.size__I(), 0, 1)) , pending$index = 0 , pending$max = pending$array.length; pending$index < pending$max; ++pending$index) {
+  for (pending$array = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(messages, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1PendingMessage_12_1classLit, $intern_8, 77, messages.size__I(), 0, 1)) , pending$index = 0 , pending$max = pending$array.length; pending$index < pending$max; ++pending$index) {
     pending = pending$array[pending$index];
     if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(pending.im_actor_model_modules_messages_entity_PendingMessage_content, 59)) {
       im_actor_model_modules_messages_SenderActor_$performSendContent__Lim_actor_model_modules_messages_SenderActor_2Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V(this, pending.im_actor_model_modules_messages_entity_PendingMessage_peer, pending.im_actor_model_modules_messages_entity_PendingMessage_rid, pending.im_actor_model_modules_messages_entity_PendingMessage_content);
@@ -22672,7 +22684,7 @@ _.preStart__V = function im_actor_model_modules_messages_SenderActor_preStart__V
       if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(documentContent.im_actor_model_entity_content_DocumentContent_source, 195)) {
         rids = new java_util_ArrayList_ArrayList__V;
         java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(rids, java_lang_Long_valueOf__JLjava_lang_Long_2(pending.im_actor_model_modules_messages_entity_PendingMessage_rid));
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_utils_ModuleActor_$getConversationActor__Lim_actor_model_modules_utils_ModuleActor_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this, pending.im_actor_model_modules_messages_entity_PendingMessage_peer), new im_actor_model_modules_messages_ConversationActor$MessagesDeleted_ConversationActor$MessagesDeleted__Ljava_util_List_2V(rids));
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_utils_ModuleActor_$getConversationActor__Lim_actor_model_modules_utils_ModuleActor_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this, pending.im_actor_model_modules_messages_entity_PendingMessage_peer), new im_actor_model_modules_messages_ConversationActor$MessagesDeleted_ConversationActor$MessagesDeleted__Ljava_util_List_2V(rids));
         java_util_ArrayList_$remove__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this.im_actor_model_modules_messages_SenderActor_pendingMessages.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages, pending);
         isChanged = true;
       }
@@ -22692,18 +22704,18 @@ function im_actor_model_modules_messages_SenderActor$1_SenderActor$1__Lim_actor_
   this.im_actor_model_modules_messages_SenderActor$1_val$apiPeer5 = val$apiPeer;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(745, 1, {}, im_actor_model_modules_messages_SenderActor$1_SenderActor$1__Lim_actor_model_modules_messages_SenderActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(747, 1, {}, im_actor_model_modules_messages_SenderActor$1_SenderActor$1__Lim_actor_model_modules_messages_SenderActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_messages_SenderActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_messages_SenderActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_SenderActor$MessageError_SenderActor$MessageError__Lim_actor_model_entity_Peer_2JV(this.im_actor_model_modules_messages_SenderActor$1_val$peer2, this.im_actor_model_modules_messages_SenderActor$1_val$rid3));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_messages_SenderActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_SenderActor$MessageError_SenderActor$MessageError__Lim_actor_model_entity_Peer_2JV(this.im_actor_model_modules_messages_SenderActor$1_val$peer2, this.im_actor_model_modules_messages_SenderActor$1_val$rid3));
 }
 ;
 _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model_modules_messages_SenderActor$1_onResult__Lim_actor_model_network_parser_Response_2V(response){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_messages_SenderActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_SenderActor$MessageSent_SenderActor$MessageSent__Lim_actor_model_entity_Peer_2JV(this.im_actor_model_modules_messages_SenderActor$1_val$peer2, this.im_actor_model_modules_messages_SenderActor$1_val$rid3));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_messages_SenderActor$1_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_messages_SenderActor$MessageSent_SenderActor$MessageSent__Lim_actor_model_entity_Peer_2JV(this.im_actor_model_modules_messages_SenderActor$1_val$peer2, this.im_actor_model_modules_messages_SenderActor$1_val$rid3));
   im_actor_model_modules_Updates_$onUpdateReceived__Lim_actor_model_modules_Updates_2Ljava_lang_Object_2V(this.im_actor_model_modules_messages_SenderActor$1_this$01.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_updates, new im_actor_model_api_base_SeqUpdate_SeqUpdate__I_3BI_3BV(response.im_actor_model_api_rpc_ResponseSeqDate_seq, response.im_actor_model_api_rpc_ResponseSeqDate_state, 4, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(new im_actor_model_api_updates_UpdateMessageSent_UpdateMessageSent__Lim_actor_model_api_Peer_2JJV(this.im_actor_model_modules_messages_SenderActor$1_val$apiPeer5, this.im_actor_model_modules_messages_SenderActor$1_val$rid3, response.im_actor_model_api_rpc_ResponseSeqDate_date))));
 }
 ;
 _.im_actor_model_modules_messages_SenderActor$1_val$rid3 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1SenderActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(745);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1SenderActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(747);
 function im_actor_model_modules_messages_SenderActor$MessageError_SenderActor$MessageError__Lim_actor_model_entity_Peer_2JV(peer, rid){
   this.im_actor_model_modules_messages_SenderActor$MessageError_peer = peer;
   this.im_actor_model_modules_messages_SenderActor$MessageError_rid = rid;
@@ -22847,7 +22859,7 @@ function im_actor_model_modules_messages_entity_OutUnreadMessage_OutUnreadMessag
   this.im_actor_model_modules_messages_entity_OutUnreadMessage_date = date;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(100, 4, {4:1, 100:1}, im_actor_model_modules_messages_entity_OutUnreadMessage_OutUnreadMessage__V, im_actor_model_modules_messages_entity_OutUnreadMessage_OutUnreadMessage__JJV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(101, 4, {4:1, 101:1}, im_actor_model_modules_messages_entity_OutUnreadMessage_OutUnreadMessage__V, im_actor_model_modules_messages_entity_OutUnreadMessage_OutUnreadMessage__JJV);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_modules_messages_entity_OutUnreadMessage_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_modules_messages_entity_OutUnreadMessage_rid = im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 1);
   this.im_actor_model_modules_messages_entity_OutUnreadMessage_date = im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 2);
@@ -22860,7 +22872,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 ;
 _.im_actor_model_modules_messages_entity_OutUnreadMessage_date = {l:0, m:0, h:0};
 _.im_actor_model_modules_messages_entity_OutUnreadMessage_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1OutUnreadMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(100);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1OutUnreadMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(101);
 function im_actor_model_modules_messages_entity_OutUnreadMessagesStorage_OutUnreadMessagesStorage__V(){
   this.im_actor_model_modules_messages_entity_OutUnreadMessagesStorage_messages = new java_util_ArrayList_ArrayList__V;
 }
@@ -22891,7 +22903,7 @@ function im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__L
   this.im_actor_model_modules_messages_entity_PendingMessage_content = content;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(76, 4, {4:1, 76:1}, im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__V, im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(77, 4, {4:1, 77:1}, im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__V, im_actor_model_modules_messages_entity_PendingMessage_PendingMessage__Lim_actor_model_entity_Peer_2JLim_actor_model_entity_content_AbsContent_2V);
 _.parse__Lim_actor_model_droidkit_bser_BserValues_2V = function im_actor_model_modules_messages_entity_PendingMessage_parse__Lim_actor_model_droidkit_bser_BserValues_2V(values){
   this.im_actor_model_modules_messages_entity_PendingMessage_peer = im_actor_model_entity_Peer_fromUniqueId__JLim_actor_model_entity_Peer_2(im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 1));
   this.im_actor_model_modules_messages_entity_PendingMessage_rid = im_actor_model_droidkit_bser_BserValues_$getLong__Lim_actor_model_droidkit_bser_BserValues_2IJ(values, 2);
@@ -22908,7 +22920,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 ;
 _.im_actor_model_modules_messages_entity_PendingMessage_isError = false;
 _.im_actor_model_modules_messages_entity_PendingMessage_rid = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1PendingMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(76);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1PendingMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(77);
 function im_actor_model_modules_messages_entity_PendingMessagesStorage_PendingMessagesStorage__V(){
   this.im_actor_model_modules_messages_entity_PendingMessagesStorage_pendingMessages = new java_util_ArrayList_ArrayList__V;
 }
@@ -23019,7 +23031,7 @@ function im_actor_model_modules_messages_entity_UnreadMessage_UnreadMessage__Lim
   this.im_actor_model_modules_messages_entity_UnreadMessage_sortDate = sortDate;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(98, 4, {4:1, 98:1}, im_actor_model_modules_messages_entity_UnreadMessage_UnreadMessage__V, im_actor_model_modules_messages_entity_UnreadMessage_UnreadMessage__Lim_actor_model_entity_Peer_2JJV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(99, 4, {4:1, 99:1}, im_actor_model_modules_messages_entity_UnreadMessage_UnreadMessage__V, im_actor_model_modules_messages_entity_UnreadMessage_UnreadMessage__Lim_actor_model_entity_Peer_2JJV);
 _.equals__Ljava_lang_Object_2Z$ = function im_actor_model_modules_messages_entity_UnreadMessage_equals__Ljava_lang_Object_2Z(o){
   var that;
   if (this === o)
@@ -23055,7 +23067,7 @@ _.serialize__Lim_actor_model_droidkit_bser_BserWriter_2V = function im_actor_mod
 ;
 _.im_actor_model_modules_messages_entity_UnreadMessage_rid = {l:0, m:0, h:0};
 _.im_actor_model_modules_messages_entity_UnreadMessage_sortDate = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(98);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1messages_1entity_1UnreadMessage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(99);
 function im_actor_model_modules_messages_entity_UnreadMessagesStorage_$getUnread__Lim_actor_model_modules_messages_entity_UnreadMessagesStorage_2Lim_actor_model_entity_Peer_2Ljava_util_HashSet_2(this$static, peer){
   java_util_AbstractHashMap_$containsKey__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_messages_entity_UnreadMessagesStorage_unreadMessages, peer) || java_util_AbstractHashMap_$put__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2(this$static.im_actor_model_modules_messages_entity_UnreadMessagesStorage_unreadMessages, peer, new java_util_HashSet_HashSet__V);
   return java_util_AbstractHashMap_$get__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2(this$static.im_actor_model_modules_messages_entity_UnreadMessagesStorage_unreadMessages, peer);
@@ -23664,7 +23676,7 @@ function im_actor_model_modules_push_PushRegisterActor_PushRegisterActor__Lim_ac
   im_actor_model_modules_utils_ModuleActor_ModuleActor__Lim_actor_model_modules_Modules_2V.call(this, modules);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(753, 27, {}, im_actor_model_modules_push_PushRegisterActor_PushRegisterActor__Lim_actor_model_modules_Modules_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(754, 27, {}, im_actor_model_modules_push_PushRegisterActor_PushRegisterActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_push_PushRegisterActor_onReceive__Ljava_lang_Object_2V(message){
   var registerGooglePush;
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 275)) {
@@ -23699,7 +23711,7 @@ _.preStart__V = function im_actor_model_modules_push_PushRegisterActor_preStart_
   }
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1push_1PushRegisterActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(753);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1push_1PushRegisterActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(754);
 function im_actor_model_modules_push_PushRegisterActor$1_$onResult__Lim_actor_model_modules_push_PushRegisterActor$1_2Lim_actor_model_api_rpc_ResponseVoid_2V(this$static){
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBool__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2ZV(this$static.im_actor_model_modules_push_PushRegisterActor$1_this$01.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_161, true);
 }
@@ -23708,7 +23720,7 @@ function im_actor_model_modules_push_PushRegisterActor$1_PushRegisterActor$1__Li
   this.im_actor_model_modules_push_PushRegisterActor$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(766, 1, {}, im_actor_model_modules_push_PushRegisterActor$1_PushRegisterActor$1__Lim_actor_model_modules_push_PushRegisterActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(768, 1, {}, im_actor_model_modules_push_PushRegisterActor$1_PushRegisterActor$1__Lim_actor_model_modules_push_PushRegisterActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_push_PushRegisterActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
@@ -23716,7 +23728,7 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_push_PushRegisterActor$1_$onResult__Lim_actor_model_modules_push_PushRegisterActor$1_2Lim_actor_model_api_rpc_ResponseVoid_2V(this, response);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1push_1PushRegisterActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(766);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1push_1PushRegisterActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(768);
 function im_actor_model_modules_push_PushRegisterActor$2_$onResult__Lim_actor_model_modules_push_PushRegisterActor$2_2Lim_actor_model_api_rpc_ResponseVoid_2V(this$static){
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBool__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2ZV(this$static.im_actor_model_modules_push_PushRegisterActor$2_this$01.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_165, true);
 }
@@ -23725,7 +23737,7 @@ function im_actor_model_modules_push_PushRegisterActor$2_PushRegisterActor$2__Li
   this.im_actor_model_modules_push_PushRegisterActor$2_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(767, 1, {}, im_actor_model_modules_push_PushRegisterActor$2_PushRegisterActor$2__Lim_actor_model_modules_push_PushRegisterActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(769, 1, {}, im_actor_model_modules_push_PushRegisterActor$2_PushRegisterActor$2__Lim_actor_model_modules_push_PushRegisterActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_push_PushRegisterActor$2_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
@@ -23733,7 +23745,7 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_push_PushRegisterActor$2_$onResult__Lim_actor_model_modules_push_PushRegisterActor$2_2Lim_actor_model_api_rpc_ResponseVoid_2V(this, response);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1push_1PushRegisterActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(767);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1push_1PushRegisterActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(769);
 function im_actor_model_modules_push_PushRegisterActor$RegisterGooglePush_PushRegisterActor$RegisterGooglePush__JLjava_lang_String_2V(token){
   this.im_actor_model_modules_push_PushRegisterActor$RegisterGooglePush_projectId = {l:1509223, m:49861, h:0};
   this.im_actor_model_modules_push_PushRegisterActor$RegisterGooglePush_token = token;
@@ -23769,11 +23781,11 @@ function im_actor_model_modules_search_SearchActor_SearchActor__Lim_actor_model_
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(779, 27, {}, im_actor_model_modules_search_SearchActor_SearchActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_search_SearchActor_onReceive__Ljava_lang_Object_2V(message){
   var contactsUpdated, onDialogsUpdated;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 289)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 292)) {
     onDialogsUpdated = message;
     im_actor_model_modules_search_SearchActor_$onDialogsUpdated__Lim_actor_model_modules_search_SearchActor_2Ljava_util_List_2V(this, onDialogsUpdated.im_actor_model_modules_search_SearchActor$OnDialogsUpdated_dialogs);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 290)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 293)) {
     contactsUpdated = message;
     im_actor_model_modules_search_SearchActor_$onContactsUpdated__Lim_actor_model_modules_search_SearchActor_2_3IV(this, contactsUpdated.im_actor_model_modules_search_SearchActor$OnContactsUpdated_contactsList);
   }
@@ -23792,14 +23804,14 @@ function im_actor_model_modules_search_SearchActor$OnContactsUpdated_SearchActor
   this.im_actor_model_modules_search_SearchActor$OnContactsUpdated_contactsList = contactsList;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(290, 1, {290:1}, im_actor_model_modules_search_SearchActor$OnContactsUpdated_SearchActor$OnContactsUpdated___3IV);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1search_1SearchActor$OnContactsUpdated_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(290);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(293, 1, {293:1}, im_actor_model_modules_search_SearchActor$OnContactsUpdated_SearchActor$OnContactsUpdated___3IV);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1search_1SearchActor$OnContactsUpdated_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(293);
 function im_actor_model_modules_search_SearchActor$OnDialogsUpdated_SearchActor$OnDialogsUpdated__Ljava_util_List_2V(dialogs){
   this.im_actor_model_modules_search_SearchActor$OnDialogsUpdated_dialogs = dialogs;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(289, 1, {289:1}, im_actor_model_modules_search_SearchActor$OnDialogsUpdated_SearchActor$OnDialogsUpdated__Ljava_util_List_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1search_1SearchActor$OnDialogsUpdated_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(289);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(292, 1, {292:1}, im_actor_model_modules_search_SearchActor$OnDialogsUpdated_SearchActor$OnDialogsUpdated__Ljava_util_List_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1search_1SearchActor$OnDialogsUpdated_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(292);
 function im_actor_model_modules_settings_SettingsSyncActor_$saveState__Lim_actor_model_modules_settings_SettingsSyncActor_2V(this$static){
   im_actor_model_js_providers_storage_JsPreferencesStorage_$putBytes__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2_3BV(this$static.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_168, im_actor_model_droidkit_bser_BserObject_$toByteArray__Lim_actor_model_droidkit_bser_BserObject_2_3B(this$static.im_actor_model_modules_settings_SettingsSyncActor_syncState));
 }
@@ -23863,7 +23875,7 @@ function im_actor_model_modules_settings_SettingsSyncActor$1_SettingsSyncActor$1
   this.im_actor_model_modules_settings_SettingsSyncActor$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(763, 1, {}, im_actor_model_modules_settings_SettingsSyncActor$1_SettingsSyncActor$1__Lim_actor_model_modules_settings_SettingsSyncActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(764, 1, {}, im_actor_model_modules_settings_SettingsSyncActor$1_SettingsSyncActor$1__Lim_actor_model_modules_settings_SettingsSyncActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_settings_SettingsSyncActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
@@ -23871,7 +23883,7 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_settings_SettingsSyncActor$1_$onResult__Lim_actor_model_modules_settings_SettingsSyncActor$1_2Lim_actor_model_api_rpc_ResponseGetParameters_2V(this, response);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1settings_1SettingsSyncActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(763);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1settings_1SettingsSyncActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(764);
 function im_actor_model_modules_settings_SettingsSyncActor$2_SettingsSyncActor$2__Lim_actor_model_modules_settings_SettingsSyncActor_2V(this$0, val$action){
   this.im_actor_model_modules_settings_SettingsSyncActor$2_this$01 = this$0;
   this.im_actor_model_modules_settings_SettingsSyncActor$2_val$action2 = val$action;
@@ -23953,12 +23965,12 @@ function im_actor_model_modules_state_ListsStatesActor_ListsStatesActor__Lim_act
   im_actor_model_modules_utils_ModuleActor_ModuleActor__Lim_actor_model_modules_Modules_2V.call(this, modules);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(756, 27, {}, im_actor_model_modules_state_ListsStatesActor_ListsStatesActor__Lim_actor_model_modules_Modules_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(757, 27, {}, im_actor_model_modules_state_ListsStatesActor_ListsStatesActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_state_ListsStatesActor_onReceive__Ljava_lang_Object_2V(message){
   com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 278)?im_actor_model_modules_state_ListsStatesActor_$onContactsChanged__Lim_actor_model_modules_state_ListsStatesActor_2ZV(this, message.im_actor_model_modules_state_ListsStatesActor$OnContactsChanged_isEmpty):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 279)?im_actor_model_modules_state_ListsStatesActor_$onDialogsChanged__Lim_actor_model_modules_state_ListsStatesActor_2ZV(this, message.im_actor_model_modules_state_ListsStatesActor$OnDialogsChanged_isEmpty):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 192)?im_actor_model_viewmodel_AppStateVM_$onPhoneImported__Lim_actor_model_viewmodel_AppStateVM_2V(this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_appStateVM):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 277)?im_actor_model_viewmodel_AppStateVM_$onContactsLoaded__Lim_actor_model_viewmodel_AppStateVM_2V(this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_appStateVM):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 193)?im_actor_model_viewmodel_AppStateVM_$onDialogsLoaded__Lim_actor_model_viewmodel_AppStateVM_2V(this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_appStateVM):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1state_1ListsStatesActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(756);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1state_1ListsStatesActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(757);
 function im_actor_model_modules_state_ListsStatesActor$OnBookImported_ListsStatesActor$OnBookImported__V(){
 }
 
@@ -24094,22 +24106,22 @@ function im_actor_model_modules_typing_TypingActor_TypingActor__Lim_actor_model_
   this.im_actor_model_modules_typing_TypingActor_groupTypings = new java_util_HashMap_HashMap__V;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(799, 27, {}, im_actor_model_modules_typing_TypingActor_TypingActor__Lim_actor_model_modules_Modules_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(803, 27, {}, im_actor_model_modules_typing_TypingActor_TypingActor__Lim_actor_model_modules_Modules_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_typing_TypingActor_onReceive__Ljava_lang_Object_2V(message){
   var typing;
-  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 282)) {
+  if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 285)) {
     typing = message;
     im_actor_model_modules_typing_TypingActor_$privateTyping__Lim_actor_model_modules_typing_TypingActor_2ILim_actor_model_api_TypingType_2V(this, typing.im_actor_model_modules_typing_TypingActor$PrivateTyping_uid, typing.im_actor_model_modules_typing_TypingActor$PrivateTyping_type);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 283)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 286)) {
     typing = message;
     im_actor_model_modules_typing_TypingActor_$groupTyping__Lim_actor_model_modules_typing_TypingActor_2IILim_actor_model_api_TypingType_2V(this, typing.im_actor_model_modules_typing_TypingActor$GroupTyping_gid, typing.im_actor_model_modules_typing_TypingActor$GroupTyping_uid, typing.im_actor_model_modules_typing_TypingActor$GroupTyping_type);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 196)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 197)) {
     typing = message;
     im_actor_model_modules_typing_TypingActor_$stopPrivateTyping__Lim_actor_model_modules_typing_TypingActor_2IV(this, typing.im_actor_model_modules_typing_TypingActor$StopTyping_uid);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 197)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 198)) {
     typing = message;
     im_actor_model_modules_typing_TypingActor_$stopGroupTyping__Lim_actor_model_modules_typing_TypingActor_2IIV(this, typing.im_actor_model_modules_typing_TypingActor$StopGroupTyping_gid, typing.im_actor_model_modules_typing_TypingActor$StopGroupTyping_uid);
   }
@@ -24119,43 +24131,43 @@ _.onReceive__Ljava_lang_Object_2V = function im_actor_model_modules_typing_Typin
   }
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(799);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(803);
 function im_actor_model_modules_typing_TypingActor$1_TypingActor$1__V(val$messenger){
   this.im_actor_model_modules_typing_TypingActor$1_val$messenger1 = val$messenger;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(407, 1, {}, im_actor_model_modules_typing_TypingActor$1_TypingActor$1__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(409, 1, {}, im_actor_model_modules_typing_TypingActor$1_TypingActor$1__V);
 _.create__Lim_actor_model_droidkit_actors_Actor_2 = function im_actor_model_modules_typing_TypingActor$1_create__Lim_actor_model_droidkit_actors_Actor_2(){
   return new im_actor_model_modules_typing_TypingActor_TypingActor__Lim_actor_model_modules_Modules_2V(this.im_actor_model_modules_typing_TypingActor$1_val$messenger1);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(407);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(409);
 function im_actor_model_modules_typing_TypingActor$2_TypingActor$2__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(408, 1, {}, im_actor_model_modules_typing_TypingActor$2_TypingActor$2__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(410, 1, {}, im_actor_model_modules_typing_TypingActor$2_TypingActor$2__V);
 _.createMailbox__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2 = function im_actor_model_modules_typing_TypingActor$2_createMailbox__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2Lim_actor_model_droidkit_actors_mailbox_Mailbox_2(queue){
   return new im_actor_model_modules_typing_TypingActor$2$1_TypingActor$2$1__Lim_actor_model_modules_typing_TypingActor$2_2Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V(queue);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(408);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(410);
 function im_actor_model_modules_typing_TypingActor$2$1_TypingActor$2$1__Lim_actor_model_modules_typing_TypingActor$2_2Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V($anonymous0){
   im_actor_model_droidkit_actors_mailbox_Mailbox_Mailbox__Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V.call(this, $anonymous0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(800, 249, {}, im_actor_model_modules_typing_TypingActor$2$1_TypingActor$2$1__Lim_actor_model_modules_typing_TypingActor$2_2Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(804, 249, {}, im_actor_model_modules_typing_TypingActor$2$1_TypingActor$2$1__Lim_actor_model_modules_typing_TypingActor$2_2Lim_actor_model_droidkit_actors_mailbox_MailboxesQueue_2V);
 _.isEqualEnvelope__Lim_actor_model_droidkit_actors_mailbox_Envelope_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2Z = function im_actor_model_modules_typing_TypingActor$2$1_isEqualEnvelope__Lim_actor_model_droidkit_actors_mailbox_Envelope_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2Z(a, b){
   return java_lang_Object_equals_1Ljava_1lang_1Object_1_1Z_1_1devirtual$__Ljava_lang_Object_2Ljava_lang_Object_2Z(a.im_actor_model_droidkit_actors_mailbox_Envelope_message, b.im_actor_model_droidkit_actors_mailbox_Envelope_message);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$2$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(800);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$2$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(804);
 function im_actor_model_modules_typing_TypingActor$GroupTyping_TypingActor$GroupTyping__IILim_actor_model_api_TypingType_2V(gid, uid, type_0){
   this.im_actor_model_modules_typing_TypingActor$GroupTyping_gid = gid;
   this.im_actor_model_modules_typing_TypingActor$GroupTyping_uid = uid;
   this.im_actor_model_modules_typing_TypingActor$GroupTyping_type = type_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(283, 1, {283:1}, im_actor_model_modules_typing_TypingActor$GroupTyping_TypingActor$GroupTyping__IILim_actor_model_api_TypingType_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(286, 1, {286:1}, im_actor_model_modules_typing_TypingActor$GroupTyping_TypingActor$GroupTyping__IILim_actor_model_api_TypingType_2V);
 _.equals__Ljava_lang_Object_2Z$ = function im_actor_model_modules_typing_TypingActor$GroupTyping_equals__Ljava_lang_Object_2Z(o){
   var that;
   if (this === o)
@@ -24182,13 +24194,13 @@ _.hashCode__I$ = function im_actor_model_modules_typing_TypingActor$GroupTyping_
 ;
 _.im_actor_model_modules_typing_TypingActor$GroupTyping_gid = 0;
 _.im_actor_model_modules_typing_TypingActor$GroupTyping_uid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$GroupTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(283);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$GroupTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(286);
 function im_actor_model_modules_typing_TypingActor$PrivateTyping_TypingActor$PrivateTyping__ILim_actor_model_api_TypingType_2V(uid, type_0){
   this.im_actor_model_modules_typing_TypingActor$PrivateTyping_uid = uid;
   this.im_actor_model_modules_typing_TypingActor$PrivateTyping_type = type_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(282, 1, {282:1}, im_actor_model_modules_typing_TypingActor$PrivateTyping_TypingActor$PrivateTyping__ILim_actor_model_api_TypingType_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(285, 1, {285:1}, im_actor_model_modules_typing_TypingActor$PrivateTyping_TypingActor$PrivateTyping__ILim_actor_model_api_TypingType_2V);
 _.equals__Ljava_lang_Object_2Z$ = function im_actor_model_modules_typing_TypingActor$PrivateTyping_equals__Ljava_lang_Object_2Z(o){
   var that;
   if (this === o)
@@ -24211,13 +24223,13 @@ _.hashCode__I$ = function im_actor_model_modules_typing_TypingActor$PrivateTypin
 }
 ;
 _.im_actor_model_modules_typing_TypingActor$PrivateTyping_uid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$PrivateTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(282);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$PrivateTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(285);
 function im_actor_model_modules_typing_TypingActor$StopGroupTyping_TypingActor$StopGroupTyping__IIV(gid, uid){
   this.im_actor_model_modules_typing_TypingActor$StopGroupTyping_gid = gid;
   this.im_actor_model_modules_typing_TypingActor$StopGroupTyping_uid = uid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(197, 1, {197:1}, im_actor_model_modules_typing_TypingActor$StopGroupTyping_TypingActor$StopGroupTyping__IIV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(198, 1, {198:1}, im_actor_model_modules_typing_TypingActor$StopGroupTyping_TypingActor$StopGroupTyping__IIV);
 _.equals__Ljava_lang_Object_2Z$ = function im_actor_model_modules_typing_TypingActor$StopGroupTyping_equals__Ljava_lang_Object_2Z(o){
   var that;
   if (this === o)
@@ -24241,12 +24253,12 @@ _.hashCode__I$ = function im_actor_model_modules_typing_TypingActor$StopGroupTyp
 ;
 _.im_actor_model_modules_typing_TypingActor$StopGroupTyping_gid = 0;
 _.im_actor_model_modules_typing_TypingActor$StopGroupTyping_uid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$StopGroupTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(197);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$StopGroupTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(198);
 function im_actor_model_modules_typing_TypingActor$StopTyping_TypingActor$StopTyping__IV(uid){
   this.im_actor_model_modules_typing_TypingActor$StopTyping_uid = uid;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(196, 1, {196:1}, im_actor_model_modules_typing_TypingActor$StopTyping_TypingActor$StopTyping__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(197, 1, {197:1}, im_actor_model_modules_typing_TypingActor$StopTyping_TypingActor$StopTyping__IV);
 _.equals__Ljava_lang_Object_2Z$ = function im_actor_model_modules_typing_TypingActor$StopTyping_equals__Ljava_lang_Object_2Z(o){
   var that;
   if (this === o)
@@ -24264,13 +24276,13 @@ _.hashCode__I$ = function im_actor_model_modules_typing_TypingActor$StopTyping_h
 }
 ;
 _.im_actor_model_modules_typing_TypingActor$StopTyping_uid = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$StopTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(196);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1typing_1TypingActor$StopTyping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(197);
 function im_actor_model_modules_updates_ContactsProcessor_$onContactsAdded__Lim_actor_model_modules_updates_ContactsProcessor_2_3IV(this$static, uid){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_updates_ContactsProcessor_contactsSyncActor, new im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_ContactsSyncActor$ContactsAdded___3IV(uid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_updates_ContactsProcessor_contactsSyncActor, new im_actor_model_modules_contacts_ContactsSyncActor$ContactsAdded_ContactsSyncActor$ContactsAdded___3IV(uid));
 }
 
 function im_actor_model_modules_updates_ContactsProcessor_$onContactsRemoved__Lim_actor_model_modules_updates_ContactsProcessor_2_3IV(this$static, uid){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_updates_ContactsProcessor_contactsSyncActor, new im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_ContactsSyncActor$ContactsRemoved___3IV(uid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_updates_ContactsProcessor_contactsSyncActor, new im_actor_model_modules_contacts_ContactsSyncActor$ContactsRemoved_ContactsSyncActor$ContactsRemoved___3IV(uid));
 }
 
 function im_actor_model_modules_updates_ContactsProcessor_ContactsProcessor__Lim_actor_model_modules_Modules_2V(modules){
@@ -24318,7 +24330,7 @@ function im_actor_model_modules_updates_GroupsProcessor_$onAvatarChanged__Lim_ac
     im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$GroupChanged_DialogsActor$GroupChanged__Lim_actor_model_entity_Group_2V(upd));
     if (!isSilent) {
       message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, uid, uid == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT):(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceGroupAvatarChanged_ServiceGroupAvatarChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V('Avatar changed', new im_actor_model_api_ServiceExChangedAvatar_ServiceExChangedAvatar__Lim_actor_model_api_Avatar_2V(avatar)))));
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
     }
   }
 }
@@ -24331,11 +24343,11 @@ function im_actor_model_modules_updates_GroupsProcessor_$onGroupInvite__Lim_acto
     if (!isSilent) {
       if (inviterId == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid) {
         message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, inviterId, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceGroupCreated_ServiceGroupCreated__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V($intern_90, new im_actor_model_api_ServiceExGroupCreated_ServiceExGroupCreated__V))));
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
       }
        else {
         message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, inviterId, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT), new im_actor_model_entity_content_ServiceGroupUserInvited_ServiceGroupUserInvited__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V($intern_170, new im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__IV(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid)))));
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
       }
     }
   }
@@ -24361,7 +24373,7 @@ function im_actor_model_modules_updates_GroupsProcessor_$onTitleChanged__Lim_act
     }
     if (!isSilent) {
       message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, uid, uid == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT):(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceGroupTitleChanged_ServiceGroupTitleChanged__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V('Title changed', new im_actor_model_api_ServiceExChangedTitle_ServiceExChangedTitle__Ljava_lang_String_2V(title_0)))));
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
     }
   }
 }
@@ -24373,7 +24385,7 @@ function im_actor_model_modules_updates_GroupsProcessor_$onUserAdded__Lim_actor_
     im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$addOrUpdateItem__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2Lim_actor_model_droidkit_engine_KeyValueItem_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_groups.im_actor_model_modules_Groups_groups, im_actor_model_entity_Group_$addMember__Lim_actor_model_entity_Group_2IIJLim_actor_model_entity_Group_2(group, uid, adder, date));
     if (!isSilent) {
       message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, adder, adder == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT):(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceGroupUserInvited_ServiceGroupUserInvited__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V($intern_170, new im_actor_model_api_ServiceExUserInvited_ServiceExUserInvited__IV(uid)))));
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
     }
   }
 }
@@ -24385,7 +24397,7 @@ function im_actor_model_modules_updates_GroupsProcessor_$onUserKicked__Lim_actor
     uid == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$addOrUpdateItem__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2Lim_actor_model_droidkit_engine_KeyValueItem_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_groups.im_actor_model_modules_Groups_groups, im_actor_model_entity_Group_$changeMember__Lim_actor_model_entity_Group_2ZLim_actor_model_entity_Group_2(im_actor_model_entity_Group_$clearMembers__Lim_actor_model_entity_Group_2Lim_actor_model_entity_Group_2(group), false)):im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$addOrUpdateItem__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2Lim_actor_model_droidkit_engine_KeyValueItem_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_groups.im_actor_model_modules_Groups_groups, im_actor_model_entity_Group_$removeMember__Lim_actor_model_entity_Group_2ILim_actor_model_entity_Group_2(group, uid));
     if (!isSilent) {
       message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, kicker, kicker == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT):(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceGroupUserKicked_ServiceGroupUserKicked__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V('User kicked', new im_actor_model_api_ServiceExUserKicked_ServiceExUserKicked__IV(uid)))));
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
     }
   }
 }
@@ -24397,7 +24409,7 @@ function im_actor_model_modules_updates_GroupsProcessor_$onUserLeave__Lim_actor_
     uid == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$addOrUpdateItem__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2Lim_actor_model_droidkit_engine_KeyValueItem_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_groups.im_actor_model_modules_Groups_groups, im_actor_model_entity_Group_$changeMember__Lim_actor_model_entity_Group_2ZLim_actor_model_entity_Group_2(im_actor_model_entity_Group_$clearMembers__Lim_actor_model_entity_Group_2Lim_actor_model_entity_Group_2(group), false)):im_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_$addOrUpdateItem__Lim_actor_model_mvvm_MVVMCollection$ProxyKeyValueEngine_2Lim_actor_model_droidkit_engine_KeyValueItem_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_groups.im_actor_model_modules_Groups_groups, im_actor_model_entity_Group_$removeMember__Lim_actor_model_entity_Group_2ILim_actor_model_entity_Group_2(group, uid));
     if (!isSilent) {
       message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, uid, uid == this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid?(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT):(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceGroupUserLeave_ServiceGroupUserLeave__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V($intern_91, new im_actor_model_api_ServiceExUserLeft_ServiceExUserLeft__V))));
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_GROUP), group.im_actor_model_entity_Group_groupId)), message);
     }
   }
 }
@@ -24411,13 +24423,13 @@ var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1
 function im_actor_model_modules_updates_MessagesProcessor_$onChatClear__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2V(this$static, _peer){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$ClearConversation_ConversationActor$ClearConversation__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$ClearConversation_ConversationActor$ClearConversation__V);
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onChatDelete__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2V(this$static, _peer){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$DeleteConversation_ConversationActor$DeleteConversation__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$DeleteConversation_ConversationActor$DeleteConversation__V);
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onDialogsLoaded__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_rpc_ResponseLoadDialogs_2V(this$static, dialogsResponse){
@@ -24446,8 +24458,8 @@ function im_actor_model_modules_updates_MessagesProcessor_$onDialogsLoaded__Lim_
     }
     java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(dialogs, new im_actor_model_modules_messages_entity_DialogHistory_DialogHistory__Lim_actor_model_entity_Peer_2IJJJILim_actor_model_entity_content_AbsContent_2Lim_actor_model_entity_MessageState_2V(peer, dialog.im_actor_model_api_Dialog_unreadCount, dialog.im_actor_model_api_Dialog_sortDate, dialog.im_actor_model_api_Dialog_rid, dialog.im_actor_model_api_Dialog_date, dialog.im_actor_model_api_Dialog_senderUid, msgContent, im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_MessageState_2Lim_actor_model_entity_MessageState_2(dialog.im_actor_model_api_Dialog_state)));
   }
-  dialogs.size__I() > 0?im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$HistoryLoaded_DialogsActor$HistoryLoaded__Ljava_util_List_2V(dialogs)):im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnDialogsLoaded_ListsStatesActor$OnDialogsLoaded__V);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsHistoryActor, new im_actor_model_modules_messages_DialogsHistoryActor$LoadedMore_DialogsHistoryActor$LoadedMore__IJV(dialogsResponse.im_actor_model_api_rpc_ResponseLoadDialogs_dialogs.size__I(), maxLoadedDate));
+  dialogs.size__I() > 0?im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsActor, new im_actor_model_modules_messages_DialogsActor$HistoryLoaded_DialogsActor$HistoryLoaded__Ljava_util_List_2V(dialogs)):im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_appStateModule.im_actor_model_modules_AppStateModule_listStatesActor, new im_actor_model_modules_state_ListsStatesActor$OnDialogsLoaded_ListsStatesActor$OnDialogsLoaded__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_dialogsHistoryActor, new im_actor_model_modules_messages_DialogsHistoryActor$LoadedMore_DialogsHistoryActor$LoadedMore__IJV(dialogsResponse.im_actor_model_api_rpc_ResponseLoadDialogs_dialogs.size__I(), maxLoadedDate));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessage__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2IJJLim_actor_model_api_Message_2V(this$static, _peer, senderUid, date, rid, content){
@@ -24476,9 +24488,9 @@ function im_actor_model_modules_updates_MessagesProcessor_$onMessage__Lim_actor_
   var content, hasCurrentUserMention, isOut, mentions, message;
   isOut = this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid == senderUid;
   message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, senderUid, isOut?(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_SENT):(im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), msgContent);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), message);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), message);
   if (isOut) {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageRead_OwnReadActor$MessageRead__Lim_actor_model_entity_Peer_2JV(peer, date));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageRead_OwnReadActor$MessageRead__Lim_actor_model_entity_Peer_2JV(peer, date));
   }
    else {
     hasCurrentUserMention = false;
@@ -24487,8 +24499,8 @@ function im_actor_model_modules_updates_MessagesProcessor_$onMessage__Lim_actor_
       mentions = content.im_actor_model_entity_content_TextContent_mentions;
       hasCurrentUserMention = !!mentions && java_util_ArrayList_$indexOf__Ljava_util_ArrayList_2Ljava_lang_Object_2II(mentions, java_lang_Integer_valueOf__ILjava_lang_Integer_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_auth.im_actor_model_modules_Auth_myUid), 0) != -1;
     }
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$NewMessage_OwnReadActor$NewMessage__Lim_actor_model_entity_Peer_2JJILim_actor_model_entity_ContentDescription_2ZV(peer, rid, date, senderUid, com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 59)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_TEXT), content.im_actor_model_entity_content_TextContent_text):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 54)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1PHOTO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 71)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1VIDEO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 34)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 79)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1REGISTERED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 84)?!content.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR_1REMOVED)):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 83)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1TITLE), content.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 80)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1CREATED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 69)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1ADD), '', content.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 81)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1KICK), '', content.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 82)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1LEAVE), '', 0, true):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 106)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1JOINED), '', 0, false):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_UNKNOWN_1CONTENT)), hasCurrentUserMention));
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_plainReceiverActor, new im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_CursorReceiverActor$MarkReceived__Lim_actor_model_entity_Peer_2JV(peer, date));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$NewMessage_OwnReadActor$NewMessage__Lim_actor_model_entity_Peer_2JJILim_actor_model_entity_ContentDescription_2ZV(peer, rid, date, senderUid, com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 59)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_TEXT), content.im_actor_model_entity_content_TextContent_text):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 54)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1PHOTO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 71)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT_1VIDEO)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 34)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_DOCUMENT)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 80)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1REGISTERED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 85)?!content.im_actor_model_entity_content_ServiceGroupAvatarChanged_newAvatar?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR_1REMOVED)):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1AVATAR)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 84)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1TITLE), content.im_actor_model_entity_content_ServiceGroupTitleChanged_newTitle):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 81)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1CREATED)):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 69)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1ADD), '', content.im_actor_model_entity_content_ServiceGroupUserInvited_addedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 82)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1KICK), '', content.im_actor_model_entity_content_ServiceGroupUserKicked_kickedUid, false):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 83)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1LEAVE), '', 0, true):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(content, 108)?new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2Ljava_lang_String_2IZV((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_SERVICE_1JOINED), '', 0, false):new im_actor_model_entity_ContentDescription_ContentDescription__Lim_actor_model_entity_ContentType_2V((im_actor_model_entity_ContentType_$clinit__V() , im_actor_model_entity_ContentType_UNKNOWN_1CONTENT)), hasCurrentUserMention));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_plainReceiverActor, new im_actor_model_modules_messages_CursorReceiverActor$MarkReceived_CursorReceiverActor$MarkReceived__Lim_actor_model_entity_Peer_2JV(peer, date));
   }
 }
 
@@ -24496,7 +24508,7 @@ function im_actor_model_modules_updates_MessagesProcessor_$onMessageContentChang
   var e, peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
   try {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageContentUpdated_ConversationActor$MessageContentUpdated__JLim_actor_model_entity_content_AbsContent_2V(rid, im_actor_model_entity_content_AbsContent_convertData__Lim_actor_model_entity_content_internal_AbsContentContainer_2Lim_actor_model_entity_content_AbsContent_2(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(message))));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageContentUpdated_ConversationActor$MessageContentUpdated__JLim_actor_model_entity_content_AbsContent_2V(rid, im_actor_model_entity_content_AbsContent_convertData__Lim_actor_model_entity_content_internal_AbsContentContainer_2Lim_actor_model_entity_content_AbsContent_2(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(message))));
   }
    catch ($e0) {
     $e0 = com_google_gwt_lang_Exceptions_wrap__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
@@ -24513,40 +24525,40 @@ function im_actor_model_modules_updates_MessagesProcessor_$onMessageContentChang
 function im_actor_model_modules_updates_MessagesProcessor_$onMessageDateChanged__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2JJV(this$static, _peer, rid, ndate){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageDateChange_ConversationActor$MessageDateChange__JJV(rid, ndate));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageDateChange_ConversationActor$MessageDateChange__JJV(rid, ndate));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessageDelete__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2Ljava_util_List_2V(this$static, _peer, rids){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessagesDeleted_ConversationActor$MessagesDeleted__Ljava_util_List_2V(rids));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageDeleted_OwnReadActor$MessageDeleted__Lim_actor_model_entity_Peer_2Ljava_util_List_2V(peer, rids));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessagesDeleted_ConversationActor$MessagesDeleted__Ljava_util_List_2V(rids));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageDeleted_OwnReadActor$MessageDeleted__Lim_actor_model_entity_Peer_2Ljava_util_List_2V(peer, rids));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessageRead__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2JJV(this$static, _peer, startDate){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageRead_ConversationActor$MessageRead__JV(startDate));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageRead_ConversationActor$MessageRead__JV(startDate));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessageReadByMe__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2JV(this$static, _peer, startDate){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageReadByMe_OwnReadActor$MessageReadByMe__Lim_actor_model_entity_Peer_2JV(peer, startDate));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageReadByMe_OwnReadActor$MessageReadByMe__Lim_actor_model_entity_Peer_2JV(peer, startDate));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessageReceived__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2JJV(this$static, _peer, startDate){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageReceived_ConversationActor$MessageReceived__JV(startDate));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageReceived_ConversationActor$MessageReceived__JV(startDate));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessageSent__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_api_Peer_2JJV(this$static, _peer, rid, date){
   var peer;
   peer = new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_PeerType_2Lim_actor_model_entity_PeerType_2(_peer.im_actor_model_api_Peer_type), _peer.im_actor_model_api_Peer_id);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageSent_ConversationActor$MessageSent__JJV(rid, date));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$MessageSent_SenderActor$MessageSent__Lim_actor_model_entity_Peer_2JV(peer, rid));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageRead_OwnReadActor$MessageRead__Lim_actor_model_entity_Peer_2JV(peer, date));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$MessageSent_ConversationActor$MessageSent__JJV(rid, date));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_sendMessageActor, new im_actor_model_modules_messages_SenderActor$MessageSent_SenderActor$MessageSent__Lim_actor_model_entity_Peer_2JV(peer, rid));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$MessageRead_OwnReadActor$MessageRead__Lim_actor_model_entity_Peer_2JV(peer, date));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onMessagesLoaded__Lim_actor_model_modules_updates_MessagesProcessor_2Lim_actor_model_entity_Peer_2Lim_actor_model_api_rpc_ResponseLoadHistory_2V(this$static, peer, historyResponse){
@@ -24575,16 +24587,16 @@ function im_actor_model_modules_updates_MessagesProcessor_$onMessagesLoaded__Lim
     state = im_actor_model_modules_messages_entity_EntityConverter_convert__Lim_actor_model_api_MessageState_2Lim_actor_model_entity_MessageState_2(historyMessage.im_actor_model_api_HistoryMessage_state);
     java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(messages, new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(historyMessage.im_actor_model_api_HistoryMessage_rid, historyMessage.im_actor_model_api_HistoryMessage_date, historyMessage.im_actor_model_api_HistoryMessage_date, historyMessage.im_actor_model_api_HistoryMessage_senderUid, state, content));
   }
-  messages.size__I() > 0 && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$HistoryLoaded_ConversationActor$HistoryLoaded__Ljava_util_List_2V(messages));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_Messages_$getConversationHistoryActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationHistoryActor$LoadedMore_ConversationHistoryActor$LoadedMore__IJV(historyResponse.im_actor_model_api_rpc_ResponseLoadHistory_history.size__I(), maxLoadedDate));
+  messages.size__I() > 0 && im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationActor$HistoryLoaded_ConversationActor$HistoryLoaded__Ljava_util_List_2V(messages));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_Messages_$getConversationHistoryActor__Lim_actor_model_modules_Messages_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages, peer), new im_actor_model_modules_messages_ConversationHistoryActor$LoadedMore_ConversationHistoryActor$LoadedMore__IJV(historyResponse.im_actor_model_api_rpc_ResponseLoadHistory_history.size__I(), maxLoadedDate));
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_$onUserRegistered__Lim_actor_model_modules_updates_MessagesProcessor_2IJV(this$static, uid, date){
   var message, rid;
   rid = (im_actor_model_modules_utils_RandomUtils_$clinit__V() , java_util_Random_$nextLong__Ljava_util_Random_2J(im_actor_model_modules_utils_RandomUtils_RANDOM));
   message = new im_actor_model_entity_Message_Message__JJJILim_actor_model_entity_MessageState_2Lim_actor_model_entity_content_AbsContent_2V(rid, date, date, uid, (im_actor_model_entity_MessageState_$clinit__V() , im_actor_model_entity_MessageState_UNKNOWN), new im_actor_model_entity_content_ServiceUserRegistered_ServiceUserRegistered__Lim_actor_model_entity_content_internal_ContentRemoteContainer_2V(new im_actor_model_entity_content_internal_ContentRemoteContainer_ContentRemoteContainer__Lim_actor_model_api_Message_2V(new im_actor_model_api_ServiceMessage_ServiceMessage__Ljava_lang_String_2Lim_actor_model_api_ServiceEx_2V('Contact registered', new im_actor_model_api_ServiceExContactRegistered_ServiceExContactRegistered__V))));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$NewMessage_OwnReadActor$NewMessage__Lim_actor_model_entity_Peer_2JJV(new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_PRIVATE), uid), rid, date));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_entity_PeerType_PRIVATE, uid)), message);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_messages.im_actor_model_modules_Messages_ownReadActor, new im_actor_model_modules_messages_OwnReadActor$NewMessage_OwnReadActor$NewMessage__Lim_actor_model_entity_Peer_2JJV(new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV((im_actor_model_entity_PeerType_$clinit__V() , im_actor_model_entity_PeerType_PRIVATE), uid), rid, date));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(im_actor_model_modules_BaseModule_$conversationActor__Lim_actor_model_modules_BaseModule_2Lim_actor_model_entity_Peer_2Lim_actor_model_droidkit_actors_ActorRef_2(this$static, new im_actor_model_entity_Peer_Peer__Lim_actor_model_entity_PeerType_2IV(im_actor_model_entity_PeerType_PRIVATE, uid)), message);
 }
 
 function im_actor_model_modules_updates_MessagesProcessor_MessagesProcessor__Lim_actor_model_modules_Modules_2V(messenger){
@@ -24632,7 +24644,7 @@ function im_actor_model_modules_updates_SequenceActor_$checkFuture__Lim_actor_mo
 function im_actor_model_modules_updates_SequenceActor_$checkRunnables__Lim_actor_model_modules_updates_SequenceActor_2V(this$static){
   var e, e$array, e$index, e$max;
   if (this$static.im_actor_model_modules_updates_SequenceActor_pendingRunnables.size__I() > 0) {
-    for (e$array = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.im_actor_model_modules_updates_SequenceActor_pendingRunnables, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1ExecuteAfter_12_1classLit, $intern_8, 77, this$static.im_actor_model_modules_updates_SequenceActor_pendingRunnables.size__I(), 0, 1)) , e$index = 0 , e$max = e$array.length; e$index < e$max; ++e$index) {
+    for (e$array = java_util_ArrayList_$toArray__Ljava_util_ArrayList_2_3Ljava_lang_Object_2_3Ljava_lang_Object_2(this$static.im_actor_model_modules_updates_SequenceActor_pendingRunnables, com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1ExecuteAfter_12_1classLit, $intern_8, 78, this$static.im_actor_model_modules_updates_SequenceActor_pendingRunnables.size__I(), 0, 1)) , e$index = 0 , e$max = e$array.length; e$index < e$max; ++e$index) {
       e = e$array[e$index];
       if (e.im_actor_model_modules_updates_internal_ExecuteAfter_seq <= this$static.im_actor_model_modules_updates_SequenceActor_seq) {
         e.im_actor_model_modules_updates_internal_ExecuteAfter_runnable.run__V();
@@ -24660,7 +24672,7 @@ function im_actor_model_modules_updates_SequenceActor_$invalidate__Lim_actor_mod
 }
 
 function im_actor_model_modules_updates_SequenceActor_$onReceive__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message){
-  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 201) || com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 317) || com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 78)?im_actor_model_modules_updates_SequenceActor_$invalidate__Lim_actor_model_modules_updates_SequenceActor_2V(this$static):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 42)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 72)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 207)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 87)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 77)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):(!!this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this$static, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
+  com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 202) || com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 317) || com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 79)?im_actor_model_modules_updates_SequenceActor_$invalidate__Lim_actor_model_modules_updates_SequenceActor_2V(this$static):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 42)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 72)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 207)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 88)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 78)?im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, message):(!!this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this$static, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
 
 function im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_actor_model_modules_updates_SequenceActor_2Ljava_lang_Object_2V(this$static, u){
@@ -24696,12 +24708,12 @@ function im_actor_model_modules_updates_SequenceActor_$onUpdateReceived__Lim_act
     }
     return;
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(u, 87)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(u, 88)) {
     !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_140 + ':' + 'Received internal update');
     im_actor_model_modules_updates_UpdateProcessor_$processInternalUpdate__Lim_actor_model_modules_updates_UpdateProcessor_2Lim_actor_model_modules_updates_internal_InternalUpdate_2V(this$static.im_actor_model_modules_updates_SequenceActor_processor, u);
     return;
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(u, 77)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(u, 78)) {
     after = u;
     after.im_actor_model_modules_updates_internal_ExecuteAfter_seq <= this$static.im_actor_model_modules_updates_SequenceActor_seq?after.im_actor_model_modules_updates_internal_ExecuteAfter_runnable.run__V():java_util_ArrayList_$add__Ljava_util_ArrayList_2Ljava_lang_Object_2Z(this$static.im_actor_model_modules_updates_SequenceActor_pendingRunnables, after);
     return;
@@ -24790,7 +24802,7 @@ _.preStart__V = function im_actor_model_modules_updates_SequenceActor_preStart__
   this.im_actor_model_modules_updates_SequenceActor_seq = im_actor_model_js_providers_storage_JsPreferencesStorage_$getInt__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2II(this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_172, -1);
   this.im_actor_model_modules_updates_SequenceActor_state = im_actor_model_js_providers_storage_JsPreferencesStorage_$getBytes__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2_3B(this.im_actor_model_modules_utils_ModuleActor_modules.im_actor_model_modules_Modules_preferences, $intern_173);
   this.im_actor_model_modules_updates_SequenceActor_processor = new im_actor_model_modules_updates_UpdateProcessor_UpdateProcessor__Lim_actor_model_modules_Modules_2V(this.im_actor_model_modules_utils_ModuleActor_modules);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V);
 }
 ;
 _.im_actor_model_modules_updates_SequenceActor_isTimerStarted = false;
@@ -24817,7 +24829,7 @@ function im_actor_model_modules_updates_SequenceActor$1_SequenceActor$1__Lim_act
   this.im_actor_model_modules_updates_SequenceActor$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(817, 1, {}, im_actor_model_modules_updates_SequenceActor$1_SequenceActor$1__Lim_actor_model_modules_updates_SequenceActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(821, 1, {}, im_actor_model_modules_updates_SequenceActor$1_SequenceActor$1__Lim_actor_model_modules_updates_SequenceActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_updates_SequenceActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
   if (this.im_actor_model_modules_updates_SequenceActor$1_this$01.im_actor_model_modules_updates_SequenceActor_isValidated) {
     return;
@@ -24830,7 +24842,7 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
   im_actor_model_modules_updates_SequenceActor$1_$onResult__Lim_actor_model_modules_updates_SequenceActor$1_2Lim_actor_model_api_rpc_ResponseSeq_2V(this, response);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(817);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(821);
 function im_actor_model_modules_updates_SequenceActor$2_$onResult__Lim_actor_model_modules_updates_SequenceActor$2_2Lim_actor_model_api_rpc_ResponseGetDifference_2V(this$static, response){
   var applyStart, e, parseStart, u, u$iterator, updates;
   if (this$static.im_actor_model_modules_updates_SequenceActor$2_this$01.im_actor_model_modules_updates_SequenceActor_isValidated) {
@@ -24876,7 +24888,7 @@ function im_actor_model_modules_updates_SequenceActor$2_SequenceActor$2__Lim_act
   this.im_actor_model_modules_updates_SequenceActor$2_val$loadStart2 = val$loadStart;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(818, 1, {}, im_actor_model_modules_updates_SequenceActor$2_SequenceActor$2__Lim_actor_model_modules_updates_SequenceActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(822, 1, {}, im_actor_model_modules_updates_SequenceActor$2_SequenceActor$2__Lim_actor_model_modules_updates_SequenceActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_updates_SequenceActor$2_onError__Lim_actor_model_network_RpcException_2V(e){
   if (this.im_actor_model_modules_updates_SequenceActor$2_this$01.im_actor_model_modules_updates_SequenceActor_isValidated) {
     return;
@@ -24890,17 +24902,17 @@ _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model
 }
 ;
 _.im_actor_model_modules_updates_SequenceActor$2_val$loadStart2 = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(818);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(822);
 function im_actor_model_modules_updates_SequenceActor$ForceInvalidate_SequenceActor$ForceInvalidate__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(78, 1, {78:1}, im_actor_model_modules_updates_SequenceActor$ForceInvalidate_SequenceActor$ForceInvalidate__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$ForceInvalidate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(78);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(79, 1, {79:1}, im_actor_model_modules_updates_SequenceActor$ForceInvalidate_SequenceActor$ForceInvalidate__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$ForceInvalidate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(79);
 function im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(201, 1, {201:1}, im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$Invalidate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(201);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(202, 1, {202:1}, im_actor_model_modules_updates_SequenceActor$Invalidate_SequenceActor$Invalidate__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1SequenceActor$Invalidate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(202);
 function im_actor_model_modules_updates_SettingsProcessor_$onSettingsChanged__Lim_actor_model_modules_updates_SettingsProcessor_2Ljava_lang_String_2Ljava_lang_String_2V(this$static, key, value_0){
   im_actor_model_modules_Settings_$onUpdatedSetting__Lim_actor_model_modules_Settings_2Ljava_lang_String_2Ljava_lang_String_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_settings, key, value_0);
 }
@@ -24928,7 +24940,7 @@ com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_cor
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1TypingProcessor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(874);
 function im_actor_model_modules_updates_UpdateProcessor_$applyDifferenceUpdate__Lim_actor_model_modules_updates_UpdateProcessor_2Ljava_util_List_2Ljava_util_List_2Ljava_util_List_2V(this$static, users, groups, updates){
   var u, u$iterator;
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$PauseNotifications_NotificationsActor$PauseNotifications__V, null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$PauseNotifications_NotificationsActor$PauseNotifications__V);
   im_actor_model_modules_updates_UsersProcessor_$applyUsers__Lim_actor_model_modules_updates_UsersProcessor_2Ljava_util_Collection_2ZV(this$static.im_actor_model_modules_updates_UpdateProcessor_usersProcessor, users, false);
   im_actor_model_modules_updates_GroupsProcessor_$applyGroups__Lim_actor_model_modules_updates_GroupsProcessor_2Ljava_util_Collection_2ZV(this$static.im_actor_model_modules_updates_UpdateProcessor_groupsProcessor, groups, false);
   for (u$iterator = new java_util_AbstractList$IteratorImpl_AbstractList$IteratorImpl__Ljava_util_AbstractList_2V(updates); u$iterator.java_util_AbstractList$IteratorImpl_i < u$iterator.java_util_AbstractList$IteratorImpl_this$01.size__I();) {
@@ -24937,7 +24949,7 @@ function im_actor_model_modules_updates_UpdateProcessor_$applyDifferenceUpdate__
   }
   im_actor_model_modules_updates_UsersProcessor_$applyUsers__Lim_actor_model_modules_updates_UsersProcessor_2Ljava_util_Collection_2ZV(this$static.im_actor_model_modules_updates_UpdateProcessor_usersProcessor, users, true);
   im_actor_model_modules_updates_GroupsProcessor_$applyGroups__Lim_actor_model_modules_updates_GroupsProcessor_2Ljava_util_Collection_2ZV(this$static.im_actor_model_modules_updates_UpdateProcessor_groupsProcessor, groups, true);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$ResumeNotifications_NotificationsActor$ResumeNotifications__V, null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_notifications.im_actor_model_modules_Notifications_notificationsActor, new im_actor_model_modules_notifications_NotificationsActor$ResumeNotifications_NotificationsActor$ResumeNotifications__V);
 }
 
 function im_actor_model_modules_updates_UpdateProcessor_$applyRelated__Lim_actor_model_modules_updates_UpdateProcessor_2Ljava_util_List_2Ljava_util_List_2ZV(this$static, users, groups, force){
@@ -24981,7 +24993,7 @@ function im_actor_model_modules_updates_UpdateProcessor_$isCausesInvalidation__L
     java_util_HashSet_$add__Ljava_util_HashSet_2Ljava_lang_Object_2Z(users, java_lang_Integer_valueOf__ILjava_lang_Integer_2(leave.im_actor_model_api_updates_UpdateGroupUserLeave_uid));
     java_util_HashSet_$add__Ljava_util_HashSet_2Ljava_lang_Object_2Z(groups, java_lang_Integer_valueOf__ILjava_lang_Integer_2(leave.im_actor_model_api_updates_UpdateGroupUserLeave_groupId));
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(update, 116)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(update, 117)) {
     java_util_AbstractCollection_$addAll__Ljava_util_AbstractCollection_2Ljava_util_Collection_2Z(users, update.im_actor_model_api_updates_UpdateContactsAdded_uids);
   }
    else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(update, 152)) {
@@ -25021,7 +25033,7 @@ function im_actor_model_modules_updates_UpdateProcessor_$processInternalUpdate__
    else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(update, 349)) {
     contactsLoaded = update;
     im_actor_model_modules_updates_UpdateProcessor_$applyRelated__Lim_actor_model_modules_updates_UpdateProcessor_2Ljava_util_List_2Ljava_util_List_2ZV(this$static, contactsLoaded.im_actor_model_modules_updates_internal_ContactsLoaded_contacts.im_actor_model_api_rpc_ResponseGetContacts_users, new java_util_ArrayList_ArrayList__V, false);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_contacts.im_actor_model_modules_Contacts_contactSyncActor, new im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_ContactsSyncActor$ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V(contactsLoaded.im_actor_model_modules_updates_internal_ContactsLoaded_contacts));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_modules_BaseModule_modules.im_actor_model_modules_Modules_contacts.im_actor_model_modules_Contacts_contactSyncActor, new im_actor_model_modules_contacts_ContactsSyncActor$ContactsLoaded_ContactsSyncActor$ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V(contactsLoaded.im_actor_model_modules_updates_internal_ContactsLoaded_contacts));
   }
 }
 
@@ -25109,7 +25121,7 @@ function im_actor_model_modules_updates_UpdateProcessor_$processUpdate__Lim_acto
     userInvited = update;
     im_actor_model_modules_updates_GroupsProcessor_$onUserAdded__Lim_actor_model_modules_updates_GroupsProcessor_2IJIIJZV(this$static.im_actor_model_modules_updates_UpdateProcessor_groupsProcessor, userInvited.im_actor_model_api_updates_UpdateGroupUserInvited_groupId, userInvited.im_actor_model_api_updates_UpdateGroupUserInvited_rid, userInvited.im_actor_model_api_updates_UpdateGroupUserInvited_uid, userInvited.im_actor_model_api_updates_UpdateGroupUserInvited_inviterUid, userInvited.im_actor_model_api_updates_UpdateGroupUserInvited_date, false);
   }
-   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(update, 116)) {
+   else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(update, 117)) {
     contactsAdded = update;
     res = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_I_1classLit, $intern_8, 0, contactsAdded.im_actor_model_api_updates_UpdateContactsAdded_uids.size__I(), 7, 1);
     for (i = 0; i < res.length; i++) {
@@ -25239,53 +25251,53 @@ function im_actor_model_modules_updates_UsersProcessor_UsersProcessor__Lim_actor
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(870, 24, {}, im_actor_model_modules_updates_UsersProcessor_UsersProcessor__Lim_actor_model_modules_Modules_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1UsersProcessor_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(870);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(87, 1, {87:1});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1InternalUpdate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(87);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(88, 1, {88:1});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1InternalUpdate_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(88);
 function im_actor_model_modules_updates_internal_ContactsLoaded_ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V(contacts){
   this.im_actor_model_modules_updates_internal_ContactsLoaded_contacts = contacts;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(349, 87, {349:1, 87:1}, im_actor_model_modules_updates_internal_ContactsLoaded_ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(349, 88, {349:1, 88:1}, im_actor_model_modules_updates_internal_ContactsLoaded_ContactsLoaded__Lim_actor_model_api_rpc_ResponseGetContacts_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1ContactsLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(349);
 function im_actor_model_modules_updates_internal_DialogHistoryLoaded_DialogHistoryLoaded__Lim_actor_model_api_rpc_ResponseLoadDialogs_2V(dialogs){
   this.im_actor_model_modules_updates_internal_DialogHistoryLoaded_dialogs = dialogs;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(350, 87, {350:1, 87:1}, im_actor_model_modules_updates_internal_DialogHistoryLoaded_DialogHistoryLoaded__Lim_actor_model_api_rpc_ResponseLoadDialogs_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(350, 88, {350:1, 88:1}, im_actor_model_modules_updates_internal_DialogHistoryLoaded_DialogHistoryLoaded__Lim_actor_model_api_rpc_ResponseLoadDialogs_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1DialogHistoryLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(350);
 function im_actor_model_modules_updates_internal_ExecuteAfter_ExecuteAfter__ILjava_lang_Runnable_2V(seq, runnable){
   this.im_actor_model_modules_updates_internal_ExecuteAfter_seq = seq;
   this.im_actor_model_modules_updates_internal_ExecuteAfter_runnable = runnable;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(77, 1, {77:1}, im_actor_model_modules_updates_internal_ExecuteAfter_ExecuteAfter__ILjava_lang_Runnable_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(78, 1, {78:1}, im_actor_model_modules_updates_internal_ExecuteAfter_ExecuteAfter__ILjava_lang_Runnable_2V);
 _.im_actor_model_modules_updates_internal_ExecuteAfter_seq = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1ExecuteAfter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(77);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1ExecuteAfter_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(78);
 function im_actor_model_modules_updates_internal_LoggedIn_LoggedIn__Lim_actor_model_api_rpc_ResponseAuth_2Ljava_lang_Runnable_2V(auth, runnable){
   this.im_actor_model_modules_updates_internal_LoggedIn_auth = auth;
   this.im_actor_model_modules_updates_internal_LoggedIn_runnable = runnable;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(351, 87, {87:1, 351:1}, im_actor_model_modules_updates_internal_LoggedIn_LoggedIn__Lim_actor_model_api_rpc_ResponseAuth_2Ljava_lang_Runnable_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(351, 88, {88:1, 351:1}, im_actor_model_modules_updates_internal_LoggedIn_LoggedIn__Lim_actor_model_api_rpc_ResponseAuth_2Ljava_lang_Runnable_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1LoggedIn_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(351);
 function im_actor_model_modules_updates_internal_MessagesHistoryLoaded_MessagesHistoryLoaded__Lim_actor_model_entity_Peer_2Lim_actor_model_api_rpc_ResponseLoadHistory_2V(peer, loadHistory){
   this.im_actor_model_modules_updates_internal_MessagesHistoryLoaded_peer = peer;
   this.im_actor_model_modules_updates_internal_MessagesHistoryLoaded_loadHistory = loadHistory;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(348, 87, {87:1, 348:1}, im_actor_model_modules_updates_internal_MessagesHistoryLoaded_MessagesHistoryLoaded__Lim_actor_model_entity_Peer_2Lim_actor_model_api_rpc_ResponseLoadHistory_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(348, 88, {88:1, 348:1}, im_actor_model_modules_updates_internal_MessagesHistoryLoaded_MessagesHistoryLoaded__Lim_actor_model_entity_Peer_2Lim_actor_model_api_rpc_ResponseLoadHistory_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1updates_1internal_1MessagesHistoryLoaded_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(348);
 function im_actor_model_modules_utils_ModuleActor$1_ModuleActor$1__Lim_actor_model_modules_utils_ModuleActor_2V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(124, 1, {}, im_actor_model_modules_utils_ModuleActor$1_ModuleActor$1__Lim_actor_model_modules_utils_ModuleActor_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(125, 1, {}, im_actor_model_modules_utils_ModuleActor$1_ModuleActor$1__Lim_actor_model_modules_utils_ModuleActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_utils_ModuleActor$1_onError__Lim_actor_model_network_RpcException_2V(e){
 }
 ;
 _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model_modules_utils_ModuleActor$1_onResult__Lim_actor_model_network_parser_Response_2V(response){
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1utils_1ModuleActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(124);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1utils_1ModuleActor$1_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(125);
 function im_actor_model_modules_utils_ModuleActor$2_ModuleActor$2__Lim_actor_model_modules_utils_ModuleActor_2V(this$0, val$callback){
   this.im_actor_model_modules_utils_ModuleActor$2_this$01 = this$0;
   this.im_actor_model_modules_utils_ModuleActor$2_val$callback2 = val$callback;
@@ -25293,11 +25305,11 @@ function im_actor_model_modules_utils_ModuleActor$2_ModuleActor$2__Lim_actor_mod
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(723, 1, {}, im_actor_model_modules_utils_ModuleActor$2_ModuleActor$2__Lim_actor_model_modules_utils_ModuleActor_2V);
 _.onError__Lim_actor_model_network_RpcException_2V = function im_actor_model_modules_utils_ModuleActor$2_onError__Lim_actor_model_network_RpcException_2V(e){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_utils_ModuleActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_utils_ModuleActor$2$2_ModuleActor$2$2__Lim_actor_model_modules_utils_ModuleActor$2_2V(this.im_actor_model_modules_utils_ModuleActor$2_val$callback2, e));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_utils_ModuleActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_utils_ModuleActor$2$2_ModuleActor$2$2__Lim_actor_model_modules_utils_ModuleActor$2_2V(this.im_actor_model_modules_utils_ModuleActor$2_val$callback2, e));
 }
 ;
 _.onResult__Lim_actor_model_network_parser_Response_2V = function im_actor_model_modules_utils_ModuleActor$2_onResult__Lim_actor_model_network_parser_Response_2V(response){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_modules_utils_ModuleActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_utils_ModuleActor$2$1_ModuleActor$2$1__Lim_actor_model_modules_utils_ModuleActor$2_2V(this.im_actor_model_modules_utils_ModuleActor$2_val$callback2, response));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_modules_utils_ModuleActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_modules_utils_ModuleActor$2$1_ModuleActor$2$1__Lim_actor_model_modules_utils_ModuleActor$2_2V(this.im_actor_model_modules_utils_ModuleActor$2_val$callback2, response));
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1utils_1ModuleActor$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(723);
@@ -25331,16 +25343,16 @@ function im_actor_model_modules_utils_PreferenceApiStorage_PreferenceApiStorage_
   this.im_actor_model_modules_utils_PreferenceApiStorage_preferencesStorage = preferencesStorage;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(751, 1, {}, im_actor_model_modules_utils_PreferenceApiStorage_PreferenceApiStorage__Lim_actor_model_droidkit_engine_PreferencesStorage_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1utils_1PreferenceApiStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(751);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(752, 1, {}, im_actor_model_modules_utils_PreferenceApiStorage_PreferenceApiStorage__Lim_actor_model_droidkit_engine_PreferencesStorage_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1modules_1utils_1PreferenceApiStorage_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(752);
 function im_actor_model_modules_utils_RandomUtils_$clinit__V(){
   im_actor_model_modules_utils_RandomUtils_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_modules_utils_RandomUtils_RANDOM = new java_util_Random_Random__V;
 }
 
 var im_actor_model_modules_utils_RandomUtils_RANDOM;
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(984, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1mvvm_1BaseValueModel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(984);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(985, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1mvvm_1BaseValueModel_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(985);
 function im_actor_model_mvvm_MVVMCollection$1_MVVMCollection$1__Lim_actor_model_mvvm_MVVMCollection_2V(this$0, val$items){
   this.im_actor_model_mvvm_MVVMCollection$1_this$01 = this$0;
   this.im_actor_model_mvvm_MVVMCollection$1_val$items2 = val$items;
@@ -25525,7 +25537,7 @@ function java_util_AbstractCollection_$toString__Ljava_util_AbstractCollection_2
   return sb.java_lang_AbstractStringBuilder_string;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(972, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(973, 1, {});
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractCollection_contains__Ljava_lang_Object_2Z(o){
   return java_util_AbstractCollection_$advanceToFind__Ljava_util_AbstractCollection_2Ljava_lang_Object_2ZZ(this, o, false);
 }
@@ -25560,8 +25572,8 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractCollection_toStrin
   return java_util_AbstractCollection_$toString__Ljava_util_AbstractCollection_2Ljava_lang_String_2(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractCollection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(972);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(974, 972, {56:1});
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractCollection_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(973);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(975, 973, {56:1});
 _.add__ILjava_lang_Object_2V = function java_util_AbstractList_add__ILjava_lang_Object_2V(index_0, element){
   throw new java_lang_UnsupportedOperationException_UnsupportedOperationException__Ljava_lang_String_2V('Add not supported on this list');
 }
@@ -25606,7 +25618,7 @@ _.remove__ILjava_lang_Object_2 = function java_util_AbstractList_remove__ILjava_
   throw new java_lang_UnsupportedOperationException_UnsupportedOperationException__Ljava_lang_String_2V('Remove not supported on this list');
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(974);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractList_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(975);
 function java_util_ArrayList_$$init__Ljava_util_ArrayList_2V(this$static){
   this$static.java_util_ArrayList_array = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1Object_12_1classLit, $intern_8, 1, 0, 3, 1);
 }
@@ -25690,7 +25702,7 @@ function java_util_ArrayList_splice___3Ljava_lang_Object_2IILjava_lang_Object_2V
   array.splice(index_0, deleteCount, value_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(7, 974, $intern_175, java_util_ArrayList_ArrayList__V, java_util_ArrayList_ArrayList__Ljava_util_Collection_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(7, 975, $intern_175, java_util_ArrayList_ArrayList__V, java_util_ArrayList_ArrayList__Ljava_util_Collection_2V);
 _.add__ILjava_lang_Object_2V = function java_util_ArrayList_add__ILjava_lang_Object_2V(index_0, o){
   java_util_ArrayList_$add__Ljava_util_ArrayList_2ILjava_lang_Object_2V(this, index_0, o);
 }
@@ -25806,7 +25818,7 @@ function im_actor_model_network_ActorApi_$clinit__V(){
 }
 
 function im_actor_model_network_ActorApi_$request__Lim_actor_model_network_ActorApi_2Lim_actor_model_network_parser_Request_2Lim_actor_model_network_RpcCallback_2V(this$static, request, callback){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2Lim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_ActorApi_apiBroker, new im_actor_model_network_api_ApiBroker$PerformRequest_ApiBroker$PerformRequest__Lim_actor_model_network_parser_Request_2Lim_actor_model_network_RpcCallback_2V(request, callback), null);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_ActorApi_apiBroker, new im_actor_model_network_api_ApiBroker$PerformRequest_ApiBroker$PerformRequest__Lim_actor_model_network_parser_Request_2Lim_actor_model_network_RpcCallback_2V(request, callback));
 }
 
 function im_actor_model_network_ActorApi_ActorApi__Lim_actor_model_network_Endpoints_2Lim_actor_model_network_AuthKeyStorage_2Lim_actor_model_network_ActorApiCallback_2Lim_actor_model_NetworkProvider_2ZV(endpoints, keyStorage, callback, networkProvider, isEnableLog){
@@ -25823,9 +25835,9 @@ function im_actor_model_network_ConnectionEndpoint_ConnectionEndpoint__Ljava_lan
   this.im_actor_model_network_ConnectionEndpoint_type = type_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(95, 1, {95:1}, im_actor_model_network_ConnectionEndpoint_ConnectionEndpoint__Ljava_lang_String_2ILim_actor_model_network_ConnectionEndpoint$Type_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(96, 1, {96:1}, im_actor_model_network_ConnectionEndpoint_ConnectionEndpoint__Ljava_lang_String_2ILim_actor_model_network_ConnectionEndpoint$Type_2V);
 _.im_actor_model_network_ConnectionEndpoint_port = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(95);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(96);
 function im_actor_model_network_ConnectionEndpoint$Type_$clinit__V(){
   im_actor_model_network_ConnectionEndpoint$Type_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   im_actor_model_network_ConnectionEndpoint$Type_TCP = new im_actor_model_network_ConnectionEndpoint$Type_ConnectionEndpoint$Type__Ljava_lang_String_2IV('TCP', 0);
@@ -25840,12 +25852,12 @@ function im_actor_model_network_ConnectionEndpoint$Type_ConnectionEndpoint$Type_
 
 function im_actor_model_network_ConnectionEndpoint$Type_values___3Lim_actor_model_network_ConnectionEndpoint$Type_2(){
   im_actor_model_network_ConnectionEndpoint$Type_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint$Type_12_1classLit, 1), $intern_8, 97, 0, [im_actor_model_network_ConnectionEndpoint$Type_TCP, im_actor_model_network_ConnectionEndpoint$Type_TCP_1TLS, im_actor_model_network_ConnectionEndpoint$Type_WS, im_actor_model_network_ConnectionEndpoint$Type_WS_1TLS]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint$Type_12_1classLit, 1), $intern_8, 98, 0, [im_actor_model_network_ConnectionEndpoint$Type_TCP, im_actor_model_network_ConnectionEndpoint$Type_TCP_1TLS, im_actor_model_network_ConnectionEndpoint$Type_WS, im_actor_model_network_ConnectionEndpoint$Type_WS_1TLS]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(97, 17, {97:1, 3:1, 28:1, 17:1}, im_actor_model_network_ConnectionEndpoint$Type_ConnectionEndpoint$Type__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(98, 17, {98:1, 3:1, 28:1, 17:1}, im_actor_model_network_ConnectionEndpoint$Type_ConnectionEndpoint$Type__Ljava_lang_String_2IV);
 var im_actor_model_network_ConnectionEndpoint$Type_TCP, im_actor_model_network_ConnectionEndpoint$Type_TCP_1TLS, im_actor_model_network_ConnectionEndpoint$Type_WS, im_actor_model_network_ConnectionEndpoint$Type_WS_1TLS;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint$Type_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(97, im_actor_model_network_ConnectionEndpoint$Type_values___3Lim_actor_model_network_ConnectionEndpoint$Type_2);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1ConnectionEndpoint$Type_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(98, im_actor_model_network_ConnectionEndpoint$Type_values___3Lim_actor_model_network_ConnectionEndpoint$Type_2);
 function im_actor_model_network_Endpoints_$fetchEndpoint__Lim_actor_model_network_Endpoints_2Lim_actor_model_network_ConnectionEndpoint_2(this$static){
   this$static.im_actor_model_network_Endpoints_roundRobin = (this$static.im_actor_model_network_Endpoints_roundRobin + 1) % this$static.im_actor_model_network_Endpoints_endpoints.length;
   return this$static.im_actor_model_network_Endpoints_endpoints[this$static.im_actor_model_network_Endpoints_roundRobin];
@@ -25855,9 +25867,9 @@ function im_actor_model_network_Endpoints_Endpoints___3Lim_actor_model_network_C
   this.im_actor_model_network_Endpoints_endpoints = endpoints;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(750, 1, {}, im_actor_model_network_Endpoints_Endpoints___3Lim_actor_model_network_ConnectionEndpoint_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(751, 1, {}, im_actor_model_network_Endpoints_Endpoints___3Lim_actor_model_network_ConnectionEndpoint_2V);
 _.im_actor_model_network_Endpoints_roundRobin = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1Endpoints_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(750);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1Endpoints_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(751);
 function im_actor_model_network_RpcException_RpcException__Ljava_lang_String_2ILjava_lang_String_2Z_3BV(tag, message, canTryAgain){
   java_lang_Exception_Exception__V.call(this);
   this.im_actor_model_network_RpcException_tag = tag;
@@ -25920,7 +25932,7 @@ function im_actor_model_network_api_ApiBroker_$onAuthIdInvalidated__Lim_actor_mo
   this$static.im_actor_model_network_api_ApiBroker_currentAuthId = {l:0, m:0, h:0};
   this$static.im_actor_model_network_api_ApiBroker_proto = null;
   im_actor_model_mvvm_MVVMEngine_runOnUiThread__Ljava_lang_Runnable_2V(new im_actor_model_modules_Modules$1_Modules$1__Lim_actor_model_modules_Modules_2V(this$static.im_actor_model_network_api_ApiBroker_callback.im_actor_model_modules_Modules$ActorApiCallbackImpl_this$01));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$RequestAuthId_ApiBroker$RequestAuthId__Lim_actor_model_network_api_ApiBroker_2V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$RequestAuthId_ApiBroker$RequestAuthId__Lim_actor_model_network_api_ApiBroker_2V);
 }
 
 function im_actor_model_network_api_ApiBroker_$onNewSessionCreated__Lim_actor_model_network_api_ApiBroker_2JV(this$static, authId){
@@ -26078,7 +26090,7 @@ function im_actor_model_network_api_ApiBroker_get__Lim_actor_model_network_Endpo
   return im_actor_model_droidkit_actors_ActorSystem_$actorOf__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorRef_2((im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_mainSystem), new im_actor_model_droidkit_actors_Props_Props__Ljava_lang_Class_2_3Ljava_lang_Object_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorCreator_2Lim_actor_model_droidkit_actors_MailboxCreator_2V(new im_actor_model_network_api_ApiBroker$1_ApiBroker$1__V(endpoints, keyStorage, callback, networkProvider, isEnableLog), null), 'api/broker#' + id_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(738, 983, {}, im_actor_model_network_api_ApiBroker_ApiBroker__Lim_actor_model_network_Endpoints_2Lim_actor_model_network_AuthKeyStorage_2Lim_actor_model_network_ActorApiCallback_2Lim_actor_model_NetworkProvider_2ZV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(738, 984, {}, im_actor_model_network_api_ApiBroker_ApiBroker__Lim_actor_model_network_Endpoints_2Lim_actor_model_network_AuthKeyStorage_2Lim_actor_model_network_ActorApiCallback_2Lim_actor_model_NetworkProvider_2ZV);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_network_api_ApiBroker_onReceive__Ljava_lang_Object_2V(message){
   var $tmp, authIdInvalidated, forceResend, initMTProto, newSessionCreated, request, response, update;
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 129)) {
@@ -26127,11 +26139,11 @@ _.postStop__V = function im_actor_model_network_api_ApiBroker_postStop__V(){
 _.preStart__V = function im_actor_model_network_api_ApiBroker_preStart__V(){
   this.im_actor_model_network_api_ApiBroker_currentAuthId = im_actor_model_js_providers_storage_JsPreferencesStorage_$getLong__Lim_actor_model_js_providers_storage_JsPreferencesStorage_2Ljava_lang_String_2JJ(this.im_actor_model_network_api_ApiBroker_keyStorage.im_actor_model_modules_utils_PreferenceApiStorage_preferencesStorage, 'auth_id', {l:0, m:0, h:0});
   if (com_google_gwt_lang_LongLib_eq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(this.im_actor_model_network_api_ApiBroker_currentAuthId, {l:0, m:0, h:0})) {
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$RequestAuthId_ApiBroker$RequestAuthId__Lim_actor_model_network_api_ApiBroker_2V);
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$RequestAuthId_ApiBroker$RequestAuthId__Lim_actor_model_network_api_ApiBroker_2V);
   }
    else {
     this.im_actor_model_network_api_ApiBroker_isEnableLog && im_actor_model_log_Log_d__Ljava_lang_String_2Ljava_lang_String_2V($intern_176, 'Key loaded: ' + com_google_gwt_lang_LongLib_toString__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Ljava_lang_String_2(this.im_actor_model_network_api_ApiBroker_currentAuthId));
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$InitMTProto_ApiBroker$InitMTProto__Lim_actor_model_network_api_ApiBroker_2JV(this.im_actor_model_network_api_ApiBroker_currentAuthId));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$InitMTProto_ApiBroker$InitMTProto__Lim_actor_model_network_api_ApiBroker_2JV(this.im_actor_model_network_api_ApiBroker_currentAuthId));
   }
 }
 ;
@@ -26165,7 +26177,7 @@ function im_actor_model_network_api_ApiBroker$2_$onFailure__Lim_actor_model_netw
 
 function im_actor_model_network_api_ApiBroker$2_$onSuccess__Lim_actor_model_network_api_ApiBroker$2_2JV(this$static, authId){
   !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_log__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_119 + $intern_176 + ':' + ('Key created: ' + com_google_gwt_lang_LongLib_toString__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Ljava_lang_String_2(authId)));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_api_ApiBroker$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$InitMTProto_ApiBroker$InitMTProto__Lim_actor_model_network_api_ApiBroker_2JV(authId));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_api_ApiBroker$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$InitMTProto_ApiBroker$InitMTProto__Lim_actor_model_network_api_ApiBroker_2JV(authId));
 }
 
 function im_actor_model_network_api_ApiBroker$2_ApiBroker$2__Lim_actor_model_network_api_ApiBroker_2V(this$0){
@@ -26218,19 +26230,19 @@ function im_actor_model_network_api_ApiBroker$ProtoCallback_$onAuthKeyInvalidate
   if (com_google_gwt_lang_LongLib_neq__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Z(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId, authId)) {
     return;
   }
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$AuthIdInvalidated_ApiBroker$AuthIdInvalidated__Lim_actor_model_network_api_ApiBroker_2JV(authId));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$AuthIdInvalidated_ApiBroker$AuthIdInvalidated__Lim_actor_model_network_api_ApiBroker_2JV(authId));
 }
 
 function im_actor_model_network_api_ApiBroker$ProtoCallback_$onRpcResponse__Lim_actor_model_network_api_ApiBroker$ProtoCallback_2J_3BV(this$static, mid, content){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$ProtoResponse_ApiBroker$ProtoResponse__Lim_actor_model_network_api_ApiBroker_2JJ_3BV(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId, mid, content));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$ProtoResponse_ApiBroker$ProtoResponse__Lim_actor_model_network_api_ApiBroker_2JJ_3BV(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId, mid, content));
 }
 
 function im_actor_model_network_api_ApiBroker$ProtoCallback_$onSessionCreated__Lim_actor_model_network_api_ApiBroker$ProtoCallback_2V(this$static){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$NewSessionCreated_ApiBroker$NewSessionCreated__Lim_actor_model_network_api_ApiBroker_2JV(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$NewSessionCreated_ApiBroker$NewSessionCreated__Lim_actor_model_network_api_ApiBroker_2JV(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId));
 }
 
 function im_actor_model_network_api_ApiBroker$ProtoCallback_$onUpdate__Lim_actor_model_network_api_ApiBroker$ProtoCallback_2_3BV(this$static, content){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$ProtoUpdate_ApiBroker$ProtoUpdate__Lim_actor_model_network_api_ApiBroker_2J_3BV(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId, content));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_api_ApiBroker$ProtoUpdate_ApiBroker$ProtoUpdate__Lim_actor_model_network_api_ApiBroker_2J_3BV(this$static.im_actor_model_network_api_ApiBroker$ProtoCallback_authId, content));
 }
 
 function im_actor_model_network_api_ApiBroker$ProtoCallback_ApiBroker$ProtoCallback__Lim_actor_model_network_api_ApiBroker_2JV(this$0, authId){
@@ -26724,20 +26736,20 @@ _.onConnectionCreated__Lim_actor_model_network_Connection_2V = function im_actor
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1AuthIdRetriever$2_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(744);
 function im_actor_model_network_mtp_MTProto_$cancelRpc__Lim_actor_model_network_mtp_MTProto_2JV(this$static, mtId){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_MTProto_sender, new im_actor_model_network_mtp_actors_SenderActor$ForgetMessage_SenderActor$ForgetMessage__JV(mtId));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_MTProto_sender, new im_actor_model_network_mtp_actors_SenderActor$ForgetMessage_SenderActor$ForgetMessage__JV(mtId));
 }
 
 function im_actor_model_network_mtp_MTProto_$sendRpcMessage__Lim_actor_model_network_mtp_MTProto_2Lim_actor_model_network_mtp_entity_ProtoStruct_2J(this$static, protoStruct){
   var $tmp, mtId;
   mtId = (im_actor_model_network_util_MTUids_$clinit__V() , $tmp = im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value , im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value, {l:1, m:0, h:0}) , $tmp);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_MTProto_sender, new im_actor_model_network_mtp_actors_SenderActor$SendMessage_SenderActor$SendMessage__J_3BV(mtId, im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(new im_actor_model_network_mtp_entity_MTRpcRequest_MTRpcRequest___3BV(im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(protoStruct)))));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_MTProto_sender, new im_actor_model_network_mtp_actors_SenderActor$SendMessage_SenderActor$SendMessage__J_3BV(mtId, im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(new im_actor_model_network_mtp_entity_MTRpcRequest_MTRpcRequest___3BV(im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(protoStruct)))));
   return mtId;
 }
 
 function im_actor_model_network_mtp_MTProto_$stopProto__Lim_actor_model_network_mtp_MTProto_2V(this$static){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_MTProto_sender, (im_actor_model_droidkit_actors_messages_PoisonPill_$clinit__V() , im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE));
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_MTProto_manager, im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_MTProto_receiver, im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_MTProto_sender, (im_actor_model_droidkit_actors_messages_PoisonPill_$clinit__V() , im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_MTProto_manager, im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_MTProto_receiver, im_actor_model_droidkit_actors_messages_PoisonPill_INSTANCE);
 }
 
 function im_actor_model_network_mtp_MTProto_MTProto__JJLim_actor_model_network_Endpoints_2Lim_actor_model_network_mtp_MTProtoCallback_2Lim_actor_model_NetworkProvider_2ZLjava_lang_String_2V(authId, sessionId, endpoints, callback, networkProvider, isEnableLog, basePath){
@@ -26795,7 +26807,7 @@ function im_actor_model_network_mtp_actors_ManagerActor_$onConnectionCreated__Li
   this$static.im_actor_model_network_mtp_actors_ManagerActor_backoff.im_actor_model_util_ExponentialBackoff_currentFailureCount.im_actor_model_js_providers_threading_JsAtomicInteger_value = 0;
   this$static.im_actor_model_network_mtp_actors_ManagerActor_isCheckingConnections = false;
   im_actor_model_network_mtp_actors_ManagerActor_$requestCheckConnection__Lim_actor_model_network_mtp_actors_ManagerActor_2JV(this$static, {l:0, m:0, h:0});
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ManagerActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ConnectionCreated_SenderActor$ConnectionCreated__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ManagerActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ConnectionCreated_SenderActor$ConnectionCreated__V);
 }
 
 function im_actor_model_network_mtp_actors_ManagerActor_$onConnectionDie__Lim_actor_model_network_mtp_actors_ManagerActor_2IV(this$static, id_0){
@@ -26818,7 +26830,7 @@ function im_actor_model_network_mtp_actors_ManagerActor_$onInMessage__Lim_actor_
     }
     messageId = im_actor_model_droidkit_bser_DataInput_$readLong__Lim_actor_model_droidkit_bser_DataInput_2J(bis);
     payload = im_actor_model_droidkit_bser_DataInput_$readProtoBytes__Lim_actor_model_droidkit_bser_DataInput_2_3B(bis);
-    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ManagerActor_receiver, new im_actor_model_network_mtp_entity_ProtoMessage_ProtoMessage__J_3BV(messageId, payload));
+    im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ManagerActor_receiver, new im_actor_model_network_mtp_entity_ProtoMessage_ProtoMessage__J_3BV(messageId, payload));
   }
    catch ($e0) {
     $e0 = com_google_gwt_lang_Exceptions_wrap__Ljava_lang_Object_2Ljava_lang_Object_2($e0);
@@ -26877,7 +26889,7 @@ function im_actor_model_network_mtp_actors_ManagerActor_manager__Lim_actor_model
   return im_actor_model_droidkit_actors_ActorSystem_$actorOf__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_ActorSelection_2Lim_actor_model_droidkit_actors_ActorRef_2((im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_mainSystem), new im_actor_model_droidkit_actors_ActorSelection_ActorSelection__Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2V(new im_actor_model_droidkit_actors_Props_Props__Ljava_lang_Class_2_3Ljava_lang_Object_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorCreator_2Lim_actor_model_droidkit_actors_MailboxCreator_2V(new im_actor_model_network_mtp_actors_ManagerActor$1_ManagerActor$1__V(mtProto), null), mtProto.im_actor_model_network_mtp_MTProto_actorPath + '/manager'));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(877, 983, {}, im_actor_model_network_mtp_actors_ManagerActor_ManagerActor__Lim_actor_model_network_mtp_MTProto_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(877, 984, {}, im_actor_model_network_mtp_actors_ManagerActor_ManagerActor__Lim_actor_model_network_mtp_MTProto_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_network_mtp_actors_ManagerActor_onReceive__Ljava_lang_Object_2V(message){
   var c, m;
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 331)) {
@@ -26953,11 +26965,11 @@ function im_actor_model_network_mtp_actors_ManagerActor$2_ManagerActor$2__Lim_ac
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(878, 1, {}, im_actor_model_network_mtp_actors_ManagerActor$2_ManagerActor$2__Lim_actor_model_network_mtp_actors_ManagerActor_2V);
 _.onConnectionDie__V = function im_actor_model_network_mtp_actors_ManagerActor$2_onConnectionDie__V(){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_network_mtp_actors_ManagerActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$ConnectionDie_ManagerActor$ConnectionDie__IV(this.im_actor_model_network_mtp_actors_ManagerActor$2_val$id2));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_network_mtp_actors_ManagerActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$ConnectionDie_ManagerActor$ConnectionDie__IV(this.im_actor_model_network_mtp_actors_ManagerActor$2_val$id2));
 }
 ;
 _.onMessage___3BIIV = function im_actor_model_network_mtp_actors_ManagerActor$2_onMessage___3BIIV(data_0, offset, len){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_network_mtp_actors_ManagerActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$InMessage_ManagerActor$InMessage___3BIIV(data_0, offset, len));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_network_mtp_actors_ManagerActor$2_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$InMessage_ManagerActor$InMessage___3BIIV(data_0, offset, len));
 }
 ;
 _.im_actor_model_network_mtp_actors_ManagerActor$2_val$id2 = 0;
@@ -26969,11 +26981,11 @@ function im_actor_model_network_mtp_actors_ManagerActor$3_ManagerActor$3__Lim_ac
 
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(879, 1, {}, im_actor_model_network_mtp_actors_ManagerActor$3_ManagerActor$3__Lim_actor_model_network_mtp_actors_ManagerActor_2V);
 _.onConnectionCreateError__V = function im_actor_model_network_mtp_actors_ManagerActor$3_onConnectionCreateError__V(){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_network_mtp_actors_ManagerActor$3_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$ConnectionCreateFailure_ManagerActor$ConnectionCreateFailure__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_network_mtp_actors_ManagerActor$3_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$ConnectionCreateFailure_ManagerActor$ConnectionCreateFailure__V);
 }
 ;
 _.onConnectionCreated__Lim_actor_model_network_Connection_2V = function im_actor_model_network_mtp_actors_ManagerActor$3_onConnectionCreated__Lim_actor_model_network_Connection_2V(connection){
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this.im_actor_model_network_mtp_actors_ManagerActor$3_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$ConnectionCreated_ManagerActor$ConnectionCreated__ILim_actor_model_network_Connection_2V(this.im_actor_model_network_mtp_actors_ManagerActor$3_val$id2, connection));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this.im_actor_model_network_mtp_actors_ManagerActor$3_this$01.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorRef, new im_actor_model_network_mtp_actors_ManagerActor$ConnectionCreated_ManagerActor$ConnectionCreated__ILim_actor_model_network_Connection_2V(this.im_actor_model_network_mtp_actors_ManagerActor$3_val$id2, connection));
 }
 ;
 _.im_actor_model_network_mtp_actors_ManagerActor$3_val$id2 = 0;
@@ -27030,7 +27042,7 @@ com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_cor
 var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1actors_1ManagerActor$PerformConnectionCheck_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(328);
 function im_actor_model_network_mtp_actors_ReceiverActor_$onReceive__Lim_actor_model_network_mtp_actors_ReceiverActor_2Lim_actor_model_network_mtp_entity_ProtoMessage_2V(this$static, message){
   var $tmp, ack, ackMsgId, ackMsgId$array, ackMsgId$index, ackMsgId$max, box, container, disableConfirm, e, m, m$array, m$index, m$max, newSessionCreated, obj, responseBox, unsent;
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ReadPackageFromConnection_SenderActor$ReadPackageFromConnection__V);
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ReadPackageFromConnection_SenderActor$ReadPackageFromConnection__V);
   disableConfirm = false;
   try {
     this$static.im_actor_model_network_mtp_actors_ReceiverActor_receivedMessages.size__I() >= $intern_10 && this$static.im_actor_model_network_mtp_actors_ReceiverActor_receivedMessages.remove__ILjava_lang_Object_2(0);
@@ -27051,7 +27063,7 @@ function im_actor_model_network_mtp_actors_ReceiverActor_$onReceive__Lim_actor_m
     }
     if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 352)) {
       newSessionCreated = obj;
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$NewSession_SenderActor$NewSession__JV(newSessionCreated.im_actor_model_network_mtp_entity_NewSessionCreated_messageId));
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$NewSession_SenderActor$NewSession__JV(newSessionCreated.im_actor_model_network_mtp_entity_NewSessionCreated_messageId));
       im_actor_model_network_api_ApiBroker$ProtoCallback_$onSessionCreated__Lim_actor_model_network_api_ApiBroker$ProtoCallback_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_proto.im_actor_model_network_mtp_MTProto_callback);
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 158)) {
@@ -27062,18 +27074,18 @@ function im_actor_model_network_mtp_actors_ReceiverActor_$onReceive__Lim_actor_m
       }
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 356)) {
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$SessionLost_SenderActor$SessionLost__V);
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$SessionLost_SenderActor$SessionLost__V);
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 353)) {
       responseBox = obj;
-      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ForgetMessage_SenderActor$ForgetMessage__JV(responseBox.im_actor_model_network_mtp_entity_MTRpcResponse_messageId));
+      im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ForgetMessage_SenderActor$ForgetMessage__JV(responseBox.im_actor_model_network_mtp_entity_MTRpcResponse_messageId));
       im_actor_model_network_api_ApiBroker$ProtoCallback_$onRpcResponse__Lim_actor_model_network_api_ApiBroker$ProtoCallback_2J_3BV(this$static.im_actor_model_network_mtp_actors_ReceiverActor_proto.im_actor_model_network_mtp_MTProto_callback, responseBox.im_actor_model_network_mtp_entity_MTRpcResponse_messageId, responseBox.im_actor_model_network_mtp_entity_MTRpcResponse_payload);
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 223)) {
       ack = obj;
       for (ackMsgId$array = ack.im_actor_model_network_mtp_entity_MessageAck_messagesIds , ackMsgId$index = 0 , ackMsgId$max = ackMsgId$array.length; ackMsgId$index < ackMsgId$max; ++ackMsgId$index) {
         ackMsgId = ackMsgId$array[ackMsgId$index];
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ForgetMessage_SenderActor$ForgetMessage__JV(ackMsgId));
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ForgetMessage_SenderActor$ForgetMessage__JV(ackMsgId));
       }
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 354)) {
@@ -27084,14 +27096,14 @@ function im_actor_model_network_mtp_actors_ReceiverActor_$onReceive__Lim_actor_m
       unsent = obj;
       if (java_util_ArrayList_$indexOf__Ljava_util_ArrayList_2Ljava_lang_Object_2II(this$static.im_actor_model_network_mtp_actors_ReceiverActor_receivedMessages, java_lang_Long_valueOf__JLjava_lang_Long_2(unsent.im_actor_model_network_mtp_entity_UnsentResponse_responseMessageId), 0) == -1) {
         disableConfirm = true;
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$SendMessage_SenderActor$SendMessage__J_3BV((im_actor_model_network_util_MTUids_$clinit__V() , $tmp = im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value , im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value, {l:1, m:0, h:0}) , $tmp), im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(new im_actor_model_network_mtp_entity_RequestResend_RequestResend__JV(unsent.im_actor_model_network_mtp_entity_UnsentResponse_messageId))));
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$SendMessage_SenderActor$SendMessage__J_3BV((im_actor_model_network_util_MTUids_$clinit__V() , $tmp = im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value , im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value, {l:1, m:0, h:0}) , $tmp), im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(new im_actor_model_network_mtp_entity_RequestResend_RequestResend__JV(unsent.im_actor_model_network_mtp_entity_UnsentResponse_messageId))));
       }
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 355)) {
       unsent = obj;
       if (java_util_ArrayList_$indexOf__Ljava_util_ArrayList_2Ljava_lang_Object_2II(this$static.im_actor_model_network_mtp_actors_ReceiverActor_receivedMessages, java_lang_Long_valueOf__JLjava_lang_Long_2(unsent.im_actor_model_network_mtp_entity_UnsentMessage_messageId), 0) == -1) {
         disableConfirm = true;
-        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$SendMessage_SenderActor$SendMessage__J_3BV((im_actor_model_network_util_MTUids_$clinit__V() , $tmp = im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value , im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value, {l:1, m:0, h:0}) , $tmp), im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(new im_actor_model_network_mtp_entity_RequestResend_RequestResend__JV(unsent.im_actor_model_network_mtp_entity_UnsentMessage_messageId))));
+        im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$SendMessage_SenderActor$SendMessage__J_3BV((im_actor_model_network_util_MTUids_$clinit__V() , $tmp = im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value , im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value = com_google_gwt_lang_LongLib_add__Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2Lcom_google_gwt_lang_LongLibBase$LongEmul_2(im_actor_model_network_util_MTUids_NEXT_1ID.im_actor_model_js_providers_threading_JsAtomicLong_value, {l:1, m:0, h:0}) , $tmp), im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(new im_actor_model_network_mtp_entity_RequestResend_RequestResend__JV(unsent.im_actor_model_network_mtp_entity_UnsentMessage_messageId))));
       }
     }
      else if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(obj, 357)) {
@@ -27111,7 +27123,7 @@ function im_actor_model_network_mtp_actors_ReceiverActor_$onReceive__Lim_actor_m
       throw com_google_gwt_lang_Exceptions_unwrap__Ljava_lang_Object_2Ljava_lang_Object_2($e1);
   }
    finally {
-    disableConfirm || im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ConfirmMessage_SenderActor$ConfirmMessage__JV(message.im_actor_model_network_mtp_entity_ProtoMessage_messageId));
+    disableConfirm || im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_ReceiverActor_sender, new im_actor_model_network_mtp_actors_SenderActor$ConfirmMessage_SenderActor$ConfirmMessage__JV(message.im_actor_model_network_mtp_entity_ProtoMessage_messageId));
   }
 }
 
@@ -27124,7 +27136,7 @@ function im_actor_model_network_mtp_actors_ReceiverActor_receiver__Lim_actor_mod
   return im_actor_model_droidkit_actors_ActorSystem_$actorOf__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_ActorSelection_2Lim_actor_model_droidkit_actors_ActorRef_2((im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_mainSystem), new im_actor_model_droidkit_actors_ActorSelection_ActorSelection__Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2V(new im_actor_model_droidkit_actors_Props_Props__Ljava_lang_Class_2_3Ljava_lang_Object_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorCreator_2Lim_actor_model_droidkit_actors_MailboxCreator_2V(new im_actor_model_network_mtp_actors_ReceiverActor$1_ReceiverActor$1__V(proto), null), proto.im_actor_model_network_mtp_MTProto_actorPath + '/receiver'));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(881, 983, {}, im_actor_model_network_mtp_actors_ReceiverActor_ReceiverActor__Lim_actor_model_network_mtp_MTProto_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(881, 984, {}, im_actor_model_network_mtp_actors_ReceiverActor_ReceiverActor__Lim_actor_model_network_mtp_MTProto_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_network_mtp_actors_ReceiverActor_onReceive__Ljava_lang_Object_2V(message){
   com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 49)?im_actor_model_network_mtp_actors_ReceiverActor_$onReceive__Lim_actor_model_network_mtp_actors_ReceiverActor_2Lim_actor_model_network_mtp_entity_ProtoMessage_2V(this, message):(!!this.im_actor_model_droidkit_actors_Actor_context.im_actor_model_droidkit_actors_ActorContext_actorScope.im_actor_model_droidkit_actors_ActorScope_actorSystem.im_actor_model_droidkit_actors_ActorSystem_traceInterface && !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_warn__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + $intern_66 + $intern_67 + ':' + ($intern_68 + message)) , im_actor_model_droidkit_actors_Actor_$reply__Lim_actor_model_droidkit_actors_Actor_2Ljava_lang_Object_2V(this, new im_actor_model_droidkit_actors_messages_DeadLetter_DeadLetter__Ljava_lang_Object_2V(message)));
 }
@@ -27215,7 +27227,7 @@ function im_actor_model_network_mtp_actors_SenderActor_$doSend__Lim_actor_model_
 function im_actor_model_network_mtp_actors_SenderActor_$performSend__Lim_actor_model_network_mtp_actors_SenderActor_2Lim_actor_model_network_mtp_entity_ProtoMessage_2V(this$static, message){
   var data_0;
   data_0 = im_actor_model_network_mtp_entity_ProtoObject_$toByteArray__Lim_actor_model_network_mtp_entity_ProtoObject_2_3B(message);
-  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2JLim_actor_model_droidkit_actors_ActorRef_2V(this$static.im_actor_model_network_mtp_actors_SenderActor_manager, new im_actor_model_network_mtp_actors_ManagerActor$OutMessage_ManagerActor$OutMessage___3BIIV(data_0, data_0.length));
+  im_actor_model_droidkit_actors_ActorRef_$send__Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Object_2V(this$static.im_actor_model_network_mtp_actors_SenderActor_manager, new im_actor_model_network_mtp_actors_ManagerActor$OutMessage_ManagerActor$OutMessage___3BIIV(data_0, data_0.length));
 }
 
 function im_actor_model_network_mtp_actors_SenderActor_SenderActor__Lim_actor_model_network_mtp_MTProto_2V(proto){
@@ -27230,7 +27242,7 @@ function im_actor_model_network_mtp_actors_SenderActor_senderActor__Lim_actor_mo
   return im_actor_model_droidkit_actors_ActorSystem_$actorOf__Lim_actor_model_droidkit_actors_ActorSystem_2Lim_actor_model_droidkit_actors_ActorSelection_2Lim_actor_model_droidkit_actors_ActorRef_2((im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_$clinit__V() , im_actor_model_droidkit_actors_ActorSystem_mainSystem), new im_actor_model_droidkit_actors_ActorSelection_ActorSelection__Lim_actor_model_droidkit_actors_Props_2Ljava_lang_String_2V(new im_actor_model_droidkit_actors_Props_Props__Ljava_lang_Class_2_3Ljava_lang_Object_2Ljava_lang_String_2Lim_actor_model_droidkit_actors_ActorCreator_2Lim_actor_model_droidkit_actors_MailboxCreator_2V(new im_actor_model_network_mtp_actors_SenderActor$1_SenderActor$1__V(proto), null), proto.im_actor_model_network_mtp_MTProto_actorPath + '/sender'));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(880, 983, {}, im_actor_model_network_mtp_actors_SenderActor_SenderActor__Lim_actor_model_network_mtp_MTProto_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(880, 984, {}, im_actor_model_network_mtp_actors_SenderActor_SenderActor__Lim_actor_model_network_mtp_MTProto_2V);
 _.onReceive__Ljava_lang_Object_2V = function im_actor_model_network_mtp_actors_SenderActor_onReceive__Ljava_lang_Object_2V(message){
   var $tmp, holder, messageAck, newSession, sendMessage, toSend, unsentPackage, unsentPackage$iterator;
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(message, 149)) {
@@ -27473,7 +27485,7 @@ function im_actor_model_network_mtp_entity_Drop_Drop__Lim_actor_model_droidkit_b
   im_actor_model_network_mtp_entity_ProtoStruct_ProtoStruct__Lim_actor_model_droidkit_bser_DataInput_2V.call(this, stream);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(957, 40, $intern_194, im_actor_model_network_mtp_entity_Drop_Drop__Lim_actor_model_droidkit_bser_DataInput_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(958, 40, $intern_194, im_actor_model_network_mtp_entity_Drop_Drop__Lim_actor_model_droidkit_bser_DataInput_2V);
 _.getHeader__B = function im_actor_model_network_mtp_entity_Drop_getHeader__B(){
   return 13;
 }
@@ -27493,7 +27505,7 @@ _.writeBody__Lim_actor_model_droidkit_bser_DataOutput_2V = function im_actor_mod
 }
 ;
 _.im_actor_model_network_mtp_entity_Drop_messageId = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1entity_1Drop_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(957);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1entity_1Drop_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(958);
 function im_actor_model_network_mtp_entity_MTPush_MTPush__Lim_actor_model_droidkit_bser_DataInput_2V(stream){
   im_actor_model_network_mtp_entity_ProtoStruct_ProtoStruct__Lim_actor_model_droidkit_bser_DataInput_2V.call(this, stream);
 }
@@ -27623,7 +27635,7 @@ function im_actor_model_network_mtp_entity_Ping_Ping__Lim_actor_model_droidkit_b
   im_actor_model_network_mtp_entity_ProtoStruct_ProtoStruct__Lim_actor_model_droidkit_bser_DataInput_2V.call(this, stream);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(955, 40, $intern_194, im_actor_model_network_mtp_entity_Ping_Ping__Lim_actor_model_droidkit_bser_DataInput_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(956, 40, $intern_194, im_actor_model_network_mtp_entity_Ping_Ping__Lim_actor_model_droidkit_bser_DataInput_2V);
 _.getHeader__B = function im_actor_model_network_mtp_entity_Ping_getHeader__B(){
   return 1;
 }
@@ -27641,12 +27653,12 @@ _.writeBody__Lim_actor_model_droidkit_bser_DataOutput_2V = function im_actor_mod
 }
 ;
 _.im_actor_model_network_mtp_entity_Ping_randomId = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1entity_1Ping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(955);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1entity_1Ping_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(956);
 function im_actor_model_network_mtp_entity_Pong_Pong__Lim_actor_model_droidkit_bser_DataInput_2V(stream){
   im_actor_model_network_mtp_entity_ProtoStruct_ProtoStruct__Lim_actor_model_droidkit_bser_DataInput_2V.call(this, stream);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(956, 40, $intern_194, im_actor_model_network_mtp_entity_Pong_Pong__Lim_actor_model_droidkit_bser_DataInput_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(957, 40, $intern_194, im_actor_model_network_mtp_entity_Pong_Pong__Lim_actor_model_droidkit_bser_DataInput_2V);
 _.getHeader__B = function im_actor_model_network_mtp_entity_Pong_getHeader__B(){
   return 2;
 }
@@ -27664,7 +27676,7 @@ _.writeBody__Lim_actor_model_droidkit_bser_DataOutput_2V = function im_actor_mod
 }
 ;
 _.im_actor_model_network_mtp_entity_Pong_randomId = {l:0, m:0, h:0};
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1entity_1Pong_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(956);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1network_1mtp_1entity_1Pong_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(957);
 function im_actor_model_network_mtp_entity_ProtoMessage_ProtoMessage__J_3BV(messageId, payload){
   this.im_actor_model_network_mtp_entity_ProtoMessage_messageId = messageId;
   this.im_actor_model_network_mtp_entity_ProtoMessage_payload = payload;
@@ -28008,9 +28020,9 @@ function im_actor_model_network_util_MTUids_$clinit__V(){
 }
 
 var im_actor_model_network_util_MTUids_NEXT_1ID;
-function im_actor_model_util_ActorTrace_$onActorDie__Lim_actor_model_util_ActorTrace_2Lim_actor_model_droidkit_actors_ActorRef_2Ljava_lang_Exception_2V(ref, e){
-  im_actor_model_log_Log_w__Ljava_lang_String_2Ljava_lang_String_2V($intern_67, 'Die(' + ref.im_actor_model_droidkit_actors_ActorRef_path + '): ' + e);
-  java_lang_Throwable_$printStackTrace__Ljava_lang_Throwable_2Ljava_io_PrintStream_2V(e, (java_lang_System_$clinit__V() , java_lang_System_err));
+function im_actor_model_util_ActorTrace_$onActorDie__Lim_actor_model_util_ActorTrace_2Lim_actor_model_droidkit_actors_ActorRef_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2Ljava_lang_Exception_2V(ref, envelope, e){
+  im_actor_model_log_Log_w__Ljava_lang_String_2Ljava_lang_String_2V($intern_67, 'Die(' + ref.im_actor_model_droidkit_actors_ActorRef_path + ') by ' + envelope.im_actor_model_droidkit_actors_mailbox_Envelope_message);
+  !!im_actor_model_log_Log_log && im_actor_model_js_providers_JsLogProvider_error__Ljava_lang_String_2V(com_google_gwt_i18n_shared_DateTimeFormat_$format__Lcom_google_gwt_i18n_shared_DateTimeFormat_2Ljava_util_Date_2Lcom_google_gwt_i18n_shared_TimeZone_2Ljava_lang_String_2((im_actor_model_js_providers_JsLogProvider_$clinit__V() , im_actor_model_js_providers_JsLogProvider_dateTimeFormat), new java_util_Date_Date__V, null) + '[E] ' + $intern_67 + ':' + e);
 }
 
 function im_actor_model_util_ActorTrace_$onEnvelopeProcessed__Lim_actor_model_util_ActorTrace_2Lim_actor_model_droidkit_actors_mailbox_Envelope_2JV(envelope, duration){
@@ -28260,11 +28272,11 @@ function im_actor_model_viewmodel_AppStateVM_AppStateVM__Lim_actor_model_modules
   this.im_actor_model_viewmodel_AppStateVM_isAppLoaded = new im_actor_model_mvvm_ValueModel_ValueModel__Ljava_lang_String_2Ljava_lang_Object_2V(this.im_actor_model_viewmodel_AppStateVM_isBookImported && this.im_actor_model_viewmodel_AppStateVM_isDialogsLoaded && this.im_actor_model_viewmodel_AppStateVM_isContactsLoaded?java_lang_Boolean_TRUE:java_lang_Boolean_FALSE);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(768, 1, {}, im_actor_model_viewmodel_AppStateVM_AppStateVM__Lim_actor_model_modules_Modules_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(770, 1, {}, im_actor_model_viewmodel_AppStateVM_AppStateVM__Lim_actor_model_modules_Modules_2V);
 _.im_actor_model_viewmodel_AppStateVM_isBookImported = false;
 _.im_actor_model_viewmodel_AppStateVM_isContactsLoaded = false;
 _.im_actor_model_viewmodel_AppStateVM_isDialogsLoaded = false;
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1viewmodel_1AppStateVM_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(768);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1viewmodel_1AppStateVM_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(770);
 function im_actor_model_viewmodel_AvatarUploadState_AvatarUploadState__Ljava_lang_String_2ZV(){
 }
 
@@ -28301,7 +28313,7 @@ function im_actor_model_viewmodel_GroupVM_GroupVM__Lim_actor_model_entity_Group_
   this.im_actor_model_viewmodel_GroupVM_presence = new im_actor_model_mvvm_ValueModel_ValueModel__Ljava_lang_String_2Ljava_lang_Object_2V(java_lang_Integer_valueOf__ILjava_lang_Integer_2(0));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(652, 984, {}, im_actor_model_viewmodel_GroupVM_GroupVM__Lim_actor_model_entity_Group_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(652, 985, {}, im_actor_model_viewmodel_GroupVM_GroupVM__Lim_actor_model_entity_Group_2V);
 _.updateValues__Ljava_lang_Object_2V = function im_actor_model_viewmodel_GroupVM_updateValues__Ljava_lang_Object_2V(rawObj){
   var im_actor_model_viewmodel_GroupVM_$updateValues__Lim_actor_model_viewmodel_GroupVM_2Lim_actor_model_entity_Group_2V_isChanged_0;
   im_actor_model_viewmodel_GroupVM_$updateValues__Lim_actor_model_viewmodel_GroupVM_2Lim_actor_model_entity_Group_2V_isChanged_0 = im_actor_model_mvvm_ValueModel_$change__Lim_actor_model_mvvm_ValueModel_2Ljava_lang_Object_2Z(this.im_actor_model_viewmodel_GroupVM_name, rawObj.im_actor_model_entity_Group_title);
@@ -28332,8 +28344,8 @@ function im_actor_model_viewmodel_OwnAvatarVM_OwnAvatarVM__V(){
   this.im_actor_model_viewmodel_OwnAvatarVM_uploadState = new im_actor_model_mvvm_ValueModel_ValueModel__Ljava_lang_String_2Ljava_lang_Object_2V(new im_actor_model_viewmodel_AvatarUploadState_AvatarUploadState__Ljava_lang_String_2ZV);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(801, 1, {}, im_actor_model_viewmodel_OwnAvatarVM_OwnAvatarVM__V);
-var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1viewmodel_1OwnAvatarVM_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(801);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(805, 1, {}, im_actor_model_viewmodel_OwnAvatarVM_OwnAvatarVM__V);
+var com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1viewmodel_1OwnAvatarVM_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(805);
 function im_actor_model_viewmodel_UserPhone_UserPhone__JLjava_lang_String_2V(phone, title_0){
   this.im_actor_model_viewmodel_UserPhone_phone = phone;
   this.im_actor_model_viewmodel_UserPhone_title = title_0;
@@ -28407,7 +28419,7 @@ function im_actor_model_viewmodel_UserVM_UserVM__Lim_actor_model_entity_User_2Li
   this.im_actor_model_viewmodel_UserVM_phones = new im_actor_model_mvvm_generics_UserPhoneValueModel_UserPhoneValueModel__Ljava_lang_String_2Lim_actor_model_mvvm_generics_ArrayListUserPhone_2V(im_actor_model_viewmodel_UserVM_$buildPhones__Lim_actor_model_viewmodel_UserVM_2Ljava_util_List_2Lim_actor_model_mvvm_generics_ArrayListUserPhone_2(user.im_actor_model_entity_User_records));
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(706, 984, {}, im_actor_model_viewmodel_UserVM_UserVM__Lim_actor_model_entity_User_2Lim_actor_model_modules_Modules_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(706, 985, {}, im_actor_model_viewmodel_UserVM_UserVM__Lim_actor_model_entity_User_2Lim_actor_model_modules_Modules_2V);
 _.updateValues__Ljava_lang_Object_2V = function im_actor_model_viewmodel_UserVM_updateValues__Ljava_lang_Object_2V(rawObj){
   var im_actor_model_viewmodel_UserVM_$updateValues__Lim_actor_model_viewmodel_UserVM_2Lim_actor_model_entity_User_2V_isChanged_0;
   im_actor_model_viewmodel_UserVM_$updateValues__Lim_actor_model_viewmodel_UserVM_2Lim_actor_model_entity_User_2V_isChanged_0 = im_actor_model_mvvm_ValueModel_$change__Lim_actor_model_mvvm_ValueModel_2Ljava_lang_Object_2Z(this.im_actor_model_viewmodel_UserVM_name, rawObj.im_actor_model_entity_User_localName == null?rawObj.im_actor_model_entity_User_name:rawObj.im_actor_model_entity_User_localName);
@@ -28458,8 +28470,8 @@ function java_lang_ArrayStoreException_ArrayStoreException__Ljava_lang_String_2V
   java_lang_RuntimeException_RuntimeException__Ljava_lang_String_2V.call(this, message);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(119, 10, $intern_5, java_lang_ArrayStoreException_ArrayStoreException__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1ArrayStoreException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(119);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(120, 10, $intern_5, java_lang_ArrayStoreException_ArrayStoreException__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1ArrayStoreException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(120);
 function java_lang_Boolean_$clinit__V(){
   java_lang_Boolean_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   java_lang_Boolean_FALSE = new java_lang_Boolean_Boolean__ZV(false);
@@ -28830,8 +28842,8 @@ function java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__Ljava_la
   java_lang_RuntimeException_RuntimeException__Ljava_lang_String_2V.call(this, message);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(121, 10, $intern_5, java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__V, java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__Ljava_lang_String_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1IndexOutOfBoundsException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(121);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(122, 10, $intern_5, java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__V, java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__Ljava_lang_String_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1IndexOutOfBoundsException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(122);
 function java_lang_Integer_Integer__IV(value_0){
   this.java_lang_Integer_value = value_0;
 }
@@ -29463,13 +29475,13 @@ function java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V(s){
   java_lang_AbstractStringBuilder_AbstractStringBuilder__Ljava_lang_String_2V.call(this, s);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(47, 227, {1009:1}, java_lang_StringBuilder_StringBuilder__V, java_lang_StringBuilder_StringBuilder__IV, java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(47, 227, {1010:1}, java_lang_StringBuilder_StringBuilder__V, java_lang_StringBuilder_StringBuilder__IV, java_lang_StringBuilder_StringBuilder__Ljava_lang_String_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1StringBuilder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(47);
 function java_lang_StringIndexOutOfBoundsException_StringIndexOutOfBoundsException__IV(index_0){
   java_lang_IndexOutOfBoundsException_IndexOutOfBoundsException__Ljava_lang_String_2V.call(this, 'String index out of range: ' + index_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(276, 121, $intern_5, java_lang_StringIndexOutOfBoundsException_StringIndexOutOfBoundsException__IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(276, 122, $intern_5, java_lang_StringIndexOutOfBoundsException_StringIndexOutOfBoundsException__IV);
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1lang_1StringIndexOutOfBoundsException_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(276);
 function java_lang_System_$clinit__V(){
   java_lang_System_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
@@ -30273,7 +30285,7 @@ function java_util_AbstractMap_getEntryValueOrNull__Ljava_util_Map$Entry_2Ljava_
   return !entry?null:entry.getValue__Ljava_lang_Object_2();
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(971, 1, $intern_208);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(972, 1, $intern_208);
 _.package_private$java_util_AbstractMap$containsEntry__Ljava_util_Map$Entry_2Z = function java_util_AbstractMap_containsEntry__Ljava_util_Map$Entry_2Z(entry){
   return java_util_AbstractMap_$containsEntry__Ljava_util_AbstractMap_2Ljava_util_Map$Entry_2Z(this, entry);
 }
@@ -30346,7 +30358,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractMap_toString__Ljav
   return sb.java_lang_AbstractStringBuilder_string;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(971);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(972);
 function java_util_AbstractHashMap_$containsKey__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Z(this$static, key){
   return com_google_gwt_lang_Cast_isJavaString__Ljava_lang_Object_2Z(key)?java_util_AbstractHashMap_$hasStringValue__Ljava_util_AbstractHashMap_2Ljava_lang_String_2Z(this$static, key):!!java_util_InternalJsHashCodeMap_$getEntry__Ljava_util_InternalJsHashCodeMap_2Ljava_lang_Object_2Ljava_util_Map$Entry_2(this$static.java_util_AbstractHashMap_hashCodeMap, key);
 }
@@ -30399,7 +30411,7 @@ function java_util_AbstractHashMap_$reset__Ljava_util_AbstractHashMap_2V(this$st
   java_util_ConcurrentModificationDetector_structureChanged__Ljava_lang_Object_2V(this$static);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(228, 971, $intern_208);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(228, 972, $intern_208);
 _.containsKey__Ljava_lang_Object_2Z = function java_util_AbstractHashMap_containsKey__Ljava_lang_Object_2Z(key){
   return java_util_AbstractHashMap_$containsKey__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Z(this, key);
 }
@@ -30426,13 +30438,13 @@ _.size__I = function java_util_AbstractHashMap_size__I(){
 ;
 _.java_util_AbstractHashMap_size = 0;
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractHashMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(228);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(973, 972, $intern_209);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(974, 973, $intern_209);
 _.equals__Ljava_lang_Object_2Z$ = function java_util_AbstractSet_equals__Ljava_lang_Object_2Z(o){
   var other;
   if (o === this) {
     return true;
   }
-  if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 90)) {
+  if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 91)) {
     return false;
   }
   other = o;
@@ -30465,7 +30477,7 @@ _.removeAll__Ljava_util_Collection_2Z = function java_util_AbstractSet_removeAll
   return size_0 != this.size__I();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractSet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(973);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractSet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(974);
 function java_util_AbstractHashMap$EntrySet_$contains__Ljava_util_AbstractHashMap$EntrySet_2Ljava_lang_Object_2Z(this$static, o){
   if (com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 55)) {
     return java_util_AbstractMap_$containsEntry__Ljava_util_AbstractMap_2Ljava_util_Map$Entry_2Z(this$static.java_util_AbstractHashMap$EntrySet_this$01, o);
@@ -30477,7 +30489,7 @@ function java_util_AbstractHashMap$EntrySet_AbstractHashMap$EntrySet__Ljava_util
   this.java_util_AbstractHashMap$EntrySet_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(361, 973, $intern_209, java_util_AbstractHashMap$EntrySet_AbstractHashMap$EntrySet__Ljava_util_AbstractHashMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(361, 974, $intern_209, java_util_AbstractHashMap$EntrySet_AbstractHashMap$EntrySet__Ljava_util_AbstractHashMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractHashMap$EntrySet_contains__Ljava_lang_Object_2Z(o){
   return java_util_AbstractHashMap$EntrySet_$contains__Ljava_util_AbstractHashMap$EntrySet_2Ljava_lang_Object_2Z(this, o);
 }
@@ -30599,7 +30611,7 @@ function java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V(this$0
   this.java_util_AbstractMap$1_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(50, 973, $intern_209, java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(50, 974, $intern_209, java_util_AbstractMap$1_AbstractMap$1__Ljava_util_AbstractMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractMap$1_contains__Ljava_lang_Object_2Z(key){
   return java_util_AbstractHashMap_$containsKey__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Z(this.java_util_AbstractMap$1_this$01, key);
 }
@@ -30655,7 +30667,7 @@ function java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V(this$0
   this.java_util_AbstractMap$2_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(53, 972, {}, java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(53, 973, {}, java_util_AbstractMap$2_AbstractMap$2__Ljava_util_AbstractMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractMap$2_contains__Ljava_lang_Object_2Z(value_0){
   return this.java_util_AbstractMap$2_this$01.containsValue__Ljava_lang_Object_2Z(value_0);
 }
@@ -30705,7 +30717,7 @@ function java_util_AbstractMap$AbstractEntry_AbstractMap$AbstractEntry__Ljava_la
   this.java_util_AbstractMap$AbstractEntry_value = value_0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(93, 1, $intern_210);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(94, 1, $intern_210);
 _.equals__Ljava_lang_Object_2Z$ = function java_util_AbstractMap$AbstractEntry_equals__Ljava_lang_Object_2Z(other){
   var entry;
   if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(other, 55)) {
@@ -30735,24 +30747,24 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractMap$AbstractEntry_
   return this.java_util_AbstractMap$AbstractEntry_key + '=' + this.java_util_AbstractMap$AbstractEntry_value;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap$AbstractEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(93);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap$AbstractEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(94);
 function java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V(key, value_0){
   java_util_AbstractMap$AbstractEntry_AbstractMap$AbstractEntry__Ljava_lang_Object_2Ljava_lang_Object_2V.call(this, key, value_0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(162, 93, {93:1, 162:1, 55:1}, java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(162, 94, {94:1, 162:1, 55:1}, java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V);
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap$SimpleEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(162);
 function java_util_AbstractMap$SimpleImmutableEntry_AbstractMap$SimpleImmutableEntry__Ljava_util_Map$Entry_2V(entry){
   java_util_AbstractMap$AbstractEntry_AbstractMap$AbstractEntry__Ljava_lang_Object_2Ljava_lang_Object_2V.call(this, entry.java_util_AbstractMap$AbstractEntry_key, entry.java_util_AbstractMap$AbstractEntry_value);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(460, 93, $intern_210, java_util_AbstractMap$SimpleImmutableEntry_AbstractMap$SimpleImmutableEntry__Ljava_util_Map$Entry_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(460, 94, $intern_210, java_util_AbstractMap$SimpleImmutableEntry_AbstractMap$SimpleImmutableEntry__Ljava_util_Map$Entry_2V);
 _.setValue__Ljava_lang_Object_2Ljava_lang_Object_2 = function java_util_AbstractMap$SimpleImmutableEntry_setValue__Ljava_lang_Object_2Ljava_lang_Object_2(value_0){
   throw new java_lang_UnsupportedOperationException_UnsupportedOperationException__V;
 }
 ;
 var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMap$SimpleImmutableEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(460);
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(975, 1, {55:1});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(976, 1, {55:1});
 _.equals__Ljava_lang_Object_2Z$ = function java_util_AbstractMapEntry_equals__Ljava_lang_Object_2Z(other){
   var entry;
   if (!com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(other, 55)) {
@@ -30770,7 +30782,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_AbstractMapEntry_toString_
   return this.getKey__Ljava_lang_Object_2() + '=' + this.getValue__Ljava_lang_Object_2();
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMapEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(975);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractMapEntry_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(976);
 function java_util_AbstractNavigableMap_$containsEntry__Ljava_util_AbstractNavigableMap_2Ljava_util_Map$Entry_2Z(this$static, entry){
   var key, lookupEntry;
   key = entry.getKey__Ljava_lang_Object_2();
@@ -30789,7 +30801,7 @@ function java_util_AbstractNavigableMap_getKeyOrNSE__Ljava_util_Map$Entry_2Ljava
   return entry.java_util_AbstractMap$AbstractEntry_key;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(992, 971, $intern_208);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(993, 972, $intern_208);
 _.package_private$java_util_AbstractMap$containsEntry__Ljava_util_Map$Entry_2Z = function java_util_AbstractNavigableMap_containsEntry__Ljava_util_Map$Entry_2Z(entry){
   return java_util_AbstractNavigableMap_$containsEntry__Ljava_util_AbstractNavigableMap_2Ljava_util_Map$Entry_2Z(this, entry);
 }
@@ -30806,12 +30818,12 @@ _.get__Ljava_lang_Object_2Ljava_lang_Object_2 = function java_util_AbstractNavig
   return java_util_AbstractMap_getEntryValueOrNull__Ljava_util_Map$Entry_2Ljava_lang_Object_2(java_util_TreeMap_$getEntry__Ljava_util_TreeMap_2Ljava_lang_Object_2Ljava_util_Map$Entry_2(this, k));
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractNavigableMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(992);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractNavigableMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(993);
 function java_util_AbstractNavigableMap$EntrySet_AbstractNavigableMap$EntrySet__Ljava_util_AbstractNavigableMap_2V(this$0){
   this.java_util_AbstractNavigableMap$EntrySet_this$01 = this$0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(411, 973, $intern_209, java_util_AbstractNavigableMap$EntrySet_AbstractNavigableMap$EntrySet__Ljava_util_AbstractNavigableMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(404, 974, $intern_209, java_util_AbstractNavigableMap$EntrySet_AbstractNavigableMap$EntrySet__Ljava_util_AbstractNavigableMap_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_AbstractNavigableMap$EntrySet_contains__Ljava_lang_Object_2Z(o){
   return com_google_gwt_lang_Cast_instanceOf__Ljava_lang_Object_2Lcom_google_gwt_core_client_JavaScriptObject_2Z(o, 55) && java_util_AbstractNavigableMap_$containsEntry__Ljava_util_AbstractNavigableMap_2Ljava_util_Map$Entry_2Z(this.java_util_AbstractNavigableMap$EntrySet_this$01, o);
 }
@@ -30833,7 +30845,7 @@ _.size__I = function java_util_AbstractNavigableMap$EntrySet_size__I(){
   return this.java_util_AbstractNavigableMap$EntrySet_this$01.java_util_TreeMap_size;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractNavigableMap$EntrySet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(411);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1AbstractNavigableMap$EntrySet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(404);
 function java_util_Arrays_equals___3B_3BZ(array1, array2){
   var i;
   if (array1 === array2) {
@@ -31303,7 +31315,7 @@ function java_util_HashSet_HashSet__Ljava_util_Collection_2V(c){
   java_util_AbstractCollection_$addAll__Ljava_util_AbstractCollection_2Ljava_util_Collection_2Z(this, c);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(32, 973, {3:1, 90:1}, java_util_HashSet_HashSet__V, java_util_HashSet_HashSet__Ljava_util_Collection_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(32, 974, {3:1, 91:1}, java_util_HashSet_HashSet__V, java_util_HashSet_HashSet__Ljava_util_Collection_2V);
 _.contains__Ljava_lang_Object_2Z = function java_util_HashSet_contains__Ljava_lang_Object_2Z(o){
   return java_util_HashSet_$contains__Ljava_util_HashSet_2Ljava_lang_Object_2Z(this, o);
 }
@@ -31684,7 +31696,7 @@ function java_util_InternalJsStringMap$2_InternalJsStringMap$2__Ljava_util_Inter
   this.java_util_InternalJsStringMap$2_val$key2 = val$key;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(367, 975, {55:1}, java_util_InternalJsStringMap$2_InternalJsStringMap$2__Ljava_util_InternalJsStringMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(367, 976, {55:1}, java_util_InternalJsStringMap$2_InternalJsStringMap$2__Ljava_util_InternalJsStringMap_2V);
 _.getKey__Ljava_lang_Object_2 = function java_util_InternalJsStringMap$2_getKey__Ljava_lang_Object_2(){
   return this.java_util_InternalJsStringMap$2_val$key2;
 }
@@ -31883,11 +31895,11 @@ function java_util_Random_Random__V(){
   this.java_util_Random_seedlo = lo ^ $intern_213;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(122, 1, {}, java_util_Random_Random__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(123, 1, {}, java_util_Random_Random__V);
 _.java_util_Random_seedhi = 0;
 _.java_util_Random_seedlo = 0;
 var java_util_Random_twoToTheXMinus24, java_util_Random_twoToTheXMinus48, java_util_Random_uniqueSeed = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Random_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(122);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Random_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(123);
 function java_util_TreeMap_$clear__Ljava_util_TreeMap_2V(this$static){
   this$static.java_util_TreeMap_root = null;
   this$static.java_util_TreeMap_size = 0;
@@ -32101,7 +32113,7 @@ function java_util_TreeMap_TreeMap__Ljava_util_Comparator_2V(c){
   this.java_util_TreeMap_cmp = c;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(306, 992, $intern_211, java_util_TreeMap_TreeMap__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(280, 993, $intern_211, java_util_TreeMap_TreeMap__V);
 _.entrySet__Ljava_util_Set_2 = function java_util_TreeMap_entrySet__Ljava_util_Set_2(){
   return new java_util_TreeMap$EntrySet_TreeMap$EntrySet__Ljava_util_TreeMap_2V(this);
 }
@@ -32115,7 +32127,7 @@ _.size__I = function java_util_TreeMap_size__I(){
 }
 ;
 _.java_util_TreeMap_size = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(306);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(280);
 function java_util_TreeMap$EntryIterator_$remove__Ljava_util_TreeMap$EntryIterator_2V(this$static){
   java_util_AbstractList$IteratorImpl_$remove__Ljava_util_AbstractList$IteratorImpl_2V(this$static.java_util_TreeMap$EntryIterator_iter);
   java_util_TreeMap_$removeEntry__Ljava_util_TreeMap_2Ljava_util_Map$Entry_2Z(this$static.java_util_TreeMap$EntryIterator_this$01, this$static.java_util_TreeMap$EntryIterator_last);
@@ -32134,7 +32146,7 @@ function java_util_TreeMap$EntryIterator_TreeMap$EntryIterator__Ljava_util_TreeM
   this.java_util_TreeMap$EntryIterator_iter = new java_util_AbstractList$ListIteratorImpl_AbstractList$ListIteratorImpl__Ljava_util_AbstractList_2IV(list);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(202, 1, {}, java_util_TreeMap$EntryIterator_TreeMap$EntryIterator__Ljava_util_TreeMap_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(196, 1, {}, java_util_TreeMap$EntryIterator_TreeMap$EntryIterator__Ljava_util_TreeMap_2V);
 _.hasNext__Z = function java_util_TreeMap$EntryIterator_hasNext__Z(){
   return java_util_AbstractList$IteratorImpl_$hasNext__Ljava_util_AbstractList$IteratorImpl_2Z(this.java_util_TreeMap$EntryIterator_iter);
 }
@@ -32147,26 +32159,26 @@ _.remove__V = function java_util_TreeMap$EntryIterator_remove__V(){
   java_util_TreeMap$EntryIterator_$remove__Ljava_util_TreeMap$EntryIterator_2V(this);
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$EntryIterator_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(202);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$EntryIterator_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(196);
 function java_util_TreeMap$EntrySet_TreeMap$EntrySet__Ljava_util_TreeMap_2V(this$0){
   java_util_AbstractNavigableMap$EntrySet_AbstractNavigableMap$EntrySet__Ljava_util_AbstractNavigableMap_2V.call(this, this$0);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(307, 411, $intern_209, java_util_TreeMap$EntrySet_TreeMap$EntrySet__Ljava_util_TreeMap_2V);
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$EntrySet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(307);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(281, 404, $intern_209, java_util_TreeMap$EntrySet_TreeMap$EntrySet__Ljava_util_TreeMap_2V);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$EntrySet_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(281);
 function java_util_TreeMap$Node_TreeMap$Node__Ljava_lang_Object_2Ljava_lang_Object_2V(key, value_0){
   java_util_AbstractMap$SimpleEntry_AbstractMap$SimpleEntry__Ljava_lang_Object_2Ljava_lang_Object_2V.call(this, key, value_0);
-  this.java_util_TreeMap$Node_child = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$Node_12_1classLit, $intern_8, 107, 2, 0, 1);
+  this.java_util_TreeMap$Node_child = com_google_gwt_lang_Array_initDim__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2IIILjava_lang_Object_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$Node_12_1classLit, $intern_8, 104, 2, 0, 1);
   this.java_util_TreeMap$Node_isRed = true;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(107, 162, {93:1, 162:1, 55:1, 107:1}, java_util_TreeMap$Node_TreeMap$Node__Ljava_lang_Object_2Ljava_lang_Object_2V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(104, 162, {94:1, 162:1, 55:1, 104:1}, java_util_TreeMap$Node_TreeMap$Node__Ljava_lang_Object_2Ljava_lang_Object_2V);
 _.java_util_TreeMap$Node_isRed = false;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$Node_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(107);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$Node_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(104);
 function java_util_TreeMap$State_TreeMap$State__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(308, 1, {}, java_util_TreeMap$State_TreeMap$State__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(282, 1, {}, java_util_TreeMap$State_TreeMap$State__V);
 _.toString__Ljava_lang_String_2$ = function java_util_TreeMap$State_toString__Ljava_lang_String_2(){
   return 'State: mv=' + this.java_util_TreeMap$State_matchValue + ' value=' + this.java_util_TreeMap$State_value + ' done=' + this.java_util_TreeMap$State_done + ' found=' + this.java_util_TreeMap$State_found;
 }
@@ -32174,7 +32186,7 @@ _.toString__Ljava_lang_String_2$ = function java_util_TreeMap$State_toString__Lj
 _.java_util_TreeMap$State_done = false;
 _.java_util_TreeMap$State_found = false;
 _.java_util_TreeMap$State_matchValue = false;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$State_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(308);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$State_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(282);
 function java_util_TreeMap$SubMapType_$clinit__V(){
   java_util_TreeMap$SubMapType_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   java_util_TreeMap$SubMapType_All = new java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV('All', 0);
@@ -32189,10 +32201,10 @@ function java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV(
 
 function java_util_TreeMap$SubMapType_values___3Ljava_util_TreeMap$SubMapType_2(){
   java_util_TreeMap$SubMapType_$clinit__V();
-  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType_12_1classLit, 1), $intern_8, 64, 0, [java_util_TreeMap$SubMapType_All, java_util_TreeMap$SubMapType_Head, java_util_TreeMap$SubMapType_Range, java_util_TreeMap$SubMapType_Tail]);
+  return com_google_gwt_lang_Array_initValues__Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2ILjava_lang_Object_2Ljava_lang_Object_2(com_google_gwt_lang_Array_getClassLiteralForArray__Ljava_lang_Class_2ILjava_lang_Class_2(com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType_12_1classLit, 1), $intern_8, 63, 0, [java_util_TreeMap$SubMapType_All, java_util_TreeMap$SubMapType_Head, java_util_TreeMap$SubMapType_Range, java_util_TreeMap$SubMapType_Tail]);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(64, 17, $intern_214, java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(63, 17, $intern_214, java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV);
 _.fromKeyValid__Z = function java_util_TreeMap$SubMapType_fromKeyValid__Z(){
   return false;
 }
@@ -32202,22 +32214,22 @@ _.toKeyValid__Z = function java_util_TreeMap$SubMapType_toKeyValid__Z(){
 }
 ;
 var java_util_TreeMap$SubMapType_All, java_util_TreeMap$SubMapType_Head, java_util_TreeMap$SubMapType_Range, java_util_TreeMap$SubMapType_Tail;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(64, java_util_TreeMap$SubMapType_values___3Ljava_util_TreeMap$SubMapType_2);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(63, java_util_TreeMap$SubMapType_values___3Ljava_util_TreeMap$SubMapType_2);
 function java_util_TreeMap$SubMapType$1_TreeMap$SubMapType$1__Ljava_lang_String_2IV(){
   java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV.call(this, 'Head', 1);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(826, 64, $intern_214, java_util_TreeMap$SubMapType$1_TreeMap$SubMapType$1__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(795, 63, $intern_214, java_util_TreeMap$SubMapType$1_TreeMap$SubMapType$1__Ljava_lang_String_2IV);
 _.toKeyValid__Z = function java_util_TreeMap$SubMapType$1_toKeyValid__Z(){
   return true;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType$1_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(826, null);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType$1_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(795, null);
 function java_util_TreeMap$SubMapType$2_TreeMap$SubMapType$2__Ljava_lang_String_2IV(){
   java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV.call(this, 'Range', 2);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(827, 64, $intern_214, java_util_TreeMap$SubMapType$2_TreeMap$SubMapType$2__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(796, 63, $intern_214, java_util_TreeMap$SubMapType$2_TreeMap$SubMapType$2__Ljava_lang_String_2IV);
 _.fromKeyValid__Z = function java_util_TreeMap$SubMapType$2_fromKeyValid__Z(){
   return true;
 }
@@ -32226,17 +32238,17 @@ _.toKeyValid__Z = function java_util_TreeMap$SubMapType$2_toKeyValid__Z(){
   return true;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType$2_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(827, null);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType$2_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(796, null);
 function java_util_TreeMap$SubMapType$3_TreeMap$SubMapType$3__Ljava_lang_String_2IV(){
   java_util_TreeMap$SubMapType_TreeMap$SubMapType__Ljava_lang_String_2IV.call(this, 'Tail', 3);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(828, 64, $intern_214, java_util_TreeMap$SubMapType$3_TreeMap$SubMapType$3__Ljava_lang_String_2IV);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(797, 63, $intern_214, java_util_TreeMap$SubMapType$3_TreeMap$SubMapType$3__Ljava_lang_String_2IV);
 _.fromKeyValid__Z = function java_util_TreeMap$SubMapType$3_fromKeyValid__Z(){
   return true;
 }
 ;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType$3_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(828, null);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1TreeMap$SubMapType$3_12_1classLit = java_lang_Class_createForEnum__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2(797, null);
 function java_util_logging_Level_$clinit__V(){
   java_util_logging_Level_$clinit__V = com_google_gwt_lang_JavaClassHierarchySetupUtil_emptyMethod__V;
   java_util_logging_Level_ALL = new java_util_logging_Level$LevelAll_Level$LevelAll__V;
@@ -32250,7 +32262,7 @@ function java_util_logging_Level_$clinit__V(){
   java_util_logging_Level_WARNING = new java_util_logging_Level$LevelWarning_Level$LevelWarning__V;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(979, 1, $intern_8);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(980, 1, $intern_8);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level_getName__Ljava_lang_String_2(){
   return 'DUMMY';
 }
@@ -32264,11 +32276,11 @@ _.toString__Ljava_lang_String_2$ = function java_util_logging_Level_toString__Lj
 }
 ;
 var java_util_logging_Level_ALL, java_util_logging_Level_CONFIG, java_util_logging_Level_FINE, java_util_logging_Level_FINER, java_util_logging_Level_FINEST, java_util_logging_Level_INFO, java_util_logging_Level_OFF, java_util_logging_Level_SEVERE, java_util_logging_Level_WARNING;
-var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(979);
+var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(980);
 function java_util_logging_Level$LevelAll_Level$LevelAll__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(488, 979, $intern_8, java_util_logging_Level$LevelAll_Level$LevelAll__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(488, 980, $intern_8, java_util_logging_Level$LevelAll_Level$LevelAll__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelAll_getName__Ljava_lang_String_2(){
   return 'ALL';
 }
@@ -32281,7 +32293,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelAll_
 function java_util_logging_Level$LevelConfig_Level$LevelConfig__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(489, 979, $intern_8, java_util_logging_Level$LevelConfig_Level$LevelConfig__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(489, 980, $intern_8, java_util_logging_Level$LevelConfig_Level$LevelConfig__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelConfig_getName__Ljava_lang_String_2(){
   return 'CONFIG';
 }
@@ -32294,7 +32306,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelConf
 function java_util_logging_Level$LevelFine_Level$LevelFine__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(490, 979, $intern_8, java_util_logging_Level$LevelFine_Level$LevelFine__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(490, 980, $intern_8, java_util_logging_Level$LevelFine_Level$LevelFine__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelFine_getName__Ljava_lang_String_2(){
   return 'FINE';
 }
@@ -32307,7 +32319,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelFine
 function java_util_logging_Level$LevelFiner_Level$LevelFiner__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(491, 979, $intern_8, java_util_logging_Level$LevelFiner_Level$LevelFiner__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(491, 980, $intern_8, java_util_logging_Level$LevelFiner_Level$LevelFiner__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelFiner_getName__Ljava_lang_String_2(){
   return 'FINER';
 }
@@ -32320,7 +32332,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelFine
 function java_util_logging_Level$LevelFinest_Level$LevelFinest__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(492, 979, $intern_8, java_util_logging_Level$LevelFinest_Level$LevelFinest__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(492, 980, $intern_8, java_util_logging_Level$LevelFinest_Level$LevelFinest__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelFinest_getName__Ljava_lang_String_2(){
   return 'FINEST';
 }
@@ -32333,7 +32345,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelFine
 function java_util_logging_Level$LevelInfo_Level$LevelInfo__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(493, 979, $intern_8, java_util_logging_Level$LevelInfo_Level$LevelInfo__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(493, 980, $intern_8, java_util_logging_Level$LevelInfo_Level$LevelInfo__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelInfo_getName__Ljava_lang_String_2(){
   return 'INFO';
 }
@@ -32346,7 +32358,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelInfo
 function java_util_logging_Level$LevelOff_Level$LevelOff__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(494, 979, $intern_8, java_util_logging_Level$LevelOff_Level$LevelOff__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(494, 980, $intern_8, java_util_logging_Level$LevelOff_Level$LevelOff__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelOff_getName__Ljava_lang_String_2(){
   return 'OFF';
 }
@@ -32359,7 +32371,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelOff_
 function java_util_logging_Level$LevelSevere_Level$LevelSevere__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(495, 979, $intern_8, java_util_logging_Level$LevelSevere_Level$LevelSevere__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(495, 980, $intern_8, java_util_logging_Level$LevelSevere_Level$LevelSevere__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelSevere_getName__Ljava_lang_String_2(){
   return $intern_19;
 }
@@ -32372,7 +32384,7 @@ var com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1logging_1Level$LevelSeve
 function java_util_logging_Level$LevelWarning_Level$LevelWarning__V(){
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(496, 979, $intern_8, java_util_logging_Level$LevelWarning_Level$LevelWarning__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(496, 980, $intern_8, java_util_logging_Level$LevelWarning_Level$LevelWarning__V);
 _.getName__Ljava_lang_String_2 = function java_util_logging_Level$LevelWarning_getName__Ljava_lang_String_2(){
   return 'WARNING';
 }
@@ -32509,10 +32521,10 @@ function org_bouncycastle_crypto_digests_GeneralDigest_GeneralDigest__V(){
   this.org_bouncycastle_crypto_digests_GeneralDigest_xBufOff = 0;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(406, 1, {});
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(408, 1, {});
 _.org_bouncycastle_crypto_digests_GeneralDigest_byteCount = {l:0, m:0, h:0};
 _.org_bouncycastle_crypto_digests_GeneralDigest_xBufOff = 0;
-var com_google_gwt_lang_ClassLiteralHolder_Lorg_1bouncycastle_1crypto_1digests_1GeneralDigest_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(406);
+var com_google_gwt_lang_ClassLiteralHolder_Lorg_1bouncycastle_1crypto_1digests_1GeneralDigest_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(408);
 function org_bouncycastle_crypto_digests_MD5Digest_$processBlock__Lorg_bouncycastle_crypto_digests_MD5Digest_2V(this$static){
   var a, b, c, d, i;
   a = this$static.org_bouncycastle_crypto_digests_MD5Digest_H1;
@@ -32623,7 +32635,7 @@ function org_bouncycastle_crypto_digests_MD5Digest_MD5Digest__V(){
   org_bouncycastle_crypto_digests_MD5Digest_$reset__Lorg_bouncycastle_crypto_digests_MD5Digest_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(863, 406, {}, org_bouncycastle_crypto_digests_MD5Digest_MD5Digest__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(863, 408, {}, org_bouncycastle_crypto_digests_MD5Digest_MD5Digest__V);
 _.processBlock__V = function org_bouncycastle_crypto_digests_MD5Digest_processBlock__V(){
   org_bouncycastle_crypto_digests_MD5Digest_$processBlock__Lorg_bouncycastle_crypto_digests_MD5Digest_2V(this);
 }
@@ -32744,7 +32756,7 @@ function org_bouncycastle_crypto_digests_SHA256Digest_SHA256Digest__V(){
   org_bouncycastle_crypto_digests_SHA256Digest_$reset__Lorg_bouncycastle_crypto_digests_SHA256Digest_2V(this);
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(796, 406, {}, org_bouncycastle_crypto_digests_SHA256Digest_SHA256Digest__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(800, 408, {}, org_bouncycastle_crypto_digests_SHA256Digest_SHA256Digest__V);
 _.processBlock__V = function org_bouncycastle_crypto_digests_SHA256Digest_processBlock__V(){
   org_bouncycastle_crypto_digests_SHA256Digest_$processBlock__Lorg_bouncycastle_crypto_digests_SHA256Digest_2V(this);
 }
@@ -32775,7 +32787,7 @@ _.org_bouncycastle_crypto_digests_SHA256Digest_H7 = 0;
 _.org_bouncycastle_crypto_digests_SHA256Digest_H8 = 0;
 _.org_bouncycastle_crypto_digests_SHA256Digest_xOff = 0;
 var org_bouncycastle_crypto_digests_SHA256Digest_K;
-var com_google_gwt_lang_ClassLiteralHolder_Lorg_1bouncycastle_1crypto_1digests_1SHA256Digest_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(796);
+var com_google_gwt_lang_ClassLiteralHolder_Lorg_1bouncycastle_1crypto_1digests_1SHA256Digest_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(800);
 function org_bouncycastle_util_Pack_intToBigEndian__I_3BIV(n, bs, off){
   bs[off] = com_google_gwt_lang_Cast_narrow_1byte__DB(n >>> 24);
   bs[++off] = com_google_gwt_lang_Cast_narrow_1byte__DB(n >>> 16);
@@ -32795,8 +32807,8 @@ function org_timepedia_exporter_client_ExportAllExporterImpl_ExportAllExporterIm
 com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(477, 1, {}, org_timepedia_exporter_client_ExportAllExporterImpl_ExportAllExporterImpl__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1ExportAllExporterImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(477);
 var com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1Exportable_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2();
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(976, 1, {});
-var com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1ExporterBaseImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(976);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(977, 1, {});
+var com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1ExporterBaseImpl_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(977);
 function org_timepedia_exporter_client_ExporterBaseActual_$addTypeMap__Lorg_timepedia_exporter_client_ExporterBaseActual_2Ljava_lang_Class_2Lcom_google_gwt_core_client_JavaScriptObject_2V(this$static, type_0, exportedConstructor){
   java_util_AbstractHashMap_$put__Ljava_util_AbstractHashMap_2Ljava_lang_Object_2Ljava_lang_Object_2Ljava_lang_Object_2(this$static.org_timepedia_exporter_client_ExporterBaseActual_typeMap, type_0, exportedConstructor);
 }
@@ -32931,7 +32943,7 @@ function org_timepedia_exporter_client_ExporterBaseActual_isAssignableToClass__L
   return false;
 }
 
-com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(476, 976, {}, org_timepedia_exporter_client_ExporterBaseActual_ExporterBaseActual__V);
+com_google_gwt_lang_JavaClassHierarchySetupUtil_defineClass__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2(476, 977, {}, org_timepedia_exporter_client_ExporterBaseActual_ExporterBaseActual__V);
 var com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1ExporterBaseActual_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(476);
 function org_timepedia_exporter_client_ExporterBaseActual$SignatureJSO_$matches__Lorg_timepedia_exporter_client_ExporterBaseActual$SignatureJSO_2Lcom_google_gwt_core_client_JsArray_2Z(this$static, arguments){
   var argJsType, gwt, i, isBoolean, isClass, isNumber, isPrimitive, jsType, l, o;
@@ -33017,7 +33029,7 @@ function org_timepedia_exporter_client_ExporterUtil_setWrapper__Ljava_lang_Objec
 }
 
 var org_timepedia_exporter_client_ExporterUtil_impl;
-var com_google_gwt_lang_ClassLiteralHolder_I_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('I'), com_google_gwt_lang_ClassLiteralHolder_Z_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('Z'), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1CollapsedPropertyHolder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(960), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1JavaClassHierarchySetupUtil_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(962), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(null), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1ModuleUtils_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(965), com_google_gwt_lang_ClassLiteralHolder_B_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('B'), com_google_gwt_lang_ClassLiteralHolder_J_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('J'), com_google_gwt_lang_ClassLiteralHolder_D_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('D'), com_google_gwt_lang_ClassLiteralHolder_C_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('C'), com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1Exportable_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Map$Entry_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1angular_1AngularListCallback_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1angular_1AngularValueCallback_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsAuthErrorClosure_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsAuthSuccessClosure_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsClosure_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1mvvm_1ModelChangedListener_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1mvvm_1ValueChangedListener_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2();
+var com_google_gwt_lang_ClassLiteralHolder_I_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('I'), com_google_gwt_lang_ClassLiteralHolder_Z_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('Z'), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1CollapsedPropertyHolder_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(961), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1JavaClassHierarchySetupUtil_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(963), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1LongLibBase$LongEmul_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(null), com_google_gwt_lang_ClassLiteralHolder_Lcom_1google_1gwt_1lang_1ModuleUtils_12_1classLit = java_lang_Class_createForClass__Ljava_lang_String_2Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2Ljava_lang_Class_2(966), com_google_gwt_lang_ClassLiteralHolder_B_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('B'), com_google_gwt_lang_ClassLiteralHolder_J_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('J'), com_google_gwt_lang_ClassLiteralHolder_D_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('D'), com_google_gwt_lang_ClassLiteralHolder_C_1classLit = java_lang_Class_createForPrimitive__Ljava_lang_String_2Lcom_google_gwt_core_client_JavaScriptObject_2Ljava_lang_Class_2('C'), com_google_gwt_lang_ClassLiteralHolder_Lorg_1timepedia_1exporter_1client_1Exportable_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Ljava_1util_1Map$Entry_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1angular_1AngularListCallback_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1angular_1AngularValueCallback_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsAuthErrorClosure_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsAuthSuccessClosure_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1js_1entity_1JsClosure_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1mvvm_1ModelChangedListener_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2(), com_google_gwt_lang_ClassLiteralHolder_Lim_1actor_1model_1mvvm_1ValueChangedListener_12_1classLit = java_lang_Class_createForInterface__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_Class_2();
 var $entry = com_google_gwt_lang_ModuleUtils_registerEntry__Lcom_google_gwt_core_client_JavaScriptObject_2();
 var gwtOnLoad = gwtOnLoad = com_google_gwt_lang_ModuleUtils_gwtOnLoad__Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2Lcom_google_gwt_core_client_JavaScriptObject_2V;
 com_google_gwt_lang_ModuleUtils_addInitFunctions__V(com_google_gwt_lang_im_100046actor_100046ActorMessenger_1_1EntryMethodHolder_init__V);
