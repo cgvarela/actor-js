@@ -1,6 +1,6 @@
 {
   "name": "actor",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "homepage": "https://actor.im",
   "description": "Actor is js library for working with actor.im messaging platform",
   "main": "actor.nocache.js",
