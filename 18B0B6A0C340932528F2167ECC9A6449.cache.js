@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.actor;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = '47FCCED7DE1EA1D388E8E553DE936FE1';
+var $strongName = '18B0B6A0C340932528F2167ECC9A6449';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -17727,7 +17727,7 @@ function im_actor_model_js_providers_threading_JsSecureInterval_$schedule__Lim_a
 function im_actor_model_js_providers_threading_JsSecureInterval_create__Ljava_lang_Runnable_2Lim_actor_model_js_providers_threading_JsSecureInterval_2(runnable){
   console.warn('Create jsSecureInverval');
   if (typeof Worker !== 'undefined') {
-    var worker = new Worker('assets/js/interval.js');
+    var worker = new Worker('/assets/js/interval.js');
     var _runnable = runnable;
     worker.onmessage = function(){
       _runnable.run__V();
